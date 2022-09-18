@@ -1,9 +1,8 @@
 ---
-title: qrzn's poetry
+title: qrzn's blog
 author: qrzn
 ---
 
-### Gedichte
+### blog
 
-* [Natur und Stadt](/ptry/naturundstadt.html)
-* [Die Spechtschmiede](/ptry/spechtschmiede.html)
+wip
