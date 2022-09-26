@@ -1,15 +1,24 @@
-body { padding: 5%; margin: auto; max-width:540px; font-family: sans-serif; }
-pre  { overflow: auto; }
-details summary:before { content:"+ "; }
-details[open] summary:before { content:"= "; font-size:100%; }
-details summary::-webkit-details-marker { display:none; }
-summary {
-	background-color:white;
+body {
+	padding: 5%;
+	background-color: black;
+	margin: auto;
+	max-width:540px; 
+	font-family: monospace;
+	color: white;
+      }
+
+pre  { 
+	overflow: auto; 
+     }
+
+h3 {
+	background-color:black;
 	outline:none;
 	border-bottom:3px double #ccc;
 	font-variant:small-caps;
 	font-size:120%;
 }
+
 .navbar {
 	margin:auto;	
 	text-align: center;
@@ -27,7 +36,7 @@ a {
 	transition:all 5s;
 }
 a:hover {
-	color:black;
+	color: white;
 	transition:all .35s;
 }
 
