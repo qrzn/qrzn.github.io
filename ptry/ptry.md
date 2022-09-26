@@ -5,6 +5,6 @@ author: qrzn
 
 ### Gedichte
 
-* [Natur und Stadt](/ptry/naturundstadt.html)
-* [Die Spechtschmiede](/ptry/spechtschmiede.html)
-* [wizard's tower](/ptry/wizardstower.html)
+* [Natur und Stadt](/ptry/posts/naturundstadt.html)
+* [Die Spechtschmiede](/ptry/posts/spechtschmiede.html)
+* [wizard's tower](/ptry/posts/wizardstower.html)
