@@ -3,19 +3,14 @@ title: qrzn's ascii art
 author: qrzn
 ---
 
-### a few ascii things i made myself and/or pirated elsewhere
+### ascii art
 
-##### wizard
+* [wizard](/ascii/wizard.txt)
+* [darkcastle](/ascii/darkcastle.txt)
+* [sourceror](/ascii/sourceror.txt)
+* [wizportrait](/ascii/wizportrait.txt)
+* [wizportrait-noborders](/ascii/wizportrait-noborder.txt)
+* [wizp](/ascii/wizp.txt)
+* [yama](/ascii/yama.txt)
+* [scroll](/ascii/scroll.txt)
 
-this is also used in my game wizard program
-
-`            ,    _  
-           /|   | |  
-         _/_\_  >_<  
-        .-\-/.   |  
-       /  | | \_ |  
-       \ \| |\__(/  
-       /(`---')  |  
-      / /     \  |  
-   _.'  \'-'  /  |  
-   `----'`=-='   '  
