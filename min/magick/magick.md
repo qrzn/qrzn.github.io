@@ -519,152 +519,53 @@ i. See “The Soldier and the HunchbackT Equinox I, i. The
 apparatus of human reason is simply one particular System of coordinating 
 impressions; its structure is determined by the course of the évolution of 
 the species. It is no more absolute than the évolution of the species. It is 
-no more absolute than the mechanism of our muscles is a complété type 
-wherewith ali other Systems of transmitting Force must conform. 
+no more absolute than the mechanism of our muscles is a complété type wherewith ali other Systems of transmitting Force must conform. 
 
 
 - 6 - 
 
+educated students can be guilty of so gross a violation of the first principles of common sense. 1 
 
-
-educated students can be guilty of so gross a violation of the first 
-principles of common sense. 1 
-
-A synopsis of the grades of the A.*. A.*, as illustrative of the 
-Magical Hierarchy in Man is given in Appendix 2 “One Star in 
-Sight.” This should be read before proceeding with the chapter. 
-The subject is very difficult. To deal with it in full is entirely 
-beyond the limits of this small treatise. 
+A synopsis of the grades of the A.*. A.*, as illustrative of the Magical Hierarchy in Man is given in Appendix 2 “One Star in Sight.” This should be read before proceeding with the chapter. The subject is very difficult. To deal with it in full is entirely beyond the limits of this small treatise. 
 
 FU RT HE R CONCERNING THE MAGICAL U NIV ERSE 
 
-Ail these letters of the magical alphabet — referred to above 
-— are like so many names on a map. Man himself is a complété 
-microcosm. Few other beings hâve this balanced perfection. Of 
-course every sun, every planet, may hâve beings similarly consti- 
-tuted. 2 But when we speak of dealing with the planets in Magick, 
+Ail these letters of the magical alphabet — referred to above — are like so many names on a map. Man himself is a complété microcosm. Few other beings hâve this balanced perfection. Of course every sun, every planet, may hâve beings similarly constituted. 2 But when we speak of dealing with the planets in Magick, 
 
-1. Long since writing the above, an even grosser imbecility bas been 
-perpetrated. One who ought to hâve known better tried to improve the 
-Tree of Life by turning the Serpent of Wisdom upside down! Yet he 
-could not even make his scheme symmetrical: bis little remaining good 
-sense revolted at the suprême atrocities. Yet be succeeded in reducing the 
-whole Magical Alphabet to nonsense, and shewing that he had never 
-understood its real meaning. 
+1. Long since writing the above, an even grosser imbecility bas been perpetrated. One who ought to hâve known better tried to improve the Tree of Life by turning the Serpent of Wisdom upside down! Yet he could not even make his scheme symmetrical: bis little remaining good sense revolted at the suprême atrocities. Yet be succeeded in reducing the whole Magical Alphabet to nonsense, and shewing that he had never understood its real meaning. 
 
-The absurdity of any such disturbance of the arrangement of the Paths 
-is évident to any sober student from such examples as the following. 
-Binah, the Supernal Understanding, is connected with Tiphereth, the 
-Human Consciousness, by Zain, Gemini, the Oracles of the Gods, or the 
-Intuition. That is, the attribution represents a psychological fact: to 
-replace it by The Devil is either humour or plain idiocy. Again, the card 
-‘Tortitude”, Léo, balances Majesty and Mercy with Strength and Severity: 
-what sense is there in putting “Death”, the Scorpion, in its stead ? There 
-are twenty other mistakes in the new wonderful illuminated-from-on-high 
-attribution; the student can therefore be sure of twenty more laughs if he 
-cares to study it. 
+The absurdity of any such disturbance of the arrangement of the Paths is évident to any sober student from such examples as the following. 
+Binah, the Supernal Understanding, is connected with Tiphereth, the Human Consciousness, by Zain, Gemini, the Oracles of the Gods, or the Intuition. That is, the attribution represents a psychological fact: to replace it by The Devil is either humour or plain idiocy. Again, the card ‘Fortitude”, Leo, balances Majesty and Mercy with Strength and Severity: 
+what sense is there in putting “Death”, the Scorpion, in its stead ? There are twenty other mistakes in the new wonderful illuminated-from-on-high attribution; the student can therefore be sure of twenty more laughs if he cares to study it. 
 
-2 . Equally, of course, we hâve no means of knowing what we really 
-are. We are limited to symbols. And it is certain that ail our sense- 
-perceptions give only partial aspects of their objects. Sight, for instance, 
-tells us very little about solidity, weight, composition, electrical character, 
-thermal conductivity, etc., etc. It says nothing at ail about the very 
-existence of such vitally important ideas as Heat, Hardness, and so on. 
-The impression which the mind combines from the senses can never claim 
-to be accurate or complété. We hâve indeed learnt that nothing is fn 
-itself what it seems to be to us. 
+2 . Equally, of course, we hâve no means of knowing what we really are. We are limited to symbols. And it is certain that ail our sense-perceptions give only partial aspects of their objects. Sight, for instance, 
+tells us very little about solidity, weight, composition, electrical character, thermal conductivity, etc., etc. It says nothing at ail about the very existence of such vitally important ideas as Heat, Hardness, and so on. 
+
+The impression which the mind combines from the senses can never claim to be accurate or complété. We hâve indeed learnt that nothing is fn itself what it seems to be to us. 
 
 
 7 
 
 
 
-the référencé is usually not to the actual planets, but to parts of 
-the earth which are of the nature attributed to these planets. Thus, 
-when we say that Nakhiel is the “Intelligence” of the Sun, we do 
-not mean that he lives in the Sun, but only that he has a certain 
-rank and character; and although we can invoke hinij we do not 
-necessarily mean that he exists in the same sense of the Word in 
-which our butcher exists. 
+the référencé is usually not to the actual planets, but to parts of the earth which are of the nature attributed to these planets. Thus, when we say that Nakhiel is the “Intelligence” of the Sun, we do not mean that he lives in the Sun, but only that he has a certain rank and character; and although we can invoke hinij we do not necessarily mean that he exists in the same sense of the Word in which our butcher exists. 
 
-When we “conjure Nakhiel to visible appearance,” it may be 
-that our process resembles création — or, rather imagination — 
-more nearly than it does calling-forth. The aura of a man is 
-called the “magical mirror of the universe”; and, so far as any 
-one can tell, nothing exists outside of this mirror. It is at least 
-convenient to represent the whole as if it were subjective. It leads 
-to less confusion. And, as a man is a perfect microcosm, 1 it is 
-perfectly easy to re-model one’s conception at any moment. 
-
-Now there is a traditional correspondance, which modem 
-experiment has shown to be fairly reliable. There is a 
-certain natural connexion between certain letters, words, 
-numbers, gestures, sliapes, perfumes and so on, so that 
-any idea or (as we might call it) “spirit”, may be com- 
-posed or called forth by the use of those things which are 
-harmonious with it, and express particular parts of its 
-nature. These correspondences hâve been elaborately mapped 
-in the Book 777 in a very convenient and compendious form. It 
-will be necessary for the student to make a careful study of this 
-book in connexion with some actual rituals of Magick, for example, 
-
-
-I. He is this only by définition. The universe may contain an infinité 
-variety of worlds inaccessible to human appréhension. Yet, for this very 
-reason, they do not exist for the purposes of the argument. Man has, how- 
-ever, some instruments of knowledge; we may, therefore, define the Macro- 
-cosm as the totality of things possible to his perception. As évolution deve- 
-lops those instruments, the Macrocosm and the Microcosm extend; but they 
-always maintain their mutual relation. Neither can possess any meaning 
-except in terrns o£ the other. Our ^d^^veries^ are exactly as much of 
-ourselves as they are of Nature. America and Electricity did, in a sense, 
-exist before we were aware of them; but they are even now no more than 
-incomplète ideas, expressed in symbolic terrns of a sériés of relations between 
-two sets of inscrutable phenomena. 
+When we “conjure Nakhiel to visible appearance,” it may be that our process resembles création — or, rather imagination — more nearly than it does calling-forth. The aura of a man is called the “magical mirror of the universe”; and, so far as any one can tell, nothing exists outside of this mirror. It is at least convenient to represent the whole as if it were subjective. It leads to less confusion. And, as a man is a perfect microcosm, 1 it is perfectly easy to re-model one’s conception at any moment. 
+Now there is a traditional correspondance, which modem experiment has shown to be fairly reliable. There is a certain natural connexion between certain letters, words, numbers, gestures, sliapes, perfumes and so on, so that any idea or (as we might call it) “spirit”, may be composed or called forth by the use of those things which are harmonious with it, and express particular parts of its nature. These correspondences hâve been elaborately mapped in the Book 777 in a very convenient and compendious form. It will be necessary for the student to make a careful study of this book in connexion with some actual rituals of Magick, for example, I. He is this only by définition. The universe may contain an infinité variety of worlds inaccessible to human appréhension. Yet, for this very reason, they do not exist for the purposes of the argument. Man has, how- ever, some instruments of knowledge; we may, therefore, define the Macrocosm as the totality of things possible to his perception. As évolution deve- lops those instruments, the Macrocosm and the Microcosm extend; but they always maintain their mutual relation. Neither can possess any meaning 
+except in terrns o£ the other. Our ^d^^veries^ are exactly as much of ourselves as they are of Nature. America and Electricity did, in a sense, exist before we were aware of them; but they are even now no more than incomplète ideas, expressed in symbolic terrns of a sériés of relations between two sets of inscrutable phenomena. 
 
 
 8 
 
 
 
-that of the évocation of Taphtatharath printed in Equinox I, III, 
-pages 170-190, where he will see exactîy why these things are to 
-be used. Of course, as the student advances in knowledge 
-by expérience he will find a progressive subtlety in the 
-magical universe corresponding to his own; for let it be 
-said yet again! not only is his aura a magical mirror of the 
-universe, but the universe is a magical mirror of his aura. 
+that of the évocation of Taphtatharath printed in Equinox I, III, pages 170-190, where he will see exactîy why these things are to be used. Of course, as the student advances in knowledge by expérience he will find a progressive subtlety in the magical universe corresponding to his own; for let it be said yet again! not only is his aura a magical mirror of the universe, but the universe is a magical mirror of his aura. 
 
-In this chapter we are only able to give a very thin outline of 
-magical theory — faint pencilling by weak and wavering fingers 
-— for this subject may almost be said to be co-extensive with one’s 
-whole knowledge. 
+In this chapter we are only able to give a very thin outline of magical theory — faint pencilling by weak and wavering fingers — for this subject may almost be said to be co-extensive with one’s whole knowledge. 
 
-Fhe knowledge of exoteric science is comically limited by the 
-fact that we hâve no access, except in the most indirect way, to any 
-other celestial body than our own. In the last few years, the 
-semi-educated hâve got an idea that they know a great deal about 
-the universe, and the principal ground for their fine opinion of 
-themselves is usually the téléphoné or the airship. It is pitiful 
-to read the bombastic twaddle about progress, which journalists 
-and others, who wish to prevent men from thinking, put out for 
-consumption. We know infinitesimally little of the material 
-universe. Our detailed knowledge is so contemptibly 
-minute, that it is hardly worth référencé, save that our 
-shame may spur us to increased endeavour. Such know¬ 
-ledge 1 as we hâve got is of a very general and abstruse, of 
-a philosopliical and almost magical character. This consists 
-principally of the conceptions of pure mathematics. It is, 
-therefore, almost legitimate to say that pure mathematics 
-is our link with the rest of the universe and with “God”. 
+Fhe knowledge of exoteric science is comically limited by the fact that we hâve no access, except in the most indirect way, to any other celestial body than our own. In the last few years, the semi-educated hâve got an idea that they know a great deal about the universe, and the principal ground for their fine opinion of themselves is usually the téléphoné or the airship. It is pitiful to read the bombastic twaddle about progress, which journalists and others, who wish to prevent men from thinking, put out for consumption. We know infinitesimally little of the material universe. Our detailed knowledge is so contemptibly minute, that it is hardly worth référencé, save that our shame may spur us to increased endeavour. Such know¬ ledge 1 as we hâve got is of a very general and abstruse, of a philosopliical and almost magical character. This consists principally of the conceptions of pure mathematics. It is, therefore, almost legitimate to say that pure mathematics is our link with the rest of the universe and with “God”. 
 
-Now the conceptions of Magick are themselves profoundly 
-mathematical. The whole basis of our theory is the Qabalah, 
-which corresponds to mathematics and geometry. The method 
-of operation in Magick is based on this, in very much the same 
-way as the laws of mechanics are based on mathematics. So far, 
-therefore as we can be be said to possess a magical theory of the 
-universe, it must be a matter solely of fundamental law, with a 
+Now the conceptions of Magick are themselves profoundly mathematical. The whole basis of our theory is the Qabalah, which corresponds to mathematics and geometry. The method of operation in Magick is based on this, in very much the same way as the laws of mechanics are based on mathematics. So far, therefore as we can be be said to possess a magical theory of the universe, it must be a matter solely of fundamental law, with a 
 
 
 J* Knowledge is, moreover, an impossible conception. Ali propositions 
@@ -675,29 +576,12 @@ corne ultimately back to “A is A”.
 
 
 
-few simple and comprehensive propositions stated in very general 
-terms 
+few simple and comprehensive propositions stated in very general terms 
+I might expend a life-time in exploring the details of one plane, just as an explorer might give his life to one corner of Africa, or a chemist to one subgroup of compounds. Each surh detailed piece of work may be very valuable, but it does not as a rule throw light on the main principles of the universe. Its truth is the truth of one angle. It might even lead to error, if some inferior person were to generalize from too few facts. 
 
-I might expend a life-time in exploring the details of one plane, 
-just as an explorer might give his life to one corner of Africa, or 
-a chemist to one subgroup of compounds. Each surh detailed 
-piece of work may be very valuable, but it does not as a rule throw 
-light on the main principles of the universe. Its truth is the truth 
-of one angle. It might even lead to error, if some inferior person 
+Imagine an inhabitant of Mars who wished to philosophise about the earth, and had nothing to go by but the diary of some man at the North Pôle! But the work of every explorer, on whatever branch of the Tree of Life the Caterpillar he is after may happen to be crawling, is immensely helped by a grasp of general principles. Every magician, therefore, should study the Holy Qabalah. Once he has mastered the main principles, he will find his work grow easy. 
 
-were to generalize from too few facts. 
-
-Imagine an inhabitant of Mars who wished to philosophise 
-about the earth, and had nothing to go by but the diary of some 
-man at the North Pôle! But the work of every explorer, on 
-whatever branch of the Tree of Life the Caterpillar he is after 
-may happen to be crawling, is immensely helped by a grasp of 
-general principles. Every magician, therefore, should study the 
-Holy Qabalah. Once he has mastered the main principles, he 
-will find his work grow easy. 
-
-Solvitur ambulando: which does not mean: 46 Call the 
-Ambulance!” 
+Solvitur ambulando: which does not mean: 46 Call the Ambulance!” 
 
 
 
@@ -709,85 +593,23 @@ CHAPTER I
 
 The Principles of Ritual,. 
 
-There is a single main définition of the object of ail 
-magical Ritual. It is the uniting of the Microcosm with the 
-Macrocosm. The Suprême and Complété Ritual is there- 
-fore the Invocation of the Holy Guardian Angel; 1 or* in 
-the language of Mysticism, Union with God. 2 
+There is a single main définition of the object of all magical Ritual. It is the uniting of the Microcosm with the Macrocosm. The Suprême and Complété Ritual is there- fore the Invocation of the Holy Guardian Angel; 1 or* in the language of Mysticism, Union with God. 2 
 
-Ail other magical Rituals are particular cases of this general 
-principle, and the only excuse for doing them is that it sometimes 
-occurs that one particular portion of the microcosm is so weak that 
-its imperfection of impurity would vitiate the Macrocosm of 
-which it is the image, Eidolon, or Reflexion. For example, God 
-is above sex; and therefore neither man nor woman as such can 
-be said fully to understand, much less to represent, God. It is 
-therefore incumbent on the male magician to cultivate those female 
-virtues in which he is déficient, and this task he must of course 
-accomplish without in any way impairing his virility. It will then 
-be lawful for a magician to invoke Isis, and identify himself with 
-her; if he fail to do this, his appréhension of the Universe when 
-he attains Samadhi will lack the conception of maternity. The 
-resuit will be a metaphysical and — by corollary — ethical limita¬ 
-tion in the Religion which he founds. Judaism and Islam are 
-striking examples of this failure. 
-
-To take another example, the ascetic Üfe which dévotion to 
-
-
-1. See the “Book of the Sacred Magic of Abramelin the Mage”; and 
-Liber 418, 8th Aethyr, Liber Samekh; see Appendix 3. 
-
-2. The différence between these operations is more of theoreticaî than 
-of practical importance. 
+All other magical Rituals are particular cases of this general principle, and the only excuse for doing them is that it sometimes occurs that one particular portion of the microcosm is so weak that its imperfection of impurity would vitiate the Macrocosm of which it is the image, Eidolon, or Reflexion. For example, God is above sex; and therefore neither man nor woman as such can be said fully to understand, much less to represent, God. It is therefore incumbent on the male magician to cultivate those female virtues in which he is déficient, and this task he must of course accomplish without in any way impairing his virility. It will then be lawful for a magician to invoke Isis, and identify himself with her; if he fail to do this, his appréhension of the Universe when he attains Samadhi will lack the conception of maternity. The resuit will be a metaphysical and — by corollary — ethical limita¬ tion in the Religion which he founds. Judaism and Islam are striking examples of this failure. To take another example, the ascetic Üfe which dévotion to 1. See the “Book of the Sacred Magic of Abramelin the Mage”; and Liber 418, 8th Aethyr, Liber Samekh; see Appendix 3. 2. The différence between these operations is more of theoreticaî than of practical importance. 
 
 
 
-magick so often involves argues a poverty o£ nature, a narrowness, 
-a lack of generosity. Nature is infinitely prodigal — not one in a 
-million seeds ever cornes to fruition. Whoso fails to recognise 
-this, let him invoke Jupiter. 1 2 
+magick so often involves argues a poverty o£ nature, a narrowness, a lack of generosity. Nature is infinitely prodigal — not one in a million seeds ever cornes to fruition. Whoso fails to recognise this, let him invoke Jupiter. 1 2 
 
-The danger o£ cérémonial magick — the subtlest and deepest 
-danger —is this: that the magician will naturally tend to invoke 
-that partial being which most strongly appeals to him, so that his 
-natural excess in that direction will be still further exaggerated. 
-Let him, before beginning his Work, endeavour to map out 
-his own being, and arrange his invocations in such a way as 
-to redress the balance. 2 This, of course, should hâve been 
-done in a preliminary fashion during the préparation of the 
-weapons and furniture of the Temple. 
+The danger o£ cérémonial magick — the subtlest and deepest danger —is this: that the magician will naturally tend to invoke that partial being which most strongly appeals to him, so that his natural excess in that direction will be still further exaggerated. Let him, before beginning his Work, endeavour to map out his own being, and arrange his invocations in such a way as to redress the balance. 2 This, of course, should hâve been done in a preliminary fashion during the préparation of the weapons and furniture of the Temple. 
 
-To consider in a more particular mammer this question of the 
-Nature of Ritual, we may suppose that he finds himself lacking 
-in that perception of the value of Life and Death, alike of 
-individuals and of races, which is characteristic of Nature. He 
-has perhaps a tendency to perceive the ‘first noble truth’ uttered 
-by Buddha, that Everything is sorrow. Nature, it seems, is a 
-tragedy. He has perhaps even experienced the great trance called 
-Sorrow. He should then consider whether there is not some 
-Deity who expresses this Cycle, and yet whose nature is joy. He 
-will find what he requires in Dionysus. 
+To consider in a more particular mammer this question of the Nature of Ritual, we may suppose that he finds himself lacking in that perception of the value of Life and Death, alike of individuals and of races, which is characteristic of Nature. He has perhaps a tendency to perceive the ‘first noble truth’ uttered by Buddha, that Everything is sorrow. Nature, it seems, is a tragedy. He has perhaps even experienced the great trance called Sorrow. He should then consider whether there is not some Deity who expresses this Cycle, and yet whose nature is joy. He will find what he requires in Dionysus. 
 
 There are three main methods of invoking any Deity. 
 
-The First Method consists of dévotion to that Deity, and, 
-being mainly mystical in character, need not be dealt with in this 
-place, especially as a perfect instruction exists in Liber 175 (See 
-Âppendix). 
+The First Method consists of dévotion to that Deity, and, being mainly mystical in character, need not be dealt with in this place, especially as a perfect instruction exists in Liber 175 (See Âppendix). The Second Method is the straightforward cérémonial invocation. It is the method which was usually employed in the Middle Ages. Its advantage is its directness, its disadvantage its 1. There are much deeper considérations in which it appears that “Everything that is, is right”. They are set forth elsewhere; we can only summarise them here by saying that the survîval of the frttest is their upshot. 
 
-The Second Method is the straightforward cérémonial 
-invocation. It is the method which was usually employed in the 
-Middle Ages. Its advantage is its directness, its disadvantage its 
-
-
-1. There are much deeper considérations in which it appears that 
-“Everything that is, is right”. They are set forth elsewhere; we can 
-only summarise them here by saying that the survîval of the frttest is their 
-upshot. 
-
-2. The ideaî method of doing this is given in Liber 913 (Equinox 
-VII). See also Liber CXI Aleph. 
+2. The ideaî method of doing this is given in Liber 913 (Equinox VII). See also Liber CXI Aleph. 
 
 
 12 
@@ -25929,599 +25751,4 @@ complété armour and armed, he is similar to the goddess.”
 
 And again, “I am armed, I am armed.” 
 
-
-
-
-
-
-
 LECRAM. IM P. PARIS 
-
-
-
-
-■ 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-■ 
-
-' 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-» 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</pre>        </div><!--/.container-->
-              </main>
-    </div><!--/#wrap-->
-    
-    <!-- Timing ...
-     rendered on: www22.us.archive.org
- seconds diff sec               message   stack(file:line:function)
-=========================================================
-  0.0000   0.0000         petabox start   var/cache/petabox/petabox/www/sf/download.php:1:require
-                                             |common/ia:66:require_once
-                                             |setup.php:380:log
-  0.0094   0.0094      redis_read start   var/cache/petabox/petabox/www/sf/download.php:80:main_wrap
-                                             |download.php:101:main
-                                             |download.php:321:getItem
-                                             |common/Item.inc:78:parseMetadata
-                                             |Item.inc:134:get_obj
-                                             |Metadata.inc:519:_get_obj
-                                             |Metadata.inc:549:run_pipeline
-                                             |Metadata.inc:1435:read
-                                             |Metadata/AdapterPipeline.inc:267:_read
-                                             |AdapterPipeline.inc:303:pipeline
-                                             |AdapterPipeline.inc:388:fetch
-                                             |AdapterPipeline.inc:650:fetch
-                                             |RecordServer.inc:150:execute
-                                             |RecordServer/FetchRecordOp.inc:57:log
-  0.0137   0.0043     redis_read finish   var/cache/petabox/petabox/www/sf/download.php:80:main_wrap
-                                             |download.php:101:main
-                                             |download.php:321:getItem
-                                             |common/Item.inc:78:parseMetadata
-                                             |Item.inc:134:get_obj
-                                             |Metadata.inc:519:_get_obj
-                                             |Metadata.inc:549:run_pipeline
-                                             |Metadata.inc:1435:read
-                                             |Metadata/AdapterPipeline.inc:267:_read
-                                             |AdapterPipeline.inc:303:pipeline
-                                             |AdapterPipeline.inc:388:fetch
-                                             |AdapterPipeline.inc:650:fetch
-                                             |RecordServer.inc:150:execute
-                                             |RecordServer/FetchRecordOp.inc:63:log
-  0.0256   0.0119   begin session_start   var/cache/petabox/petabox/www/sf/download.php:80:main_wrap
-                                             |download.php:101:main
-                                             |download.php:545:stream
-                                             |download.php:915:head
-                                             |common/Nav.inc:172:__construct
-                                             |Nav.inc:263:session_start
-                                             |Cookies.inc:56:log
-  0.0257   0.0002    done session_start   var/cache/petabox/petabox/www/sf/download.php:80:main_wrap
-                                             |download.php:101:main
-                                             |download.php:545:stream
-                                             |download.php:915:head
-                                             |common/Nav.inc:172:__construct
-                                             |Nav.inc:263:session_start
-                                             |Cookies.inc:66:log
-  0.0533   0.0276              bug dump   var/cache/petabox/petabox/www/sf/download.php:80:main_wrap
-                                             |download.php:101:main
-                                             |download.php:545:stream
-                                             |download.php:945:footer
-                                             |common/setup.php:149:footer
-                                             |Nav.inc:1121:dump
-                                             |Bug.inc:102:log
-    -->
-    <script>
-if (typeof archive_analytics !== 'undefined') {
-  archive_analytics.send_pageview_on_load(archive_analytics);
-  archive_analytics.process_url_events(location);
-  var vs = archive_analytics.get_data_packets();
-  for (var i in vs) {
-    vs[i]['cache_bust']=Math.random();
-    vs[i]['server_ms']=53;
-    vs[i]['server_name']="www22.us.archive.org";
-      }
-
-  if (document.querySelectorAll('.more_search').length) {
-    archive_analytics.send_scroll_fetch_base_event();
-  }
-}
-</script>
-          <img src="//analytics.archive.org/0.gif?kind=track_js&track_js_case=control&cache_bust=1652912508" alt="" />
-          <noscript>
-        <img src="//analytics.archive.org/0.gif?kind=track_js&track_js_case=disabled&cache_bust=62171818" />
-      </noscript>
-          <script>
-        document.addEventListener('DOMContentLoaded', function() {
-          if (typeof archive_analytics !== 'undefined')
-            archive_analytics.create_tracking_image('in_page_executes');
-        });
-      </script>
-      </div>
-  </body>
-</html>
-    
