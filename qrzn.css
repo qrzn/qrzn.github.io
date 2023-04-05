@@ -1,3 +1,7 @@
+::root {
+  --body-bg-image: url("https://sadhost.neocities.org/images/layouts/wp.jpeg")
+}
+
 body {
 	padding: 5%;
 	background-color: black;
@@ -36,7 +40,7 @@ a {
 	transition:all 5s;
 }
 a:hover {
-	color: white;
+	color: purple;
 	transition:all .35s;
 }
 
