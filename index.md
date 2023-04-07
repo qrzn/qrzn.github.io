@@ -15,6 +15,7 @@ this is a website written in markdown with vim and converted with pandoc, so kud
 * [ascii](/ascii/ascii.html) &mdash; ascii art
 * [art](/art/art.html) &mdash; art, mostly pictures
 * [scripts](/scripts.html) &mdash; scripts
+* [stuff](/stuff.html) &mdash; stuff
 
 ### about the author
 
