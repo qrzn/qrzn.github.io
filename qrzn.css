@@ -41,7 +41,7 @@ a {
 }
 a:hover {
 	color: purple;
-	transition:all .35s;
+	transition:all 1s;
 }
 
 /* man pages */

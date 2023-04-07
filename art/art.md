@@ -5,4 +5,6 @@ author: qrzn
 
 ### art
 
-wip
+my first creation with krita
+
+![krita0.png](/art/pics/krita0.png)
