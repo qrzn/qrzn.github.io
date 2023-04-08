@@ -7,7 +7,7 @@ author: qrzn
 
 Greetings, weary traveller & eminent scholar of occult and hidden web lore!
 
-Enjoy a my little corner of the Internet; I try to keep things simple, yet neat looking.
+Enjoy my little corner of the Internet; I try to keep things simple, yet neat looking.
 
 ### Things of Interest on this page
 
@@ -20,4 +20,4 @@ Enjoy a my little corner of the Internet; I try to keep things simple, yet neat 
 
 ### About the Author
 
-Shrouded in Mystery in his Antient Wizards' Tower
+Shrouded in Mysteree in his Antient Wizards' Tower
