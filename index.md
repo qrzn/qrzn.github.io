@@ -5,17 +5,18 @@ author: qrzn
 
 ### welcome to my realm, mortal
 
-this is a website written in markdown with vim and converted with pandoc, so kudos to the devs of of those programs
+Greetings, weary traveller & eminent scholar of occult and hidden web lore!
+
+enjoy a my little corner of the internet, i try to keep things simple, yet neat looking.
 
 ### things of interest on this page
 
 * [ptry](/ptry/ptry.html) &mdash; poetry of a disordered mind
 * [min](/min/min.html) &mdash; min publishing &mdash; handcrafted epubs
-* [blog](/blog/blog.html) &mdash; blog - thoughts of a disordered mind 
 * [ascii](/ascii/ascii.html) &mdash; ascii art
 * [art](/art/art.html) &mdash; art, mostly pictures
-* [scripts](/scripts.html) &mdash; scripts
-* [stuff](/stuff.html) &mdash; stuff
+* [dreams](/art/dreams.html) &mdash; dreams of my egregore
+* [temple](/temple.html) &mdash; enter the temple
 
 ### about the author
 
