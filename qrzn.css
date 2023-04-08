@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: "Venice";
+	src: url(/VeniceClassic.ttf) format("truetype");
+}
+
+@font-face {
   font-family: Nunito;
   src: url('https://sadhost.neocities.org/fonts/Nunito-Regular.ttf');
             }
@@ -47,6 +52,8 @@ body {
 	margin: auto;
 	max-width:540px; 
 	color: white;
+	font-family: "Venice";
+	font-size: 123%;
       }
 
 p {
@@ -55,12 +62,12 @@ p {
 }
 
 img {
-  border: 1px dotted #ddd;
+  border: 1px dashed #ddd;
   border-radius: 4px;
   padding: 5px;
   width: 150px;
   height: 150px;
-  display: block;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -85,6 +92,8 @@ pre  {
 
 h3 {
 	background-color: purple;
+	font-family: serif;
+	font-size: 100%;
 	text-align: center;
 	padding: 3px;
 	color: white;
@@ -103,17 +112,17 @@ h3 {
 	word-wrap:break-word;
 	word-break:break-all;
 }
-a {
+
+li a {
 	display: inline-block;
 	font-variant: small-caps;
-	border-bottom: dotted;
 	text-decoration: none;
 	color:yellow;
-	padding: 2px;
 }
-a:hover {
+li a:hover {
 	color: white;
-	border-bottom: 3px double;
+	border-bottom: 1px dotted;
+	transition: 1s;
 }
 
 /* man pages */

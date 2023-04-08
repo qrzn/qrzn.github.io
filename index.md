@@ -3,21 +3,21 @@ title: qrzn's website
 author: qrzn
 ---
 
-### welcome to my realm, mortal
+### Welcome to my Realm, Mortal
 
 Greetings, weary traveller & eminent scholar of occult and hidden web lore!
 
-enjoy a my little corner of the internet, i try to keep things simple, yet neat looking.
+Enjoy a my little corner of the Internet; I try to keep things simple, yet neat looking.
 
-### things of interest on this page
+### Things of Interest on this page
 
-* [ptry](/ptry/ptry.html) &mdash; poetry of a disordered mind
-* [min](/min/min.html) &mdash; min publishing &mdash; handcrafted epubs
-* [ascii](/ascii/ascii.html) &mdash; ascii art
-* [art](/art/art.html) &mdash; art, mostly pictures
-* [dreams](/art/dreams.html) &mdash; dreams of my egregore
-* [temple](/temple.html) &mdash; enter the temple
+* [ptry](/ptry/ptry.html) &mdash; Poetry of a disordered Mind
+* [min](/min/min.html) &mdash; Min Publishing &mdash; handcrafted epubs
+* [ascii](/ascii/ascii.html) &mdash; ASCII art
+* [art](/art/art.html) &mdash; Art, mostly Pictures
+* [dreams](/art/dreams.html) &mdash; Dreams of my Egregore
+* [temple](/temple.html) &mdash; Enter the Temple, and despair..
 
-### about the author
+### About the Author
 
-shrouded in mystery in his antient wizards' tower
+Shrouded in Mystery in his Antient Wizards' Tower
