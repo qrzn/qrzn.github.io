@@ -149,6 +149,7 @@ main {
 
 #navbar li a:hover {
 	color: darkseagreen;
+	cursor: pointer;
             }
 
 #flex {
