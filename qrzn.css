@@ -184,6 +184,11 @@ h3 {
 	word-break:break-all;
 }
 
+#gallery ul {
+	list-style-image: url('/nonexistent.svg');
+	list-style-type: none;
+}
+
 li a {
 	display: inline-block;
 	font-variant: small-caps;
@@ -192,8 +197,8 @@ li a {
 }
 li a:hover {
 	color: seashell;
-	border-bottom: 2px purple dotted;
 	transition: all 1s;
+	text-decoration: underline;
 }
 
 footer {
@@ -220,6 +225,11 @@ footer {
 	display: inline-block;
 	width: 30px;
 	height: 30px;
+}
+
+#home:hover {
+	transition: all 5s;
+	cursor: crosshair;
 }
 
 /* man pages */
