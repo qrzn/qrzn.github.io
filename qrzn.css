@@ -43,7 +43,7 @@
   /* if you want to put images IN the header, 
   you can add them directly to the <div id="header"></div> element! */
   background-image: var(--header-image);
-  background-size: 63%;
+  background-size: 100%;
             }
 
 body {
@@ -52,10 +52,20 @@ body {
 	background-size: 56px;
 	margin: auto;
 	max-width:540px; 
-	color: white;
+	color: green;
 	font-family: "Venice";
       }
 
+marquee {
+  color: crimson;
+	transition: all 5s;
+}
+
+marquee:hover {
+	color: white;
+	transition: all 5s;
+	transform: rotate(180deg);
+}
 p {
 	padding: 2px;
 	margin-left: auto;
@@ -95,16 +105,6 @@ main {
                 /* this centers the entire page */
             }
 
-            /* the area below is for all links on your page
-    EXCEPT for the navigation */
-            #container a {
-                color: #ED64F5;
-                font-weight: bold;
-                /* if you want to remove the underline
-      you can add a line below here that says:
-      text-decoration:none; */
-            }
-
             #header {
                 width: 100%;
                 background-color: #5e4e8c;
@@ -118,11 +118,11 @@ main {
             }
 
             /* navigation section!! */
-            #navbar {
-                height: 40px;
-                background-color: #13092D;
-                /* navbar color */
-                width: 100%;
+#navbar {
+	height: 40px;
+	background-color: radial-gradient(crimson, skyblue);
+	/* navbar color */
+	width: 100%;
             }
 
             #navbar ul {
@@ -136,22 +136,18 @@ main {
             #navbar li {
                 padding-top: 10px;
             }
-
-            /* navigation links*/
+/*
             #navbar li a {
                 color: #ED64F5;
-                /* navbar text color */
                 font-weight: 800;
                 text-decoration: none;
-                /* this removes the underline */
             }
 
-            /* navigation link when a link is hovered over */
             #navbar li a:hover {
                 color: #a49cba;
                 text-decoration: underline;
             }
-
+*/
             #flex {
                 display: flex;
             }
@@ -177,8 +173,8 @@ h3 {
 	font-family: serif;
 	font-size: 100%;
 	text-align: center;
-	padding: 3px;
 	color: white;
+	padding: 3px;
 	outline:none;
 	border:3px outset yellow;
 	font-variant:small-caps;
@@ -199,12 +195,12 @@ li a {
 	display: inline-block;
 	font-variant: small-caps;
 	text-decoration: none;
-	color:yellow;
+	color: yellow;
 }
 li a:hover {
-	color: white;
-	border-bottom: 1px dotted;
-	transition: 1s;
+	color: green;
+	border-bottom: 2px purple dotted;
+	transition: all 1s;
 }
 
 footer {
