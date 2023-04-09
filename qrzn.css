@@ -37,8 +37,8 @@ body {
 	padding: 5%;
 	background-image: var(--body-bg-image);
 	background-size: 56px;
-	margin: auto;
-	max-width:540px; 
+	margin: 0 auto;
+	max-width:720px; 
 	color: mediumseagreen;
 	font-family: "Venice";
       }
@@ -82,11 +82,14 @@ p {
 
 main {
   background-color: black;
-  flex: 1;
   padding: 20px;
   order: 2;
 	border: 3px mediumpurple solid;
 	border-radius: 20px;
+            }
+
+#rightSidebar {
+	order: 3;
             }
 
 #container {
@@ -113,7 +116,6 @@ main {
             /* navigation section!! */
 #navbar {
 	height: 40px;
-	background-color: radial-gradient(crimson, skyblue);
 	/* navbar color */
 	width: 100%;
 	font-size: 123%;
@@ -128,6 +130,12 @@ main {
 	list-style-type: none;
 	justify-content: space-evenly;
             }
+
+#navbar ol {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
 
 #navbar li {
 	padding-top: 10px;
@@ -145,13 +153,20 @@ main {
 
 #flex {
 	display: flex;
+	flex: 1;
 			}
+
+.box {
+	background-color: #13092D;
+	border: 1px solid #ED64F5;
+	padding: 10px;
+            }
 
             /* this colors BOTH sidebars
     if you want to style them separately,
     create styles for #leftSidebar and #rightSidebar */
 aside {
-	background-color: #241445;
+	background-color: black;
 	width: 200px;
 	padding: 20px;
 	font-size: smaller;
@@ -232,6 +247,29 @@ footer {
 #home:hover {
 	transition: all 5s;
 	cursor: crosshair;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	color: darkseagreen;
+	background-color: black;
+	border: 1px crimson solid;
+	border-radius: 10px;
+	min-width: 100px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 10px;
+	z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: flex;
+	transition: all 1s;
 }
 
 /* man pages */
