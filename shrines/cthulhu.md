@@ -1,5 +1,5 @@
 ---
-title: qrzn's website
+title: The Shrine of Cthulhu
 author: qrzn
 css: /win31.css
 ---
