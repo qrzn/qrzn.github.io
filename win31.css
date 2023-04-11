@@ -5,8 +5,13 @@
 }
 
 @font-face {
+  font-family: "Unifraktur";
+	src: url(/fonts/UnifrakturCook-Bold.ttf);
+}
+
+@font-face {
   font-family: "Venice";
-	src: url(/VeniceClassic.ttf) format("truetype");
+	src: url(/fonts/VeniceClassic.ttf) format("truetype");
 }
 
 @font-face {
@@ -160,7 +165,6 @@ main {
 #navbar li a:hover {
 	color: indigo;
 	cursor: pointer;
-	font-variant: small-caps;
 	transition: all 1s;
             }
 
@@ -193,18 +197,18 @@ pre  {
 h3 {
 /* background stuff, here you can set an image */
 /*	background-image: radial-gradient(indigo, darkseagreen); */
-	font-family: "Venice";
+	font-family: "Unifraktur";
 	font-size: 110%;
 	text-align: left;
 	color: darkseagreen;
 	padding: 3px;
 	outline: none;
 	border-bottom: 1px solid indigo;
-	font-variant: small-caps;
 }
 
 h1 {
 	text-align: center;
+	font-family: "Unifraktur";
 }
 
 .navbar {
@@ -225,7 +229,6 @@ h1 {
 
 li a {
 	display: inline-block;
-	font-variant: small-caps;
 	text-decoration: none;
 	color: darkorchid;
 }
@@ -255,6 +258,14 @@ footer {
 	height: 93px;
 }
 
+#sigil:hover {
+	transform: scale(23.5) skewY(60deg) translate(-111px, -333px);
+	cursor: wait;
+	transition: all 10s;
+	filter: saturate(7) drop-shadow(8px 8px 10px black) blur(4px) brightness(250%);
+	-webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
 #home {
 	display: inline-block;
 	width: 30px;
@@ -264,6 +275,7 @@ footer {
 #home:hover {
 	transition: all 5s;
 	cursor: crosshair;
+	-webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
 }
 
 .dropdown {

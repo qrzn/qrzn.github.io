@@ -4,21 +4,26 @@ author: qrzn
 css: /egypt.css
 ---
 
-### Welcome to my Realm, Mortal
+# Ra
 
-Greetings, weary traveller & eminent scholar of occult and hidden web lore!
+Lo and behold, thou hast entered the Shrine of Ra! Kneel down and despair!
 
-Enjoy my little corner of the Internet; I try to keep things simple, yet neat looking.
+### This is the Shrine of Ra
 
-### Things of Interest on this page
+[![re.svg](/re.svg)](/re.svg)
 
-* [ptry](/ptry/ptry.html) &mdash; Poetry of a disordered Mind
-* [min](/min/min.html) &mdash; Min Publishing &mdash; handcrafted epubs
-* [ascii](/ascii/ascii.html) &mdash; ASCII art
-* [art](/art/art.html) &mdash; Art, mostly Pictures
-* [dreams](/art/dreams.html) &mdash; Dreams of my Egregore
-* [temple](/temple.html) &mdash; Enter the Temple, and despair..
+### About Ra
 
-### About the Author
+Cthulhu is a fictional cosmic entity created by writer H. P. Lovecraft. It was first introduced in his short story "The Call of Cthulhu", published by the American pulp magazine Weird Tales in 1928. Considered a Great Old One within the pantheon of Lovecraftian cosmic entities, this creature has since been featured in numerous popular culture references. Lovecraft depicts it as a gigantic entity worshipped by cultists, in the shape of a green octopus, dragon, and a caricature of human form. The Lovecraft-inspired universe, the Cthulhu Mythos, where it exists with its fellow entities, is named after it.
 
-Shrouded in Mysteree in his Antient Wizards' Tower
+### Epithets
+
+lorem ipsum
+
+### Prayers
+
+lorem ipsum
+
+### Temples
+
+lorem ipsum
