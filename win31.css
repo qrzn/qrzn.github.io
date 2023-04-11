@@ -126,7 +126,115 @@ main {
 	background-image: var(--header-image);
 	background-size: 100%;
 	border-radius: 20px;
+	z-index: -2;
             }
+
+/* The Mighty Wizard Icon and Its Behaviour */
+
+#home {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+
+#home:hover {
+	cursor: none;
+	transform: scale(50.0) translate(50px, 50px);
+	transition: all 5s;
+	-webkit-animation: flash ease-out 0.5s infinite;
+	-moz-animation: flash ease-out 0.5s infinite;
+	animation: flash ease-out 0.5s infinite;
+	animation: shake ease-out 0.5s infinite;
+
+}
+
+/* Tooltips, used for the */
+
+.tooltip .tooltiptext {
+	display: none;
+	position: absolute;
+	font-size: 300%;
+	color: crimson;
+	background-color: black;
+	border-top: 5px crimson double;
+	border-bottom: 5px crimson double;
+	border-radius: 10px;
+	max-width: 500px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 10px;
+	margin-top: -100px;
+	margin-left: 20px;
+	z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+	display: flex;
+	transition: all 1s;
+}
+
+.dropdown:hover .dropdown-content {
+	display: flex;
+	transition: all 1s;
+}
+
+
+/* Lightning to strike Fear into Witches & Heretics! */
+
+.lightning {
+	width: 100%;
+	background-color: #5e4e8c;
+	/* header color here! */
+	height: 150px;
+	/* this is only for a background image! */
+	/* if you want to put images IN the header, 
+	you can add them directly to the <div id="header"></div> element! */
+	background-image: var(--header-image);
+	background-size: 100%;
+	border-radius: 20px;
+  z-index: -1;
+}
+
+.flashit {
+	-webkit-animation: flash ease-out 7s infinite;
+	-moz-animation: flash ease-out 7s infinite;
+	animation: flash ease-out 7s infinite;
+	animation-delay: 2s;
+}
+
+@-webkit-keyframes flash {#333
+    0% { opacity: 1; } 
+    2% { opacity: 0; }
+    3% { opacity: 0.6; }
+    4% { opacity: 0.2; }
+    6% { opacity: 0.9; } 
+    100% { opacity: 1; }
+}
+@keyframes flash {
+    0% { opacity: 1; } 
+    2% { opacity: 0; }
+    3% { opacity: 0.6; }
+    4% { opacity: 0.2; }
+    6% { opacity: .9; } 
+    100% { opacity: 1; }
+}
+
+/* Lightning END */
+
+
+/* Shake it, Baby! */
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
 
             /* navigation section!! */
 #navbar {
@@ -251,32 +359,11 @@ footer {
   /* this centers the footer text */
             }
 
-#sigil {
-	display: block;
-	margin: auto;
-	width: 93px;
-	height: 93px;
-}
 
-#sigil:hover {
-	transform: scale(23.5) skewY(60deg) translate(-111px, -333px);
-	cursor: wait;
-	transition: all 10s;
-	filter: saturate(7) drop-shadow(8px 8px 10px black) blur(4px) brightness(250%);
-	-webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
-}
 
-#home {
-	display: inline-block;
-	width: 30px;
-	height: 30px;
-}
 
-#home:hover {
-	transition: all 5s;
-	cursor: crosshair;
-	-webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
-}
+
+/* Dropdowns used in the Navbar */
 
 .dropdown {
 	position: relative;
@@ -296,10 +383,24 @@ footer {
 	z-index: 1;
 }
 
-.dropdown:hover .dropdown-content {
-	display: flex;
-	transition: all 1s;
+
+/* The Golden Apple at the Footer */
+
+#sigil {
+	display: block;
+	margin: auto;
+	width: 93px;
+	height: 93px;
 }
+
+#sigil:hover {
+	transform: scale(23.5) skewY(60deg) translate(-111px, -333px);
+	cursor: wait;
+	transition: all 10s;
+	filter: saturate(7) drop-shadow(8px 8px 10px black) blur(4px) brightness(250%);
+	-webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
 
 /* man pages */
 table.head, table.foot { width: 100%; }
