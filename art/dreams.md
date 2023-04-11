@@ -1,6 +1,7 @@
 ---
 title: dreams of qrzn's egregore
 author: qrzn
+css: /win31.css
 ---
 
 ### abdul alhazred

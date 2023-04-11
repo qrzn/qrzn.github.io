@@ -1,6 +1,7 @@
 ---
 title: min publishing
 author: qrzn
+css: /win31.css
 ---
 
 ### min publishing &mdash; handcrafted ebooks

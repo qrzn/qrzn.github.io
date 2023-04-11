@@ -1,6 +1,7 @@
 ---
 title: qrzn's art
 author: qrzn
+css: /win31.css
 ---
 
 ### made by meself

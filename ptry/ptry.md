@@ -1,6 +1,7 @@
 ---
 title: qrzn's poetry
 author: qrzn
+css: /win31.css
 ---
 
 ### Gedichte

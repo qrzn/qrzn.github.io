@@ -1,24 +1,29 @@
 ---
 title: qrzn's ascii art
 author: qrzn
+css: /win31.css
 ---
 
-### ascii art
+# code boxes yay
 
-best to be enjoyed with 
+Lorem ipsum blaalhgkhaurh
 
-    wget link && cat *.txt
+`
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  
+▒▒██████████████████████████▒▒  
+▒▒███████████▓▒▒▓███████████▒▒  
+▒▒███████████▒▒▒▓███████████▒▒  
+▒▒██████████▒▓▒▒▓▓████▓▓▓███▒▒  
+▒▒███████▓█▓▓▒▒▒▓▓▓▓▓▓▓█▒▓██▒▒  
+▒▒██▓▓▓▒▒▒▓▓▓▓▒▒▓▒████▓▓████▒▒  
+▒▒███▓▓▓▓█▒░░░░▓▒▓░███▓█▓▒██▒▒  
+▒▒███▓▒▒░░░░░░░▒▒░░░█▒█▒▒███▒▒  
+▒▒██▓▒▒▓▓▓█░▒░░░░░░▒█▒▓▒▒▓██▒▒  
+▒▒██▓▒▒▒█▒▓▒█░░░░▒░█▒▒▒▒▓▓██▒▒  
+▒▒██▒▒▓▓█▓▓▓▒░░░░▒▓▒▓█▓▒█▓██▒▒  
+▒▒███▓▓▓█▓▓▓▒░░░▒▒░▓▒▓█▓████▒▒  
+▒▒██████████████████████████▒▒  
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  
+`
 
-* [wizard](/ascii/wizard.txt)
-* [darkcastle](/ascii/darkcastle.txt)
-* [sourceror](/ascii/sourceror.txt)
-* [wizportrait](/ascii/wizportrait.txt)
-* [wizportrait-noborders](/ascii/wizportrait-noborder.txt)
-* [wizp](/ascii/wizp.txt)
-* [yama](/ascii/yama.txt)
-* [scroll](/ascii/scroll.txt)
-
-### download
-
-* [ascii.tar.gz](/ascii/ascii.tar.gz/)
 

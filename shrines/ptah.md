@@ -1,7 +1,6 @@
 ---
 title: qrzn's website
 author: qrzn
-css: /win31.css
 ---
 
 ### Welcome to my Realm, Mortal

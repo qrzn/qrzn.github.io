@@ -1,6 +1,7 @@
 ---
 title: qrzn's website
 author: qrzn
+css: /win31.css
 ---
 
 ### Cthulhu fthagn!
