@@ -1,6 +1,6 @@
 :root {
   --body-bg-image: url("https://sadhost.neocities.org/images/tiles/greenmarble.jpg");
-  --header-image: url('/cth4.jpg');
+  --header-image: url('/cth5.jpg');
 	--footer-image: url('https://sadhost.neocities.org/images/tiles/stars5.gif');
 }
 
@@ -37,6 +37,10 @@
   font-style: italic;
   font-weight: bold;
             }
+
+.runimation {
+	height: 30px;
+}
 
 body {
 	padding: 5%;
@@ -148,12 +152,36 @@ main {
 
 }
 
-/* Tooltips, used for the */
+#home2 {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+
+#home2:hover {
+	cursor: none;
+	transform: scale(50.0) translate(50px, 50px);
+	transition: all 5s;
+	-webkit-animation: flash ease-out 0.5s infinite;
+	-moz-animation: flash ease-out 0.5s infinite;
+	animation: flash ease-out 0.5s infinite;
+	animation: shake ease-out 0.5s infinite;
+
+}
+
+#wizgif {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	border: 10px crimson double;
+	border-radius: 50%;
+}
+
+/* Tooltips, used for the Wizard*/
 
 .tooltip .tooltiptext {
 	display: none;
 	position: absolute;
-	font-size: 300%;
 	color: crimson;
 	background-color: black;
 	border-top: 5px crimson double;
@@ -191,6 +219,10 @@ main {
 	background-image: var(--header-image);
 	background-size: 100%;
 	border-radius: 20px;
+	-webkit-animation: lighting infinite;
+	-moz-animation: lighting infinite;
+	animation: lighting infinite;
+	animation: lighting infinite;
   z-index: -1;
 }
 
@@ -199,7 +231,11 @@ main {
 	-moz-animation: flash ease-out 7s infinite;
 	animation: flash ease-out 7s infinite;
 	animation-delay: 2s;
+	z-index: -3;
+
 }
+
+/* Keyframes for Infernal Perusal */
 
 @-webkit-keyframes flash {#333
     0% { opacity: 1; } 
@@ -218,6 +254,23 @@ main {
     100% { opacity: 1; }
 }
 
+@keyframes lighting {
+		0% { filter: brightness(0%); }
+		2% { filter: brightness(2%); }
+		3% { filter: brightness(3%);}
+		4% { filter: brightness(4%);}
+		6% { filter: brightness(6%);}
+		100% { filter: brightness(100%);}
+}
+
+@-webkit-keyframes lighting {
+		0% { filter: brightness(0%); }
+		2% { filter: brightness(2%); }
+		3% { filter: brightness(3%);}
+		4% { filter: brightness(4%);}
+		6% { filter: brightness(6%);}
+		100% { filter: brightness(100%);}
+}
 /* Lightning END */
 
 
@@ -281,6 +334,9 @@ main {
 	flex: 1;
 			}
 
+
+/* Who doesn't like Boxes? */
+
 .box {
 	background-color: #13092D;
 	border: 1px solid #ED64F5;
@@ -319,6 +375,8 @@ h1 {
 	font-family: "Unifraktur";
 }
 
+/* Old Navbar
+
 .navbar {
 	margin:auto;	
 	text-align: center;
@@ -329,6 +387,8 @@ h1 {
 	word-wrap:break-word;
 	word-break:break-all;
 }
+
+*/
 
 #gallery ul {
 	list-style-image: url('/nonexistent.svg');
@@ -375,7 +435,8 @@ footer {
 	position: absolute;
 	color: darkseagreen;
 	background-color: black;
-	border: 1px darkseagreen dotted;
+	border-left: 2px darkseagreen double;
+	border-bottom: 2px darkseagreen double;
 	border-radius: 10px;
 	min-width: auto;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -401,7 +462,7 @@ footer {
 	-webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
 }
 
-
+/* Things I borrowed somewhere, just her for legacy reasons */
 /* man pages */
 table.head, table.foot { width: 100%; }
 td.head-rtitle, td.foot-os { text-align: right; }
