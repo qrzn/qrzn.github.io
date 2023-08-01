@@ -1,8 +1,3 @@
----
-title: dreams of qrzn's egregore
-author: qrzn
-css: /win31.css
----
 [![abdul2.png](/art/pics/150/abdul2.png)](/art/pics/art/pics/150/abdul2.png)
 [![abdul3.png](/art/pics/150/abdul3.png)](/art/pics/art/pics/150/abdul3.png)
 [![abdul4.png](/art/pics/150/abdul4.png)](/art/pics/art/pics/150/abdul4.png)
