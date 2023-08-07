@@ -34,14 +34,7 @@ marquee {
   font-family: "Unifraktur";
   font-size: 150%;
   transition: all 5s;
-  border-top: 3px dotted #ff71ce;
-  border-bottom: 3px dotted #ff71ce;
-}
-
-marquee:hover {
-	color: white;
-	transition: all 5s;
-	transform: rotate(180deg);
+  border: 3px dotted #ff71ce;
 }
 
 p {
@@ -334,6 +327,10 @@ main {
             /* this colors BOTH sidebars
     if you want to style them separately,
     create styles for #leftSidebar and #rightSidebar */
+
+.sidebox p {
+  text-align: center;
+}
 
 .sidebox li a {
 	display: inline-block;
