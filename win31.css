@@ -307,7 +307,14 @@ main {
 	display: flex;
 	flex: 1;
 			}
+.wave {
+  border-bottom: solid 3px indigo;
+  padding: 10px;
+}
 
+#copyleft p {
+  font-family: "Unifraktur";
+}
 
 /* Who doesn't like Boxes? */
 
@@ -319,10 +326,11 @@ main {
             }
 
 .sidebox {
-  color: darkseagreen;
+  color: #fffb96;
   background-color: black;
   border: 3px dotted #01cdfe;
   margin: 23px;
+  padding: 10px;
             }
             /* this colors BOTH sidebars
     if you want to style them separately,
@@ -349,6 +357,11 @@ main {
 	color: indigo;
 	margin: 15px;
 	padding: 20;
+}
+
+#avatar img {
+  border: 3px outset #fffb96;
+  border-bottom: 3px dotted #05ffa1;
 }
 aside {
 	background-color: black;
