@@ -1,6 +1,7 @@
 ---
 title: Ankh
 author: qrzn
+css: /win31.css
 ---
 
 ### Ankh  

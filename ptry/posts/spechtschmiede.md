@@ -1,6 +1,7 @@
 ---
 title: Die Spechtschmiede
 author: qrzn
+css: /win31.css
 ---
 
 ### Die Spechtschmiede  

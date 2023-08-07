@@ -1,6 +1,7 @@
 ---
 title: Der gewundene Pfad 
 author: qrzn
+css: /win31.css
 ---
 
 ### Der gewundene Pfad

@@ -12,13 +12,13 @@ Enjoy my little corner of the Internet; I try to keep things simple, yet neat lo
 
 ### Things of Interest on this Page
 
-* [ptry](/ptry/ptry.html) &mdash; Poetry of a disordered Mind
-* [min](/min/min.html) &mdash; Min Publishing &mdash; handcrafted epubs
-* [ascii](/ascii/ascii.html) &mdash; ASCII art, still wip
-* [art](/art/art.html) &mdash; Art, mostly digital
-* [dreams](/art/dreams.html) &mdash; Artificial Dreams of my Egregore
-* [temple](/temple.html) &mdash; Enter the Temple, and despair..
+* [Reading List](/reading.html) &mdash; Books I consider worth reading by most students 
+* [Lyceum](/ptry/ptry.html) &mdash; Poetry of a disordered Mind
+* [Min Publishing](/min/min.html) &mdash; Min Publishing &mdash; handcrafted epubs
+* [The Gallery](/art/art.html) &mdash; Art, mostly digital
+* [Artificial Dreams](/art/dreams.html) &mdash; Artificial Dreams of my Egregore
+* [The Temple](/temple.html) &mdash; Enter the Temple, and despair..
 
 ### About the Author
 
-Shrouded in Mysteree in his Antient Wizards' Tower
+Shrouded in Mysteree in his Antient Wizards' Tower, interested in coding, gaming, occultism and gardening. Wizard, Druid, Martial Artist, Mad Poet. You can contact me [here](/contact.html)

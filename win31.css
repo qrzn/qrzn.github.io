@@ -1,7 +1,7 @@
 :root {
   --body-bg-image: url("https://sadhost.neocities.org/images/tiles/greenmarble.jpg");
   --header-image: url('/cth5.jpg');
-	--footer-image: url('https://sadhost.neocities.org/images/tiles/stars5.gif');
+/*  --footer-image: url('https://sadhost.neocities.org/images/tiles/stars5.gif'); */
 }
 
 @font-face {
@@ -13,30 +13,6 @@
   font-family: "Venice";
 	src: url(/fonts/VeniceClassic.ttf) format("truetype");
 }
-
-@font-face {
-  font-family: Nunito;
-  src: url('https://sadhost.neocities.org/fonts/Nunito-Regular.ttf');
-            }
-
-@font-face {
-  font-family: Nunito;
-  src: url('https://sadhost.neocities.org/fonts/Nunito-Bold.ttf');
-                font-weight: bold;
-            }
-
-@font-face {
-  font-family: Nunito;
-  src: url('https://sadhost.neocities.org/fonts/Nunito-Italic.ttf');
-  font-style: italic;
-            }
-
-@font-face {
-  font-family: Nunito;
-  src: url('https://sadhost.neocities.org/fonts/Nunito-BoldItalic.ttf');
-  font-style: italic;
-  font-weight: bold;
-            }
 
 .runimation {
 	height: 30px;
@@ -50,6 +26,7 @@ body {
 	max-width:720px; 
 	color: black;
 	font-family: "Venice";
+	font-size: 100%;
       }
 
 marquee {
@@ -96,6 +73,17 @@ p {
 	border: 1px indigo dotted;
 }
 
+#flex a {
+  color: darkseagreen;
+  text-decoration: none;
+}
+
+#flex a:hover {
+  color: indigo;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
 main {
   background-color: black;
   padding: 20px;
@@ -122,12 +110,12 @@ main {
 #header {
 	width: 100%;
 	background-color: #5e4e8c;
+	display: inline-flex;
 	/* header color here! */
-	height: 150px;
 	/* this is only for a background image! */
 	/* if you want to put images IN the header, 
 	you can add them directly to the <div id="header"></div> element! */
-	background-image: var(--header-image);
+	/* background-image: var(--header-image); */
 	background-size: 100%;
 	border-radius: 20px;
 	z-index: -2;
@@ -207,7 +195,7 @@ main {
 
 
 /* Lightning to strike Fear into Witches & Heretics! */
-
+/*
 .lightning {
 	width: 100%;
 	background-color: #5e4e8c;
@@ -288,11 +276,10 @@ main {
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
-
+*/
             /* navigation section!! */
 #navbar {
 	height: 40px;
-	/* navbar color */
 	width: 100%;
 	font-size: 123%;
 	border-bottom: 3px darkseagreen double;
@@ -350,6 +337,7 @@ aside {
 	background-color: black;
 	width: 200px;
 	padding: 20px;
+	font-family: "Venice";
 	font-size: smaller;
 	/* this makes the sidebar text slightly smaller */
             }
@@ -361,7 +349,7 @@ pre  {
 h3 {
 /* background stuff, here you can set an image */
 /*	background-image: radial-gradient(indigo, darkseagreen); */
-	font-family: "Unifraktur";
+	font-family: "Venice";
 	font-size: 110%;
 	text-align: left;
 	color: darkseagreen;
@@ -372,7 +360,7 @@ h3 {
 
 h1 {
 	text-align: center;
-	font-family: "Unifraktur";
+	font-family: "Venice";
 }
 
 /* Old Navbar

@@ -1,6 +1,7 @@
 ---
 title: Morgens
 author: qrzn
+css: /win31.css
 ---
 
 ### Morgens

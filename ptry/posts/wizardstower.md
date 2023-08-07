@@ -1,6 +1,7 @@
 ---
 title: wizard's tower
 author: qrzn
+css: /win31.css
 ---
 
 ### wizards'tower

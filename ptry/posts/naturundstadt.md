@@ -1,6 +1,7 @@
 ---
 title: Natur & Stadt
 author: qrzn
+css: /win31.css
 ---
 
 ### Natur & Stadt  
