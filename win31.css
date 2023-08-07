@@ -1,5 +1,5 @@
 :root {
-  --body-bg-image: url("https://sadhost.neocities.org/images/tiles/greenmarble.jpg");
+  --body-bg-image: url("https://sadhost.neocities.org/images/tiles/animate.gif");
   --header-image: url('/cth5.jpg');
 /*  --footer-image: url('https://sadhost.neocities.org/images/tiles/stars5.gif'); */
 }
@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: "Venice";
-	src: url(/fonts/VeniceClassic.ttf) format("truetype");
+  src: url(/fonts/VeniceClassic.ttf) format("truetype");
 }
 
 .runimation {
@@ -21,17 +21,21 @@
 body {
 	padding: 5%;
 	background-image: var(--body-bg-image);
-	background-size: 96px;
+	background-size: 320px;
 	margin: 0 auto;
 	max-width:720px; 
 	color: black;
 	font-family: "Venice";
-	font-size: 100%;
+	font-size: 125%;
       }
 
 marquee {
-  color: crimson;
-	transition: all 5s;
+  color: #fffb96;
+  font-family: "Unifraktur";
+  font-size: 150%;
+  transition: all 5s;
+  border-top: 3px dotted #ff71ce;
+  border-bottom: 3px dotted #ff71ce;
 }
 
 marquee:hover {
@@ -73,24 +77,13 @@ p {
 	border: 1px indigo dotted;
 }
 
-#flex a {
-  color: darkseagreen;
-  text-decoration: none;
-}
-
-#flex a:hover {
-  color: indigo;
-  text-decoration: underline;
-  transition: 0.5s;
-}
-
 main {
   background-color: black;
   padding: 20px;
   order: 2;
 	border: 3px mediumpurple solid;
 	border-radius: 20px;
-	color: darkseagreen;
+	color: #05ffa1;
             }
 
 #rightSidebar {
@@ -284,6 +277,7 @@ main {
 	font-size: 123%;
 	border-bottom: 3px darkseagreen double;
 	border-radius: 10px;
+	text-decoration: line-through;
             }
 
 #navbar ul {
@@ -306,12 +300,12 @@ main {
             }
 
 #navbar li a {
-	color: darkseagreen;
+	color: #b967ff;
 	text-decoration: none;
             }
 
 #navbar li a:hover {
-	color: indigo;
+	color: #05ffa1;
 	cursor: pointer;
 	transition: all 1s;
             }
@@ -325,14 +319,40 @@ main {
 /* Who doesn't like Boxes? */
 
 .box {
-	background-color: #13092D;
-	border: 1px solid #ED64F5;
-	padding: 10px;
+  color: black;
+  background-color: #ff71ce;
+  border: 3px dotted #05ffa1;
+  margin: 23px;
             }
 
+.sidebox {
+  color: darkseagreen;
+  background-color: black;
+  border: 3px dotted #01cdfe;
+  margin: 23px;
+            }
             /* this colors BOTH sidebars
     if you want to style them separately,
     create styles for #leftSidebar and #rightSidebar */
+
+.sidebox li a {
+	display: inline-block;
+	text-decoration: none;
+	color: #b967ff;
+            }
+.sidebox li a:hover {
+	color: #05ffa1;
+	transition: all 1s;
+	text-decoration: line-through;
+	cursor: cross;
+            }
+.sidebox ul {
+	list-style-image: url('/nonexistent.svg');
+	list-style-type: georgian;
+	color: indigo;
+	margin: 15px;
+	padding: 20;
+}
 aside {
 	background-color: black;
 	width: 200px;
@@ -352,13 +372,14 @@ h3 {
 	font-family: "Venice";
 	font-size: 110%;
 	text-align: left;
-	color: darkseagreen;
+	color: #ff71ce;
 	padding: 3px;
 	outline: none;
-	border-bottom: 1px solid indigo;
+	border-bottom: 3px dotted #01cdfe;
 }
 
 h1 {
+  color: #fffb96;
 	text-align: center;
 	font-family: "Venice";
 }
@@ -383,17 +404,26 @@ h1 {
 	list-style-type: none;
 }
 
-li a {
+#gallery li a {
 	display: inline-block;
 	text-decoration: none;
-	color: darkorchid;
 }
-li a:hover {
-	color: seashell;
+#gallery li a:hover {
+	color: #05ffa1;
 	transition: all 1s;
 	text-decoration: underline;
 }
 
+#gallery a {
+	display: inline-block;
+	text-decoration: none;
+	color: darkorchid;
+}
+#gallery a:hover {
+	color: seashell;
+	transition: all 1s;
+	text-decoration: underline;
+}
 footer {
   background-color: transparent;
 /*	background-image: var(--footer-image); */

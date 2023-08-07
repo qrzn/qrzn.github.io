@@ -4,9 +4,9 @@ author: qrzn
 css: /win31.css
 ---
 
-### Welcome to my Realm, Mortal
+### Welcome to my Realm
 
-Greetings, weary traveller!
+Greetings, fellow student!
 
 Enjoy my little corner of the Internet; I try to keep things simple, yet neat looking.
 
@@ -14,11 +14,13 @@ Enjoy my little corner of the Internet; I try to keep things simple, yet neat lo
 
 * [Reading List](/reading.html) &mdash; Books I consider worth reading by most students 
 * [Lyceum](/ptry/ptry.html) &mdash; Poetry of a disordered Mind
-* [Min Publishing](/min/min.html) &mdash; Min Publishing &mdash; handcrafted epubs
+* [Min Publishing](/min/min.html) &mdash; Min Publishing &mdash; handcrafted Ebooks
 * [The Gallery](/art/art.html) &mdash; Art, mostly digital
 * [Artificial Dreams](/art/dreams.html) &mdash; Artificial Dreams of my Egregore
 * [The Temple](/temple.html) &mdash; Enter the Temple, and despair..
 
 ### About the Author
 
-Shrouded in Mysteree in his Antient Wizards' Tower, interested in coding, gaming, occultism and gardening. Wizard, Druid, Martial Artist, Mad Poet. You can contact me [here](/contact.html)
+Shrouded in Mysteree in his Antient Wizards' Tower...
+
+interested in coding, gaming, occultism and gardening.It's a neurodivergent Sourcerer, Druid, Martial Artist, Mad Poet. You can contact me [>here<](/contact.html)
