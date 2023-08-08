@@ -16,7 +16,7 @@ for image_file in "$input_folder"/*.jpg "$input_folder"/*.jpeg "$input_folder"/*
         filename=$(basename "${image_file%.*}")
 
         # Resize the image to a width of 150px and preserve the aspect ratio
-        convert "$image_file" -resize 150x "$output_folder/${filename}.${image_file##*.}"
+        convert "$image_file" -resize 75x "$output_folder/${filename}.${image_file##*.}"
     fi
 done
 

@@ -1,5 +1,6 @@
 :root {
-  --body-bg-image: url("https://sadhost.neocities.org/images/tiles/animate.gif");
+  --body-bg-image: url("/img/squares.bmp");
+  --main-bg-image: url("/img/dos.png");
   --header-image: url('/cth5.jpg');
 /*  --footer-image: url('https://sadhost.neocities.org/images/tiles/stars5.gif'); */
 }
@@ -14,20 +15,63 @@
   src: url(/fonts/VeniceClassic.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Helvetica";
+  src: url(/fonts/Helvetica.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "dos";
+  src: url(/fonts/dos.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "pixel";
+  src: url(/fonts/pixel.ttf) format("truetype");
+}
+
 .runimation {
 	height: 30px;
 }
 
 body {
-	padding: 5%;
+	padding: 2%;
 	background-image: var(--body-bg-image);
-	background-size: 320px;
+	background-size: auto;
 	margin: 0 auto;
-	max-width:720px; 
+	max-width: 720px; 
 	color: black;
-	font-family: "Venice";
+	font-family: "dos";
 	font-size: 125%;
       }
+
+.windows-bar {
+  background-color: #ff71ce;
+  height: 30px;
+  border-top: 2px solid #fff;
+  position: fixed;
+}
+
+.windows-button {
+  width: 10px;
+  height: 10px;
+  background-color: #f00;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 10px;
+}
+
+.windows-button:nth-child(2) {
+  background-color: #ff0;
+  margin-left: 20px;
+}
+
+.windows-button:nth-child(3) {
+  background-color: #0f0;
+  margin-left: 20px;
+}
 
 marquee {
   color: #fffb96;
@@ -51,14 +95,13 @@ p {
 }
 #gallery img {
   border: 1px solid orchid;
-	flex: 3;
+  flex: 3;
   border-radius: 3px;
-  padding: 3px;
-  width: 150px;
-  height: 150px;
+  width: 75px;
+  height: 75px;
   display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
+  margin: auto;
+  margin-right: 2px;
 
 }
 
@@ -72,25 +115,49 @@ p {
 
 main {
   background-color: black;
-  padding: 20px;
+  background-image: var(--main-bg-image);
+  background-size: auto;
+  scrollbar-color: #b967ff #ff71ce;
+  scrollbar-width: 10px;
+  height: 720px;
+  position: sticky;
+  top: 0;
+  position: -webkit-sticky;
+  overflow: scroll;
+  min-width: 640px;
+  width: 720px;
+  max-width: 1080px;
+  padding: 60px;
   order: 2;
-	border: 3px mediumpurple solid;
-	border-radius: 20px;
-	color: #05ffa1;
-            }
+  border-top: 23px #c0c0c0 solid;
+  border-bottom: 23px #c0c0c0 inset;
+  border-left: 5px #c0c0c0 solid;
+  border-right: 5px #c0c0c0 solid;
+  color: #05ffa1;
+  box-shadow: 12px 12px 2px 1px black;
+}
+
+main p {
+  padding: 10px;
+  margin: 10px;
+}
 
 #rightSidebar {
 	order: 3;
             }
 
 #container {
-	max-width: 900px;
+    width: 600px;
 	/* this is the width of your layout! */
 	/* if you change the above value, scroll to the bottom
 	and change the media query according to the comment! */
 	margin: 0 auto;
 	/* this centers the entire page */
 	position: center;
+	background-color: blue;
+  box-shadow: 12px 12px 2px 1px black;
+	padding: 23px;
+	margin: 23px;
             }
 
 #header {
@@ -263,12 +330,14 @@ main {
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 */
-            /* navigation section!! */
+ 
+  /* navigation section!! */
 #navbar {
 	height: 40px;
-	width: 100%;
+	width: 400px;
 	font-size: 123%;
 	border-bottom: 3px darkseagreen double;
+	background-color: black;
 	border-radius: 10px;
 	text-decoration: line-through;
             }
@@ -313,7 +382,8 @@ main {
 }
 
 #copyleft p {
-  font-family: "Unifraktur";
+  font-size: small;
+  color: black;
 }
 
 /* Who doesn't like Boxes? */
@@ -324,45 +394,65 @@ main {
   border: 3px dotted #05ffa1;
   margin: 23px;
             }
-
+.update-box {
+  width: 320px;
+  height: 200px;
+  background-color: blue;
+  border: 3px double #01cdfe;
+  padding: 10px;
+  margin: 23px;
+  box-shadow: 12px 12px 2px 1px black;
+}
 .sidebox {
-  color: #fffb96;
-  background-color: black;
-  border: 3px dotted #01cdfe;
+  font-family: "dos";
+  color: #aaa;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 23px;
+  height: 500px;
+  background-color: #aa0000;
+  border: 3px double #01cdfe;
   margin: 23px;
   padding: 10px;
+  box-shadow: 12px 12px 2px 1px black;
             }
             /* this colors BOTH sidebars
     if you want to style them separately,
     create styles for #leftSidebar and #rightSidebar */
 
+#avatar {
+  width: 150px;
+  height: 150px;
+  border-top: 11px groove #b967ff;
+  border-left: 11px groove #05ffa1;
+  border-right: 11px groove #01cdfe;
+  border-bottom: 11px groove #fffb96;
+  display:block;
+}
 .sidebox p {
   text-align: center;
 }
 
 .sidebox li a {
+  font-family: "dos";
 	display: inline-block;
+	border: 3px black outset;
 	text-decoration: none;
-	color: #b967ff;
+	color: #aaa;
+	margin: 2px;
+	padding: 3px;
             }
 .sidebox li a:hover {
-	color: #05ffa1;
-	transition: all 1s;
-	text-decoration: line-through;
-	cursor: cross;
+	border: 3px black inset;
             }
 .sidebox ul {
 	list-style-image: url('/nonexistent.svg');
-	list-style-type: georgian;
-	color: indigo;
+	list-style-type: square;
+	color: black;
 	margin: 15px;
 	padding: 20;
 }
 
-#avatar img {
-  border: 3px outset #fffb96;
-  border-bottom: 3px dotted #05ffa1;
-}
 aside {
 	background-color: black;
 	width: 200px;
@@ -379,19 +469,23 @@ pre  {
 h3 {
 /* background stuff, here you can set an image */
 /*	background-image: radial-gradient(indigo, darkseagreen); */
-	font-family: "Venice";
-	font-size: 110%;
 	text-align: left;
+	font-family: "pixel";
 	color: #ff71ce;
 	padding: 3px;
 	outline: none;
-	border-bottom: 3px dotted #01cdfe;
+	border-bottom: 3px solid #aaa;
 }
 
 h1 {
+  position: sticky;
+  background-color: #0000aa;
+  position: -webkit-sticky;
+  top: 0;
   color: #fffb96;
-	text-align: center;
-	font-family: "Venice";
+  font-family: "Venice";
+  border-bottom: 5px outset #c0c0c0;
+  text-align: center;
 }
 
 /* Old Navbar
@@ -409,9 +503,23 @@ h1 {
 
 */
 
+#gallery {
+ color: #aaa;
+ height: 500px;
+ overflow: scroll;
+ min-width: 460px;
+ background: #0000aa;
+ border: #aaa 3px double;
+ border-width: 10px;
+ border-radius: 5px;
+ box-shadow: 12px 12px 2px 1px black;
+}
+
 #gallery ul {
 	list-style-image: url('/nonexistent.svg');
 	list-style-type: none;
+	padding: 10px;
+	margin: 10px;
 }
 
 #gallery li a {
@@ -427,23 +535,23 @@ h1 {
 #gallery a {
 	display: inline-block;
 	text-decoration: none;
-	color: darkorchid;
+	color: #b967ff;
 }
 #gallery a:hover {
-	color: seashell;
+	color: #fffb96;
 	transition: all 1s;
 	text-decoration: underline;
 }
 footer {
-  background-color: transparent;
+  background-color: #c0c0c0;
 /*	background-image: var(--footer-image); */
-	background-size: 40px;
-  /* background color for footer */
-	max-width: 540px;
-  height: 100px;
-  padding: 10px;
+  background-size: 40px;
+  max-width: 720px;
+  height: 23px;
+  padding: 5px;
+  border: 5px #c0c0c0 inset;
 	margin: auto;
-  text-align: center;
+  text-align: left;
   /* this centers the footer text */
             }
 
@@ -480,12 +588,14 @@ footer {
 	margin: auto;
 	width: 93px;
 	height: 93px;
+	border: 3px #c0c0c0 inset;
 }
 
 #sigil:hover {
 	transform: scale(23.5) skewY(60deg) translate(-111px, -333px);
 	cursor: wait;
 	transition: all 10s;
+	border: none;
 	filter: saturate(7) drop-shadow(8px 8px 10px black) blur(4px) brightness(250%);
 	-webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
 }
