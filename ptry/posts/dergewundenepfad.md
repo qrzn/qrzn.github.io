@@ -4,7 +4,7 @@ author: qrzn
 css: /win31.css
 ---
 
-### Der gewundene Pfad
+## Der gewundene Pfad
 
 Der gewundene Pfad, den ich heut sah  
 mal wirkte er fern, mal wirkte er nah  
@@ -23,3 +23,5 @@ Woher ich das weiß?
 Eben durch Dao  
 denn Dao  
 ist nicht schlau
+
+[back to Poetry](/ptry/ptry.html)

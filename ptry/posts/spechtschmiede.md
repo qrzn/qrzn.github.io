@@ -4,7 +4,7 @@ author: qrzn
 css: /win31.css
 ---
 
-### Die Spechtschmiede  
+## Die Spechtschmiede  
   
 Spitzbuben und Spechtschmieden  
 Sind Wörter heute meist vermieden  
@@ -28,3 +28,5 @@ Oh wei!
 Oder lieber wu wei?  
 Der Weg der Mitte  
 Oder Bodybuilding mit Whey?  
+
+[back to Poetry](/ptry/ptry.html)

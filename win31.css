@@ -1,5 +1,5 @@
 :root {
-  --body-bg-image: url("/img/squares.bmp");
+  --body-bg-image: url("/img/setsound.png");
   --main-bg-image: url("/img/dos.png");
   --header-image: url('/cth5.jpg');
 /*  --footer-image: url('https://sadhost.neocities.org/images/tiles/stars5.gif'); */
@@ -35,50 +35,13 @@
 }
 
 body {
-	padding: 2%;
-	background-image: var(--body-bg-image);
-	background-size: auto;
-	margin: 0 auto;
-	max-width: 720px; 
-	color: black;
-	font-family: "dos";
-	font-size: 125%;
-      }
-
-.windows-bar {
-  background-color: #ff71ce;
-  height: 30px;
-  border-top: 2px solid #fff;
-  position: fixed;
-}
-
-.windows-button {
-  width: 10px;
-  height: 10px;
-  background-color: #f00;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  margin-left: 10px;
-}
-
-.windows-button:nth-child(2) {
-  background-color: #ff0;
-  margin-left: 20px;
-}
-
-.windows-button:nth-child(3) {
-  background-color: #0f0;
-  margin-left: 20px;
-}
-
-marquee {
-  color: #fffb96;
-  font-family: "Unifraktur";
-  font-size: 150%;
-  transition: all 5s;
-  border: 3px dotted #ff71ce;
+  padding: 2%;
+  background-image: var(--body-bg-image);
+  background-size: auto;
+  margin: 0 auto;
+  max-width: 720px; 
+  color: black;
+  font-family: "dos";
 }
 
 p {
@@ -90,8 +53,11 @@ p {
 	font-family: monospace;
 	background: black;
 	color: darkseagreen;
-	border: 1px lightgreen;
+	border: 3px dotted lightgreen;
 	display: block;
+	padding: 10px;
+	margin: 10px;
+	width: 500px;
 }
 #gallery img {
   border: 1px solid orchid;
@@ -110,7 +76,7 @@ p {
   opacity: 0.5;
   filter: grayscale(100%);
   transition: 0.5s;
-	border: 1px indigo dotted;
+  border: 1px indigo dotted;
 }
 
 main {
@@ -119,20 +85,19 @@ main {
   background-size: auto;
   scrollbar-color: #b967ff #ff71ce;
   scrollbar-width: 10px;
-  height: 720px;
+  height: auto;
   position: sticky;
   top: 0;
   position: -webkit-sticky;
   overflow: scroll;
-  min-width: 640px;
   width: 720px;
-  max-width: 1080px;
-  padding: 60px;
+  padding: 40px;
+  margin: auto;
   order: 2;
   border-top: 23px #c0c0c0 solid;
   border-bottom: 23px #c0c0c0 inset;
-  border-left: 5px #c0c0c0 solid;
-  border-right: 5px #c0c0c0 solid;
+  border-left: 3px #c0c0c0 solid;
+  border-right: 3px #c0c0c0 solid;
   color: #05ffa1;
   box-shadow: 12px 12px 2px 1px black;
 }
@@ -141,24 +106,63 @@ main p {
   padding: 10px;
   margin: 10px;
 }
-
+#top-boxes {
+  display: flex;
+  padding: auto;
+}
 #rightSidebar {
 	order: 3;
             }
 
 #container {
-    width: 600px;
-	/* this is the width of your layout! */
-	/* if you change the above value, scroll to the bottom
-	and change the media query according to the comment! */
-	margin: 0 auto;
-	/* this centers the entire page */
-	position: center;
-	background-color: blue;
+  width: auto;
+  position: center;
+  background-color: black;
   box-shadow: 12px 12px 2px 1px black;
-	padding: 23px;
-	margin: 23px;
-            }
+  margin: 23px;
+  padding: auto;
+  order: 5;
+  border: double gray 4px;
+}
+
+#index {
+ color: #c0c0c0;
+
+}
+
+#container2 {
+  width: auto;
+  color: black;
+  font-family: "dos";
+  font-size: smaller;
+  position: center;
+  background-color: #00ff9f;
+  margin: 23px auto;
+  padding: auto;
+  order: 4;
+  border: double gray 4px;
+}
+
+#container2 marquee {
+  background: #001eff;
+  color: #d600ff;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+#mainbox {
+  width: 500px;
+  position: center;
+  background-color: black;
+  box-shadow: 12px 12px 2px 1px black;
+  margin-left: 2px;
+  padding-top: 23px;
+  border: double gray 4px;
+}
 
 #header {
 	width: 100%;
@@ -372,7 +376,7 @@ main p {
 	transition: all 1s;
             }
 
-#flex {
+.flex {
 	display: flex;
 	flex: 1;
 			}
@@ -404,21 +408,27 @@ main p {
   box-shadow: 12px 12px 2px 1px black;
 }
 .sidebox {
-  font-family: "dos";
-  color: #aaa;
+  font-family: "pixel";
+  justify-content: center;
+  align-items: center;
+  color: #00ff9f;
   position: sticky;
   position: -webkit-sticky;
   top: 23px;
-  height: 500px;
-  background-color: #aa0000;
+  height: auto;
+  background-color: #bd00ff;
   border: 3px double #01cdfe;
   margin: 23px;
   padding: 10px;
   box-shadow: 12px 12px 2px 1px black;
-            }
-            /* this colors BOTH sidebars
-    if you want to style them separately,
-    create styles for #leftSidebar and #rightSidebar */
+  order: 1;
+}
+#avatar-box {
+  width: 150px;
+  height:150px;
+  display: inline;
+  order: 3;
+}
 
 #avatar {
   width: 150px;
@@ -427,30 +437,54 @@ main p {
   border-left: 11px groove #05ffa1;
   border-right: 11px groove #01cdfe;
   border-bottom: 11px groove #fffb96;
-  display:block;
+  display:inline;
 }
+
+#sonic {
+  width: 32px;
+  height: 32px;
+}
+
+#base {
+  width: 150px;
+  display: inline;
+}
+
+#contentdotexe {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
 .sidebox p {
   text-align: center;
 }
 
 .sidebox li a {
-  font-family: "dos";
 	display: inline-block;
-	border: 3px black outset;
 	text-decoration: none;
-	color: #aaa;
+	font-size: 150%;
+	color: #00ff9f;
 	margin: 2px;
 	padding: 3px;
             }
+
 .sidebox li a:hover {
-	border: 3px black inset;
+  color: #00b8ff;
+}
+
+.sidebox li a:hover::before {
+  content: '>';
+  position: absolute;
+  left: 30px;
             }
 .sidebox ul {
 	list-style-image: url('/nonexistent.svg');
-	list-style-type: square;
-	color: black;
+	list-style-type: none;
+	background: #001eff;
 	margin: 15px;
-	padding: 20;
+	padding: 20px;
+	border: 3px double #00ff9f;
 }
 
 aside {
@@ -467,25 +501,40 @@ pre  {
      }
 
 h3 {
-/* background stuff, here you can set an image */
-/*	background-image: radial-gradient(indigo, darkseagreen); */
-	text-align: left;
-	font-family: "pixel";
-	color: #ff71ce;
-	padding: 3px;
-	outline: none;
-	border-bottom: 3px solid #aaa;
+  text-align: left;
+  font-family: "pixel";
+  background: #bd00ff;
+  color: #00b8ff;
+  padding: 3px;
+  margin: 0 auto;
+  outline: none;
+}
+
+h2 {
+  text-align: left;
+  background: #0000aa;
+  font-family: "pixel";
+  color: #ff71ce;
+  padding: auto;
+  margin: auto;
+  outline: none;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  border-bottom: 3px solid #aaa;
+  text-align: center;
 }
 
 h1 {
-  position: sticky;
-  background-color: #0000aa;
-  position: -webkit-sticky;
+  background-color: #00ff9f;
   top: 0;
-  color: #fffb96;
-  font-family: "Venice";
-  border-bottom: 5px outset #c0c0c0;
+  color: #d600ff;
+  font-family: "dos";
+  font-variant: small-caps;
+  border: 5px double #bd00ff;
   text-align: center;
+  padding: auto;
+  margin: auto;
 }
 
 /* Old Navbar
@@ -504,38 +553,42 @@ h1 {
 */
 
 #gallery {
- color: #aaa;
+ color: #00ff9f;
  height: 500px;
+ width: auto;
  overflow: scroll;
  min-width: 460px;
- background: #0000aa;
- border: #aaa 3px double;
- border-width: 10px;
- border-radius: 5px;
+ background: #001eff;
+ padding: auto;
+ margin: auto;
+ border: #bd00ff 3px double;
  box-shadow: 12px 12px 2px 1px black;
 }
 
+
 #gallery ul {
-	list-style-image: url('/nonexistent.svg');
-	list-style-type: none;
-	padding: 10px;
-	margin: 10px;
+  list-style-image: url('/nonexistent.svg');
+  list-style-type: square;
+  padding: 23px;
+  margin: 10px;
 }
 
 #gallery li a {
-	display: inline-block;
-	text-decoration: none;
+  font-family: "dos";
+  display: inline-block;
+  text-decoration: none;
 }
 #gallery li a:hover {
-	color: #05ffa1;
-	transition: all 1s;
-	text-decoration: underline;
+  color: #05ffa1;
+  transition: all 1s;
+  text-decoration: underline;
 }
 
 #gallery a {
-	display: inline-block;
-	text-decoration: none;
-	color: #b967ff;
+  font-family: "pixel";
+  display: inline-block;
+  text-decoration: none;
+  color: #b967ff;
 }
 #gallery a:hover {
 	color: #fffb96;
@@ -544,22 +597,15 @@ h1 {
 }
 footer {
   background-color: #c0c0c0;
-/*	background-image: var(--footer-image); */
   background-size: 40px;
   max-width: 720px;
-  height: 23px;
-  padding: 5px;
+  position: inline-block;
+  height: 11px;
+  padding: 23px;
+  margin: 23px;
   border: 5px #c0c0c0 inset;
-	margin: auto;
   text-align: left;
-  /* this centers the footer text */
-            }
-
-
-
-
-
-/* Dropdowns used in the Navbar */
+}
 
 .dropdown {
 	position: relative;

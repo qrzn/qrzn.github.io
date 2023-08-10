@@ -10,6 +10,8 @@ Greetings, fellow student!
 
 Enjoy my little corner of the Internet; I try to keep things simple, yet neat looking.
 
+Can you find all the hidden occultic signs and secret lore hidden deep within?
+
 ### Things of Interest on this Page
 
 * [Reading List](/reading.html) &mdash; Books I consider worth reading by most students 

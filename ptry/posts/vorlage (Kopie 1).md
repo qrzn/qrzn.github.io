@@ -4,7 +4,7 @@ author: qrzn
 css: /win31.css
 ---
 
-### Der gewundene Pfad
+## Der gewundene Pfad
 
 Der gewundene Pfad den ich heut sah  
 mal wirkte er fern, mal wirkte er nah  
@@ -19,3 +19,5 @@ Greifen wir der Sache unter die Nieren
 denn das Dao und De  
 ist wie die Bundeslade in Spee  
 Woher weiß ich das
+
+[back to Poetry](/ptry/ptry.html)

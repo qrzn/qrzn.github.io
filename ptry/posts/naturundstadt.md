@@ -4,7 +4,7 @@ author: qrzn
 css: /win31.css
 ---
 
-### Natur & Stadt  
+## Natur & Stadt  
   
 Der Sog der großen Stadt  
 Macht auf Dauer die Seele matt  
@@ -17,3 +17,5 @@ Als auf dem Lande
 Nicht wer ist er  
 Was sind seine Bande?  
 Ein kurzer Blick und Ende  
+
+[back to Poetry](/ptry/ptry.html)

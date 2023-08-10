@@ -4,7 +4,7 @@ author: qrzn
 css: /win31.css
 ---
 
-### Ode an Silenus-Coniferus
+## Ode an Silenus-Coniferus
 
 Oh Silenus du Coifer!  
 Nach dir rief bereits der Schiefer  
@@ -25,3 +25,5 @@ jemand wie Du erschien dem Zhuangzi im Traum
 
 Und vielleicht auch mir?  
 Denn ein Opfer gab ich dir.
+
+[back to Poetry](/ptry/ptry.html)

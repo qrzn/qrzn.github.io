@@ -4,7 +4,7 @@ author: qrzn
 css: /win31.css
 ---
 
-### Ankh  
+## Ankh  
   
 Ruhe und Stille  
 findet sich  
@@ -16,3 +16,5 @@ das Trübe steht für Yin
 Das Klare steht für Yang  
 und erzeugen alle Dinge  
 gemeinsam.
+
+[back to Poetry](/ptry/ptry.html)

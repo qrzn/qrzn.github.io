@@ -4,7 +4,7 @@ author: qrzn
 css: /win31.css
 ---
 
-### wizards'tower
+## wizards'tower
 
 shrouded in mystery in his antient wizards' tower  
 sits the mighty sage, meditating upon his power  
@@ -26,4 +26,6 @@ heinous creature dwelling in a shabby yurt
 unlike our greatest wizard in his tower  
 we appraise thy power glourious mage!  
 mix us a potion with thy love and sage.  
+
+[back to Poetry](/ptry/ptry.html)
 

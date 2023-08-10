@@ -16,3 +16,7 @@ Welcome to my Art page, there are a few categories.
 ### Artificial Dreams
 
 [Egregore](/art/dreams.html) &mdash; AI generated Art.
+
+### ASCII
+
+[ASCII Art](/ascii/ascii.html) &mdash; ASCII Art.

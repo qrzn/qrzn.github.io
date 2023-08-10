@@ -4,9 +4,9 @@ author: qrzn
 css: /win31.css
 ---
 
-# code boxes yay
+# ASCII ART 
 
-Lorem ipsum blaalhgkhaurh
+ASCII Art, most I found on the web but some I created myself, like the wizard.
 
 ### The Wizard
 
@@ -29,9 +29,12 @@ Behold, here you see a portrait of the wizard
 ▒▒██████████████████████████▒▒  
 ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  
 `
+[wizard.txt](/ascii/wizard.txt)
 
 ### Lord Dark's Keep
+
 ...Where Brave Knights Tremble
+
 `
    /\                                                        /\
   |  |                                                      |  |

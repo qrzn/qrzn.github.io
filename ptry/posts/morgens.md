@@ -4,7 +4,7 @@ author: qrzn
 css: /win31.css
 ---
 
-### Morgens
+## Morgens
 
 Des Morgens steh ich auf  
 trinke einen Matcha,  
@@ -26,3 +26,5 @@ Wieso ist er gleich mit Shen Nong,
 ertönt doch nach dem Zazen stets der Gong  
 und wirft uns zurück ins Reich der Maya  
 doch gestärkt, erhaben wie die Würde eines Raja.
+
+[back to Poetry](/ptry/ptry.html)
