@@ -1,0 +1,3 @@
+/home/user/git/qrzn.github.io/vorlage.md
+/home/user/git/qrzn.github.io/test.md
+/home/user/git/qrzn.github.io/another_folder/

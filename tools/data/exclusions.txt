@@ -1,0 +1,4 @@
+shrines/
+vorlage.md
+test.html
+template.html

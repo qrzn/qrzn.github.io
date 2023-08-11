@@ -6,7 +6,7 @@ css: /win31.css
 
 # Poetry
 
-Here are a few poems I've written so far when I had the inspiration.
+Here are a few poems I've written so far when I had the inspiration. Most of them are written in German, although sometimes I write them in English or Latin. There are many more than on this page, I'll have to browse my physical notebooks, so expect updates from time to time.
 
 ### German
 
