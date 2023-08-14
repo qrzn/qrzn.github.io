@@ -20,6 +20,7 @@ Can you find all the hidden occultic signs and secret lore hidden deep within?
 * [The Gallery](/art/art.html) &mdash; Art, mostly digital
 * [Artificial Dreams](/art/dreams.html) &mdash; Artificial Dreams of my Egregore
 * [The Temple](/temple.html) &mdash; Enter the Temple, and despair..
+* [Master of Orion](/moo/moo.html) &mdash; A page dedicated to Master of Orion
 
 you can also browse those things from the sidebar
 pro tip: hover over the Golden Apple to achieve Erisian Enlightenment!

@@ -117,8 +117,12 @@ main p {
 
 #container {
   width: auto;
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
   position: center;
-  background-color: black;
+  background-color: #c0c0c0;
   box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.3);
   margin: 23px;
   padding: auto;
@@ -126,6 +130,30 @@ main p {
   border: double gray 4px;
 }
 
+.progress-container {
+  width: 300px;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  width: 0;
+  height: 100%;
+  background-color: #3498db;
+  border-radius: 10px;
+  animation: progressAnimation 5s ease-in-out infinite;
+}
+
+@keyframes progressAnimation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
 #index {
  color: #c0c0c0;
 
@@ -139,7 +167,7 @@ main p {
   position: center;
   background-color: #00ff9f;
   margin: 23px auto;
-  padding: auto;
+  padding: 23px auto;
   order: 4;
   border: double gray 4px;
 }
