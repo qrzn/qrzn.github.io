@@ -21,6 +21,7 @@ Can you find all the hidden occultic signs and secret lore hidden deep within?
 * [Artificial Dreams](/art/dreams.html) &mdash; Artificial Dreams of my Egregore
 * [The Temple](/temple.html) &mdash; Enter the Temple, and despair..
 * [Master of Orion](/moo/moo.html) &mdash; A page dedicated to Master of Orion
+* [Potion](/daggerfall/potions.html) &mdash; Potion recipes for various arcane realms. 
 
 you can also browse those things from the sidebar
 pro tip: hover over the Golden Apple to achieve Erisian Enlightenment!

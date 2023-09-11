@@ -1,7 +1,6 @@
 :root {
   --body-bg-image: url("/img/setsound.png");
-  --gallery-bg-image: url("/img/moo-bg2.png");
-  --main-bg-image: url("/img/moo_bg.png");
+  --main-bg-image: url("/img/dos.png");
   --header-image: url('/cth5.jpg');
 /*  --footer-image: url('https://sadhost.neocities.org/images/tiles/stars5.gif'); */
 }
@@ -42,8 +41,7 @@ body {
   margin: 0 auto;
   max-width: 720px; 
   color: black;
-  font-family: "dos";
-  cursor: url("/img/dune_cur.png")
+  font-family: "Venice";
 }
 
 p {
@@ -60,18 +58,47 @@ p {
 	margin: auto;
 	width: auto;
 }
+#gallery img {
+  border: 1px solid orchid;
+  flex: 3;
+  border-radius: 3px;
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+  margin: auto;
+  margin-right: 2px;
+
+}
+
+#gallery img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  opacity: 0.5;
+  filter: grayscale(100%);
+  transition: 0.5s;
+  border: 1px indigo dotted;
+}
 
 main {
   background-color: black;
   background-image: var(--main-bg-image);
   background-size: auto;
-  overflow: visible;
-  width: auto;
+  scrollbar-color: #b967ff #ff71ce;
+  scrollbar-width: 10px;
   height: auto;
+  position: sticky;
+  top: 0;
+  position: -webkit-sticky;
+  overflow: scroll;
+  width: 720px;
   padding: auto;
+  padding-left: 23px;
+  padding-right: 23px;
   margin: auto;
-  order: 1;
-  border: outset 23px #d3d3d3;
+  order: 2;
+  border-top: 23px #c0c0c0 solid;
+  border-bottom: 23px #c0c0c0 inset;
+  border-left: 3px #c0c0c0 solid;
+  border-right: 3px #c0c0c0 solid;
   color: #05ffa1;
   box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.3);
 }
@@ -88,37 +115,19 @@ main p {
 	order: 3;
             }
 
-#bottom-box {
-  font-family: "pixel";
-  background-color: #c0c0c0;
-  border: double gray 4px;
-  padding: auto;
-  margin: auto;
-  order: 1;
-}
-
-#bottom-box ul {
+#container {
+  width: auto;
   display: flex;
-  width: 100%;
-  max-width: 100px;
-  margin: 0 auto;
-  margin-left: 0;
-  padding: 32px;
-  list-style-type: none;
-}
-
-#bottom-box li a {
-  font-variant: small-caps;
-  margin: 0 auto;
-  padding: 23px;
-  color: #a6a6a6;
-  background: radial-gradient(#45456d, #1c1c3c);
-  border: 3px solid #8e8e8e;
-  text-decoration: none;
-}
-
-#bottom-box li a:hover {
- color: white;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  position: center;
+  background-color: #c0c0c0;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.3);
+  margin: 23px;
+  padding: auto;
+  order: 5;
+  border: double gray 4px;
 }
 
 .progress-container {
@@ -181,7 +190,7 @@ main p {
   box-shadow: 12px 12px 2px 1px black;
   margin-left: 2px;
   padding-top: 23px;
-  border: outset gray 11px;
+  border: double gray 4px;
 }
 
 #header {
@@ -425,19 +434,24 @@ main p {
   border: 3px double #01cdfe;
   padding: 10px;
   margin: 23px;
+  box-shadow: 12px 12px 2px 1px black;
 }
 .sidebox {
   font-family: "pixel";
   justify-content: center;
   align-items: center;
-  color: #b2b2b2;
-  width: auto;
+  color: #00ff9f;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 23px;
   height: auto;
-  background-color: #b2b2b2;
+  background-color: #bd00ff;
   border: 3px double #01cdfe;
-  margin: 0 auto;
-  padding: 0 auto;
-  order: 2;
+  margin: 23px auto;
+  margin-left: 32px;
+  padding: 23px auto;
+  box-shadow: 12px 12px 2px 1px black;
+  order: 1;
 }
 #avatar-box {
   width: 150px;
@@ -465,62 +479,6 @@ main p {
   width: 150px;
   display: inline;
 }
-.ship-name {
-  border: inset 3px #ae5118;
-  background: black;
-  color: #869e69;
-  font-family: "pixel";
-}
-#ship-list {
-  background-color: #d7651c;
-  justify-content: space-evenly;
-  padding: 5%;
-  margin: 5%;
-  border: solid 3px #c0c0c0;
-}
-
-#ship-list img {
-  size: 64px;
-  width: 64px;
-  height: 64px;
-  border: inset 3px #ae5118;
-  padding: 0;
-  margin: 0;
-}
-
-#ship-list img:hover {
-  transition: 0.5s;
-  border: 3px indigo dotted;
-}
-
-
-#ship-list h3 {
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  color: #924510;
-  background: #d7651c;
-  text-align: center;
-  padding: auto;
-  padding-bottom: 23px;
-  margin: auto;
-}
-#ship-list table {
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  padding: auto;
-  margin: auto;
-}
-#ship-list th {
-  border : solid 3px #ae5118;
-  font-family: "pixel";
-  font-size: 125%;
-  width: 100%;
-  background: black;
-  color: #869e69;
-  padding: 1px;
-}
 
 #contentdotexe {
   position: sticky;
@@ -535,6 +493,7 @@ main p {
 .sidebox li a {
 	display: inline-block;
 	text-decoration: none;
+	font-size: 150%;
 	color: #00ff9f;
 	margin: 2px;
 	padding: 3px;
@@ -547,9 +506,8 @@ main p {
 .sidebox li a:hover::before {
   content: '>';
   position: absolute;
-  left: 530px;
-}
-
+  left: 30px;
+            }
 .sidebox ul {
 	list-style-image: url('/nonexistent.svg');
 	list-style-type: none;
@@ -574,9 +532,8 @@ pre  {
 
 h3 {
   text-align: left;
-  font-family: "pixel";
+  font-family: "Venice";
   background: #bd00ff;
-  background: radial-gradient(#45456d, #1c1c3c);
   color: #00b8ff;
   padding: 3px;
   margin: 0 auto;
@@ -599,15 +556,21 @@ h2 {
 }
 
 h1 {
-  background: radial-gradient(#45456d, #1c1c3c);
+  background-color: #00ff9f;
   top: 0;
-  color: #ffdf51;
-  font-family: "pixel";
+  color: #d600ff;
+  font-family: "dos";
   font-variant: small-caps;
-  border: 3px solid #bd00ff;
+  border: 5px double #bd00ff;
   text-align: center;
-  padding: 3px;
+  padding: auto;
   margin: auto;
+}
+
+h4 {
+  font-family: "Unifraktur";
+  font-variant: "small-caps";
+  text-align: "right";
 }
 
 /* Old Navbar
@@ -625,21 +588,19 @@ h1 {
 
 */
 
-
 #gallery {
- color: #00ff9f;
- height: auto;
- min-height: 423px;
- max-height: 500px;
+ color: #fff765;
+ min-height: 500px;
+ height: 500px;
  width: auto;
  min-width: 300px;
  overflow: scroll;
  min-width: 460px;
- background-image: var(--gallery-bg-image);
- background-size: auto;
- padding: 0;
- margin: 0;
+ background: #996d45;
+ padding: auto;
+ margin: auto;
  border: #bd00ff 3px double;
+ box-shadow: 12px 12px 2px 1px black;
 }
 
 
@@ -666,9 +627,9 @@ h1 {
   color: #b967ff;
 }
 #gallery a:hover {
-  color: #fffb96;
-  transition: all 1s;
-  text-decoration: underline;
+	color: #fffb96;
+	transition: all 1s;
+	text-decoration: underline;
 }
 footer {
   background-color: #c0c0c0;
@@ -721,3 +682,14 @@ footer {
 	-webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
 }
 
+/* Things I borrowed somewhere, just her for legacy reasons */
+/* man pages */
+table.head, table.foot { width: 100%; }
+td.head-rtitle, td.foot-os { text-align: right; }
+td.head-vol { text-align: center; }
+table.foot td { width: 50%; }
+table.head td { width: 33%; }
+div.spacer { margin: 1em 0; }
+code.Nm { font-weight: bold; }
+a.permalink { color: inherit; text-decoration: none; }
+i.Em { text-decoration: underline; }
