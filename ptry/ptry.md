@@ -1,5 +1,5 @@
 ---
-title: qrzn's poetry
+title: Poetry
 author: qrzn
 css: /win31.css
 ---
