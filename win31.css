@@ -1,8 +1,18 @@
 :root {
-  --body-bg-image: url("/img/setsound.png");
+  --body-bg-image: url("/img/roses.png");
   --main-bg-image: url("/img/dos.png");
   --header-image: url('/cth5.jpg');
 /*  --footer-image: url('https://sadhost.neocities.org/images/tiles/stars5.gif'); */
+}
+
+@font-face {
+  font-family: "silvus";
+	src: url(/fonts/silvus.ttf);
+}
+
+@font-face {
+  font-family: "cardinal";
+	src: url(/fonts/Cardinal.ttf);
 }
 
 @font-face {
@@ -35,13 +45,12 @@
 }
 
 body {
-  padding: 2%;
-  background-image: var(--body-bg-image);
-  background-size: auto;
-  margin: 0 auto;
+  padding: 11%;
+  background-color: #4d5d53;
+  margin: auto;
   max-width: 720px; 
   color: black;
-  font-family: "dos";
+  font-family: "cardinal";
 }
 
 p {
@@ -70,6 +79,12 @@ p {
 
 }
 
+#gallery strong {
+  font-family: silvus;
+  font-size: 200%;
+  font-style: normal;
+}
+
 #gallery img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   opacity: 0.5;
@@ -79,33 +94,25 @@ p {
 }
 
 main {
-  background-color: black;
-  background-image: var(--main-bg-image);
+  background-color: #4d5d53;
   background-size: auto;
-  scrollbar-color: #b967ff #ff71ce;
-  scrollbar-width: 10px;
   height: auto;
   position: sticky;
   top: 0;
   position: -webkit-sticky;
-  overflow: scroll;
+  overflow: hidden;
   width: 720px;
   padding: auto;
-  padding-left: 23px;
-  padding-right: 23px;
   margin: auto;
   order: 2;
-  border-top: 23px #c0c0c0 solid;
-  border-bottom: 23px #c0c0c0 inset;
-  border-left: 3px #c0c0c0 solid;
-  border-right: 3px #c0c0c0 solid;
+  border: 23px #4d5d53 solid;
   color: #05ffa1;
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.3);
 }
 
 main p {
   padding: 10px;
   margin: 10px;
+  font-size: 175%;
 }
 #top-boxes {
   display: flex;
@@ -130,32 +137,8 @@ main p {
   border: double gray 4px;
 }
 
-.progress-container {
-  width: 300px;
-  height: 20px;
-  background-color: #ddd;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.progress-bar {
-  width: 0;
-  height: 100%;
-  background-color: #3498db;
-  border-radius: 10px;
-  animation: progressAnimation 5s ease-in-out infinite;
-}
-
-@keyframes progressAnimation {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 100%;
-  }
-}
 #index {
- color: #c0c0c0;
+ color: #78866b;
 
 }
 
@@ -207,204 +190,6 @@ main p {
 	z-index: -2;
             }
 
-/* The Mighty Wizard Icon and Its Behaviour */
-
-#home {
-	display: inline-block;
-	width: 30px;
-	height: 30px;
-}
-
-#home:hover {
-	cursor: none;
-	transform: scale(50.0) translate(50px, 50px);
-	transition: all 5s;
-	-webkit-animation: flash ease-out 0.5s infinite;
-	-moz-animation: flash ease-out 0.5s infinite;
-	animation: flash ease-out 0.5s infinite;
-	animation: shake ease-out 0.5s infinite;
-
-}
-
-#home2 {
-	display: inline-block;
-	width: 30px;
-	height: 30px;
-}
-
-#home2:hover {
-	cursor: none;
-	transform: scale(50.0) translate(50px, 50px);
-	transition: all 5s;
-	-webkit-animation: flash ease-out 0.5s infinite;
-	-moz-animation: flash ease-out 0.5s infinite;
-	animation: flash ease-out 0.5s infinite;
-	animation: shake ease-out 0.5s infinite;
-
-}
-
-#wizgif {
-	width: 200px;
-	height: 200px;
-	display: inline-block;
-	border: 10px crimson double;
-	border-radius: 50%;
-}
-
-/* Tooltips, used for the Wizard*/
-
-.tooltip .tooltiptext {
-	display: none;
-	position: absolute;
-	color: crimson;
-	background-color: black;
-	border-top: 5px crimson double;
-	border-bottom: 5px crimson double;
-	border-radius: 10px;
-	max-width: 500px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	padding: 10px;
-	margin-top: -100px;
-	margin-left: 20px;
-	z-index: 1;
-}
-
-.tooltip:hover .tooltiptext {
-	display: flex;
-	transition: all 1s;
-}
-
-.dropdown:hover .dropdown-content {
-	display: flex;
-	transition: all 1s;
-}
-
-
-/* Lightning to strike Fear into Witches & Heretics! */
-/*
-.lightning {
-	width: 100%;
-	background-color: #5e4e8c;
-	/* header color here! */
-	height: 150px;
-	/* this is only for a background image! */
-	/* if you want to put images IN the header, 
-	you can add them directly to the <div id="header"></div> element! */
-	background-image: var(--header-image);
-	background-size: 100%;
-	border-radius: 20px;
-	-webkit-animation: lighting infinite;
-	-moz-animation: lighting infinite;
-	animation: lighting infinite;
-	animation: lighting infinite;
-  z-index: -1;
-}
-
-.flashit {
-	-webkit-animation: flash ease-out 7s infinite;
-	-moz-animation: flash ease-out 7s infinite;
-	animation: flash ease-out 7s infinite;
-	animation-delay: 2s;
-	z-index: -3;
-
-}
-
-/* Keyframes for Infernal Perusal */
-
-@-webkit-keyframes flash {#333
-    0% { opacity: 1; } 
-    2% { opacity: 0; }
-    3% { opacity: 0.6; }
-    4% { opacity: 0.2; }
-    6% { opacity: 0.9; } 
-    100% { opacity: 1; }
-}
-@keyframes flash {
-    0% { opacity: 1; } 
-    2% { opacity: 0; }
-    3% { opacity: 0.6; }
-    4% { opacity: 0.2; }
-    6% { opacity: .9; } 
-    100% { opacity: 1; }
-}
-
-@keyframes lighting {
-		0% { filter: brightness(0%); }
-		2% { filter: brightness(2%); }
-		3% { filter: brightness(3%);}
-		4% { filter: brightness(4%);}
-		6% { filter: brightness(6%);}
-		100% { filter: brightness(100%);}
-}
-
-@-webkit-keyframes lighting {
-		0% { filter: brightness(0%); }
-		2% { filter: brightness(2%); }
-		3% { filter: brightness(3%);}
-		4% { filter: brightness(4%);}
-		6% { filter: brightness(6%);}
-		100% { filter: brightness(100%);}
-}
-/* Lightning END */
-
-
-/* Shake it, Baby! */
-@keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
-*/
- 
-  /* navigation section!! */
-#navbar {
-	height: 40px;
-	width: 400px;
-	font-size: 123%;
-	border-bottom: 3px darkseagreen double;
-	background-color: black;
-	border-radius: 10px;
-	text-decoration: line-through;
-            }
-
-#navbar ul {
-	display: flex;
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
-	justify-content: space-evenly;
-            }
-
-#navbar ol {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-}
-
-#navbar li {
-	padding-top: 10px;
-	padding-bottom: 10px;
-            }
-
-#navbar li a {
-	color: #b967ff;
-	text-decoration: none;
-            }
-
-#navbar li a:hover {
-	color: #05ffa1;
-	cursor: pointer;
-	transition: all 1s;
-            }
-
 .flex {
 	display: flex;
 	flex: 1;
@@ -437,7 +222,7 @@ main p {
   box-shadow: 12px 12px 2px 1px black;
 }
 .sidebox {
-  font-family: "pixel";
+  font-family: "silvus";
   justify-content: center;
   align-items: center;
   color: #00ff9f;
@@ -445,12 +230,10 @@ main p {
   position: -webkit-sticky;
   top: 23px;
   height: auto;
-  background-color: #bd00ff;
-  border: 3px double #01cdfe;
+  background-color: #4d5d53;
   margin: 23px auto;
   margin-left: 32px;
   padding: 23px auto;
-  box-shadow: 12px 12px 2px 1px black;
   order: 1;
 }
 #avatar-box {
@@ -470,20 +253,9 @@ main p {
   display:inline;
 }
 
-#sonic {
-  width: 32px;
-  height: 32px;
-}
-
 #base {
   width: 150px;
   display: inline;
-}
-
-#contentdotexe {
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
 }
 
 .sidebox p {
@@ -491,30 +263,25 @@ main p {
 }
 
 .sidebox li a {
-	display: inline-block;
-	text-decoration: none;
-	font-size: 150%;
-	color: #00ff9f;
-	margin: 2px;
-	padding: 3px;
-            }
-
-.sidebox li a:hover {
-  color: #00b8ff;
+  display: inline-block;
+  text-decoration: none;
+  font-family: "silvus";
+  font-size: 200%;
+  color: #8f9779;
+  margin: 2px;
+  padding: 3px;
 }
 
-.sidebox li a:hover::before {
-  content: '>';
-  position: absolute;
-  left: 30px;
-            }
+.sidebox li a:hover {
+  color: #738276;
+}
+
 .sidebox ul {
 	list-style-image: url('/nonexistent.svg');
 	list-style-type: none;
-	background: #001eff;
+	background: #4d5d53;
 	margin: 15px;
 	padding: 20px;
-	border: 3px double #00ff9f;
 }
 
 aside {
@@ -532,9 +299,9 @@ pre  {
 
 h3 {
   text-align: left;
-  font-family: "pixel";
-  background: #bd00ff;
-  color: #00b8ff;
+  font-family: "cardinal";
+  font-size: 175%;
+  color: #738678;
   padding: 3px;
   margin: 0 auto;
   outline: none;
@@ -556,15 +323,13 @@ h2 {
 }
 
 h1 {
-  background-color: #00ff9f;
   top: 0;
-  color: #d600ff;
-  font-family: "dos";
-  font-variant: small-caps;
-  border: 5px double #bd00ff;
+  color: #738678;
+  font-family: "cardinal";
+  font-size: 200%;
   text-align: center;
-  padding: auto;
-  margin: auto;
+  padding: 5px auto;
+  margin: 5px auto;
 }
 
 /* Old Navbar
@@ -583,45 +348,35 @@ h1 {
 */
 
 #gallery {
- color: #00ff9f;
+ color: #8f9779;
  min-height: 500px;
  height: 500px;
  width: auto;
  min-width: 300px;
  overflow: scroll;
  min-width: 460px;
- background: #001eff;
+ background: #4d5d53;
  padding: auto;
  margin: auto;
- border: #bd00ff 3px double;
- box-shadow: 12px 12px 2px 1px black;
 }
 
+#gallery::-webkit-scrollbar {
+  display: none;
+}
 
 #gallery ul {
-  list-style-image: url('/nonexistent.svg');
-  list-style-type: square;
-}
-
-#gallery li a {
-  font-family: "dos";
-  display: inline-block;
-  text-decoration: none;
-}
-#gallery li a:hover {
-  color: #05ffa1;
-  transition: all 1s;
-  text-decoration: underline;
+  list-style-type: none;
+  font-size: 175%;
 }
 
 #gallery a {
-  font-family: "pixel";
+  font-family: "Cardinal";
   display: inline-block;
   text-decoration: none;
-  color: #b967ff;
+  color: #78866b;
 }
 #gallery a:hover {
-	color: #fffb96;
+	color: #738276;
 	transition: all 1s;
 	text-decoration: underline;
 }
@@ -647,9 +402,6 @@ footer {
 	position: absolute;
 	color: darkseagreen;
 	background-color: black;
-	border-left: 2px darkseagreen double;
-	border-bottom: 2px darkseagreen double;
-	border-radius: 10px;
 	min-width: auto;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	padding: 10px;
