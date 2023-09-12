@@ -8,42 +8,52 @@ css: /win31.css
 
 **G**ames I've played that I think are worth your while. In the future there might be extended opinion pieces. Let's see.
 
+### Visual Novels
+
+* Valhalla
+
+### Indie
+
+* Starbound
+* Terraria
+* Factorio
+* Stardew Valley
+* Graveyard Keeper
+
+### 4X
+
+* Civilization
+* Sid Meier's Alpha Centauri
+* Master of Orion
+* Master of Magic
+
 ### Strategy
 
 * Emperor
+* Zeus
+* Pharaoh
+* Caesar III
 * Anno
 * Settlers II
-* Civilization
-* Master of Magic
+* X-COM
 
-### Occultism, Freemasonry, Magick et cetera..
+### Role Playing Games
 
-* most works of Aleister Crowley
-* The Ars Goetia
-* Liber Null
-* The Secret Teachings of All Ages by Manly P. Hall
+* The Elder Scrolls series
+* Fallout 1 & 2
+* Arcanum
+* Secret of Mana
+* Legend of Zelda - A Link to the Past
+* Ultima
 
-### Religion & Spirituality
+### Platformers
 
-* The Daodejing
-* Zhuangzi
-* Principia Discordia
-* The Holy Books of Thelema
-* The Book of the SubGenius
-* Zen without Zen Masters
-* Meister Eckhards writings
+* Commander Keen
+* Super Mario Bros.
+* Mega Man
 
-### Philosophy
+### Point&Click Adventures
 
-* Nietzsche
-* (Neo)Platonism
-* Cicero
-* Aristotle
-* The Stoics
-* The Hagakure by Yamamoto Tsunetomo
-
-### Essays
-
-* On Pain by Ernst Jünger
-
-**A**lso note that to me ancient texts seem to be more genuine and valuable. One theory is that ancient people weren't as plagued with information overload as we are today. Their savage and primitive lives made them look at Life in a different way.
+* Broken Sword
+* Shadow of the Comet
+* Veil of Darkness

@@ -6,7 +6,7 @@ css: /win31.css
 
 # Reading List
 
-**T**his list should give the student a thorough grounding on different views of our universe, falsely called by the semi-literate reality.
+**T**his list should give the student a thorough grounding on different views of our universe.
 
 ### Fiction
 
@@ -14,43 +14,65 @@ css: /win31.css
 * Frank Herbert's Dune novels
 * Alice in Wonderland
 * Lord of the Rings
+* Robinson Crusoe
+* Neuromancer
+* The Diamond Age
+* Huckleberry Finn
 * H.P. Lovecraft, fiction, poetry & essays
 * Illuminatus! Trilogy
 * The Prophet by Kahlil Gibran
 * The works of Lord Dunsany
-* The Odyssee & The Illiad by Homer
+* The works of Homer
+* The Argonauts
 * The surving works of Hesiod
 * The works of Edgar Allan Poe
 * I am a Cat by Natsume Soseki
+* The Bacchae
+* Goethe's Faust
+
+### Manga
+
+* Ghost in the Shell
+* Death Note
+* Vagabond
+* Uzumaki
 
 ### Occultism, Freemasonry, Magick et cetera..
 
 * most works of Aleister Crowley
+* the Zohar, preferably later translations
 * The Ars Goetia
 * Liber Null
 * The Secret Teachings of All Ages by Manly P. Hall
 
-### Religion & Spirituality
+### Religion, Spirituality & Philosophy
 
+* The I Ching 
 * The Daodejing
 * Zhuangzi
+* The Bible
+* The Quran
 * Principia Discordia
+* The City of God by St. Augustine
 * The Holy Books of Thelema
 * The Book of the SubGenius
-* Zen without Zen Masters
 * Meister Eckhards writings
-
-### Philosophy
-
+* Walden by Henry David Thoreau
 * Nietzsche
 * (Neo)Platonism
 * Cicero
+* Plutarch's Moralia
+* Epictetus' Enchiridion
 * Aristotle
+* Seneca's On the Shortness of Life
 * The Stoics
 * The Hagakure by Yamamoto Tsunetomo
+* The Book of Tea
 
 ### Essays
 
 * On Pain by Ernst Jünger
 
-Also note that to me ancient texts seem to be more genuine and valuable. One theory is that ancient people weren't as plagued with information overload as we are today. Their savage and primitive lives made them look at Life in a different way.
+### Visual Novels
+
+* Valhalla

@@ -1,5 +1,5 @@
 ---
-title: The Veiled Kingdom of QRZN
+title: The Veiled Garden of QRZN
 author: qrzn
 css: /win31.css
 ---
