@@ -4,9 +4,9 @@ author: qrzn
 css: /win31.css
 ---
 
-# wut
+# Essays
 
-lorem ipsum te nosce sacrificare
+
 
 ### wuuut
 

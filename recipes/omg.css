@@ -1,14 +1,8 @@
-
 :root {
   --body-bg-image: url("/img/roses.png");
   --main-bg-image: url("/img/dos.png");
   --header-image: url('/cth5.jpg');
 /*  --footer-image: url('https://sadhost.neocities.org/images/tiles/stars5.gif'); */
-}
-
-@font-face {
-  font-family: "plante";
-	src: url(/fonts/Plante.ttf);
 }
 
 @font-face {
@@ -46,89 +40,16 @@
   src: url(/fonts/pixel.ttf) format("truetype");
 }
 
-header a {
-  text-decoration: none;
-}
-
-header h4:hover {
-  font-family: "plante";
-  cursor: pointer;
-  transition: all 1s;
-}
-
-  /* navigation section!! */
-#navbar {
-	height: 40px;
-	width: 400px;
-	font-size: 123%;
-	border-bottom: 3px darkseagreen double;
-	background-color: black;
-	border-radius: 10px;
-	text-decoration: line-through;
-            }
-
-#navbar ul {
-	display: flex;
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
-	justify-content: space-evenly;
-            }
-
-#navbar ol {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-}
-
-#navbar li {
-	padding-top: 10px;
-	padding-bottom: 10px;
-            }
-
-#navbar li a {
-	color: #b967ff;
-	text-decoration: none;
-            }
-
-#navbar li a:hover {
-	color: #05ffa1;
-	cursor: pointer;
-	transition: all 1s;
-            }
-
-.dropdown {
-	position: relative;
-	display: inline-block;
-}
-
-.dropdown-content {
-	display: none;
-	position: absolute;
-	color: darkseagreen;
-	background-color: black;
-	border-left: 2px darkseagreen double;
-	border-bottom: 2px darkseagreen double;
-	border-radius: 10px;
-	min-width: auto;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	padding: 10px;
-	z-index: 1;
-}
-
 body {
   padding: 11%;
   background-color: #4d5d53;
   margin: auto;
-  max-width: 720px; 
-  color: #8f9779;
-  font-family: "cardinal";
 }
 
 p {
   padding: 2px;
   margin-left: auto;
-  color: #78866b;
+  color: 8f9779;
 }
 
 #gallery img {
@@ -154,37 +75,23 @@ p {
 main {
   background-color: #4d5d53;
   background-size: auto;
-  height: 480px;
+  height: 720px;
+  position: sticky;
   top: 0;
+  position: -webkit-sticky;
   overflow: scroll;
-  width: auto;
+  width: 720px;
   padding: auto;
-  margin: auto 5px;
-  order: 1;
+  margin: auto;
+  order: 2;
   border: 23px #4d5d53 solid;
+  color: #8f9779;
 }
 
 main p {
   padding: 10px;
   margin: 10px;
   font-size: 175%;
-}
-
-main ul {
-  font-size: 175%;
-  list-style-type: japanese-formal;
-}
-
-main li a {
-  font-family: "Cardinal";
-  display: inline-block;
-  text-decoration: none;
-  color: #78866b;
-}
-
-main li a:hover {
-  color: #738276;
-  transition: all 1s;
 }
 #top-boxes {
   display: flex;
@@ -193,6 +100,57 @@ main li a:hover {
 #rightSidebar {
 	order: 3;
             }
+
+#container {
+  width: auto;
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  position: center;
+  background-color: #c0c0c0;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.3);
+  margin: 23px;
+  padding: auto;
+  order: 5;
+  border: double gray 4px;
+}
+
+#index {
+  color: #78866b;
+}
+
+#container2 {
+  width: auto;
+  color: black;
+  font-family: "dos";
+  font-size: smaller;
+  position: center;
+  background-color: #00ff9f;
+  margin: 23px auto;
+  padding: 23px auto;
+  order: 4;
+  border: double gray 4px;
+}
+
+#container2 marquee {
+  background: #001eff;
+  color: #d600ff;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mainbox {
+  width: 500px;
+  position: center;
+  background-color: black;
+  box-shadow: 12px 12px 2px 1px black;
+  margin-left: 2px;
+  padding-top: 23px;
+  border: double gray 4px;
+}
 
 .flex {
   display: flex;
@@ -226,36 +184,45 @@ main li a:hover {
   box-shadow: 12px 12px 2px 1px black;
 }
 .sidebox {
-  display: flex;
-  justify-content: space-evenly;
   font-family: "silvus";
-  color: #8f9779;
+  justify-content: center;
+  align-items: center;
+  color: #00ff9f;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 23px;
   height: auto;
   background-color: #4d5d53;
-  margin: auto;
-  padding: auto;
-  order: 2;
+  margin: 23px auto;
+  margin-left: 32px;
+  padding: 23px auto;
+  order: 1;
+}
+
+.sidebox p {
+  text-align: center;
 }
 
 .sidebox li a {
-  display: flex;
-  justify-content: space-evenly;
+  display: inline-block;
   text-decoration: none;
+  font-family: "silvus";
+  font-size: 200%;
   color: #8f9779;
-  padding: 0px 11px 0px 11px;
+  margin: 2px;
+  padding: 3px;
 }
 
 .sidebox li a:hover {
   color: #738276;
-  transition: all 1s;
 }
 
 .sidebox ul {
+  list-style-image: url('/nonexistent.svg');
   list-style-type: none;
-  display: inline-flex;
-  justify-content: space-evenly;
-  padding: auto;
-  margin: auto;
+  background: #4d5d53;
+  margin: 15px;
+  padding: 20px;
 }
 
 aside {
@@ -308,12 +275,24 @@ h1 {
 
 h4 {
   font-family: "silvus";
-  font-size: 300%;
   font-variant: small-caps;
+  font-size: 500%;
   text-align: center;
   color: #8f9779;
 
-main::-webkit-scrollbar {
+#gallery {
+ color: #8f9779;
+ height: 500px;
+ width: auto;
+ min-width: 300px;
+ overflow: scroll;
+ min-width: 460px;
+ background: #4d5d53;
+ padding: auto;
+ margin: auto;
+}
+
+#gallery::-webkit-scrollbar {
   display: none;
 }
 
