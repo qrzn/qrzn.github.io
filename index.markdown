@@ -3,10 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-permalink: /
 ---
-
-# Welcome
 
 **I**n the vast tapestry of the digital realm, thou hast stumbled upon a solitary haven, a niche carved out amidst the boundless expanse. Welcome, kind traveler, to my corner of the cosmos, where musings manifest and thoughts take flight. Here, within these ethereal halls, thee shall find the echo of my soul, the reverberations of a journey through time and experience.
 
