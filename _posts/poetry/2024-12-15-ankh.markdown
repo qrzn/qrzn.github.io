@@ -5,9 +5,6 @@ permalink: /poetry/posts/ankh
 category: poetry
 hidden: true
 ---
-
-# Ankh  
-  
 Ruhe und Stille  
 findet sich  
 &mdash; an der Wasserstelle  

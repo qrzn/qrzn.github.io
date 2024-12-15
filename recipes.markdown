@@ -12,4 +12,4 @@ So, gentle visitor, I bid thee to linger. For in this space, cooking is not just
 
 ### List
 
-* [Olive Oil Cake](/recipes/oliveoilcake.html)
+* [Olive Oil Cake](/recipes/posts/olive-oil-cake)
