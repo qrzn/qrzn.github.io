@@ -4,7 +4,11 @@ title: Books
 permalink: /books/
 ---
 
-these are the books i made so far, they're all public domain, so i hope you enjoy them.
+These are ebooks by other authors in the epub format that I made so far, they're all public domain, so I hope you enjoy them.
+
+# 2024 - A Dark Year in Retrospect by Anonymous
+
+A semi-autobiographical novel I'm currently working on.
 
 # Tao Te King, translated by Richard Wilhelm
 
@@ -14,7 +18,7 @@ The famous German translation of the Daodejing, one of the foundational texts of
 
 # Liezi
 
-The German translation by Richard Wilhelm of the Liezi
+The German translation by Richard Wilhelm of the Liezi, another book worth reading if you're into Daoist philosophy
 
 [download](/books/ld.epub)
 
