@@ -17,12 +17,12 @@ Expect, from time to time, more treasures to come home.
 # German
 
 * [Ankh](/poetry/posts/ankh)
-* [Der gewundene Pfad](/poetry/posts/dergewundenepfad.html)
-* [Morgens](/poetry/posts/morgens.html)
-* [Natur und Stadt](/poetry/posts/naturundstadt.html)
-* [Ode an Silenus](/poetry/posts/odeansilenus.html)
-* [Die Spechtschmiede](/poetry/posts/spechtschmiede.html)
+* [Der gewundene Pfad](/poetry/posts/dergewundenepfad)
+* [Morgens](/poetry/posts/morgens)
+* [Natur und Stadt](/poetry/posts/naturundstadt)
+* [Ode an Silenus](/poetry/posts/odeansilenus)
+* [Die Spechtschmiede](/poetry/posts/spechtschmiede)
 
 # English
 
-* [wizard's tower](/poetry/posts/wizardstower.html)
+* [wizard's tower](/poetry/posts/wizardstower)
