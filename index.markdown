@@ -4,6 +4,7 @@
 
 layout: page
 permalink: /
+hidden: true
 ---
 
 # Welcome
