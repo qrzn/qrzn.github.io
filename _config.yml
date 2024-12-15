@@ -22,13 +22,24 @@ title: The Veiled Garden
 email: jglandje@proton.me
 description: >- # this means to ignore newlines until "baseurl:"
   Imaginings of a deranged mind
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/qrzn.github.io" # the subpath of your site, e.g. /blog
+url: "https://qrzn.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+navigation:
+  - name: Books
+    url: /books/
+  - name: Poetry
+    url: /poetry/
+  - name: Reading
+    url: /reading/
+  - name: Recipes
+    url: /recipes/
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
