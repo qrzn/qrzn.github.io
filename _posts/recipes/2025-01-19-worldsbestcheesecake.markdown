@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Best Cheesecake in the World
-permalink: /recipes/posts/worlds-best-cheesecake
+permalink: /recipes/worlds-best-cheesecake
 category: recipes
 hidden: true
 ---

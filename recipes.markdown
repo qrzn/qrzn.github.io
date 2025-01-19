@@ -8,9 +8,9 @@ Welcome to my recipe collection! Here, you'll find a delightful array of dishes,
 
 ### Baking
 
-* [Olive Oil Cake](/recipes/posts/olive-oil-cake)
-* [Best Cheesecake of the World](/recipes/posts/worlds-best-cheesecake)
+* [Olive Oil Cake](/recipes/olive-oil-cake)
+* [Best Cheesecake of the World](/recipes/worlds-best-cheesecake)
 
 ### Cooking
 
-* [Cretan Zucchini Fritters "Armonia"](/recipes/posts/cretan-zucchini-fritters)
+* [Cretan Zucchini Fritters "Armonia"](/recipes/cretan-zucchini-fritters)

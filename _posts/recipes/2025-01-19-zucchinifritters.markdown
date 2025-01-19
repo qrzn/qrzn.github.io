@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cretan Zucchini Fritters "Armonia"
-permalink: /recipes/posts/cretan-zucchini-fritters
+permalink: /recipes/cretan-zucchini-fritters
 category: recipes
 hidden: true
 ---

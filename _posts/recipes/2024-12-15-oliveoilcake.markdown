@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Olive Oil Cake
-permalink: /recipes/posts/olive-oil-cake
+permalink: /recipes/olive-oil-cake
 category: recipes
 hidden: true
 ---

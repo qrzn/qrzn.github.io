@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 7 Day Meal Plan
-permalink: /posts/7daymealplan
+permalink: /fitness/7daymealplan
 category: fitness
 hidden: true
 ---

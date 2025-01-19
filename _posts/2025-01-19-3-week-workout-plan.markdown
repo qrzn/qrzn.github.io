@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 3 Week Workout Plan
-permalink: /posts/workoutplan
+permalink: /fitness/workoutplan
 category: fitness
 hidden: true
 ---
@@ -177,7 +177,7 @@ Here’s the continuation of the workout plan, covering **Days 4–7** with the 
   4. Abs In and Out (15 reps)  
   5. Downward Facing Dog (30 seconds)  
 
-### **Day 6: Rest
+### **Day 6: Rest**
 
 ### **Day 7: Core and Stability**
 - **Round 1:**  
