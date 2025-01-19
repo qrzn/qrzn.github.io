@@ -25,4 +25,4 @@ Expect, from time to time, more treasures to come home.
 
 # English
 
-* [wizard's tower](/poetry/posts/wizardstower)
+* [wizard's tower](/poetry/posts/wizardtower)

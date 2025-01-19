@@ -5,10 +5,13 @@
 layout: page
 ---
 
-**I**n the vast tapestry of the digital realm, thou hast stumbled upon a solitary haven, a niche carved out amidst the boundless expanse. Welcome, kind traveler, to my corner of the cosmos, where musings manifest and thoughts take flight. Here, within these ethereal halls, thee shall find the echo of my soul, the reverberations of a journey through time and experience.
+# Welcome
 
-Like the ancient bards who once strummed their lutes beneath starry skies, I, too, weave tales and spin yarns, not with strings, but with keystrokes and pixels. Within, thou shalt uncover fragments of dreams, memories, and aspirations, a symphony of stories, each note a reflection of life's myriad melodies.
+Welcome to my corner of the internet, where creativity and passion meet! On this site, you'll find a collection of my favorite recipes for both baking and cooking—each one crafted to bring joy to your kitchen. Alongside my culinary creations, I share ebooks I've written, offering a peek into my imagination and thoughts. You’ll also discover a selection of books I believe are worth reading, along with my personal reviews, which will be expanded over time. Whether you're here for delicious meals, inspiring words, or insightful book recommendations, there's something for everyone to enjoy!
 
-Should thee be a seeker of tales old and new, or perchance an inquisitor of the human spirit, then linger a while. Let our souls converse, and in this dance of words, may we find kinship, understanding, and a shared thirst for the ineffable.
+### stuff you should check out on this page
 
-Be welcome, and tread softly, for thou art walking on my dreams.
+* [ebooks](/books) &mdash; ebooks I made myself
+* [3 week workout plan](/posts/workoutplan) &mdash; my current workout plan
+* [7 day meal plan](/posts/7daymealplan) &mdash; an affordable 7 day meal plan rich in protein, no protein powder or supplements
+* [Reading List](/reading-list) &mdash; an ever growing reading list of books I think worth reading, I might add reviews in the future

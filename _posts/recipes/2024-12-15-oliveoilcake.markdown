@@ -2,7 +2,7 @@
 layout: post
 title: Olive Oil Cake
 permalink: /recipes/posts/olive-oil-cake
-category: poetry
+category: recipes
 hidden: true
 ---
 ## Ingredients (Makes 4 servings)

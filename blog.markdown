@@ -6,3 +6,5 @@ layout: home
 title: Blog
 permalink: /blog/
 ---
+
+Welcome, here you find my most recent posts

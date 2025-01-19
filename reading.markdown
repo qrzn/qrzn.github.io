@@ -1,9 +1,10 @@
 ---
 layout: page
-permalink: /reading/
+permalink: /reading
+title: Reading
 ---
 
-**T**his list should give the student a thorough grounding on different views of our universe.
+Books I think are worth reading for various reasons which I leave to the readers imagination.
 
 ### Fiction
 

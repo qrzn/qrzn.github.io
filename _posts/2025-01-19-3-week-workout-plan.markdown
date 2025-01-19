@@ -2,13 +2,13 @@
 layout: post
 title: 3 Week Workout Plan
 permalink: /posts/workoutplan
-category: poetry
+category: fitness
 hidden: true
 ---
 
 Here’s a **3-week workout program** with **5 rounds per day, each round containing 5 exercises**. You'll train for 2 days, then rest on the 3rd day, repeating this cycle.
 
----
+
 
 ### **3-Week Workout Plan**
 
