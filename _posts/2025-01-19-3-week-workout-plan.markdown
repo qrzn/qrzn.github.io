@@ -48,7 +48,7 @@ Here’s a **3-week workout program** with **5 rounds per day, each round contai
   4. Toe Touches (15 reps)  
   5. Straddle Stretch (30 seconds per side)  
 
----
+
 
 #### **Day 2: Core and Cardio**
 - **Round 1:**  
@@ -86,26 +86,11 @@ Here’s a **3-week workout program** with **5 rounds per day, each round contai
   4. Crunches (15 reps)  
   5. Straddle Stretch (30 seconds per side)  
 
----
+
 
 #### **Day 3: Rest**
 
----
-
-Repeat **Days 1–3** until the week is complete. For **Weeks 2 and 3**, increase intensity slightly:  
-
-- Add more reps (e.g., +5 for crunches, push-ups, etc.).  
-- Extend time-based exercises by 5–10 seconds.  
-- Focus on form to build endurance and strength gradually.  
-
-Let me know if you'd like adjustments!
-
-
-Here’s the continuation of the workout plan, covering **Days 4–7** with the same format: **5 rounds per day, each containing 5 exercises.**
-
----
-
-### **Day 4: Upper Body and Core**
+#### **Day 4: Upper Body and Core**
 - **Round 1:**  
   1. Spartan Push-Ups (10 reps)  
   2. V-Ups (15 reps)  
@@ -141,7 +126,7 @@ Here’s the continuation of the workout plan, covering **Days 4–7** with the 
   4. Hip Touches (15 reps)  
   5. Front Rack Stretch (30 seconds per side)  
 
-### **Day 5: Full Body and Cardio**
+#### **Day 5: Full Body and Cardio**
 - **Round 1:**  
   1. Burpees & Hill Climbers (10 reps)  
   2. Mountain Climbers (30 seconds)  
@@ -177,9 +162,9 @@ Here’s the continuation of the workout plan, covering **Days 4–7** with the 
   4. Abs In and Out (15 reps)  
   5. Downward Facing Dog (30 seconds)  
 
-### **Day 6: Rest**
+#### **Day 6: Rest**
 
-### **Day 7: Core and Stability**
+#### **Day 7: Core and Stability**
 - **Round 1:**  
   1. Plank (30 seconds)  
   2. Crunches Left and Right (15 reps per side)  
