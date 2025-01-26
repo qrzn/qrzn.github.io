@@ -10,16 +10,16 @@ These are ebooks by other authors in the epub format that I made so far, they're
 
 The famous German translation of the Daodejing, one of the foundational texts of Daoism.
 
-[download](/books/ttk.epub)
+[download](https://weirdshitz.neocities.org/min/ttk.epub)
 
 # Liezi
 
 The German translation by Richard Wilhelm of the Liezi, another book worth reading if you're into Daoist philosophy
 
-[download](/books/ld.epub)
+[download](https://github.com/qrzn/min/blob/main/ld/ld.epub)
 
 # Magick without Tears by Aleister Crowley
 
 The hard to get book now as an electronic copy made by myself
 
-[download](/books/mwt.epub)
+[download](https://github.com/qrzn/min/blob/main/mwt/mwt.epub)
