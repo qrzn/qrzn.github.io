@@ -12,11 +12,11 @@ The famous German translation of the Daodejing, one of the foundational texts of
 
 [download](https://weirdshitz.neocities.org/min/ttk.epub)
 
-# Liezi
+# Liezi, translated by Richard Wilhelm
 
 The German translation by Richard Wilhelm of the Liezi, another book worth reading if you're into Daoist philosophy
 
-[download](https://github.com/qrzn/min/blob/main/ld/ld.epub)
+[download](https://weirdshitz.neocities.org/min/ld.epub)
 
 # Magick without Tears by Aleister Crowley
 
