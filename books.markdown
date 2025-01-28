@@ -22,4 +22,4 @@ The German translation by Richard Wilhelm of the Liezi, another book worth readi
 
 The hard to get book now as an electronic copy made by myself
 
-[download](https://github.com/qrzn/min/blob/main/mwt/mwt.epub)
+[download](https://weirdshitz.neocities.org/min/mwt.epub)
