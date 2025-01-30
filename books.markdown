@@ -6,20 +6,23 @@ permalink: /books/
 
 These are ebooks by other authors in the epub format that I made so far, they're all public domain, so I hope you enjoy them.
 
-# Tao Te King, translated by Richard Wilhelm
+### Daoism
 
-The famous German translation of the Daodejing, one of the foundational texts of Daoism.
+Books on Daoism, for now just the German Richard Wilhelm translations.
 
-[download](https://weirdshitz.neocities.org/min/ttk.epub)
+* [Daodejing](https://weirdshitz.neocities.org/min/ttk.epub) &mdash; Das Buch vom Sinn und Leben
 
-# Liezi, translated by Richard Wilhelm
+* [Liezi](https://weirdshitz.neocities.org/min/ld.epub) &mdash; Das wahre Buch vom Quellenden Urgrund
 
-The German translation by Richard Wilhelm of the Liezi, another book worth reading if you're into Daoist philosophy
+### Aleister Crowley
 
-[download](https://weirdshitz.neocities.org/min/ld.epub)
+Holy moly, it's Aleister Crowley
 
-# Magick without Tears by Aleister Crowley
+* [Magick without Tears](https://weirdshitz.neocities.org/min/mwt.epub)
 
-The hard to get book now as an electronic copy made by myself
+### Myself
 
-[download](https://weirdshitz.neocities.org/min/mwt.epub)
+* Collected Essays
+* Collected Poetry
+* Collected Fiction
+* Recipe Book
