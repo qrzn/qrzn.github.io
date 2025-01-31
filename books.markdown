@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Books
 permalink: /books/
 ---
@@ -19,8 +19,11 @@ Books on Daoism, for now just the German Richard Wilhelm translations.
 Holy moly, it's Aleister Crowley
 
 * [Magick without Tears](https://weirdshitz.neocities.org/min/mwt.epub)
+* Liber IV - Magick in Theory & Practice &mdash; coming soon
 
 ### Myself
+
+coming soon
 
 * Collected Essays
 * Collected Poetry
