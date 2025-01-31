@@ -8,4 +8,4 @@ Some useful code I've written, still work in progress, check back regularly for 
 
 ### Github scripts
 
-* [GitHub](https://github.com/user/qrzn) &mdash; My GitHub repositories
+* [GitHub](https://github.com/qrzn) &mdash; My GitHub repositories
