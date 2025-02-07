@@ -19,7 +19,7 @@ Books on Daoism, for now just the German Richard Wilhelm translations.
 Holy moly, it's Aleister Crowley
 
 * [Magick without Tears](https://weirdshitz.neocities.org/min/mwt.epub)
-* [Liber IV - Magick in Theory and Practice (WIP)](https://weirdshitz.neocities.org/min/magick.epub)
+* [Liber IV - Magick in Theory and Practice (WIP)](https://weirdshitz.neocities.org/min/book4.epub)
 
 ### Myself
 
