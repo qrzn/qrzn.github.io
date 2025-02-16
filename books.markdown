@@ -20,7 +20,9 @@ Holy moly, it's Aleister Crowley
 
 * [Magick without Tears](https://weirdshitz.neocities.org/min/mwt.epub)
 * [Liber IV &mdash; Magick in Theory and Practice](https://weirdshitz.neocities.org/min/book4.epub)
-* [Liber 418 &mdash; The Vision & The Voice (WIP)](https://weirdshitz.neocities.org/min/liber418.epub)
+* [Liber 418 &mdash; The Vision & The Voice](https://weirdshitz.neocities.org/min/liber418.epub)
+* Liber Aleph &mdash; Coming soon
+* The Confessions of Aleister Crowley &mdash; Coming soon
 
 ### Myself
 
