@@ -22,6 +22,7 @@ Holy moly, it's Aleister Crowley
 * [Liber IV &mdash; Magick in Theory and Practice](https://weirdshitz.neocities.org/min/book4.epub)
 * [Liber 418 &mdash; The Vision & The Voice](https://weirdshitz.neocities.org/min/liber418.epub)
 * [Liber CXI vel Aleph &mdash; The Book of Wisdom or Folly](https://weirdshitz.neocities.org/min/aleph.epub)
+* [Liber CCCXXXIII &mdash; The Book of Lies](https://weirdshitz.neocities.org/min/liber333.epub)
 * [The Confessions of Aleister Crowley](https://weirdshitz.neocities.org/min/confessions.epub)
 
 ### Myself
