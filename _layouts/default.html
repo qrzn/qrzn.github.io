@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title | default: "Temple of Nachash Kadosh" }}</title>
+  <link rel="stylesheet" type="text/css" href="{{ '/assets/css/books.css' | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ '/assets/img/unicursal_hexagram_favicon.png' | relative_url }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ page.description | default: 'Enter the neon-soaked world of cyberspace and explore the cyberpunk universe.' }}">
+  <meta name="keywords" content="{{ page.keywords | default: 'Cyberpunk, Netrunners, Neon, Cyberspace' }}">
+  <meta name="author" content="qrzn">
+</head>
+<body>
+  <header>
+    <nav aria-label="Main Navigation">
+      <div class="nav-container">
+        <!-- Image Header -->
+        <div class="header-image">
+          <a href="{{ '/' | relative_url }}">
+            <img src="{{ '/assets/img/website_header4.png' | relative_url }}" alt="Sacred Portal to Esoteric Wisdom">
+          </a>
+        </div>
+        <ul class="nav-menu">
+          {% for item in site.data.navigation %}
+            <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <span data-lang="symbol" class="date93"></span>
+    <script src="https://eralegis.info/eralegis-3.0.js"></script>
+  </footer>
+</body>
+</html>

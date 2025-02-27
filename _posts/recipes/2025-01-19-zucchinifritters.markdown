@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Cretan Zucchini Fritters "Armonia"
 permalink: /recipes/cretan-zucchini-fritters
 category: recipes

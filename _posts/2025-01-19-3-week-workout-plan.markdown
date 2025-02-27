@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 3 Week Workout Plan
 permalink: /fitness/workoutplan
 category: fitness

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Natur und Stadt
 permalink: /poetry/posts/naturundstadt
 category: poetry

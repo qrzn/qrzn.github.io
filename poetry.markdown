@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Poetry
 permalink: /poetry/
 ---
@@ -14,6 +14,13 @@ In the folds of notebooks, silent and still.
 Perchance, as I peruse each handwritten tome,  
 Expect, from time to time, more treasures to come home.
 
+
+
+# English
+
+* [The Path of Stars](/poetry/posts/pathofstars)
+* [wizard's tower](/poetry/posts/wizardtower)
+
 # German
 
 * [Ankh](/poetry/posts/ankh)
@@ -22,7 +29,3 @@ Expect, from time to time, more treasures to come home.
 * [Natur und Stadt](/poetry/posts/naturundstadt)
 * [Ode an Silenus](/poetry/posts/odeansilenus)
 * [Die Spechtschmiede](/poetry/posts/spechtschmiede)
-
-# English
-
-* [wizard's tower](/poetry/posts/wizardtower)

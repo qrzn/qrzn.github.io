@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: The Best Cheesecake in the World
 permalink: /recipes/worlds-best-cheesecake
 category: recipes

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Mocha Cake with Cooked Cream
 permalink: /recipes/mocha-cake
 category: recipes

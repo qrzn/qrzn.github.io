@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Olive Oil Cake
 permalink: /recipes/olive-oil-cake
 category: recipes

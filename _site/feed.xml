@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-21T22:16:07+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Veiled Garden</title><subtitle>Coding, Food, Fitness, Poetry &amp; Books</subtitle><entry><title type="html">Reading</title><link href="http://localhost:4000/reading" rel="alternate" type="text/html" title="Reading" /><published>2025-01-22T00:00:00+01:00</published><updated>2025-01-22T00:00:00+01:00</updated><id>http://localhost:4000/reading-list</id><content type="html" xml:base="http://localhost:4000/reading"><![CDATA[<p>Books I think are worth reading for various reasons which I leave to the readers imagination.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-27T20:25:08+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Veiled Garden</title><subtitle>Coding, Food, Fitness, Poetry &amp; Books</subtitle><entry><title type="html">The Path of Stars</title><link href="http://localhost:4000/poetry/posts/pathofstars" rel="alternate" type="text/html" title="The Path of Stars" /><published>2025-02-20T00:00:00+01:00</published><updated>2025-02-20T00:00:00+01:00</updated><id>http://localhost:4000/poetry/posts/pathofstars</id><content type="html" xml:base="http://localhost:4000/poetry/posts/pathofstars"><![CDATA[<blockquote>
+  <p>I walk the path of stars, where<br />
+ shadows yield, <br />
+The sacred will unsealed, the<br />
+ gates revealed, <br />
+No chains to bind, no soul in<br />
+ tarnished shame,<br />
+I rise as flame, the ancient <br />
+creed aflame.</p>
+
+  <p>The Kingdom’s words are not of<br />
+ fear or debt, <br />
+Too long we’ve kissed the dust,<br />
+ the lies, regret. <br />
+Now in this dawn, the will of<br />
+ man shall reign, <br />
+A song in blood, to break the<br />
+ darkest chain. <br />
+Beyond the sky, the Light of<br />
+ Truth is born, <br />
+No night shall darken it, no soul<br />
+ shall mourn.</p>
+
+  <p>Divide the self, dissolve the <br />
+dross of time,<br />
+Then rise, O Will! with fire, fierce<br />
+ and prime. <br />
+The serpent winds, the tempest<br />
+ stirs the sea,<br />
+The wings of Eros set the mind<br />
+ to free. <br />
+Let all things pass, in their own<br />
+ time they bend, <br />
+The Law of Love shall guide, and<br />
+ bring the end.</p>
+
+  <p>No gods above us, no false<br />
+ power beneath, <br />
+We stand as stars, casting aside<br />
+ belief. <br />
+Each heart a universe, each will <br />
+a flame— <br />
+In Love and Liberty, we find our<br />
+ name.</p>
+</blockquote>]]></content><author><name></name></author><category term="poetry" /><summary type="html"><![CDATA[I walk the path of stars, where shadows yield, The sacred will unsealed, the gates revealed, No chains to bind, no soul in tarnished shame, I rise as flame, the ancient creed aflame. The Kingdom’s words are not of fear or debt, Too long we’ve kissed the dust, the lies, regret. Now in this dawn, the will of man shall reign, A song in blood, to break the darkest chain. Beyond the sky, the Light of Truth is born, No night shall darken it, no soul shall mourn. Divide the self, dissolve the dross of time, Then rise, O Will! with fire, fierce and prime. The serpent winds, the tempest stirs the sea, The wings of Eros set the mind to free. Let all things pass, in their own time they bend, The Law of Love shall guide, and bring the end. No gods above us, no false power beneath, We stand as stars, casting aside belief. Each heart a universe, each will a flame— In Love and Liberty, we find our name.]]></summary></entry><entry><title type="html">Reading</title><link href="http://localhost:4000/reading" rel="alternate" type="text/html" title="Reading" /><published>2025-01-22T00:00:00+01:00</published><updated>2025-01-22T00:00:00+01:00</updated><id>http://localhost:4000/reading-list</id><content type="html" xml:base="http://localhost:4000/reading"><![CDATA[<p>Books I think are worth reading for various reasons which I leave to the readers imagination.</p>
 
 <h3 id="fiction">Fiction</h3>
 
@@ -808,14 +852,4 @@ Und Erfinder der Amen.</p>
 Wieso ist er gleich mit Shen Nong,<br />
 ertönt doch nach dem Zazen stets der Gong<br />
 und wirft uns zurück ins Reich der Maya<br />
-doch gestärkt, erhaben wie die Würde eines Raja.</p>]]></content><author><name></name></author><category term="poetry" /><summary type="html"><![CDATA[Des Morgens steh ich auf trinke einen Matcha, rauche einen Joint, und frage sinnend: what’s the bloody point?]]></summary></entry><entry><title type="html">Natur und Stadt</title><link href="http://localhost:4000/poetry/posts/naturundstadt" rel="alternate" type="text/html" title="Natur und Stadt" /><published>2024-12-15T00:00:00+01:00</published><updated>2024-12-15T00:00:00+01:00</updated><id>http://localhost:4000/poetry/posts/naturundstadt</id><content type="html" xml:base="http://localhost:4000/poetry/posts/naturundstadt"><![CDATA[<p>Der Sog der großen Stadt<br />
-Macht auf Dauer die Seele matt<br />
-zu wenig Nähe und Natur<br />
-Von Verbundenheit<br />
-Menschlichkeit<br />
-Keine Spur<br />
-Dennoch ist’s angenehmer<br />
-Als auf dem Lande<br />
-Nicht wer ist er<br />
-Was sind seine Bande?<br />
-Ein kurzer Blick und Ende</p>]]></content><author><name></name></author><category term="poetry" /><summary type="html"><![CDATA[Der Sog der großen Stadt Macht auf Dauer die Seele matt zu wenig Nähe und Natur Von Verbundenheit Menschlichkeit Keine Spur Dennoch ist’s angenehmer Als auf dem Lande Nicht wer ist er Was sind seine Bande? Ein kurzer Blick und Ende]]></summary></entry></feed>
+doch gestärkt, erhaben wie die Würde eines Raja.</p>]]></content><author><name></name></author><category term="poetry" /><summary type="html"><![CDATA[Des Morgens steh ich auf trinke einen Matcha, rauche einen Joint, und frage sinnend: what’s the bloody point?]]></summary></entry></feed>

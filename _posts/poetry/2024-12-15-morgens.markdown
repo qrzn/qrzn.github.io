@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Morgens
 permalink: /poetry/posts/morgens
 category: poetry

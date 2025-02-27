@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Die Spechtschmiede
 permalink: /poetry/posts/spechtschmiede
 category: poetry

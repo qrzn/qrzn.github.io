@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: The Wizard's Tower
 permalink: /poetry/posts/wizardtower
 category: poetry
