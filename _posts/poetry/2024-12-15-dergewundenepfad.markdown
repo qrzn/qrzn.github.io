@@ -2,7 +2,7 @@
 layout: default
 title: Der Gewundene Pfad
 permalink: /poetry/posts/dergewundenepfad
-category: poetry
+category: poetrygerman
 hidden: true
 ---
 Der gewundene Pfad, den ich heut sah  

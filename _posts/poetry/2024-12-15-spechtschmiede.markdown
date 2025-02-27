@@ -2,7 +2,7 @@
 layout: default
 title: Die Spechtschmiede
 permalink: /poetry/posts/spechtschmiede
-category: poetry
+category: poetrygerman
 hidden: true
 ---
 Spitzbuben und Spechtschmieden  

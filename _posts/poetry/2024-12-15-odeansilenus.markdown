@@ -2,7 +2,7 @@
 layout: default
 title: Ode an Silenus-Coniferus
 permalink: /poetry/posts/odeansilenus
-category: poetry
+category: poetrygerman
 hidden: true
 ---
 Oh Silenus du Coifer!  

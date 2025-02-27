@@ -2,7 +2,7 @@
 layout: default
 title: Mocha Cake with Cooked Cream
 permalink: /recipes/mocha-cake
-category: recipes
+category: recipesbaking
 hidden: true
 ---
 

@@ -3,6 +3,8 @@ layout: default
 title: Books
 permalink: /books/
 ---
+# Books
+
 Knowledge is power, guard it well
 
 Welcome, seeker. Within these pages, you will find a carefully curated collection of occult texts and esoteric tomes. Steeped in mystery and ancient wisdom, these works serve as both a guide and a challenge to those who dare to pursue the hidden truths of existence.
@@ -19,6 +21,7 @@ Dive into the enigmatic world of Aleister Crowley, where the boundaries between 
 * [Liber CXI vel Aleph &mdash; The Book of Wisdom or Folly](https://weirdshitz.neocities.org/min/aleph.epub)
 * [Liber CCCXXXIII &mdash; The Book of Lies](https://weirdshitz.neocities.org/min/liber333.epub)
 * [The Confessions of Aleister Crowley](https://weirdshitz.neocities.org/min/confessions.epub)
+* The Holy Books of Thelema &mdash; Coming soon
 
 ### Daoism
 

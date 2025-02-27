@@ -85,6 +85,8 @@ header {
 
 .nav-menu {
   list-style: none;
+  font-size: 1.2em;
+  font-variant: small-caps;
   display: flex;
   gap: 20px;
   margin: 0;
@@ -110,7 +112,7 @@ header {
    Main Content
 ----------------------------------- */
 main {
-  max-width: 800px;
+  max-width: 600px;
   margin: 20px auto;
   padding: 20px;
   padding-bottom: 60px; /* Prevents footer overlap */
@@ -119,6 +121,10 @@ main {
   border-radius: 10px;
   flex: 1;
   overflow-y: auto;
+}
+
+main h1 {
+  font-variant: small-caps;
 }
 
 /* -----------------------------------
@@ -140,6 +146,31 @@ article {
 article h3 {
   font-family: 'Cinzel', serif;
   color: var(--secondary-text);
+}
+
+/* -----------------------------------
+   List Styling (UL & LI)
+----------------------------------- */
+main ul {
+  list-style: none;          /* Remove default markers */
+  margin: 1em 0;
+  padding: 0;
+}
+
+main ul li {
+  position: relative;
+  padding-left: 1.5em;       /* Space for a custom bullet */
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+}
+
+/* Custom bullet for list items */
+main ul li::before {
+  content: "∴";             /* You can replace this with a different symbol if desired */
+  position: absolute;
+  left: 0;
+  color: var(--secondary-text); /* Use your crimson red accent */
+  font-weight: bold;
 }
 
 /* -----------------------------------
@@ -251,6 +282,12 @@ footer {
   
   .flex-container {
     flex-direction: column;
+  }
+}
+
+@media (min-width: 600px) {
+  main {
+    min-width: 600px;
   }
 }
 

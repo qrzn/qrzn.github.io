@@ -2,7 +2,7 @@
 layout: default
 title: Natur und Stadt
 permalink: /poetry/posts/naturundstadt
-category: poetry
+category: poetrygerman
 hidden: true
 ---
 Der Sog der großen Stadt  

@@ -2,7 +2,7 @@
 layout: default
 title: The Path of Stars
 permalink: /poetry/posts/pathofstars
-category: poetry
+category: poetryenglish
 hidden: true
 ---
 

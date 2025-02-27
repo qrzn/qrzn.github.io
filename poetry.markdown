@@ -3,7 +3,7 @@ layout: default
 title: Poetry
 permalink: /poetry/
 ---
-
+# Poetry
 Hark! A collection of verses I've penned,  
 When muse did alight and inspiration send.  
 In the tongue of the Germans, most are composed,  
@@ -15,17 +15,38 @@ Perchance, as I peruse each handwritten tome,
 Expect, from time to time, more treasures to come home.
 
 
+<section class="category-posts">
+  <h3>English</h3>
+  <ul>
+    {% for post in site.categories.poetryenglish %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <small class="post-date">{{ post.date | date: "%b %-d, %Y" }}</small>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
 
-# English
+<section class="category-posts">
+  <h3>Latin</h3>
+  <ul>
+    {% for post in site.categories.poetrylatin %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <small class="post-date">{{ post.date | date: "%b %-d, %Y" }}</small>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
 
-* [The Path of Stars](/poetry/posts/pathofstars)
-* [wizard's tower](/poetry/posts/wizardtower)
-
-# German
-
-* [Ankh](/poetry/posts/ankh)
-* [Der gewundene Pfad](/poetry/posts/dergewundenepfad)
-* [Morgens](/poetry/posts/morgens)
-* [Natur und Stadt](/poetry/posts/naturundstadt)
-* [Ode an Silenus](/poetry/posts/odeansilenus)
-* [Die Spechtschmiede](/poetry/posts/spechtschmiede)
+<section class="category-posts">
+  <h3>German</h3>
+  <ul>
+    {% for post in site.categories.poetrygerman %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <small class="post-date">{{ post.date | date: "%b %-d, %Y" }}</small>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

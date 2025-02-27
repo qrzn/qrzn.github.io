@@ -2,9 +2,11 @@
 layout: default
 title: Ankh
 permalink: /poetry/posts/ankh
-category: poetry
+category: poetrygerman
 hidden: true
 ---
+# Ankh
+
 Ruhe und Stille  
 findet sich  
 &mdash; an der Wasserstelle  

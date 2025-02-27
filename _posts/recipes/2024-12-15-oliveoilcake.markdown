@@ -2,7 +2,7 @@
 layout: default
 title: Olive Oil Cake
 permalink: /recipes/olive-oil-cake
-category: recipes
+category: recipesbaking
 hidden: true
 ---
 ## Ingredients (Makes 4 servings)

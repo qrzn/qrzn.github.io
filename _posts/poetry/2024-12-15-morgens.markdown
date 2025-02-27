@@ -2,7 +2,7 @@
 layout: default
 title: Morgens
 permalink: /poetry/posts/morgens
-category: poetry
+category: poetrygerman
 hidden: true
 ---
 Des Morgens steh ich auf  
