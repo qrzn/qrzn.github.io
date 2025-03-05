@@ -1,7 +1,10 @@
 ---
-title: Temple of נָחָשׁ קָדוֹשׁ
+title: Writings
 layout: default
+permalink: /writings/
 ---
+
+# Welcome, Seeker of the Mystical Arts
 Enter a realm where ancient occult wisdom and the art of divination converge. Within these digital pages, you will discover a curated collection of forbidden texts and esoteric tools—guides to the hidden mysteries of the universe.
 
 From the sacred manuscripts of magickal lore to divination instruments that reveal the unseen currents of fate, every artifact here is designed to awaken your true will. Embrace the call of Thelema, where the law proclaims: 

@@ -2,13 +2,15 @@
   url: /blog/
 - title: Books
   url: /books/
-- title: Essays
-  url: /essays/
-- title: Poetry
-  url: /poetry/
-- title: Recipes
-  url: /recipes/
+  # - title: Essays
+  #   url: /essays/
+  # - title: Poetry
+  #   url: /poetry/
+  # - title: Recipes
+  #   url: /recipes/
 #- title: Symbols
 #  url: /symbols/
-#- title: Tools
-#url: /tools/
+# - title: Tools
+#  url: /tools/
+- title: Yi
+  url: /yi/

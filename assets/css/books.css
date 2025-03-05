@@ -60,6 +60,7 @@ body {
 
 /* Drop Caps at the beginning of Chapters */
 h1 + p:not(.centered-small-caps)::first-letter,
+h2 + p:not(.centered-small-caps)::first-letter,
 h3 + p:not(.centered-small-caps)::first-letter,
 h4 + p:not(.centered-small-caps)::first-letter,
 .centered-small-caps +p:not(.centered-small-caps)::first-letter {
@@ -470,7 +471,6 @@ figure.book-cover {
   border-radius: 8px;
   min-height: 100px;
   color: var(--text-color);
-  /* Optional: Add a subtle inner shadow */
   box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
 }
 
@@ -486,6 +486,8 @@ figure.book-cover {
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-top: 1em;
+  width: 150px;         /* Fixed width */
+  text-align: center;
 }
 
 .iching-button:hover {
@@ -494,10 +496,11 @@ figure.book-cover {
 
 /* Toggle Buttons Container */
 .toggle-buttons {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
+  align-items: center;
   gap: 1em;
-  margin-bottom: 1em;
+  margin: 0 auto 1em;
 }
 
 /* Toggle Button Styling */
@@ -511,10 +514,48 @@ figure.book-cover {
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  width: 150px;         /* Fixed width */
+  text-align: center;
 }
 
 .toggle-btn:hover {
   background-color: var(--link-hover);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 480px) {
+  .iching-section {
+    margin: 1em auto;
+    padding: 1em;
+    max-width: 90%;
+    min-width: auto;
+  }
+  
+  .iching-title {
+    font-size: 1.5em;
+  }
+  
+  .iching-output {
+    font-size: 1em;
+    padding: 15px;
+  }
+  
+  .iching-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    width: 150px; /* Keeping the fixed width */
+  }
+  
+  .toggle-buttons {
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  
+  .toggle-btn {
+    font-size: 14px;
+    padding: 0.5em;
+    width: 150px; /* Fixed width */
+  }
 }
 /* -----------------------------------
    Table Styling
