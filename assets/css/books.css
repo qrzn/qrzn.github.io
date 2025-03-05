@@ -2,6 +2,31 @@
    Thelemic Style CSS
 ----------------------------------- */
 
+/* Embed EB Garamond font */
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('/assets/fonts/EBGaramond-Regular.ttf') format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('/assets/fonts/EBGaramond-Bold.ttf') format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'EB Garamond';
+    src: url('/assets/fonts/EBGaramond-Italic.ttf') format("truetype");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'silvus';
+    src: url('/assets/fonts/silvus.ttf') format("truetype");
+    font-weight: normal;
+}
+
 /* Color Variables */
 :root {
   --bg-color: #000000;          /* Black background */
@@ -23,7 +48,7 @@ html, body {
 }
 
 body {
-  font-family: 'Cinzel', serif;
+  font-family: 'EB Garamond', serif;
   display: flex;
   flex-direction: column;
   background: var(--bg-color);
@@ -33,6 +58,18 @@ body {
   max-width: 80%;
 }
 
+/* Drop Caps at the beginning of Chapters */
+h1 + p:not(.centered-small-caps)::first-letter,
+h3 + p:not(.centered-small-caps)::first-letter,
+h4 + p:not(.centered-small-caps)::first-letter,
+.centered-small-caps +p:not(.centered-small-caps)::first-letter {
+  font-size: 4em;
+  font-family: "silvus";
+  font-weight: normal;
+  float: left;
+  margin-right: 0.1em;
+  line-height: 1;
+}
 /* -----------------------------------
    Link Styles
 ----------------------------------- */
@@ -144,13 +181,14 @@ article {
 }
 
 article h3 {
-  font-family: 'Cinzel', serif;
+  font-family: 'EB Garamond', serif;
   color: var(--secondary-text);
 }
 
 /* -----------------------------------
    List Styling (UL & LI)
 ----------------------------------- */
+
 main ul {
   list-style: none;          /* Remove default markers */
   margin: 1em 0;
@@ -200,6 +238,107 @@ footer {
   display: inline-block;
   margin: 0 auto;
 }
+
+/* -----------------------------------
+   Books Section Styling
+----------------------------------- */
+.category-section {
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid var(--accent-border);
+}
+
+.category-heading {
+  font-size: 1.5em;
+  margin: 0 0 0.5em 0;
+  color: var(--link-color);
+  text-align: center;
+}
+
+/* Override the bullet styling for .books-list so it doesn't get custom bullets */
+.books-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.books-list li {
+  position: static;   /* Remove the relative positioning used for bullets */
+  padding: 1em;    /* Remove the extra left padding */
+  margin-bottom: 1.5em; /* Give each item some vertical space */
+  line-height: 1.5;
+}
+
+.books-list li::before {
+  content: none;      /* Disable the custom bullet for .books-list items */
+}
+
+.book-item {
+  margin: 0;
+  background-color: #111;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  align-items: flex-start;
+}
+
+.book-title-wrapper {
+  flex: 1 1 100%;
+}
+
+.book-title {
+  margin: 0;
+  font-size: 1.2em;
+  color: var(--secondary-text);
+}
+
+.book-cover {
+  flex: 0 0 auto;
+  margin-right: 1em;
+  text-align: center;
+}
+
+.book-cover img {
+  display: inline-block;
+  max-width: 100px;
+  height: auto;
+  border: 1px solid var(--accent-border);
+  border-radius: 5px;
+  margin: 0;
+}
+
+.book-author,
+.book-description {
+  margin: 0.5em 0;
+  font-size: 0.9em;
+}
+
+.book-download-wrapper {
+  margin-top: 0.5em;
+}
+
+.book-download {
+  padding: 0.5em 1em;
+  background-color: var(--link-color);
+  color: var(--bg-color);
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.book-download:hover {
+  background-color: var(--link-hover);
+  color: var(--bg-color);
+}
+
+figure.book-cover {
+  margin: 0;
+  padding: 0;
+}
+/* -----------------------------------
+   Book Cover Image Styling
+----------------------------------- */
 
 /* -----------------------------------
    Typewriter Effect

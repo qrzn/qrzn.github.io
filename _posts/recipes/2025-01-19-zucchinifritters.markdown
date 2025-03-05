@@ -1,10 +1,12 @@
 ---
 layout: default
-title: Cretan Zucchini Fritters "Armonia"
+title: Cretan Zucchini Fritters Ἁρμονία
 permalink: /recipes/cretan-zucchini-fritters
 category: recipescooking
 hidden: true
 ---
+
+# Cretan Zucchini Fritters Ἁρμονία
 
 These Cretan Zucchini-Potato Fritters, known as "Armonia," are a hearty and flavorful dish that can easily serve as a full meal. Inspired by traditional Cretan cuisine, they combine zucchini, potatoes, carrots, and cheeses into a crispy, savory fritter that is both satisfying and delicious. The fritters are not only perfect on their own but also pair wonderfully with a side of apple sauce, adding a sweet contrast to the savory flavors. Simple to prepare yet bursting with Mediterranean goodness, these fritters are sure to become a favorite in your kitchen.
 

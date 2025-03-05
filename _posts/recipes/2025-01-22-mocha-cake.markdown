@@ -5,6 +5,7 @@ permalink: /recipes/mocha-cake
 category: recipesbaking
 hidden: true
 ---
+# Mocha Cake with Cooked Cream
 
 Indulge in the rich, aromatic flavors of mocha with this delightful Mocha Cake with Cooked Cream. This cake is perfect for coffee lovers, combining the bittersweet essence of mocha with a luscious, creamy filling. The light and airy sponge layers are complemented by a velvety cream made with melted chocolate and a hint of coffee, making it an irresistible treat for any occasion. Whether you're serving it as the centerpiece for a celebration or enjoying it with a cup of your favorite brew, this cake is sure to impress. Prepare it a day in advance to allow the flavors to meld perfectly and to make your baking experience stress-free.
 

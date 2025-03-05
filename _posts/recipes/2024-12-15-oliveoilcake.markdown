@@ -5,6 +5,8 @@ permalink: /recipes/olive-oil-cake
 category: recipesbaking
 hidden: true
 ---
+# Olive Oil Cake
+
 ## Ingredients (Makes 4 servings)
 - 1 ½ cups all-purpose flour
 - 1/2 cup sugar

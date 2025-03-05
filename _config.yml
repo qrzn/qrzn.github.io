@@ -36,3 +36,7 @@ defaults:
 # Exclude from processing.
 exclude:
   - books/
+
+collections:
+  books:
+    output: true
