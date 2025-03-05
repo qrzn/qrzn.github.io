@@ -3,8 +3,6 @@ layout: default
 title: Blog
 permalink: /blog/
 ---
-# Blog
-
 <section class="category-posts">
   {% assign ordered_categories = "essays,poetryenglish,poetrylatin,poetrygerman,recipesbaking,recipescooking,recipesmealplan,fitness" | split: "," %}
   {% for cat_key in ordered_categories %}

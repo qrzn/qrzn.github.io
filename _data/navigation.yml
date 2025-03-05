@@ -4,11 +4,11 @@
   url: /books/
 - title: Essays
   url: /essays/
-#- title: I Ching
-#  url: /yi/
 - title: Poetry
   url: /poetry/
 - title: Recipes
   url: /recipes/
 #- title: Symbols
 #  url: /symbols/
+#- title: Tools
+#url: /tools/

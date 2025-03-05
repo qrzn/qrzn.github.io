@@ -3,9 +3,6 @@ layout: default
 title: Books
 permalink: /books/
 ---
-
-# Books
-
 Knowledge is power, guard it well
 
 Welcome, seeker. Within these pages, you will find a carefully curated collection of occult texts and esoteric tomes. Steeped in mystery and ancient wisdom, these works serve as both a guide and a challenge to those who dare to pursue the hidden truths of existence.

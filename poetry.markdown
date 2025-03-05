@@ -3,7 +3,6 @@ layout: default
 title: Poetry
 permalink: /poetry/
 ---
-# Poetry
 Hark! A collection of verses I've penned,  
 When muse did alight and inspiration send.  
 In the tongue of the Germans, most are composed,  
