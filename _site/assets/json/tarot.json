@@ -1,0 +1,314 @@
+[
+  {
+    "name": "The Fool",
+    "meaning": "New beginnings, optimism, trust."
+  },
+  {
+    "name": "The Magician",
+    "meaning": "Action, power, manifestation."
+  },
+  {
+    "name": "The High Priestess",
+    "meaning": "Intuition, mystery, inner voice."
+  },
+  {
+    "name": "The Empress",
+    "meaning": "Fertility, beauty, nature."
+  },
+  {
+    "name": "The Emperor",
+    "meaning": "Authority, structure, control."
+  },
+  {
+    "name": "The Hierophant",
+    "meaning": "Tradition, spirituality, guidance."
+  },
+  {
+    "name": "The Lovers",
+    "meaning": "Love, harmony, relationships."
+  },
+  {
+    "name": "The Chariot",
+    "meaning": "Determination, victory, willpower."
+  },
+  {
+    "name": "Strength",
+    "meaning": "Courage, influence, compassion."
+  },
+  {
+    "name": "The Hermit",
+    "meaning": "Introspection, solitude, wisdom."
+  },
+  {
+    "name": "Wheel of Fortune",
+    "meaning": "Change, cycles, destiny."
+  },
+  {
+    "name": "Justice",
+    "meaning": "Fairness, truth, law."
+  },
+  {
+    "name": "The Hanged Man",
+    "meaning": "Sacrifice, release, letting go."
+  },
+  {
+    "name": "Death",
+    "meaning": "Endings, transformation, transition."
+  },
+  {
+    "name": "Temperance",
+    "meaning": "Balance, moderation, purpose."
+  },
+  {
+    "name": "The Devil",
+    "meaning": "Bondage, materialism, temptation."
+  },
+  {
+    "name": "The Tower",
+    "meaning": "Sudden change, upheaval, revelation."
+  },
+  {
+    "name": "The Star",
+    "meaning": "Hope, inspiration, serenity."
+  },
+  {
+    "name": "The Moon",
+    "meaning": "Illusion, fear, subconscious."
+  },
+  {
+    "name": "The Sun",
+    "meaning": "Success, vitality, joy."
+  },
+  {
+    "name": "Judgment",
+    "meaning": "Reflection, reckoning, awakening."
+  },
+  {
+    "name": "The World",
+    "meaning": "Completion, accomplishment, fulfillment."
+  },
+  {
+    "name": "Ace of Wands",
+    "meaning": "Inspiration, potential, new beginnings in creativity."
+  },
+  {
+    "name": "Two of Wands",
+    "meaning": "Planning, progress, decision-making."
+  },
+  {
+    "name": "Three of Wands",
+    "meaning": "Expansion, foresight, opportunity."
+  },
+  {
+    "name": "Four of Wands",
+    "meaning": "Celebration, harmony, homecoming."
+  },
+  {
+    "name": "Five of Wands",
+    "meaning": "Conflict, competition, tension."
+  },
+  {
+    "name": "Six of Wands",
+    "meaning": "Victory, recognition, achievement."
+  },
+  {
+    "name": "Seven of Wands",
+    "meaning": "Defense, perseverance, maintaining control."
+  },
+  {
+    "name": "Eight of Wands",
+    "meaning": "Movement, rapid action, momentum."
+  },
+  {
+    "name": "Nine of Wands",
+    "meaning": "Resilience, persistence, test of faith."
+  },
+  {
+    "name": "Ten of Wands",
+    "meaning": "Burden, responsibility, hard work."
+  },
+  {
+    "name": "Page of Wands",
+    "meaning": "Exploration, enthusiasm, discovery."
+  },
+  {
+    "name": "Knight of Wands",
+    "meaning": "Energy, passion, impulsiveness."
+  },
+  {
+    "name": "Queen of Wands",
+    "meaning": "Warmth, vibrancy, determination."
+  },
+  {
+    "name": "King of Wands",
+    "meaning": "Leadership, vision, entrepreneurship."
+  },
+  {
+    "name": "Ace of Cups",
+    "meaning": "New love, joy, emotional fulfillment."
+  },
+  {
+    "name": "Two of Cups",
+    "meaning": "Partnership, unity, mutual attraction."
+  },
+  {
+    "name": "Three of Cups",
+    "meaning": "Celebration, friendship, community."
+  },
+  {
+    "name": "Four of Cups",
+    "meaning": "Contemplation, apathy, reevaluation."
+  },
+  {
+    "name": "Five of Cups",
+    "meaning": "Loss, regret, disappointment."
+  },
+  {
+    "name": "Six of Cups",
+    "meaning": "Nostalgia, reunion, innocence."
+  },
+  {
+    "name": "Seven of Cups",
+    "meaning": "Illusion, choices, wishful thinking."
+  },
+  {
+    "name": "Eight of Cups",
+    "meaning": "Departure, seeking deeper meaning, moving on."
+  },
+  {
+    "name": "Nine of Cups",
+    "meaning": "Satisfaction, contentment, emotional well-being."
+  },
+  {
+    "name": "Ten of Cups",
+    "meaning": "Happiness, fulfillment, family bliss."
+  },
+  {
+    "name": "Page of Cups",
+    "meaning": "Creative beginnings, intuition, curiosity."
+  },
+  {
+    "name": "Knight of Cups",
+    "meaning": "Romance, charm, idealism."
+  },
+  {
+    "name": "Queen of Cups",
+    "meaning": "Compassion, calm, emotional stability."
+  },
+  {
+    "name": "King of Cups",
+    "meaning": "Balance, generosity, wisdom in emotions."
+  },
+  {
+    "name": "Ace of Swords",
+    "meaning": "Clarity, breakthroughs, intellectual power."
+  },
+  {
+    "name": "Two of Swords",
+    "meaning": "Indecision, choices, blocked emotions."
+  },
+  {
+    "name": "Three of Swords",
+    "meaning": "Heartbreak, sorrow, grief."
+  },
+  {
+    "name": "Four of Swords",
+    "meaning": "Rest, recovery, contemplation."
+  },
+  {
+    "name": "Five of Swords",
+    "meaning": "Conflict, tension, defeat."
+  },
+  {
+    "name": "Six of Swords",
+    "meaning": "Transition, moving on, rite of passage."
+  },
+  {
+    "name": "Seven of Swords",
+    "meaning": "Deception, strategy, caution."
+  },
+  {
+    "name": "Eight of Swords",
+    "meaning": "Restriction, self-imposed limitations, imprisonment."
+  },
+  {
+    "name": "Nine of Swords",
+    "meaning": "Anxiety, worry, nightmares."
+  },
+  {
+    "name": "Ten of Swords",
+    "meaning": "Endings, betrayal, rock bottom."
+  },
+  {
+    "name": "Page of Swords",
+    "meaning": "Curiosity, vigilance, communication."
+  },
+  {
+    "name": "Knight of Swords",
+    "meaning": "Action, speed, impulsiveness."
+  },
+  {
+    "name": "Queen of Swords",
+    "meaning": "Perception, independence, clear boundaries."
+  },
+  {
+    "name": "King of Swords",
+    "meaning": "Authority, intellectual power, truth."
+  },
+  {
+    "name": "Ace of Pentacles",
+    "meaning": "New financial opportunity, prosperity, manifestation."
+  },
+  {
+    "name": "Two of Pentacles",
+    "meaning": "Balance, adaptability, time management."
+  },
+  {
+    "name": "Three of Pentacles",
+    "meaning": "Collaboration, skill, craftsmanship."
+  },
+  {
+    "name": "Four of Pentacles",
+    "meaning": "Control, security, stability."
+  },
+  {
+    "name": "Five of Pentacles",
+    "meaning": "Hardship, loss, isolation."
+  },
+  {
+    "name": "Six of Pentacles",
+    "meaning": "Generosity, charity, balance."
+  },
+  {
+    "name": "Seven of Pentacles",
+    "meaning": "Long-term view, perseverance, investment."
+  },
+  {
+    "name": "Eight of Pentacles",
+    "meaning": "Diligence, mastery, skill development."
+  },
+  {
+    "name": "Nine of Pentacles",
+    "meaning": "Abundance, self-reliance, success."
+  },
+  {
+    "name": "Ten of Pentacles",
+    "meaning": "Legacy, culmination, financial security."
+  },
+  {
+    "name": "Page of Pentacles",
+    "meaning": "Manifestation, new opportunity, learning."
+  },
+  {
+    "name": "Knight of Pentacles",
+    "meaning": "Hard work, responsibility, routine."
+  },
+  {
+    "name": "Queen of Pentacles",
+    "meaning": "Nurturing, practicality, resourcefulness."
+  },
+  {
+    "name": "King of Pentacles",
+    "meaning": "Wealth, business, leadership."
+  }
+]

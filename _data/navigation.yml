@@ -1,5 +1,3 @@
-- title: HOME
-  url: /
 - title: Blog
   url: /blog/
 - title: Books
@@ -10,9 +8,11 @@
   url: /poetry/
 - title: Recipes
   url: /recipes/
-- title: Symbols
-  url: /symbols/
-- title: Tools
-  url: /tools/
+  #- title: Symbols
+  #  url: /symbols/
+  #- title: Tools
+  #  url: /tools/
 - title: I Ching
   url: /yi/
+- title: Tarot
+  url: /tarot/
