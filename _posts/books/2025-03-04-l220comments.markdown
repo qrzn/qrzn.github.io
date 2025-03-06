@@ -1,0 +1,11 @@
+---
+layout: book
+title: "Liber AL vel Legis &mdash; Commentaries"
+file: "/assets/books/epub/l220comments.epub"
+author: "Aleister Crowley"
+cover: "/assets/books/cover/l220comments.jpg"
+categories: 
+  - "Thelema"
+  - "Books"
+description: "Insightful commentaries that illuminate the cryptic verses and esoteric teachings of Thelema’s central text."
+---

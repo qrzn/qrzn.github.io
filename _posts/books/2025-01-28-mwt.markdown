@@ -1,0 +1,11 @@
+---
+layout: book
+title: "Magick without Tears"
+file: "/assets/books/epub/mwt.epub"
+author: "Aleister Crowley"
+cover: "/assets/books/cover/mwt.jpg"
+categories: 
+  - "Thelema"
+  - "Books"
+description: "A personal, candid guide that demystifies the practice of magick through thoughtful lessons and reflective insights."
+---

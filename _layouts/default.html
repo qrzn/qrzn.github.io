@@ -4,24 +4,38 @@
   <meta charset="UTF-8">
   <title>{% if page.title %}{{ page.title }} | {% endif %}Temple of Nachash Kadosh</title>
   <link rel="stylesheet" href="{{ '/assets/css/books.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/nav.css' | relative_url }}">
   <link rel="icon" type="image/png" href="{{ '/assets/img/unicursal_hexagram_favicon.png' | relative_url }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ page.description | default: 'Enter the neon-soaked world of cyberspace and explore the cyberpunk universe.' }}">
-  <meta name="keywords" content="{{ page.keywords | default: 'Cyberpunk, Netrunners, Neon, Cyberspace' }}">
+  <meta name="keywords" content="{{ page.keywords | default: 'Thelema, Occultism, I Ching, Tarot, Recipes, Poetry, ebooks' }}">
   <meta name="author" content="qrzn">
 </head>
 <body>
   <header>
     <nav aria-label="Main Navigation">
       <div class="nav-container">
+        <!-- Hamburger Button -->
+        <button id="hamburger" class="hamburger" aria-label="Toggle Navigation">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+        <!-- Header Text -->
+        <div class="header-text">
+          נָחָשׁ קָדוֹשׁ
+        </div>
         <!-- Header Logo/Image -->
         <div class="header-image">
           <a href="{{ '/' | relative_url }}">
-            <img src="{{ '/assets/img/website_header4.png' | relative_url }}" alt="Sacred Portal to Esoteric Wisdom">
+            <img src="{{ '/assets/img/unicursal_hexagram_favicon.png' | relative_url }}" alt="Sacred Portal to Esoteric Wisdom">
           </a>
         </div>
-        <!-- Navigation Menu -->
-        <ul class="nav-menu">
+      </div>
+      <!-- Mega Menu (initially hidden) -->
+      <div id="mega-menu" class="mega-menu">
+        <button id="close-menu" class="close-menu" aria-label="Close Navigation">&times;</button>
+        <ul class="mega-menu-list">
           {% for item in site.data.navigation %}
             <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
           {% endfor %}
@@ -40,6 +54,7 @@
   <footer>
     <span data-lang="symbol" class="date93"></span>
     <script src="https://eralegis.info/eralegis-3.0.js"></script>
+    <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
   </footer>
 </body>
 </html>

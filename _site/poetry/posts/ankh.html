@@ -4,30 +4,56 @@
   <meta charset="UTF-8">
   <title>Ankh | Temple of Nachash Kadosh</title>
   <link rel="stylesheet" href="/assets/css/books.css">
+  <link rel="stylesheet" href="/assets/css/nav.css">
   <link rel="icon" type="image/png" href="/assets/img/unicursal_hexagram_favicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Enter the neon-soaked world of cyberspace and explore the cyberpunk universe.">
-  <meta name="keywords" content="Cyberpunk, Netrunners, Neon, Cyberspace">
+  <meta name="keywords" content="Thelema, Occultism, I Ching, Tarot, Recipes, Poetry, ebooks">
   <meta name="author" content="qrzn">
 </head>
 <body>
   <header>
     <nav aria-label="Main Navigation">
       <div class="nav-container">
+        <!-- Hamburger Button -->
+        <button id="hamburger" class="hamburger" aria-label="Toggle Navigation">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+        <!-- Header Text -->
+        <div class="header-text">
+          נָחָשׁ קָדוֹשׁ
+        </div>
         <!-- Header Logo/Image -->
         <div class="header-image">
           <a href="/">
-            <img src="/assets/img/website_header4.png" alt="Sacred Portal to Esoteric Wisdom">
+            <img src="/assets/img/unicursal_hexagram_favicon.png" alt="Sacred Portal to Esoteric Wisdom">
           </a>
         </div>
-        <!-- Navigation Menu -->
-        <ul class="nav-menu">
+      </div>
+      <!-- Mega Menu (initially hidden) -->
+      <div id="mega-menu" class="mega-menu">
+        <button id="close-menu" class="close-menu" aria-label="Close Navigation">&times;</button>
+        <ul class="mega-menu-list">
+          
+            <li><a href="/">HOME</a></li>
           
             <li><a href="/blog/">Blog</a></li>
           
             <li><a href="/books/">Books</a></li>
           
-            <li><a href="/yi/">Yi</a></li>
+            <li><a href="/essays/">Essays</a></li>
+          
+            <li><a href="/poetry/">Poetry</a></li>
+          
+            <li><a href="/recipes/">Recipes</a></li>
+          
+            <li><a href="/symbols/">Symbols</a></li>
+          
+            <li><a href="/tools/">Tools</a></li>
+          
+            <li><a href="/yi/">I Ching</a></li>
           
         </ul>
       </div>
@@ -38,9 +64,7 @@
     
       <h1 class="post-title">Ankh</h1>
     
-    <h1 id="ankh">Ankh</h1>
-
-<p>Ruhe und Stille<br />
+    <p>Ruhe und Stille<br />
 findet sich<br />
 — an der Wasserstelle</p>
 
@@ -56,6 +80,7 @@ gemeinsam.</p>
   <footer>
     <span data-lang="symbol" class="date93"></span>
     <script src="https://eralegis.info/eralegis-3.0.js"></script>
+    <script src="/assets/js/nav.js"></script>
   </footer>
 </body>
 </html>

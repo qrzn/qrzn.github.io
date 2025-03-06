@@ -1,0 +1,12 @@
+---
+layout: book
+title: "Liezi"
+file: "/assets/books/epub/ld.epub"
+author: "Richard Wilhelm"
+categories: 
+  - "Daoism"
+  - "Books"
+cover: "/assets/books/cover/ld.png"
+description: "An ancient Daoist classic exploring the art of effortless action and the harmony of nature."
+---
+

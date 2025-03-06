@@ -1,0 +1,11 @@
+---
+layout: book
+title: "Liber IV &mdash; Magick"
+file: "/assets/books/epub/magick.epub"
+author: "Aleister Crowley"
+cover: "/assets/books/cover/magick.jpg"
+categories: 
+  - "Thelema"
+  - "Books"
+description: "A seminal treatise on ceremonial magic outlining transformative rituals and practical magick within Thelemic tradition."
+---

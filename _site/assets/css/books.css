@@ -88,6 +88,7 @@ a:hover {
 /* -----------------------------------
    Header & Navigation
 ----------------------------------- */
+/*
 header {
   position: -webkit-sticky;
   position: sticky;
@@ -95,7 +96,6 @@ header {
   background-color: var(--header-bg);
   padding: 10px 0;
   z-index: 1000;
-  text-align: center;
 }
 
 .nav-container {
@@ -130,8 +130,9 @@ header {
   margin: 0;
   padding: 0;
 }
-
+*/
 /* Header Image Styling */
+/*
 .header-image {
   width: 100%;
   text-align: center;
@@ -140,11 +141,11 @@ header {
 
 .header-image img {
   width: 100%;
-  max-height: 100px;  /* Adjust height as needed */
+  max-height: 100px; 
   object-fit: contain;
   border-radius: 5px;
 }
-
+*/
 
 /* -----------------------------------
    Main Content
@@ -319,25 +320,30 @@ footer {
 .book-author,
 .book-description {
   margin: 0.5em 0;
-  font-size: 0.9em;
 }
 
 .book-download-wrapper {
   margin-top: 0.5em;
 }
 
-.book-download {
-  padding: 0.5em 1em;
+/* Specific Styles for Book Download Links */
+a.book-download {
+  display: inline-block;     /* Ensures block-level styling */
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
   background-color: var(--link-color);
-  color: var(--bg-color);
+  color: var(--bg-color);      /* Invert text color for contrast */
   border: none;
-  border-radius: 3px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;       /* Prevent underline */
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.book-download:hover {
+a.book-download:hover {
   background-color: var(--link-hover);
+  /* Keeping text color consistent on hover */
   color: var(--bg-color);
 }
 
@@ -345,9 +351,6 @@ figure.book-cover {
   margin: 0;
   padding: 0;
 }
-/* -----------------------------------
-   Book Cover Image Styling
------------------------------------ */
 
 /* -----------------------------------
    Typewriter Effect
@@ -465,7 +468,7 @@ figure.book-cover {
 .iching-output {
   margin: 1em auto;
   padding: 20px;
-  font-size: 1.2em;
+  font-size: 0.9em;
   font-family: 'Cinzel', serif;
   background-color: #111;
   border-radius: 8px;

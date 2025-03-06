@@ -1,16 +1,18 @@
+- title: HOME
+  url: /
 - title: Blog
   url: /blog/
 - title: Books
   url: /books/
-  # - title: Essays
-  #   url: /essays/
-  # - title: Poetry
-  #   url: /poetry/
-  # - title: Recipes
-  #   url: /recipes/
-#- title: Symbols
-#  url: /symbols/
-# - title: Tools
-#  url: /tools/
-- title: Yi
+- title: Essays
+  url: /essays/
+- title: Poetry
+  url: /poetry/
+- title: Recipes
+  url: /recipes/
+- title: Symbols
+  url: /symbols/
+- title: Tools
+  url: /tools/
+- title: I Ching
   url: /yi/

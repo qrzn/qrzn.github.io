@@ -17,6 +17,9 @@ Prepare to journey beyond the mundane—uncover ancient secrets, consult the ora
       <li>
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         <small class="post-date">{{ post.date | date: "%b %-d, %Y" }}</small>
+        {% if post.categories %}
+          <small class="post-categories"> &mdash; {{ post.categories | join: ", " }}</small>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>

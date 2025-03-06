@@ -6,7 +6,7 @@ permalink: /blog/
 Step into our enchanted blog—a realm where Thelemic wisdom melds with creative expression. Here, essays unveil occult mysteries, recipes transform simple ingredients into sacred rituals, and poetry sings the language of the cosmos. Each post is a crafted spell, designed to ignite your inner flame and guide you on the path of true will. Embrace the call of Thelema—“Do what thou wilt shall be the whole of the law”—and allow these digital musings to inspire your journey beyond the mundane.
 
 <section class="category-posts">
-  {% assign ordered_categories = "essays,poetryenglish,poetrylatin,poetrygerman,recipesbaking,recipescooking,recipesmealplan,fitness" | split: "," %}
+  {% assign ordered_categories = "Books,essays,poetryenglish,poetrylatin,poetrygerman,recipesbaking,recipescooking,recipesmealplan,fitness" | split: "," %}
   {% for cat_key in ordered_categories %}
     {% if site.categories[cat_key] %}
       {% assign posts_in_category = site.categories[cat_key] | sort: "date" | reverse %}
@@ -14,6 +14,8 @@ Step into our enchanted blog—a realm where Thelemic wisdom melds with creative
         {% assign display_name = "Essays" %}
       {% elsif cat_key == "poetryenglish" %}
         {% assign display_name = "English Poetry" %}
+      {% elsif cat_key == "Books" %}
+        {% assign display_name = "Books" %}
       {% elsif cat_key == "poetrylatin" %}
         {% assign display_name = "Latin Poetry" %}
       {% elsif cat_key == "poetrygerman" %}

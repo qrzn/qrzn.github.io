@@ -1,0 +1,11 @@
+---
+layout: book
+title: "Liber CDXVIII &mdash; The Vision and the Voice"
+file: "/assets/books/epub/liber418.epub"
+author: "Aleister Crowley"
+cover: "/assets/books/cover/l418.png"
+categories: 
+  - "Thelema"
+  - "Books"
+description: "A visionary exploration of mystical experiences and symbolic imagery that unveils hidden realms of occult insight."
+---

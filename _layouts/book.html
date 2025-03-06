@@ -3,24 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <title>{% if page.title %}{{ page.title }} | {% endif %}Temple of Nachash Kadosh</title>
-  <link rel="stylesheet" type="text/css" href="{{ '/assets/css/books.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/books.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/nav.css' | relative_url }}">
   <link rel="icon" type="image/png" href="{{ '/assets/img/unicursal_hexagram_favicon.png' | relative_url }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ page.description | default: 'Enter the neon-soaked world of cyberspace and explore the cyberpunk universe.' }}">
-  <meta name="keywords" content="{{ page.keywords | default: 'Cyberpunk, Netrunners, Neon, Cyberspace' }}">
+  <meta name="keywords" content="{{ page.keywords | default: 'Thelema, Occultism, I Ching, Tarot, Recipes, Poetry, ebooks' }}">
   <meta name="author" content="qrzn">
 </head>
 <body>
   <header>
     <nav aria-label="Main Navigation">
       <div class="nav-container">
-        <!-- Image Header -->
+        <!-- Hamburger Button -->
+        <button id="hamburger" class="hamburger" aria-label="Toggle Navigation">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+        <!-- Header Text -->
+        <div class="header-text">
+          נָחָשׁ קָדוֹשׁ
+        </div>
+        <!-- Header Logo/Image -->
         <div class="header-image">
           <a href="{{ '/' | relative_url }}">
-            <img src="{{ '/assets/img/website_header4.png' | relative_url }}" alt="Sacred Portal to Esoteric Wisdom">
+            <img src="{{ '/assets/img/unicursal_hexagram_favicon.png' | relative_url }}" alt="Sacred Portal to Esoteric Wisdom">
           </a>
         </div>
-        <ul class="nav-menu">
+      </div>
+      <!-- Mega Menu (initially hidden) -->
+      <div id="mega-menu" class="mega-menu">
+        <button id="close-menu" class="close-menu" aria-label="Close Navigation">&times;</button>
+        <ul class="mega-menu-list">
           {% for item in site.data.navigation %}
             <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
           {% endfor %}
@@ -32,40 +47,45 @@
   <main>
     <article class="book">
       <div class="book-header">
-        <h1>{{ page.title }}</h1>
-        {% if page.category %}
-          <p class="book-category">
-            Category: 
-            {% if page.category.size > 1 %}
-              {{ page.category | join: ", " }}
-            {% else %}
-              {{ page.category }}
-            {% endif %}
-          </p>
-        {% endif %}
+        <div class="book-title-wrapper">
+          <!-- Use an H1 here for individual pages -->
+          <h1 class="book-title">{{ page.title }}</h1>
+        </div>
+        <p class="book-author">&mdash; {{ page.author }}</p>
       </div>
 
-      {% if page.cover %}
-      <figure class="book-cover">
-        <img src="{{ page.cover | relative_url }}" alt="{{ page.title }} Cover">
-      </figure>
+      {% if page.cover and page.file %}
+        <figure class="book-cover">
+          <a href="{{ page.file | relative_url }}" download>
+            <img src="{{ page.cover | relative_url }}" alt="{{ page.title }} Cover">
+          </a>
+        </figure>
+      {% elsif page.cover %}
+        <figure class="book-cover">
+          <img src="{{ page.cover | relative_url }}" alt="{{ page.title }} Cover">
+        </figure>
       {% endif %}
 
       <section class="book-description">
         {{ page.description }}
+        {% if page.categories %}
+          <p class="book-category">
+            Category: 
+            {% if page.categories.size > 1 %}
+              {{ page.categories | join: ", " }}
+            {% else %}
+              {{ page.categories }}
+            {% endif %}
+          </p>
+        {% endif %}
       </section>
-
-      {% if page.file %}
-      <footer class="book-download">
-        <a href="{{ page.file | relative_url }}">Download ePub</a>
-      </footer>
-      {% endif %}
     </article>
   </main>
 
   <footer>
     <span data-lang="symbol" class="date93"></span>
     <script src="https://eralegis.info/eralegis-3.0.js"></script>
+    <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
   </footer>
 </body>
 </html>

@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>The Confessions | Temple of Nachash Kadosh</title>
+  <title>Liber IV &mdash; Magick | Temple of Nachash Kadosh</title>
   <link rel="stylesheet" type="text/css" href="/assets/css/books.css">
   <link rel="icon" type="image/png" href="/assets/img/unicursal_hexagram_favicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="An exciting adventure.">
+  <meta name="description" content="A seminal treatise on ceremonial magic outlining transformative rituals and practical magick within Thelemic tradition.">
   <meta name="keywords" content="Cyberpunk, Netrunners, Neon, Cyberspace">
   <meta name="author" content="qrzn">
 </head>
@@ -36,30 +36,23 @@
   <main>
     <article class="book">
       <div class="book-header">
-        <h1>The Confessions</h1>
-        
-          <p class="book-category">
-            Category: 
-            
-              Thelema
-            
-          </p>
+        <h1>Liber IV &mdash; Magick</h1>
         
       </div>
 
       
       <figure class="book-cover">
-        <img src="/assets/books/confessions.png" alt="The Confessions Cover">
+        <img src="/assets/books/cover/magick.jpg" alt="Liber IV &mdash; Magick Cover">
       </figure>
       
 
       <section class="book-description">
-        An exciting adventure.
+        A seminal treatise on ceremonial magic outlining transformative rituals and practical magick within Thelemic tradition.
       </section>
 
       
       <footer class="book-download">
-        <a href="/assets/books/aleph.epub">Download ePub</a>
+        <a href="/assets/books/epub/magick.epub">Download ePub</a>
       </footer>
       
     </article>
