@@ -5,8 +5,6 @@ permalink: /poetry/posts/thelema-invicta
 category: poetrylatin
 hidden: true
 ---
-# Thelema Invicta
-
 Magus nocturnus errat, arcāna Thelema sequitur,  
 Vox aeterna exclamat: “Fac quod vis, mortales!”  
 In obscurīs tenebrīs lumen ignis effulget,  

@@ -3,7 +3,6 @@ layout: default
 title: Ankh
 permalink: /poetry/posts/ankh
 category: poetrygerman
-hidden: true
 ---
 Ruhe und Stille  
 findet sich  

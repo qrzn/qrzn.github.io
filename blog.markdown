@@ -32,15 +32,31 @@ Step into our enchanted blog—a realm where Thelemic wisdom melds with creative
         {% assign display_name = cat_key | capitalize %}
       {% endif %}
       
-      <h3>{{ display_name }}</h3>
-      <ul>
+      <h3 class="category-heading">{{ display_name }}</h3>
+      <ul class="posts-list">
         {% for post in posts_in_category %}
-          <li>
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            <small class="post-date">{{ post.date | date: "%b %-d, %Y" }}</small>
+          <li class="post-item" id="{{ post.title | slugify }}">
+            <article class="post">
+              <div class="post-title-wrapper">
+                <h3 class="post-title">
+                  <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                </h3>
+              </div>
+              {% if post.author %}
+                <p class="post-author">&mdash; {{ post.author }}</p>
+              {% endif %}
+              <p class="post-date">{{ post.date | date: "%b %-d, %Y" }}</p>
+              {% if post.excerpt %}
+                <div class="post-excerpt">
+                  {{ post.excerpt }}
+                </div>
+              {% endif %}
+            </article>
           </li>
         {% endfor %}
       </ul>
     {% endif %}
   {% endfor %}
 </section>
+
+Whether you are a devoted practitioner of the occult or a curious wanderer seeking deeper truths, let these musings inspire your journey into the mysteries of the cosmos.

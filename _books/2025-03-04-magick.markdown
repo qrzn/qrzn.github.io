@@ -1,9 +1,11 @@
 ---
 layout: book
-title: "Liber Aleph &mdash; The Book of Wisdom & Folly"
-file: "/assets/books/aleph.epub"
+title: "Liber IV &mdash; Magick"
+file: "/assets/books/epub/magick.epub"
 author: "Aleister Crowley"
-category: "Thelema"
-cover: "/assets/books/aleph.png"
-description: "An exciting adventure."
+categories:
+  - "Thelema"
+  - "Books"
+cover: "/assets/cover/magick.jpg"
+description: "A seminal treatise on ceremonial magic outlining transformative rituals and practical magick within Thelemic tradition."
 ---

@@ -1,12 +1,10 @@
 ---
 layout: default
-title: Toward a Second Renaissance 
-permalink: /essays/toward-a-second-renaissance
-category: essays
-hidden: true
+title: "Toward a Second Renaissance: Moving Beyond the Techno-Barbarism of Modernity"
+permalink: /essays/toward-a-second-renaissance/
+category: "essays"
+description: "Toward a Second Renaissance: Moving Beyond the Techno-Barbarism of Modernity"
 ---
-# Toward a Second Renaissance: Moving Beyond the Techno-Barbarism of Modernity
-
 The 20th and early 21st centuries, while marked by staggering technological progress, have also plunged humanity into a form of techno-barbarism—an era characterized by dehumanization, a loss of ethical grounding, and a blind faith in scientific and technological advancement at the expense of the soul. As humanity struggles with existential crises ranging from environmental collapse to cultural disintegration, the call for a Second Renaissance becomes not merely an intellectual exercise but a cultural and spiritual necessity.
 
 This new Renaissance must transcend the narrow materialism and utilitarianism of our current age, turning instead to the wisdom of classical authors and the intellectual flourishing of the first Renaissance to rebuild a world where humanism, beauty, and virtue take precedence.
