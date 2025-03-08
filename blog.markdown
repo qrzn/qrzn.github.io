@@ -45,7 +45,7 @@ Step into our enchanted blog—a realm where Thelemic wisdom melds with creative
               {% if post.author %}
                 <p class="post-author">&mdash; {{ post.author }}</p>
               {% endif %}
-              <p class="post-date">{{ post.date | date: "%b %-d, %Y" }}</p>
+              <p class="post-date">{{ post.date | date: "%b %-d, %Y e.v." }}</p>
               {% if post.excerpt %}
                 <div class="post-excerpt">
                   {{ post.excerpt }}

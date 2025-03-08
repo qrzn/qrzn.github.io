@@ -4,6 +4,7 @@
   cover: "/assets/books/cover/aleph.png"
   category: "Thelema"
   description: "An audacious blend of esoteric wisdom and playful folly that challenges conventional thought in true Thelemic style."
+  date: "2025-01-17"
 
 - title: "The Confessions of Aleister Crowley"
   file: "/assets/books/epub/confessions.epub"
@@ -11,6 +12,7 @@
   cover: "/assets/books/cover/confessions.png"
   category: "Thelema"
   description: "A candid memoir revealing the controversial life and spiritual revelations of the infamous occultist."
+  date: "2025-02-20"
 
 - title: "Liber AL vel Legis &mdash; Commentaries"
   file: "/assets/books/epub/l220comments.epub"
@@ -18,6 +20,7 @@
   cover: "/assets/books/cover/l220comments.jpg"
   category: "Thelema"
   description: "Insightful commentaries that illuminate the cryptic verses and esoteric teachings of Thelema’s central text."
+  date: "2025-03-04"
 
 - title: "Liezi"
   file: "/assets/books/epub/ld.epub"
@@ -25,6 +28,7 @@
   cover: "/assets/books/cover/ld.png"
   category: "Daoism"
   description: "An ancient Daoist classic exploring the art of effortless action and the harmony of nature."
+  date: "2025-01-17"
 
 - title: "Liber CCCXXXIII &mdash; The Book of Lies"
   file: "/assets/books/epub/liber333.epub"
@@ -32,6 +36,7 @@
   cover: "/assets/books/cover/liber333.jpg"
   category: "Thelema"
   description: "A provocative and enigmatic work that challenges perception with its paradoxical and mystical satire."
+  date: "2025-02-21"
 
 - title: "Liber CDXVIII &mdash; The Vision and the Voice"
   file: "/assets/books/epub/liber418.epub"
@@ -39,6 +44,7 @@
   cover: "/assets/books/cover/l418.png"
   category: "Thelema"
   description: "A visionary exploration of mystical experiences and symbolic imagery that unveils hidden realms of occult insight."
+  date: "2025-03-04"
 
 - title: "Liber IV &mdash; Magick"
   file: "/assets/books/epub/magick.epub"
@@ -46,6 +52,7 @@
   cover: "/assets/books/cover/magick.jpg"
   category: "Thelema"
   description: "A seminal treatise on ceremonial magic outlining transformative rituals and practical magick within Thelemic tradition."
+  date: "2025-03-04"
 
 - title: "Magick without Tears"
   file: "/assets/books/epub/mwt.epub"
@@ -53,6 +60,7 @@
   cover: "/assets/books/cover/mwt.jpg"
   category: "Thelema"
   description: "A personal, candid guide that demystifies the practice of magick through thoughtful lessons and reflective insights."
+  date: "2025-01-28"
 
 - title: "Tao Te King"
   file: "/assets/books/epub/ttk.epub"
@@ -60,3 +68,20 @@
   cover: "/assets/books/cover/ttk.jpg"
   category: "Daoism"
   description: "A timeless Daoist classic offering poetic wisdom on the nature of existence and the art of effortless living."
+  date: "2025-01-27"
+
+- title: "Eight Lectures on Yoga"
+  file: "/assets/books/epub/8lectures-on-yoga.epub"
+  author: "Aleister Crowley"
+  cover: "/assets/books/cover/8lectures-on-yoga.jpg"
+  category: "Thelema"
+  description: "An illuminating series of lectures that explore the philosophy and practice of yoga, guiding readers toward balance, inner peace, and self-transformation."
+  date: "2025-03-07"
+
+- title: "Little Essays Towards Truth"
+  file: "/assets/books/epub/essays-truth.epub"
+  author: "Aleister Crowley"
+  cover: "/assets/books/cover/essays-truth.jpg"
+  category:  "Thelema"
+  description: "A collection of brief, thought-provoking reflections that challenge conventional wisdom and illuminate the path to personal insight."
+  date: "2025-03-07"

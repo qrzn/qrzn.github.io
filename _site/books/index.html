@@ -58,7 +58,14 @@
     </nav>
   </header>
 
-  <main>
+  <main id="main-content">
+    <!-- Preloader overlay -->
+    <div id="preloader" class="preloader">
+      <div class="spinner"></div>
+    </div>
+
+    <!-- Actual page content goes here -->
+    <div class="page-content">
     
       <h1 class="post-title">Books</h1>
     
@@ -67,263 +74,415 @@
 <p>Welcome, seeker. Within these pages, you will find a carefully curated collection of occult texts and esoteric tomes. Steeped in mystery and ancient wisdom, these works serve as both a guide and a challenge to those who dare to pursue the hidden truths of existence.</p>
 
 <section class="category-posts">
+  <!-- Search Input -->
+  <input type="text" id="bookSearch2" placeholder="Search books..." />
+
   
-    
-    
-    
   
-    
-    
-    
-  
-    
-    
-    
-  
-    
-    
-    
-  
-    
-    
-        <section class="category-section">
-          <h3 class="category-heading">
-            Daoism
+    <section class="category-section">
+      <ul class="books-list">
+        
+        
+          <li class="book-item" id="liezi">
+            <article class="book">
+              <div class="book-title-wrapper">
+                <h3 class="book-title">Liezi</h3>
+              </div>
+              <p class="book-author">&mdash; Richard Wilhelm</p>
               
-          </h3>
-          <ul class="books-list">
-            
-            
-              <li class="book-item" id="liezi">
-                <article class="book">
-                  <div class="book-title-wrapper">
-                    <h3 class="book-title">Liezi</h3>
-                  </div>
-                  <p class="book-author">&mdash; Richard Wilhelm</p>
-                  
-                    <figure class="book-cover">
-                      <a href="/assets/books/epub/ld.epub" download="">
-                        <img src="/assets/books/cover/ld.png" alt="Liezi Cover" />
-                      </a>
-                    </figure>
-                  
-                  <p class="book-description">An ancient Daoist classic exploring the art of effortless action and the harmony of nature.</p>
-                </article>
-              </li>
-            
-              <li class="book-item" id="tao-te-king">
-                <article class="book">
-                  <div class="book-title-wrapper">
-                    <h3 class="book-title">Tao Te King</h3>
-                  </div>
-                  <p class="book-author">&mdash; Richard Wilhelm</p>
-                  
-                    <figure class="book-cover">
-                      <a href="/assets/books/epub/ttk.epub" download="">
-                        <img src="/assets/books/cover/ttk.jpg" alt="Tao Te King Cover" />
-                      </a>
-                    </figure>
-                  
-                  <p class="book-description">A timeless Daoist classic offering poetic wisdom on the nature of existence and the art of effortless living.</p>
-                </article>
-              </li>
-            
-          </ul>
-        </section>
-      
-    
-  
-    
-    
-  
-    
-    
-    
-  
-    
-    
-    
-  
-    
-    
-    
-  
-    
-    
-        <section class="category-section">
-          <h3 class="category-heading">
-            Thelema
+                <figure class="book-cover">
+                  <img src="/assets/books/cover/ld.png" alt="Liezi Cover" />
+                </figure>
               
-          </h3>
-          <ul class="books-list">
-            
-            
-              <li class="book-item" id="eight-lectures-on-yoga">
-                <article class="book">
-                  <div class="book-title-wrapper">
-                    <h3 class="book-title">Eight Lectures on Yoga</h3>
-                  </div>
-                  <p class="book-author">&mdash; Aleister Crowley</p>
-                  
-                    <figure class="book-cover">
-                      <a href="/assets/books/epub/8lectures-on-yoga.epub" download="">
-                        <img src="/assets/books/cover/8lectures-on-yoga.jpg" alt="Eight Lectures on Yoga Cover" />
-                      </a>
-                    </figure>
-                  
-                  <p class="book-description">An exciting adventure.</p>
-                </article>
-              </li>
-            
-              <li class="book-item" id="liber-al-vel-legis-mdash-commentaries">
-                <article class="book">
-                  <div class="book-title-wrapper">
-                    <h3 class="book-title">Liber AL vel Legis &mdash; Commentaries</h3>
-                  </div>
-                  <p class="book-author">&mdash; Aleister Crowley</p>
-                  
-                    <figure class="book-cover">
-                      <a href="/assets/books/epub/l220comments.epub" download="">
-                        <img src="/assets/books/cover/l220comments.jpg" alt="Liber AL vel Legis &mdash; Commentaries Cover" />
-                      </a>
-                    </figure>
-                  
-                  <p class="book-description">Insightful commentaries that illuminate the cryptic verses and esoteric teachings of Thelema’s central text.</p>
-                </article>
-              </li>
-            
-              <li class="book-item" id="liber-aleph-mdash-the-book-of-wisdom-folly">
-                <article class="book">
-                  <div class="book-title-wrapper">
-                    <h3 class="book-title">Liber Aleph &mdash; The Book of Wisdom &amp; Folly</h3>
-                  </div>
-                  <p class="book-author">&mdash; Aleister Crowley</p>
-                  
-                    <figure class="book-cover">
-                      <a href="/assets/books/epub/aleph.epub" download="">
-                        <img src="/assets/books/cover/aleph.png" alt="Liber Aleph &mdash; The Book of Wisdom &amp; Folly Cover" />
-                      </a>
-                    </figure>
-                  
-                  <p class="book-description">An exciting adventure.</p>
-                </article>
-              </li>
-            
-              <li class="book-item" id="liber-cccxxxiii-mdash-the-book-of-lies">
-                <article class="book">
-                  <div class="book-title-wrapper">
-                    <h3 class="book-title">Liber CCCXXXIII &mdash; The Book of Lies</h3>
-                  </div>
-                  <p class="book-author">&mdash; Aleister Crowley</p>
-                  
-                    <figure class="book-cover">
-                      <a href="/assets/books/epub/liber333.epub" download="">
-                        <img src="/assets/books/cover/liber333.jpg" alt="Liber CCCXXXIII &mdash; The Book of Lies Cover" />
-                      </a>
-                    </figure>
-                  
-                  <p class="book-description">A provocative and enigmatic work that challenges perception with its paradoxical and mystical satire.</p>
-                </article>
-              </li>
-            
-              <li class="book-item" id="liber-cdxviii-mdash-the-vision-and-the-voice">
-                <article class="book">
-                  <div class="book-title-wrapper">
-                    <h3 class="book-title">Liber CDXVIII &mdash; The Vision and the Voice</h3>
-                  </div>
-                  <p class="book-author">&mdash; Aleister Crowley</p>
-                  
-                    <figure class="book-cover">
-                      <a href="/assets/books/epub/liber418.epub" download="">
-                        <img src="/assets/books/cover/l418.png" alt="Liber CDXVIII &mdash; The Vision and the Voice Cover" />
-                      </a>
-                    </figure>
-                  
-                  <p class="book-description">A visionary exploration of mystical experiences and symbolic imagery that unveils hidden realms of occult insight.</p>
-                </article>
-              </li>
-            
-              <li class="book-item" id="liber-iv-mdash-magick">
-                <article class="book">
-                  <div class="book-title-wrapper">
-                    <h3 class="book-title">Liber IV &mdash; Magick</h3>
-                  </div>
-                  <p class="book-author">&mdash; Aleister Crowley</p>
-                  
-                    <figure class="book-cover">
-                      <a href="/assets/books/epub/magick.epub" download="">
-                        <img src="/assets/books/cover/magick.jpg" alt="Liber IV &mdash; Magick Cover" />
-                      </a>
-                    </figure>
-                  
-                  <p class="book-description">A seminal treatise on ceremonial magic outlining transformative rituals and practical magick within Thelemic tradition.</p>
-                </article>
-              </li>
-            
-              <li class="book-item" id="little-essays-towards-truth">
-                <article class="book">
-                  <div class="book-title-wrapper">
-                    <h3 class="book-title">Little Essays Towards Truth</h3>
-                  </div>
-                  <p class="book-author">&mdash; Aleister Crowley</p>
-                  
-                    <figure class="book-cover">
-                      <a href="/assets/books/epub/essays-truth.epub" download="">
-                        <img src="/assets/books/cover/essays-truth.jpg" alt="Little Essays Towards Truth Cover" />
-                      </a>
-                    </figure>
-                  
-                  <p class="book-description">An exciting adventure.</p>
-                </article>
-              </li>
-            
-              <li class="book-item" id="magick-without-tears">
-                <article class="book">
-                  <div class="book-title-wrapper">
-                    <h3 class="book-title">Magick without Tears</h3>
-                  </div>
-                  <p class="book-author">&mdash; Aleister Crowley</p>
-                  
-                    <figure class="book-cover">
-                      <a href="/assets/books/epub/mwt.epub" download="">
-                        <img src="/assets/books/cover/mwt.jpg" alt="Magick without Tears Cover" />
-                      </a>
-                    </figure>
-                  
-                  <p class="book-description">A personal, candid guide that demystifies the practice of magick through thoughtful lessons and reflective insights.</p>
-                </article>
-              </li>
-            
-              <li class="book-item" id="the-confessions-of-aleister-crowley">
-                <article class="book">
-                  <div class="book-title-wrapper">
-                    <h3 class="book-title">The Confessions of Aleister Crowley</h3>
-                  </div>
-                  <p class="book-author">&mdash; Aleister Crowley</p>
-                  
-                    <figure class="book-cover">
-                      <a href="/assets/books/epub/aleph.epub" download="">
-                        <img src="/assets/books/cover/confessions.png" alt="The Confessions of Aleister Crowley Cover" />
-                      </a>
-                    </figure>
-                  
-                  <p class="book-description">A candid memoir revealing the controversial life and spiritual revelations of the infamous occultist.</p>
-                </article>
-              </li>
-            
-          </ul>
-        </section>
-      
-    
+              <p class="book-category">Daoism</p>
+              <p class="book-description">An ancient Daoist classic exploring the art of effortless action and the harmony of nature.</p>
+              
+                <div class="book-download-wrapper">
+                  <a href="/assets/books/epub/ld.epub" download="" class="book-download">
+                    <img src="/assets/img/download-solid.svg" alt="Download" />
+                  </a>
+                </div>
+              
+            </article>
+          </li>
+        
+          <li class="book-item" id="tao-te-king">
+            <article class="book">
+              <div class="book-title-wrapper">
+                <h3 class="book-title">Tao Te King</h3>
+              </div>
+              <p class="book-author">&mdash; Richard Wilhelm</p>
+              
+                <figure class="book-cover">
+                  <img src="/assets/books/cover/ttk.jpg" alt="Tao Te King Cover" />
+                </figure>
+              
+              <p class="book-category">Daoism</p>
+              <p class="book-description">A timeless Daoist classic offering poetic wisdom on the nature of existence and the art of effortless living.</p>
+              
+                <div class="book-download-wrapper">
+                  <a href="/assets/books/epub/ttk.epub" download="" class="book-download">
+                    <img src="/assets/img/download-solid.svg" alt="Download" />
+                  </a>
+                </div>
+              
+            </article>
+          </li>
+        
+      </ul>
+    </section>
   
-    
-    
-    
+    <section class="category-section">
+      <ul class="books-list">
+        
+        
+          <li class="book-item" id="eight-lectures-on-yoga">
+            <article class="book">
+              <div class="book-title-wrapper">
+                <h3 class="book-title">Eight Lectures on Yoga</h3>
+              </div>
+              <p class="book-author">&mdash; Aleister Crowley</p>
+              
+                <figure class="book-cover">
+                  <img src="/assets/books/cover/8lectures-on-yoga.jpg" alt="Eight Lectures on Yoga Cover" />
+                </figure>
+              
+              <p class="book-category">Thelema</p>
+              <p class="book-description">An illuminating series of lectures that explore the philosophy and practice of yoga, guiding readers toward balance, inner peace, and self-transformation.</p>
+              
+                <div class="book-download-wrapper">
+                  <a href="/assets/books/epub/8lectures-on-yoga.epub" download="" class="book-download">
+                    <img src="/assets/img/download-solid.svg" alt="Download" />
+                  </a>
+                </div>
+              
+            </article>
+          </li>
+        
+          <li class="book-item" id="liber-al-vel-legis-mdash-commentaries">
+            <article class="book">
+              <div class="book-title-wrapper">
+                <h3 class="book-title">Liber AL vel Legis &mdash; Commentaries</h3>
+              </div>
+              <p class="book-author">&mdash; Aleister Crowley</p>
+              
+                <figure class="book-cover">
+                  <img src="/assets/books/cover/l220comments.jpg" alt="Liber AL vel Legis &mdash; Commentaries Cover" />
+                </figure>
+              
+              <p class="book-category">Thelema</p>
+              <p class="book-description">Insightful commentaries that illuminate the cryptic verses and esoteric teachings of Thelema’s central text.</p>
+              
+                <div class="book-download-wrapper">
+                  <a href="/assets/books/epub/l220comments.epub" download="" class="book-download">
+                    <img src="/assets/img/download-solid.svg" alt="Download" />
+                  </a>
+                </div>
+              
+            </article>
+          </li>
+        
+          <li class="book-item" id="liber-aleph-mdash-the-book-of-wisdom-folly">
+            <article class="book">
+              <div class="book-title-wrapper">
+                <h3 class="book-title">Liber Aleph &mdash; The Book of Wisdom &amp; Folly</h3>
+              </div>
+              <p class="book-author">&mdash; Aleister Crowley</p>
+              
+                <figure class="book-cover">
+                  <img src="/assets/books/cover/aleph.png" alt="Liber Aleph &mdash; The Book of Wisdom &amp; Folly Cover" />
+                </figure>
+              
+              <p class="book-category">Thelema</p>
+              <p class="book-description">An audacious blend of esoteric wisdom and playful folly that challenges conventional thought in true Thelemic style.</p>
+              
+                <div class="book-download-wrapper">
+                  <a href="/assets/books/epub/aleph.epub" download="" class="book-download">
+                    <img src="/assets/img/download-solid.svg" alt="Download" />
+                  </a>
+                </div>
+              
+            </article>
+          </li>
+        
+          <li class="book-item" id="liber-cccxxxiii-mdash-the-book-of-lies">
+            <article class="book">
+              <div class="book-title-wrapper">
+                <h3 class="book-title">Liber CCCXXXIII &mdash; The Book of Lies</h3>
+              </div>
+              <p class="book-author">&mdash; Aleister Crowley</p>
+              
+                <figure class="book-cover">
+                  <img src="/assets/books/cover/liber333.jpg" alt="Liber CCCXXXIII &mdash; The Book of Lies Cover" />
+                </figure>
+              
+              <p class="book-category">Thelema</p>
+              <p class="book-description">A provocative and enigmatic work that challenges perception with its paradoxical and mystical satire.</p>
+              
+                <div class="book-download-wrapper">
+                  <a href="/assets/books/epub/liber333.epub" download="" class="book-download">
+                    <img src="/assets/img/download-solid.svg" alt="Download" />
+                  </a>
+                </div>
+              
+            </article>
+          </li>
+        
+          <li class="book-item" id="liber-cdxviii-mdash-the-vision-and-the-voice">
+            <article class="book">
+              <div class="book-title-wrapper">
+                <h3 class="book-title">Liber CDXVIII &mdash; The Vision and the Voice</h3>
+              </div>
+              <p class="book-author">&mdash; Aleister Crowley</p>
+              
+                <figure class="book-cover">
+                  <img src="/assets/books/cover/l418.png" alt="Liber CDXVIII &mdash; The Vision and the Voice Cover" />
+                </figure>
+              
+              <p class="book-category">Thelema</p>
+              <p class="book-description">A visionary exploration of mystical experiences and symbolic imagery that unveils hidden realms of occult insight.</p>
+              
+                <div class="book-download-wrapper">
+                  <a href="/assets/books/epub/liber418.epub" download="" class="book-download">
+                    <img src="/assets/img/download-solid.svg" alt="Download" />
+                  </a>
+                </div>
+              
+            </article>
+          </li>
+        
+          <li class="book-item" id="liber-iv-mdash-magick">
+            <article class="book">
+              <div class="book-title-wrapper">
+                <h3 class="book-title">Liber IV &mdash; Magick</h3>
+              </div>
+              <p class="book-author">&mdash; Aleister Crowley</p>
+              
+                <figure class="book-cover">
+                  <img src="/assets/books/cover/magick.jpg" alt="Liber IV &mdash; Magick Cover" />
+                </figure>
+              
+              <p class="book-category">Thelema</p>
+              <p class="book-description">A seminal treatise on ceremonial magic outlining transformative rituals and practical magick within Thelemic tradition.</p>
+              
+                <div class="book-download-wrapper">
+                  <a href="/assets/books/epub/magick.epub" download="" class="book-download">
+                    <img src="/assets/img/download-solid.svg" alt="Download" />
+                  </a>
+                </div>
+              
+            </article>
+          </li>
+        
+          <li class="book-item" id="little-essays-towards-truth">
+            <article class="book">
+              <div class="book-title-wrapper">
+                <h3 class="book-title">Little Essays Towards Truth</h3>
+              </div>
+              <p class="book-author">&mdash; Aleister Crowley</p>
+              
+                <figure class="book-cover">
+                  <img src="/assets/books/cover/essays-truth.jpg" alt="Little Essays Towards Truth Cover" />
+                </figure>
+              
+              <p class="book-category">Thelema</p>
+              <p class="book-description">A collection of brief, thought-provoking reflections that challenge conventional wisdom and illuminate the path to personal insight.</p>
+              
+                <div class="book-download-wrapper">
+                  <a href="/assets/books/epub/essays-truth.epub" download="" class="book-download">
+                    <img src="/assets/img/download-solid.svg" alt="Download" />
+                  </a>
+                </div>
+              
+            </article>
+          </li>
+        
+          <li class="book-item" id="magick-without-tears">
+            <article class="book">
+              <div class="book-title-wrapper">
+                <h3 class="book-title">Magick without Tears</h3>
+              </div>
+              <p class="book-author">&mdash; Aleister Crowley</p>
+              
+                <figure class="book-cover">
+                  <img src="/assets/books/cover/mwt.jpg" alt="Magick without Tears Cover" />
+                </figure>
+              
+              <p class="book-category">Thelema</p>
+              <p class="book-description">A personal, candid guide that demystifies the practice of magick through thoughtful lessons and reflective insights.</p>
+              
+                <div class="book-download-wrapper">
+                  <a href="/assets/books/epub/mwt.epub" download="" class="book-download">
+                    <img src="/assets/img/download-solid.svg" alt="Download" />
+                  </a>
+                </div>
+              
+            </article>
+          </li>
+        
+          <li class="book-item" id="the-confessions-of-aleister-crowley">
+            <article class="book">
+              <div class="book-title-wrapper">
+                <h3 class="book-title">The Confessions of Aleister Crowley</h3>
+              </div>
+              <p class="book-author">&mdash; Aleister Crowley</p>
+              
+                <figure class="book-cover">
+                  <img src="/assets/books/cover/confessions.png" alt="The Confessions of Aleister Crowley Cover" />
+                </figure>
+              
+              <p class="book-category">Thelema</p>
+              <p class="book-description">A candid memoir revealing the controversial life and spiritual revelations of the infamous occultist.</p>
+              
+                <div class="book-download-wrapper">
+                  <a href="/assets/books/epub/confessions.epub" download="" class="book-download">
+                    <img src="/assets/img/download-solid.svg" alt="Download" />
+                  </a>
+                </div>
+              
+            </article>
+          </li>
+        
+      </ul>
+    </section>
   
 </section>
 
+<script>
+document.getElementById("bookSearch2").addEventListener("keyup", function() {
+  var filter = this.value.toLowerCase();
+  var bookItems = document.querySelectorAll(".book-item");
+  bookItems.forEach(function(item) {
+    if(item.textContent.toLowerCase().indexOf(filter) > -1) {
+      item.style.display = "";
+    } else {
+      item.style.display = "none";
+    }
+  });
+});
+</script>
+
+<section class="recent-books">
+  <h3>Recent Book Updates</h3>
+  <input type="text" id="bookSearch" placeholder="Search books..." />
+  <table id="booksTable">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Category</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      
+        <tr>
+          <td>
+            <a href="/books/#little-essays-towards-truth">Little Essays Towards Truth</a>
+          </td>
+          <td>Aleister Crowley</td>
+          <td>Thelema</td>
+        </tr>
+      
+        <tr>
+          <td>
+            <a href="/books/#eight-lectures-on-yoga">Eight Lectures on Yoga</a>
+          </td>
+          <td>Aleister Crowley</td>
+          <td>Thelema</td>
+        </tr>
+      
+        <tr>
+          <td>
+            <a href="/books/#liber-iv-mdash-magick">Liber IV &mdash; Magick</a>
+          </td>
+          <td>Aleister Crowley</td>
+          <td>Thelema</td>
+        </tr>
+      
+        <tr>
+          <td>
+            <a href="/books/#liber-cdxviii-mdash-the-vision-and-the-voice">Liber CDXVIII &mdash; The Vision and the Voice</a>
+          </td>
+          <td>Aleister Crowley</td>
+          <td>Thelema</td>
+        </tr>
+      
+        <tr>
+          <td>
+            <a href="/books/#liber-al-vel-legis-mdash-commentaries">Liber AL vel Legis &mdash; Commentaries</a>
+          </td>
+          <td>Aleister Crowley</td>
+          <td>Thelema</td>
+        </tr>
+      
+        <tr>
+          <td>
+            <a href="/books/#liber-cccxxxiii-mdash-the-book-of-lies">Liber CCCXXXIII &mdash; The Book of Lies</a>
+          </td>
+          <td>Aleister Crowley</td>
+          <td>Thelema</td>
+        </tr>
+      
+        <tr>
+          <td>
+            <a href="/books/#the-confessions-of-aleister-crowley">The Confessions of Aleister Crowley</a>
+          </td>
+          <td>Aleister Crowley</td>
+          <td>Thelema</td>
+        </tr>
+      
+        <tr>
+          <td>
+            <a href="/books/#magick-without-tears">Magick without Tears</a>
+          </td>
+          <td>Aleister Crowley</td>
+          <td>Thelema</td>
+        </tr>
+      
+        <tr>
+          <td>
+            <a href="/books/#tao-te-king">Tao Te King</a>
+          </td>
+          <td>Richard Wilhelm</td>
+          <td>Daoism</td>
+        </tr>
+      
+        <tr>
+          <td>
+            <a href="/books/#liezi">Liezi</a>
+          </td>
+          <td>Richard Wilhelm</td>
+          <td>Daoism</td>
+        </tr>
+      
+        <tr>
+          <td>
+            <a href="/books/#liber-aleph-mdash-the-book-of-wisdom-folly">Liber Aleph &mdash; The Book of Wisdom &amp; Folly</a>
+          </td>
+          <td>Aleister Crowley</td>
+          <td>Thelema</td>
+        </tr>
+      
+    </tbody>
+  </table>
+</section>
+
+<script>
+document.getElementById("bookSearch").addEventListener("keyup", function() {
+  var filter = this.value.toLowerCase();
+  var rows = document.querySelectorAll("#booksTable tbody tr");
+  rows.forEach(function(row) {
+    // Check all text in the row
+    var rowText = row.textContent.toLowerCase();
+    row.style.display = rowText.indexOf(filter) > -1 ? "" : "none";
+  });
+});
+</script>
+
 <p>Whether you are a devoted practitioner of the occult or a curious wanderer seeking deeper truths, these texts offer a gateway to understanding the hidden realms of knowledge. Read, reflect, and let the journey transform your perception of reality.</p>
 
+    </div>
   </main>
 
 <footer>

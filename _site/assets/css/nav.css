@@ -114,11 +114,9 @@
 /* When the mega menu is open, animate its list items */
 .mega-menu.open .mega-menu-list li {
   opacity: 0;
-  transform: translateX(-20px);
+  transform: translateY(-20px);
   animation: slideInMegaMenu 0.5s forwards;
 }
-
-/* Stagger the animation delays */
 .mega-menu.open .mega-menu-list li:nth-child(1) {
   animation-delay: 0.1s;
 }
@@ -142,7 +140,9 @@
 }
 /*.mega-menu.open .mega-menu-list li:nth-child(8) {
   animation-delay: 0.8s;
-} /*
+}
+/*
+
 /* Nav Container (adjust as needed) */
 .nav-container {
   display: flex;

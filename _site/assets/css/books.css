@@ -69,13 +69,14 @@ h1 + p:not(.centered-small-caps)::first-letter,
   line-height: 1;
 }
 
-p, li, h1, h2, h3 {
+.book-download-wrapper, p, li, h1, h2, h3, {
   opacity: 0;
   transform: translateY(100px);
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
 /* Visible state after animation */
+.book-download-wrapper.visible,
 p.visible,
 li.visible,
 h1.visible,
@@ -84,6 +85,17 @@ h3.visible {
   opacity: 1;
   transform: translateY(0);
 }
+
+input {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+input.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* -----------------------------------
    Link Styles
 ----------------------------------- */
@@ -127,9 +139,49 @@ main h1 {
   font-variant: small-caps;
 }
 
+/* Main container should be position: relative so the overlay can center inside it */
+#main-content {
+  position: relative;
+}
+
+/* Preloader Overlay */
+#preloader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000ee; /* Slightly transparent black overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Ensure it stays on top of everything else */
+}
+
+/* Hide the page content initially */
+.page-content {
+  visibility: hidden;
+}
+
+/* Simple spinner animation */
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 6px solid #ccc;
+  border-top-color: #DC143C; /* Crimson red or your accent color */
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+/* Spinner Keyframes */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
 /* Slide in animation for main section */
+/*
 main {
-  /* Existing properties remain */
   animation: slideIn 0.6s ease-out forwards;
 }
 
@@ -143,6 +195,7 @@ main {
     opacity: 1;
   }
 }
+*/
 /* -----------------------------------
    Post & Article Styling
 ----------------------------------- */
@@ -281,19 +334,71 @@ footer {
   margin-top: 0.5em;
 }
 /* -----------------------------------
-   Books Section Styling
+   Updates Container Styling
 ----------------------------------- */
-.category-section {
-  margin-bottom: 2em;
-  padding-bottom: 1em;
-  border-bottom: 1px solid var(--accent-border);
+
+.updates-container {
+  display: flex;
+  justify-content: space-between; /* or space-around, as you prefer */
+  align-items: flex-start;        /* ensure headings align at the top */
+  gap: 2em;                       /* space between columns */
+  margin: 1em auto;
 }
 
+.updates-container section {
+  flex: 1 1 0;    /* let each section grow/shrink equally */
+  min-width: 250px;
+}
+
+.updates-container h3 {
+  text-align: center;
+  font-size: 1.4em;
+  margin-bottom: 0.5em;
+  color: var(--link-color);
+}
+
+.updates-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.updates-container li {
+  margin-bottom: 0.5em;
+}
+
+.post-date,
+.book-date {
+  margin-left: 0.5em;
+  font-size: 0.9em;
+}
+
+.post-categories {
+  font-size: 0.8em;
+  color: var(--link-color);
+}
+
+/* Responsive: stack columns on small screens */
+@media (max-width: 768px) {
+  .updates-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+/* -----------------------------------
+   Books Section Styling
+----------------------------------- */
 .category-heading {
   font-size: 1.5em;
   margin: 0 0 0.5em 0;
   color: var(--link-color);
   text-align: center;
+}
+
+.book-category {
+  text-align: right;
+  font-size: 0;
 }
 
 /* Override the bullet styling for .books-list so it doesn't get custom bullets */
@@ -351,7 +456,7 @@ footer {
 
 .book-cover img {
   display: inline-block;
-  max-width: 100px;
+  max-width: 150px;
   height: auto;
 /*  border: 1px solid var(--accent-border); */
   border-radius: 5px;
@@ -362,30 +467,53 @@ footer {
 .book-description {
   margin: 0.5em 0;
 }
-
+/*
 .book-download-wrapper {
   margin-top: 0.5em;
 }
 
-/* Specific Styles for Book Download Links */
 a.book-download {
-  display: inline-block;     /* Ensures block-level styling */
+  display: inline-block;     
   padding: 12px 25px;
   font-size: 16px;
   font-weight: bold;
   background-color: var(--link-color);
-  color: var(--bg-color);      /* Invert text color for contrast */
+  color: var(--bg-color);        
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  text-decoration: none;       /* Prevent underline */
+  text-decoration: none;       
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-
 a.book-download:hover {
   background-color: var(--link-hover);
-  /* Keeping text color consistent on hover */
   color: var(--bg-color);
+}
+*/
+/* Download Link Styling (matches Social Links) */
+.book-download-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.book-download-wrapper a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  transition: opacity 0.3s ease;
+}
+
+.book-download-wrapper a img {
+  max-width: 80%;
+  height: auto;
+  object-fit: contain;
+}
+
+.book-download-wrapper a:hover {
+  opacity: 0.8;
 }
 
 figure.book-cover {
@@ -681,4 +809,26 @@ table tr:hover td {
     padding: 8px;
     font-size: 14px;
   }
+}
+
+#bookSearch,
+#bookSearch2 {
+  display: block;
+  width: auto;
+  max-width: 600px;
+  margin: 0.5em auto 1em;
+  padding: 0.75em 1em;
+  background-color: #111;
+  border: 1px solid var(--accent-border);
+  border-radius: 4px;
+  color: var(--text-color);
+  font-size: 1em;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#bookSearch:focus,
+#bookSearch2:focus {
+  outline: none;
+  border-color: var(--link-color);
+  box-shadow: 0 0 5px var(--link-color);
 }
