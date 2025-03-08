@@ -32,11 +32,3 @@ defaults:
       type: "pages"
     values:
       layout: default
-
-# Exclude from processing.
-exclude:
-  - books/
-
-collections:
-  books:
-    output: true
