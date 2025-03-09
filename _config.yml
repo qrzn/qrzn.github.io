@@ -32,3 +32,10 @@ defaults:
       type: "pages"
     values:
       layout: default
+
+exclude:
+  - README.MD
+
+collections:
+  books:
+    output: true
