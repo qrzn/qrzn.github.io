@@ -1,0 +1,196 @@
+/* retro.css */
+
+/* Import the local retro fonts */
+@font-face {
+  font-family: 'Press Start 2P';
+  src: url('/assets/fonts/PressStart2P-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'dos';
+  src: url('/assets/fonts/dos.ttf') format('truetype');
+}
+
+body {
+  background: url('/assets/img/stars.gif') repeat; /* Replace with your own starry tile image */
+  background-color: #000;
+  color: #fff;
+  font-family: 'dos', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+/* Sticky header container */
+.sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Header */
+.header {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 2px solid #444;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #0f0; /* Green accent */
+}
+
+/* Navigation */
+.nav {
+  background-color: #222;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #444;
+}
+
+th, td {
+  padding: 5px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #0f0; /* Green accent */
+  margin: 0 20px;
+  font-size: 1.2em;
+}
+
+.nav a:hover {
+  color: #fff;
+}
+
+/* Marquee */
+.marquee {
+  background-color: #111;
+  padding: 10px;
+  margin: 15px;
+  border: 1px dashed #0f0;
+}
+
+/* Main Content */
+.content {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: 20px;
+  border: 2px solid #0f0;
+  /* Adjust top and bottom margins to prevent overlap with fixed header/footer */
+  margin-top: 220px;  /* Adjust based on your header's total height */
+  margin-bottom: 80px; /* Adjust based on your footer's height */
+}
+
+/* Sticky Footer */
+.footer {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 15px;
+  border-top: 2px solid #444;
+  font-size: 0.9em;
+  color: #aaa;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Retro styling for the Books page */
+.recent-books {
+  background-color: #111;
+  padding: 20px;
+  margin: 20px;
+  font-family: 'dos', cursive;
+}
+
+.recent-books h3 {
+  color: #0f0;
+  text-shadow: 1px 1px 0 #000;
+  margin-bottom: 15px;
+}
+
+#bookSearch {
+  width: 80%;
+  padding: 10px;
+  font-size: 1em;
+  border: 2px solid #0f0;
+  background-color: #000;
+  color: #0f0;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 0 #0f0;
+}
+
+#booksList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#booksList li {
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px dashed #0f0;
+}
+
+#booksList li a {
+  color: #0f0;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+#booksList li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2em;
+  }
+  .nav a {
+    font-size: 1em;
+    margin: 0 10px;
+  }
+  .content {
+    margin: 10px;
+    padding: 15px;
+    margin-top: 220px;
+    margin-bottom: 80px;
+  }
+  .marquee {
+    margin: 10px;
+    padding: 8px;
+  }
+  .footer {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 1.8em;
+  }
+  .nav {
+    padding: 8px;
+  }
+  .nav a {
+    display: block;
+    margin: 5px 0;
+  }
+  .marquee {
+    font-size: 0.9em;
+  }
+  .content {
+    padding: 10px;
+    margin: 5px;
+    margin-top: 220px;
+    margin-bottom: 80px;
+  }
+}

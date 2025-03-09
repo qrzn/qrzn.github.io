@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Books - My Personal Website</title>
+  <link rel="icon" type="image/gif" href="/assets/img/globe.gif">
+  <link rel="stylesheet" type="text/css" href="/assets/css/retro.css">
+</head>
+<body>
+  <div class="sticky-header">
+    <!-- Header -->
+    <div class="header">
+      <h1>Books</h1>
+    </div>
+    <!-- Marquee (Moved above navigation) -->
+    <div class="marquee">
+      <marquee behavior="scroll" direction="left">
+        Ebooks in epub format!
+      </marquee>
+    </div>
+    <!-- Navigation -->
+    <div class="nav">
+      
+        <a href="/">Home</a>
+      
+        <a href="/retro-books/">Books</a>
+      
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content">
+    <section class="recent-books">
+  <input type="text" id="bookSearch" placeholder="Search books..." />
+  <ul id="booksList">
+    
+    
+      <li>
+        <a href="/assets/books/epub/essays-truth.epub">Aleister Crowley &mdash; Little Essays Towards Truth</a>
+      </li>
+    
+      <li>
+        <a href="/assets/books/epub/8lectures-on-yoga.epub">Aleister Crowley &mdash; Eight Lectures on Yoga</a>
+      </li>
+    
+      <li>
+        <a href="/assets/books/epub/magick.epub">Aleister Crowley &mdash; Liber IV &mdash; Magick</a>
+      </li>
+    
+      <li>
+        <a href="/assets/books/epub/liber418.epub">Aleister Crowley &mdash; Liber CDXVIII &mdash; The Vision and the Voice</a>
+      </li>
+    
+      <li>
+        <a href="/assets/books/epub/l220comments.epub">Aleister Crowley &mdash; Liber AL vel Legis &mdash; Commentaries</a>
+      </li>
+    
+      <li>
+        <a href="/assets/books/epub/liber333.epub">Aleister Crowley &mdash; Liber CCCXXXIII &mdash; The Book of Lies</a>
+      </li>
+    
+      <li>
+        <a href="/assets/books/epub/confessions.epub">Aleister Crowley &mdash; The Confessions of Aleister Crowley</a>
+      </li>
+    
+      <li>
+        <a href="/assets/books/epub/mwt.epub">Aleister Crowley &mdash; Magick without Tears</a>
+      </li>
+    
+      <li>
+        <a href="/assets/books/epub/ttk.epub">Richard Wilhelm &mdash; Tao Te King</a>
+      </li>
+    
+      <li>
+        <a href="/assets/books/epub/ld.epub">Richard Wilhelm &mdash; Liezi</a>
+      </li>
+    
+      <li>
+        <a href="/assets/books/epub/aleph.epub">Aleister Crowley &mdash; Liber Aleph &mdash; The Book of Wisdom &amp; Folly</a>
+      </li>
+    
+  </ul>
+</section>
+
+<script>
+document.getElementById("bookSearch").addEventListener("keyup", function() {
+  var filter = this.value.toLowerCase();
+  var items = document.querySelectorAll("#booksList li");
+  items.forEach(function(item) {
+    var text = item.textContent.toLowerCase();
+    item.style.display = text.indexOf(filter) > -1 ? "" : "none";
+  });
+});
+</script>
+
+
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>&copy; 2025 My Personal Website. All rights reserved.</p>
+  </div>
+</body>
+</html>

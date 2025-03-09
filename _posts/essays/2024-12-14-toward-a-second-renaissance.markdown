@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Toward a Second Renaissance: Moving Beyond the Techno-Barbarism of Modernity"
 permalink: /essays/toward-a-second-renaissance/
 category: "essays"

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 7 Day Meal Plan
 permalink: /fitness/7daymealplan
 category: mealplan

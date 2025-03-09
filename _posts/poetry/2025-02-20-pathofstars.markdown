@@ -3,7 +3,6 @@ layout: default
 title: The Path of Stars
 permalink: /poetry/posts/pathofstars
 category: poetryenglish
-hidden: true
 ---
 
 > I walk the path of stars, where  

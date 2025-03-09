@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: retro
 title: Links
 permalink: /links/
 ---

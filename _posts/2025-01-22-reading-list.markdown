@@ -1,7 +1,7 @@
 ---
-layout: default
-permalink: /reading
-title: Reading
+layout: post
+permalink: /reading-list
+title: "Reading List"
 ---
 
 Books I think are worth reading for various reasons which I leave to the readers imagination.
@@ -20,7 +20,9 @@ Books I think are worth reading for various reasons which I leave to the readers
 * Illuminatus! Trilogy
 * The Prophet by Kahlil Gibran
 * The works of Lord Dunsany
-* The works of Homer
+* Homer
+  * The Iliad
+  * The Odyssee
 * The Argonauts
 * The surving works of Hesiod
 * The works of Edgar Allan Poe

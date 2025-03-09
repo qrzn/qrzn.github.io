@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Cretan Zucchini Fritters Ἁρμονία
 permalink: /recipes/cretan-zucchini-fritters
 category: recipescooking

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - My Personal Website</title>
+  <link rel="icon" type="image/gif" href="/assets/img/globe.gif">
+  <link rel="stylesheet" type="text/css" href="{{ 'assets/css/retro.css' | relative_url }}">
+</head>
+<body>
+  <div class="sticky-header">
+    <!-- Header -->
+    <div class="header">
+      <h1>{{ page.title }}</h1>
+    </div>
+    <!-- Marquee (Moved above navigation) -->
+    <div class="marquee">
+      <marquee behavior="scroll" direction="left">
+        {{ page.description }}
+      </marquee>
+    </div>
+    <!-- Navigation -->
+    <div class="nav">
+      {% for item in site.data.navigation-retro %}
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content">
+    {{ content }}
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>&copy; {{ "now" | date: "%Y" }} My Personal Website. All rights reserved.</p>
+  </div>
+</body>
+</html>

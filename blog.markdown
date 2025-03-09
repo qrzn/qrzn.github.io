@@ -6,6 +6,36 @@ permalink: /blog/
 Step into our enchanted blog—a realm where Thelemic wisdom melds with creative expression. Here, essays unveil occult mysteries, recipes transform simple ingredients into sacred rituals, and poetry sings the language of the cosmos. Each post is a crafted spell, designed to ignite your inner flame and guide you on the path of true will. Embrace the call of Thelema—“Do what thou wilt shall be the whole of the law”—and allow these digital musings to inspire your journey beyond the mundane.
 
 <section class="category-posts">
+  <h3 class="category-heading">Latest Posts</h3>
+  {% assign latest_posts = site.posts | sort:"date" | reverse | slice: 0, 3 %}
+  <ul class="posts-list">
+    {% for post in latest_posts %}
+      <li class="post-item" id="{{ post.title | slugify }}">
+        <article class="post">
+          <div class="post-title-wrapper">
+            <h3 class="post-title">
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h3>
+          </div>
+          {% if post.author %}
+            <p class="post-author">&mdash; {{ post.author }}</p>
+          {% endif %}
+          <p class="post-date">{{ post.date | date: "%b %-d, %Y e.v." }}</p>
+          {% if post.excerpt %}
+            <div class="post-excerpt">
+              {{ post.excerpt | strip_html | truncatewords: 30 }}
+            </div>
+          {% endif %}
+        </article>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+# Topics
+
+
+<section class="category-posts">
   {% assign ordered_categories = "Books,essays,poetryenglish,poetrylatin,poetrygerman,recipesbaking,recipescooking,recipesmealplan,fitness" | split: "," %}
   {% for cat_key in ordered_categories %}
     {% if site.categories[cat_key] %}
@@ -48,7 +78,7 @@ Step into our enchanted blog—a realm where Thelemic wisdom melds with creative
               <p class="post-date">{{ post.date | date: "%b %-d, %Y e.v." }}</p>
               {% if post.excerpt %}
                 <div class="post-excerpt">
-                  {{ post.excerpt }}
+                  {{ post.excerpt | strip_html | truncatewords: 30 }}
                 </div>
               {% endif %}
             </article>

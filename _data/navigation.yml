@@ -2,17 +2,21 @@
   url: /blog/
 - title: Books
   url: /books/
+- title: Calendar
+  url: /calendar/
 - title: Essays
   url: /essays/
 - title: Poetry
   url: /poetry/
+- title: Reading List
+  url: /reading-list
 - title: Recipes
   url: /recipes/
   #- title: Symbols
   #  url: /symbols/
   #- title: Tools
   #  url: /tools/
-- title: I Ching
-  url: /yi/
-- title: Tarot
-  url: /tarot/
+  # - title: I Ching
+  #   url: /yi/
+  # - title: Tarot
+  #   url: /tarot/

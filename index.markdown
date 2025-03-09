@@ -1,6 +1,7 @@
 ---
 title: Welcome, Seeker of the Magickal Arts
 layout: default
+permalink: /
 ---
 Enter a realm where ancient occult wisdom and the art of divination converge. Within these digital pages, you will discover a curated collection of forbidden texts and esoteric tools—guides to the hidden mysteries of the universe.
 
