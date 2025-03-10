@@ -55,7 +55,7 @@ body {
   color: var(--text-color);
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 80%;
+  max-width: 600px;
 }
 
 /* Drop Caps at the beginning of Chapters */
@@ -69,7 +69,7 @@ h1 + p:not(.centered-small-caps)::first-letter,
   line-height: 1;
 }
 
-.book-download-wrapper, p, li, h1, h2, h3, {
+.book-download-wrapper, p, li, h1, h2, h3 {
   opacity: 0;
   transform: translateY(100px);
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
@@ -97,6 +97,186 @@ input.visible {
 }
 
 /* -----------------------------------
+  Mega Menu & Navigation 
+----------------------------------- */
+/* Hamburger Button */
+.hamburger {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  display: inline-block;
+}
+
+.hamburger-line {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 4px 0;
+  background-color: var(--link-color);
+  transition: all 0.3s ease;
+}
+
+/* Header Text styling */
+.header-text {
+  flex: 1;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 2em;
+  font-weight: bold;
+  font-variant: small-caps;
+  color: var(--link-color);
+}
+
+/* Mega Menu Styles */
+.mega-menu {
+  position: fixed;
+  top: 0;
+  left: -100%; /* Hide offscreen */
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow-y: auto;
+  transition: left 0.3s ease;
+  z-index: 999;
+}
+
+.mega-menu.open {
+  left: 0;
+}
+
+.mega-menu-list {
+  font-size: 2em;
+  text-align: center;
+  list-style: none;
+  font-variant: small-caps;
+  padding: 20px;
+  margin: 0;
+  margin-top: 50px;
+}
+
+.mega-menu-list ul {
+  width: 200px;
+}
+.mega-menu-list li {
+  margin-bottom: 1em;
+}
+
+.mega-menu ul li::before {
+  content: "∴ ";             /* You can replace this with a different symbol if desired */
+  color: var(--secondary-text); /* Use your crimson red accent */
+  font-weight: bold;
+}
+
+.mega-menu ul li::after {
+  content: " ∴";             /* You can replace this with a different symbol if desired */
+  color: var(--secondary-text); /* Use your crimson red accent */
+  font-weight: bold;
+}
+
+.mega-menu-list li a {
+  color: var(--link-color);
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+.mega-menu-list li a:hover {
+  color: var(--link-hover);
+}
+
+/* Close Button for Mega Menu */
+.close-menu {
+  background: none;
+  border: none;
+  font-size: 2em;
+  color: var(--link-color);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.close-menu:hover {
+  color: var(--link-hover);
+}
+
+/* Keyframes for sliding in mega menu list items */
+@keyframes slideInMegaMenu {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* When the mega menu is open, animate its list items */
+.mega-menu.open .mega-menu-list li {
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: slideInMegaMenu 0.5s forwards;
+}
+.mega-menu.open .mega-menu-list li:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.mega-menu.open .mega-menu-list li:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.mega-menu.open .mega-menu-list li:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.mega-menu.open .mega-menu-list li:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.mega-menu.open .mega-menu-list li:nth-child(5) {
+  animation-delay: 0.5s;
+}
+.mega-menu.open .mega-menu-list li:nth-child(6) {
+  animation-delay: 0.6s;
+}
+.mega-menu.open .mega-menu-list li:nth-child(7) {
+  animation-delay: 0.7s;
+}
+/*.mega-menu.open .mega-menu-list li:nth-child(8) {
+  animation-delay: 0.8s;
+}
+/*
+
+/* Nav Container (adjust as needed) */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+/* New Header Alternative Image styling */
+.header-alt {
+  flex: 1;              /* Takes up remaining space */
+  text-align: center;
+}
+
+.header-alt img {
+  max-height: 50px;     /* Adjust height as needed */
+  width: auto;
+  display: inline-block;
+}
+
+/* Header Image Styling */
+.header-image {
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+.header-image img {
+  max-height: 60px;
+  width: auto;
+}
+/* -----------------------------------
    Link Styles
 ----------------------------------- */
 a {
@@ -115,7 +295,6 @@ a:hover {
 ----------------------------------- */
 main {
   text-align: justify;
-  max-width: 600px;
   margin: 20px auto;
   padding: 20px;
   padding-bottom: 60px; /* Prevents footer overlap */
@@ -218,6 +397,63 @@ article h3 {
 }
 
 /* -----------------------------------
+   Reading List Styling
+----------------------------------- */
+.reading-list {
+  margin: 2em auto;
+  max-width: 800px;
+  padding: 1em;
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 2em;
+  color: var(--link-color);
+  margin-bottom: 1em;
+}
+
+.reading-category {
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid var(--accent-border);
+}
+
+.category-heading {
+  font-size: 1.5em;
+  text-align: center;
+  color: var(--link-color);
+  margin-bottom: 0.5em;
+}
+
+.reading-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.reading-item {
+  background-color: #111;
+  padding: 1em;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.reading-title {
+  margin: 0;
+  font-size: 1.2em;
+  color: var(--secondary-text);
+}
+
+.reading-author,
+.reading-description,
+.reading-notes {
+  font-size: 0.9em;
+  margin-top: 0.5em;
+  color: var(--text-color);
+}
+
+/* -----------------------------------
    List Styling (UL & LI)
 ----------------------------------- */
 
@@ -238,7 +474,6 @@ main ul li {
    Footer
 ----------------------------------- */
 footer {
-  background-color: var(--header-bg);
   color: var(--text-color);
   text-align: center;
   padding: 20px 0;

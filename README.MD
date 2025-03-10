@@ -43,8 +43,8 @@
 2. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/temple-of-nachash-kadosh.git
-   cd temple-of-nachash-kadosh
+   git clone https://github.com/qrzn/qrzn.github.io.git
+   cd qrzn.github.io
    ```
 
 3. **Install Dependencies:**

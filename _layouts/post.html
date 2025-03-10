@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>{% if page.title %}{{ page.title }} | {% endif %}Temple of Nachash Kadosh</title>
   <link rel="stylesheet" href="{{ '/assets/css/books.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/nav.css' | relative_url }}">
   <link rel="icon" type="image/png" href="{{ '/assets/img/unicursal_hexagram_favicon.png' | relative_url }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ page.description | default: 'Enter the neon-soaked world of cyberspace and explore the cyberpunk universe.' }}">
@@ -58,8 +57,6 @@
       {% endif %}
       {{ content }}
     </div>
-  </main>
-
 <!-- Blog Navigation Section -->
 <div class="blog-nav">
   <a href="{{ '/blog/' | relative_url }}" class="blog-nav-link" aria-label="Back to Blog">
@@ -69,6 +66,8 @@
     <img src="{{ '/assets/img/house-solid.svg' | relative_url }}" alt="Back to Home">
   </a>
 </div>
+  </main>
+
   <footer>
     <div class="social-links">
       <a href="https://x.com/qrzn23" aria-label="X" class="social-link">

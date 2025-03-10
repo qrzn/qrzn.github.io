@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: essay
 title: "Confronting the Hysteria: Why Fearmongering About AI and Emerging Tech Is Overblown"
 permalink: /essays/confronting-hysteria-ai
 category: "essays"
