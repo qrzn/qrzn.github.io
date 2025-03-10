@@ -13,9 +13,8 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 # Site settings
-title: The Veiled Garden
-description: >-
-  Coding, Food, Fitness, Poetry & Books
+title: "Temple of Nachash Kadosh"
+description: "My Personal Blog"
 baseurl: ""       # the subpath of your site, e.g. /blog
 url: ""           # the base hostname & protocol for your site, e.g. http://example.com
 github_username: qrzn

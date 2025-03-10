@@ -300,6 +300,32 @@ footer {
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
+.blog-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin: 2em 0;
+}
+
+.blog-nav a.blog-nav-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  transition: opacity 0.3s ease;
+}
+
+.blog-nav a.blog-nav-link img {
+  max-width: 80%;
+  height: auto;
+  object-fit: contain;
+}
+
+.blog-nav a.blog-nav-link:hover {
+  opacity: 0.8;
+}
+
 /* Visible state after animation */
 .post-item.visible {
   opacity: 1;

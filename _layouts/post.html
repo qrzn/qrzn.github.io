@@ -60,13 +60,15 @@
     </div>
   </main>
 
-  <!-- Back to Blog Navigation -->
-  <div class="blog-nav" style="text-align: center; margin: 2em 0;">
-    <a href="{{ '/blog/' | relative_url }}" class="back-to-blog" aria-label="Back to Blog">
-      <img src="{{ '/assets/img/arrow-left-solid.svg' | relative_url }}" alt="Back to Blog" style="max-width: 40px; height: auto;">
-    </a>
-  </div>
-
+<!-- Blog Navigation Section -->
+<div class="blog-nav">
+  <a href="{{ '/blog/' | relative_url }}" class="blog-nav-link" aria-label="Back to Blog">
+    <img src="{{ '/assets/img/arrow-left-solid.svg' | relative_url }}" alt="Back to Blog">
+  </a>
+  <a href="{{ '/' | relative_url }}" class="blog-nav-link" aria-label="Back to Home">
+    <img src="{{ '/assets/img/house-solid.svg' | relative_url }}" alt="Back to Home">
+  </a>
+</div>
   <footer>
     <div class="social-links">
       <a href="https://x.com/qrzn23" aria-label="X" class="social-link">

@@ -6,6 +6,6 @@ category: post
 date: "2025-03-09"
 ---
 
-Today I fooled around a bit and wrote a 2000s style website with a small books section because I felt like it, it can be found [here](/retro/).
+Today, brimming with whimsy, I indulged in a creative sojourn and conjured a nostalgic 2000s-style website, complete with a charming little nook for books—simply because the muse beckoned. Should your heart yearn for a retro diversion, feel free to wander [here](/retro/).
 
-I also made a fitting book section in that style which can be found [here](/retro-books/).
+And since one flight of fancy often begets another, I also fashioned a companion library in that same delightful style, waiting to be discovered [here](/retro-books/).
