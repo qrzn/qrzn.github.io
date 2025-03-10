@@ -13,38 +13,44 @@ In the folds of notebooks, silent and still.
 Perchance, as I peruse each handwritten tome,  
 Expect, from time to time, more treasures to come home.
 
-
 <section class="category-posts">
-  <h3>English</h3>
-  <ul>
-    {% for post in site.categories.poetryenglish %}
-      <li>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <small class="post-date">{{ post.date | date: "%b %-d, %Y" }}</small>
-      </li>
-    {% endfor %}
-  </ul>
-</section>
-
-<section class="category-posts">
-  <h3>Latin</h3>
-  <ul>
-    {% for post in site.categories.poetrylatin %}
-      <li>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <small class="post-date">{{ post.date | date: "%b %-d, %Y" }}</small>
-      </li>
-    {% endfor %}
-  </ul>
-</section>
-
-<section class="category-posts">
-  <h3>German</h3>
-  <ul>
-    {% for post in site.categories.poetrygerman %}
-      <li>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <small class="post-date">{{ post.date | date: "%b %-d, %Y" }}</small>
+  <h3 class="category-heading">Poetry</h3>
+  {% if site.categories.poetryenglish %}
+    {% assign english = site.categories.poetryenglish %}
+  {% else %}
+    {% assign english = "" | split: "" %}
+  {% endif %}
+  {% if site.categories.poetrylatin %}
+    {% assign latin = site.categories.poetrylatin %}
+  {% else %}
+    {% assign latin = "" | split: "" %}
+  {% endif %}
+  {% if site.categories.poetrygerman %}
+    {% assign german = site.categories.poetrygerman %}
+  {% else %}
+    {% assign german = "" | split: "" %}
+  {% endif %}
+  {% assign poetry = english | concat: latin | concat: german %}
+  {% assign poetry = poetry | sort:"date" | reverse %}
+  <ul class="posts-list">
+    {% for post in poetry %}
+      <li class="post-item" id="{{ post.title | slugify }}">
+        <article class="post">
+          <div class="post-title-wrapper">
+            <h3 class="post-title">
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h3>
+          </div>
+          {% if post.author %}
+            <p class="post-author">&mdash; {{ post.author }}</p>
+          {% endif %}
+          <p class="post-date">{{ post.date | date: "%b %-d, %Y" }}</p>
+          {% if post.excerpt %}
+            <div class="post-excerpt">
+              {{ post.excerpt | strip_html | truncatewords: 30 }}
+            </div>
+          {% endif %}
+        </article>
       </li>
     {% endfor %}
   </ul>

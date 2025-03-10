@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: poetry
 title: Ode an Silenus-Coniferus
-permalink: /poetry/posts/odeansilenus
+permalink: /poetry/odeansilenus
 category: poetrygerman
 hidden: true
 ---

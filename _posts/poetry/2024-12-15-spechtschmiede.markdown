@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: poetry
 title: Die Spechtschmiede
-permalink: /poetry/posts/spechtschmiede
+permalink: /poetry/spechtschmiede
 category: poetrygerman
 hidden: true
 ---

@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: poetry
 title: The Path of Stars
-permalink: /poetry/posts/pathofstars
+permalink: /poetry/pathofstars
 category: poetryenglish
 ---
 

@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: poetry
 title: The Wizard's Tower
-permalink: /poetry/posts/wizardtower
+permalink: /poetry/wizardtower
 category: poetryenglish
 hidden: true
 ---

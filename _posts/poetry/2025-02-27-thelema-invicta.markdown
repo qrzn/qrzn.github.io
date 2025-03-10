@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: poetry
 title: Thelema Invicta
-permalink: /poetry/posts/thelema-invicta
+permalink: /poetry/thelema-invicta
 category: poetrylatin
 hidden: true
 ---

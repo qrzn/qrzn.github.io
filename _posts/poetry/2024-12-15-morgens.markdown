@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: poetry
 title: Morgens
-permalink: /poetry/posts/morgens
+permalink: /poetry/morgens
 category: poetrygerman
 hidden: true
 ---

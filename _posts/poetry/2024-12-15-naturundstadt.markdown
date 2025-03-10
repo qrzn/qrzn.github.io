@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: poetry
 title: Natur und Stadt
-permalink: /poetry/posts/naturundstadt
+permalink: /poetry/naturundstadt
 category: poetrygerman
 hidden: true
 ---

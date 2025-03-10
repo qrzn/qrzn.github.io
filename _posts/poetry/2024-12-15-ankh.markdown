@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: poetry
 title: Ankh
-permalink: /poetry/posts/ankh
+permalink: /poetry/ankh
 category: poetrygerman
 ---
 Ruhe und Stille  

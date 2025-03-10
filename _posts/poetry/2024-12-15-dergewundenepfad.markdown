@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: poetry
 title: Der Gewundene Pfad
-permalink: /poetry/posts/dergewundenepfad
+permalink: /poetry/dergewundenepfad
 category: poetrygerman
 hidden: true
 ---
