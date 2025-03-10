@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Retro! y2k is upon us"
-permalink: /blog/retro-section
-category: post
+category: posting
 date: "2025-03-09"
 ---
 
