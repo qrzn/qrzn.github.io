@@ -1,37 +1,41 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Books - My Personal Website</title>
-  <link rel="icon" type="image/gif" href="/assets/img/globe.gif">
-  <link rel="stylesheet" type="text/css" href="/assets/css/retro.css">
+  <link rel="icon" type="image/gif" href="/assets/img/globe.gif" />
+  <link rel="stylesheet" href="/assets/css/retro.css" />
 </head>
+
 <body>
-  <div class="sticky-header">
-    <!-- Header -->
+  <!-- Fixed Header: Contains site title and navigation -->
+  <header class="site-header">
     <div class="header">
       <h1>Books</h1>
     </div>
-    <!-- Marquee (Moved above navigation) -->
-    <div class="marquee">
-      <marquee behavior="scroll" direction="left">
-        Ebooks in epub format!
-      </marquee>
-    </div>
-    <!-- Navigation -->
-    <div class="nav">
+    <nav class="site-nav">
       
-        <a href="/">Home</a>
+      <a href="/retro/index/">Home</a>
       
-        <a href="/retro-books/">Books</a>
+      <a href="/retro/books/">Books</a>
       
-    </div>
+    </nav>
+  </header>
+
+  <!-- Placeholder to offset the fixed header height -->
+  <div class="header-placeholder"></div>
+
+  <!-- Marquee (scrolls normally) -->
+  <div class="marquee">
+    <marquee behavior="scroll" direction="left">
+      Ebooks in epub format!
+    </marquee>
   </div>
 
   <!-- Main Content -->
-  <div class="content">
-    <section class="recent-books">
+  <main class="site-content"><section class="recent-books">
   <input type="text" id="bookSearch" placeholder="Search books..." />
   <ul id="booksList">
     
@@ -94,12 +98,15 @@ document.getElementById("bookSearch").addEventListener("keyup", function() {
 });
 </script>
 
+</main>
 
-  </div>
-
-  <!-- Footer -->
-  <div class="footer">
-    <p>&copy; 2025 My Personal Website. All rights reserved.</p>
-  </div>
+  <!-- Fixed Footer -->
+  <footer class="site-footer">
+    <p>
+      &copy; 2025 My Personal Website. All rights
+      reserved.
+    </p>
+  </footer>
 </body>
+
 </html>

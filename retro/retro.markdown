@@ -1,7 +1,7 @@
 ---
-title: Index 
+title: Index
 layout: retro
-permalink: /retro/
+permalink: /retro/index/
 description: "Here you find cool stuff"
 ---
 

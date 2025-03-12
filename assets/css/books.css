@@ -29,157 +29,178 @@
 
 /* Color Variables */
 :root {
---bg-color: #000000;          /* Black background */
---mega-menu-bg-color: rgba(0, 0, 0, 0.8);
---header-bg: #000000;         /* Header/Footer background */
---link-color: #DC143C;        /* Crimson red */
---link-hover: #26619C;        /* Lapis lazuli blue */
---text-color: #E0E0E0;        /* Light neutral text */
---accent-border: #DC143C;     /* Crimson red for borders */
---secondary-text: #26619C;    /* Lapis lazuli blue for secondary text */
---item-color: #111;
+  --bg-color: #000000;
+  /* Black background */
+  --mega-menu-bg-color: rgba(0, 0, 0, 0.8);
+  --header-bg: #000000;
+  /* Header/Footer background */
+  --link-color: #DC143C;
+  /* Crimson red */
+  --link-hover: #26619C;
+  /* Lapis lazuli blue */
+  --text-color: #E0E0E0;
+  /* Light neutral text */
+  --accent-border: #DC143C;
+  /* Crimson red for borders */
+  --secondary-text: #26619C;
+  /* Lapis lazuli blue for secondary text */
+  --item-color: #111;
 }
 
 :root.light-mode {
---bg-color: #f1f1f1;          /* Light background */
---mega-menu-bg-color: rgba(241, 241, 241, 0.8);
---header-bg: #f1f1f1;         /* White header/footer background */
---link-color: #DC143C;        /* Keep link color */
---link-hover: #26619C;        /* Keep hover color */
---text-color: #171717;        /* Dark text */
---accent-border: #DC143C;     /* Accent remains */
---secondary-text: #26619C;    /* Secondary text */
---item-color: #ececec;
+  --bg-color: #f1f1f1;
+  /* Light background */
+  --mega-menu-bg-color: rgba(241, 241, 241, 0.8);
+  --header-bg: #f1f1f1;
+  /* White header/footer background */
+  --link-color: #DC143C;
+  /* Keep link color */
+  --link-hover: #26619C;
+  /* Keep hover color */
+  --text-color: #171717;
+  /* Dark text */
+  --accent-border: #DC143C;
+  /* Accent remains */
+  --secondary-text: #26619C;
+  /* Secondary text */
+  --item-color: #ececec;
 }
 
 /* Header Search Bar */
 .header-search {
-flex: 1;
-margin: 0 1em;
+  flex: 1;
+  margin: 0 1em;
 }
 
 .header-search form {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header-search input {
-padding: 0.5em;
-border: 1px solid var(--accent-border);
-border-radius: 4px 0 0 4px;
-font-size: 1em;
-color: var(--text-color);
-background-color: transparent;
-width: 100%;
-max-width: 300px;
+  padding: 0.5em;
+  border: 1px solid var(--accent-border);
+  border-radius: 4px 0 0 4px;
+  font-size: 1em;
+  color: var(--text-color);
+  background-color: transparent;
+  width: 100%;
+  max-width: 300px;
 }
 
 .header-search input:focus {
-outline: none;
-border-color: var(--link-color);
-box-shadow: 0 0 5px var(--link-color);
+  outline: none;
+  border-color: var(--link-color);
+  box-shadow: 0 0 5px var(--link-color);
 }
 
 .header-search button {
-background: var(--bg-color);
-border: none;
-padding: 0.5em;
-border-radius: 0 4px 4px 0;
-cursor: pointer;
-display: inline-flex;
-align-items: center;
-justify-content: center;
-width: 40px;
-height: 40px;
-transition: opacity 0.3s ease;
+  background: var(--bg-color);
+  border: none;
+  padding: 0.5em;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  transition: opacity 0.3s ease;
 }
 
 .header-search button:hover {
-opacity: 0.8;
+  opacity: 0.8;
 }
 
 .header-search button img {
-max-width: 80%;
-height: auto;
-object-fit: contain;
+  max-width: 80%;
+  height: auto;
+  object-fit: contain;
 }
 
 /* Theme Toggle Button */
 .theme-toggle {
-background: none;
-border: none;
-cursor: pointer;
-padding: 10px;
-display: inline-flex;
-align-items: center;
-justify-content: center;
-width: 40px;
-height: 40px;
-transition: opacity 0.3s ease;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  transition: opacity 0.3s ease;
 }
 
 .theme-toggle:hover {
-opacity: 0.8;
+  opacity: 0.8;
 }
 
 .theme-toggle img {
-max-width: 80%;
-height: auto;
-object-fit: contain;
+  max-width: 80%;
+  height: auto;
+  object-fit: contain;
 }
 
 
 /* -----------------------------------
  Reset & Base Styles
 ----------------------------------- */
-html, body {
-height: 100%;
-margin: 0;
-padding: 0;
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-font-family: 'EB Garamond', serif;
-display: flex;
-flex-direction: column;
-background: var(--bg-color);
-color: var(--text-color);
-margin: 0 auto;
-padding: 0 15px;
-max-width: 600px;
+  font-family: 'EB Garamond', serif;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-color);
+  color: var(--text-color);
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 600px;
 }
 
 /* Drop Caps at the beginning of Chapters */
-h1 + p:not(.centered-small-caps)::first-letter,
-.centered-small-caps + p:not(.centered-small-caps)::first-letter {
-font-size: 4em;
-font-family: "silvus";
-font-weight: normal;
-float: left;
-margin-right: 0.1em;
-line-height: 1;
+h1+p:not(.centered-small-caps)::first-letter,
+.centered-small-caps+p:not(.centered-small-caps)::first-letter {
+  font-size: 4em;
+  font-family: "silvus";
+  font-weight: normal;
+  float: left;
+  margin-right: 0.1em;
+  line-height: 1;
 }
 
 /* -----------------------------------
  Fade-in Animations (Unified)
 ----------------------------------- */
-p, li, h1, h2, h3,
-input,
+p,
+li,
+h1,
+h2,
+h3,
 .reading-item,
 .book-item,
 .post-item {
-opacity: 0;
-transform: translateY(100px);
-transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
-p.visible, li.visible, h1.visible, h2.visible, h3.visible,
-input.visible,
+p.visible,
+li.visible,
+h1.visible,
+h2.visible,
+h3.visible,
 .reading-item.visible,
 .book-item.visible,
 .post-item.visible {
-opacity: 1;
-transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* -----------------------------------
@@ -189,11 +210,11 @@ transform: translateY(0);
 .reading-item,
 .book-item,
 .post-item {
-background-color: var(--item-color);
-padding: 1em;
-border-radius: 5px;
-margin-bottom: 1em;
-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  background-color: var(--item-color);
+  padding: 1em;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 /* -----------------------------------
@@ -201,339 +222,352 @@ Mega Menu & Navigation
 ----------------------------------- */
 /* Hamburger Button */
 .hamburger {
-background: none;
-border: none;
-cursor: pointer;
-padding: 10px;
-display: inline-block;
-z-index: 1001;  /* Ensure it sits above the mega menu */
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  display: inline-block;
+  z-index: 1001;
+  /* Ensure it sits above the mega menu */
 }
 
 .hamburger-line {
-display: block;
-width: 25px;
-height: 3px;
-margin: 4px 0;
-background-color: var(--link-color);
-transition: all 0.3s ease;
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 4px 0;
+  background-color: var(--link-color);
+  transition: all 0.3s ease;
 }
 
 /* Transform hamburger lines into an "X" when active */
 .hamburger.is-active .hamburger-line:nth-child(1) {
-transform: translateY(7px) rotate(45deg);
+  transform: translateY(7px) rotate(45deg);
 }
 
 .hamburger.is-active .hamburger-line:nth-child(2) {
-opacity: 0;
+  opacity: 0;
 }
 
 .hamburger.is-active .hamburger-line:nth-child(3) {
-transform: translateY(-7px) rotate(-45deg);
+  transform: translateY(-7px) rotate(-45deg);
 }
 
 /* Mega Menu Styles */
 .mega-menu {
-display: flex;
-justify-content: center;
-position: fixed;
-top: 0;
-left: -100%; /* Hide offscreen */
-width: 100%;
-height: 100%;
-background-color: var(--mega-menu-bg-color);
-overflow-y: auto;
-transition: left 0.3s ease;
-z-index: 999;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  /* Hide offscreen */
+  width: 100%;
+  height: 100%;
+  background-color: var(--mega-menu-bg-color);
+  overflow-y: auto;
+  transition: left 0.3s ease;
+  z-index: 999;
 }
 
 .mega-menu.open {
-left: 0;
+  left: 0;
 }
 
 .mega-menu-list {
-align-content: center;
-font-size: 2em;
-text-align: center;
-list-style: none;
-font-variant: small-caps;
-padding: 20px;
-margin: 0;
-margin-top: 50px;
+  align-content: center;
+  font-size: 2em;
+  text-align: center;
+  list-style: none;
+  font-variant: small-caps;
+  padding: 20px;
+  margin: 0;
+  margin-top: 50px;
 }
 
 .mega-menu-list ul {
-width: 200px;
+  width: 200px;
 }
 
 .mega-menu-list li {
-margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .mega-menu ul li::before {
-content: "∴ ";
-color: var(--secondary-text);
-font-weight: bold;
+  content: "∴ ";
+  color: var(--secondary-text);
+  font-weight: bold;
 }
 
 .mega-menu ul li::after {
-content: " ∴";
-color: var(--secondary-text);
-font-weight: bold;
+  content: " ∴";
+  color: var(--secondary-text);
+  font-weight: bold;
 }
 
 .mega-menu-list li a {
-color: var(--link-color);
-text-decoration: none;
-font-size: 1.2em;
-transition: color 0.3s ease;
+  color: var(--link-color);
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
 }
 
 .mega-menu-list li a:hover {
-color: var(--link-hover);
+  color: var(--link-hover);
 }
 
 /* Close Button for Mega Menu */
 .close-menu {
-background: none;
-border: none;
-font-size: 2em;
-color: var(--link-color);
-position: absolute;
-top: 10px;
-right: 10px;
-cursor: pointer;
-transition: color 0.3s ease;
+  background: none;
+  border: none;
+  font-size: 2em;
+  color: var(--link-color);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  transition: color 0.3s ease;
 }
 
 .close-menu:hover {
-color: var(--link-hover);
+  color: var(--link-hover);
 }
 
 /* Keyframes for sliding in mega menu list items */
 @keyframes slideInMegaMenu {
-from {
-  opacity: 0;
-  transform: translateX(-20px);
-}
-to {
-  opacity: 1;
-  transform: translateX(0);
-}
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .mega-menu.open .mega-menu-list li {
-opacity: 0;
-transform: translateY(-20px);
-animation: slideInMegaMenu 0.5s forwards;
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: slideInMegaMenu 0.5s forwards;
 }
+
 .mega-menu.open .mega-menu-list li:nth-child(1) {
-animation-delay: 0.1s;
+  animation-delay: 0.1s;
 }
+
 .mega-menu.open .mega-menu-list li:nth-child(2) {
-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
+
 .mega-menu.open .mega-menu-list li:nth-child(3) {
-animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
+
 .mega-menu.open .mega-menu-list li:nth-child(4) {
-animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
+
 .mega-menu.open .mega-menu-list li:nth-child(5) {
-animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
+
 .mega-menu.open .mega-menu-list li:nth-child(6) {
-animation-delay: 0.6s;
+  animation-delay: 0.6s;
 }
+
 .mega-menu.open .mega-menu-list li:nth-child(7) {
-animation-delay: 0.7s;
+  animation-delay: 0.7s;
 }
 
 /* Nav Container */
 .nav-container {
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
 }
 
 /* Header Wrapper with Sticky Positioning */
 .header-wrapper {
-position: sticky;
-top: 0;
-z-index: 1001;
-background-color: var(--header-bg);
-width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1001;
+  background-color: var(--header-bg);
+  width: 100%;
 }
 
 /* Ensure your nav-container stays centered within the max-width constraints */
 .nav-container {
-max-width: 600px;
-margin: 0 auto;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 10px 15px;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
 }
 
 /* Header Alternative Image styling */
 .header-alt {
-flex: 1;
-text-align: center;
+  flex: 1;
+  text-align: center;
 }
 
 .header-alt img {
-max-height: 50px;
-width: auto;
-display: inline-block;
+  max-height: 50px;
+  width: auto;
+  display: inline-block;
 }
 
 /* Header Image Styling */
 .header-image {
-flex: 0 0 auto;
-text-align: center;
+  flex: 0 0 auto;
+  text-align: center;
 }
 
 .header-image img {
-max-height: 60px;
-width: auto;
+  max-height: 60px;
+  width: auto;
 }
 
 /* -----------------------------------
  Link Styles
 ----------------------------------- */
 a {
-color: var(--link-color);
-text-decoration: none;
-transition: color 0.3s ease;
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 a:hover {
-color: var(--link-hover);
-text-decoration: underline;
+  color: var(--link-hover);
+  text-decoration: underline;
 }
 
 /* -----------------------------------
  Main Content
 ----------------------------------- */
 main {
-text-align: justify;
-margin: 20px auto;
-padding: 20px;
-padding-bottom: 60px; /* Prevents footer overlap */
-background-color: var(--bg-color);
-border-radius: 10px;
-flex: 1;
-overflow-y: auto; /* Keep scrolling enabled */
+  text-align: justify;
+  margin: 20px auto;
+  padding: 20px;
+  padding-bottom: 60px;
+  /* Prevents footer overlap */
+  background-color: var(--bg-color);
+  border-radius: 10px;
+  flex: 1;
+  overflow-y: auto;
+  /* Keep scrolling enabled */
 
-/* Hide scrollbars for Firefox */
-scrollbar-width: none;
--ms-overflow-style: none; /* Hide scrollbar in IE 10+ */
+  /* Hide scrollbars for Firefox */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  /* Hide scrollbar in IE 10+ */
 }
 
 /* Hide scrollbars for Chrome, Safari, and Opera */
 main::-webkit-scrollbar {
-display: none;
+  display: none;
 }
 
 main h1 {
-font-variant: small-caps;
+  font-variant: small-caps;
 }
 
 /* Main container should be position: relative so the overlay can center inside it */
 #main-content {
-position: relative;
+  position: relative;
 }
 
 /* Preloader Overlay */
 #preloader {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background: var(--bg-color);
-display: flex;
-justify-content: center;
-align-items: center;
-z-index: 9999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
 }
 
 /* Hide the page content initially */
 .page-content {
-visibility: hidden;
+  visibility: hidden;
 }
 
 /* Simple spinner animation */
 .spinner {
-width: 50px;
-height: 50px;
-border: 6px solid #ccc;
-border-top-color: #DC143C;
-border-radius: 50%;
-animation: spin 1s linear infinite;
+  width: 50px;
+  height: 50px;
+  border: 6px solid #ccc;
+  border-top-color: #DC143C;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
 }
 
 /* Spinner Keyframes */
 @keyframes spin {
-to {
-  transform: rotate(360deg);
-}
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* -----------------------------------
  Post & Article Styling
 ----------------------------------- */
 .post-title {
-text-align: center;
-color: var(--link-color);
+  text-align: center;
+  color: var(--link-color);
 }
 
 .post-content {
-margin-top: 20px;
+  margin-top: 20px;
 }
 
 article {
-margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 article h3 {
-font-family: 'EB Garamond', serif;
-color: var(--secondary-text);
+  font-family: 'EB Garamond', serif;
+  color: var(--secondary-text);
 }
 
 /* -----------------------------------
  Reading List Styling
 ----------------------------------- */
 .reading-list {
-margin: 2em auto;
-max-width: 800px;
-padding: 1em;
+  margin: 2em auto;
+  max-width: 800px;
+  padding: 1em;
 }
 
 .section-heading {
-text-align: center;
-font-size: 2em;
-color: var(--link-color);
-margin-bottom: 1em;
+  text-align: center;
+  font-size: 2em;
+  color: var(--link-color);
+  margin-bottom: 1em;
 }
 
 .reading-category {
-margin-bottom: 2em;
-padding-bottom: 1em;
-border-bottom: 1px solid var(--accent-border);
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid var(--accent-border);
 }
 
 .category-heading {
-font-size: 1.5em;
-text-align: center;
-color: var(--link-color);
-margin-bottom: 0.5em;
+  font-size: 1.5em;
+  text-align: center;
+  color: var(--link-color);
+  margin-bottom: 0.5em;
 }
 
 .reading-items {
-list-style: none;
-margin: 0;
-padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* reading-item now inherits fade/appearance from the unified block above */
@@ -542,74 +576,77 @@ padding: 0;
  List Styling (UL & LI)
 ----------------------------------- */
 main ul {
-list-style: none; /* Remove default markers */
-margin: 1em 0;
-padding: 0;
+  list-style: none;
+  /* Remove default markers */
+  margin: 1em 0;
+  padding: 0;
 }
 
 main ul li {
-position: relative;
-padding-left: 1.5em; /* Space for a custom bullet */
-margin-bottom: 0.5em;
-line-height: 1.5;
+  position: relative;
+  padding-left: 1.5em;
+  /* Space for a custom bullet */
+  margin-bottom: 0.5em;
+  line-height: 1.5;
 }
 
 /* -----------------------------------
  Footer
 ----------------------------------- */
 footer {
-position: fixed;
-left: 0;
-width: 100%;
-color: var(--text-color);
-background-color: var(--bg-color);
-text-align: center;
-bottom: 0;
-z-index: 1000;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  text-align: center;
+  bottom: 0;
+  z-index: 1000;
 }
 
 /* Social Media Links in Footer */
 .social-links {
-display: flex;
-justify-content: center;
-gap: 1em;
-margin-bottom: 0.5em;
-margin-top: 0.5em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 
 .social-links a {
-display: inline-flex;
-align-items: center;
-justify-content: center;
-width: 30px;
-height: 30px;
-transition: opacity 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  transition: opacity 0.3s ease;
 }
 
 .social-links a img {
-max-width: 80%;
-height: auto;
-object-fit: contain;
+  max-width: 80%;
+  height: auto;
+  object-fit: contain;
 }
 
 .social-links a:hover {
-opacity: 0.8;
+  opacity: 0.8;
 }
 
 /* -----------------------------------
  Centered Images
 ----------------------------------- */
-.centered, .centered-image {
-text-align: center;
+.centered,
+.centered-image {
+  text-align: center;
 }
 
 .centered img,
 .centered-image img {
-max-width: 250px;
-max-height: 250px;
-height: auto;
-display: inline-block;
-margin: 0 auto;
+  max-width: 250px;
+  max-height: 250px;
+  height: auto;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 /* -----------------------------------
@@ -617,263 +654,264 @@ margin: 0 auto;
 ----------------------------------- */
 /* post-item now inherits fade/appearance from the unified block above */
 .post-title-wrapper {
-margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .post-title {
-margin: 0;
-font-size: 1.2em;
-color: var(--secondary-text);
-font-family: 'EB Garamond', serif;
+  margin: 0;
+  font-size: 1.2em;
+  color: var(--secondary-text);
+  font-family: 'EB Garamond', serif;
 }
 
 .post-author,
 .post-date {
-font-size: 0.9em;
-margin: 0.5em 0;
+  font-size: 0.9em;
+  margin: 0.5em 0;
 }
 
 .post-excerpt {
-font-size: 1em;
-line-height: 1.5;
-color: var(--text-color);
-margin-top: 0.5em;
+  font-size: 1em;
+  line-height: 1.5;
+  color: var(--text-color);
+  margin-top: 0.5em;
 }
 
 /* -----------------------------------
  Updates Container Styling
 ----------------------------------- */
 .updates-container {
-display: flex;
-justify-content: space-between;
-align-items: flex-start;
-gap: 2em;
-margin: 1em auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2em;
+  margin: 1em auto;
 }
 
 .updates-container section {
-flex: 1 1 0;
-min-width: 250px;
+  flex: 1 1 0;
+  min-width: 250px;
 }
 
 .updates-container h3 {
-text-align: center;
-font-size: 1.4em;
-margin-bottom: 0.5em;
-color: var(--link-color);
+  text-align: center;
+  font-size: 1.4em;
+  margin-bottom: 0.5em;
+  color: var(--link-color);
 }
 
 .updates-container ul {
-list-style: none;
-margin: 0;
-padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .updates-container li {
-margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .post-date,
 .book-date {
-margin-left: 0.5em;
-font-size: 0.9em;
+  margin-left: 0.5em;
+  font-size: 0.9em;
 }
 
 .post-categories {
-font-size: 0.8em;
-color: var(--link-color);
+  font-size: 0.8em;
+  color: var(--link-color);
 }
 
 /* Responsive: stack columns on small screens */
 @media (max-width: 768px) {
-.updates-container {
-  flex-direction: column;
-  align-items: stretch;
-}
+  .updates-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
 }
 
 /* -----------------------------------
  Books Section Styling
 ----------------------------------- */
 .category-heading {
-font-size: 1.5em;
-margin: 0 0 0.5em 0;
-color: var(--link-color);
-text-align: center;
+  font-size: 1.5em;
+  margin: 0 0 0.5em 0;
+  color: var(--link-color);
+  text-align: center;
 }
 
 /* Override the bullet styling for .books-list so it doesn't get custom bullets */
 .books-list {
-list-style: none;
-margin: 0;
-padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .books-list li {
-position: static;
-padding: 1em;
-margin-bottom: 1.5em;
-line-height: 1.5;
+  position: static;
+  padding: 1em;
+  margin-bottom: 1.5em;
+  line-height: 1.5;
 }
 
 .books-list li::before {
-content: none;
+  content: none;
 }
 
 /* book-item now inherits fade/appearance from the unified block above */
 .book-title-wrapper {
-flex: 1 1 100%;
+  flex: 1 1 100%;
 }
 
 .book-title {
-margin: 0;
-font-size: 1.2em;
-color: var(--secondary-text);
+  margin: 0;
+  font-size: 1.2em;
+  color: var(--secondary-text);
 }
 
 .book-cover {
-flex: 0 0 auto;
-margin-right: 1em;
-text-align: center;
+  flex: 0 0 auto;
+  margin-right: 1em;
+  text-align: center;
 }
 
 .book-cover img {
-display: inline-block;
-max-width: 150px;
-height: auto;
-border-radius: 5px;
-margin: 0;
+  display: inline-block;
+  max-width: 150px;
+  height: auto;
+  border-radius: 5px;
+  margin: 0;
 }
 
 .book-author,
 .book-description {
-margin: 0.5em 0;
+  margin: 0.5em 0;
 }
 
 /* Download Link Styling (matches Social Links) */
 .book-download-wrapper {
-display: flex;
-justify-content: center;
-margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
 }
 
 .book-download-wrapper a {
-display: inline-flex;
-align-items: center;
-justify-content: center;
-width: 30px;
-height: 30px;
-transition: opacity 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  transition: opacity 0.3s ease;
 }
 
 .book-download-wrapper a img {
-max-width: 80%;
-height: auto;
-object-fit: contain;
+  max-width: 80%;
+  height: auto;
+  object-fit: contain;
 }
 
 .book-download-wrapper a:hover {
-opacity: 0.8;
+  opacity: 0.8;
 }
 
 figure.book-cover {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* -----------------------------------
  Responsive Adjustments
 ----------------------------------- */
 @media (max-width: 768px) {
-.nav-menu {
-  flex-direction: row;
-  gap: 10px;
-  justify-content: center;
-  flex-wrap: nowrap;
-}
+  .nav-menu {
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
 
-.flex-container {
-  flex-direction: column;
-}
+  .flex-container {
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 600px) {
-main {
-  min-width: auto;
-  width: 100%;
-  box-sizing: border-box;
-}
+  main {
+    min-width: auto;
+    width: 100%;
+    box-sizing: border-box;
+  }
 
 
-/* -----------------------------------
+  /* -----------------------------------
  Table Styling
 ----------------------------------- */
-.table-container {
-width: 100%;
-overflow-x: auto;
--webkit-overflow-scrolling: touch;
-margin: 20px 0;
-}
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 20px 0;
+  }
 
-table {
-width: 100%;
-border-collapse: collapse;
-margin: 20px auto;
-font-family: 'Cinzel', serif;
-}
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: 'Cinzel', serif;
+  }
 
-table th,
-table td {
-border: 1px solid var(--accent-border);
-padding: 10px;
-text-align: center;
-}
+  table th,
+  table td {
+    border: 1px solid var(--accent-border);
+    padding: 10px;
+    text-align: center;
+  }
 
-table th {
-background-color: var(--link-color);
-color: var(--text-color);
-font-weight: bold;
-}
+  table th {
+    background-color: var(--link-color);
+    color: var(--text-color);
+    font-weight: bold;
+  }
 
-table td {
-background-color: var(--bg-color);
-color: var(--text-color);
-}
+  table td {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
 
-table tr:nth-child(even) td {
-background-color: #0d0d0d;
-}
+  table tr:nth-child(even) td {
+    background-color: #0d0d0d;
+  }
 
-table tr:hover td {
-background-color: #1a1a1a;
-}
+  table tr:hover td {
+    background-color: #1a1a1a;
+  }
 
-@media (max-width: 600px) {
-table th,
-table td {
-  padding: 8px;
-  font-size: 14px;
-}
-}
+  @media (max-width: 600px) {
 
-#bookSearch,
-#bookSearch2 {
-display: block;
-width: auto;
-max-width: 600px;
-margin: 0.5em auto 1em;
-padding: 0.75em 1em;
-background-color: var(--bg-color);
-border: 1px solid var(--accent-border);
-border-radius: 4px;
-color: var(--text-color);
-font-size: 1em;
-transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
+    table th,
+    table td {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
 
-#bookSearch:focus,
-#bookSearch2:focus {
-outline: none;
-border-color: var(--link-color);
-box-shadow: 0 0 5px var(--link-color);
-}
+  #bookSearch,
+  #bookSearch2 {
+    display: block;
+    width: auto;
+    max-width: 600px;
+    margin: 0.5em auto 1em;
+    padding: 0.75em 1em;
+    background-color: var(--bg-color);
+    border: 1px solid var(--accent-border);
+    border-radius: 4px;
+    color: var(--text-color);
+    font-size: 1em;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  #bookSearch:focus,
+  #bookSearch2:focus {
+    outline: none;
+    border-color: var(--link-color);
+    box-shadow: 0 0 5px var(--link-color);
+  }

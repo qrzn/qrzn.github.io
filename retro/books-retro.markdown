@@ -1,9 +1,10 @@
 ---
 layout: retro
 title: Books
-permalink: /retro-books/
+permalink: /retro/books/
 description: "Ebooks in epub format!"
 ---
+
 <section class="recent-books">
   <input type="text" id="bookSearch" placeholder="Search books...">
   <ul id="booksList">

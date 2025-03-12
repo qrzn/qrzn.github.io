@@ -1,112 +1,116 @@
 /* retro.css */
 
-/* Import the local retro fonts */
+/* Import local retro fonts */
 @font-face {
-  font-family: 'Press Start 2P';
-  src: url('/assets/fonts/PressStart2P-Regular.ttf') format('truetype');
+  font-family: "Press Start 2P";
+  src: url("/assets/fonts/PressStart2P-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'dos';
-  src: url('/assets/fonts/dos.ttf') format('truetype');
+  font-family: "dos";
+  src: url("/assets/fonts/dos.ttf") format("truetype");
+}
+
+/* Global Reset & Base Styles */
+* {
+  box-sizing: border-box;
 }
 
 body {
-  background: url('/assets/img/stars.gif') repeat; /* Replace with your own starry tile image */
-  background-color: #000;
-  color: #fff;
-  font-family: 'dos', cursive;
   margin: 0;
   padding: 0;
+  background: url("/assets/img/stars.gif") repeat;
+  background-color: #000;
+  color: #fff;
+  font-family: "dos", cursive;
 }
 
-/* Sticky header container */
-.sticky-header {
+/* Fixed Header & Navigation */
+.site-header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
+  background-color: #1a1a1a;
+  border-bottom: 2px solid #444;
 }
 
-/* Header */
 .header {
-  background-color: #1a1a1a;
   text-align: center;
-  padding: 20px;
-  border-bottom: 2px solid #444;
+  padding: 10px 0;
 }
 
 .header h1 {
   margin: 0;
-  font-size: 2.5em;
-  color: #0f0; /* Green accent */
+  font-size: 2em;
+  color: #0f0;
 }
 
-/* Navigation */
-.nav {
-  background-color: #222;
+.site-nav {
   text-align: center;
-  padding: 10px;
+  background-color: #222;
+  padding: 8px 0;
   border-top: 1px solid #444;
   border-bottom: 1px solid #444;
 }
 
-th, td {
-  padding: 5px;
-}
-
-.nav a {
+.site-nav a {
+  display: inline-block;
+  margin: 0 15px;
   text-decoration: none;
-  color: #0f0; /* Green accent */
-  margin: 0 20px;
-  font-size: 1.2em;
+  color: #0f0;
+  font-size: 1.1em;
 }
 
-.nav a:hover {
+.site-nav a:hover {
   color: #fff;
+}
+
+/* Placeholder for fixed header height */
+.header-placeholder {
+  height: 120px;
+  /* Adjust if header/nav heights change */
 }
 
 /* Marquee */
 .marquee {
   background-color: #111;
-  padding: 10px;
-  margin: 15px;
+  padding: 8px 10px;
+  margin: 15px 10px;
   border: 1px dashed #0f0;
 }
 
 /* Main Content */
-.content {
+.site-content {
+  margin: 15px 20px 80px;
+  /* Top margin lets content begin after marquee; bottom for footer */
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.8);
-  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.85);
   border: 2px solid #0f0;
-  /* Adjust top and bottom margins to prevent overlap with fixed header/footer */
-  margin-top: 220px;  /* Adjust based on your header's total height */
-  margin-bottom: 80px; /* Adjust based on your footer's height */
 }
 
-/* Sticky Footer */
-.footer {
-  background-color: #1a1a1a;
-  text-align: center;
-  padding: 15px;
-  border-top: 2px solid #444;
-  font-size: 0.9em;
-  color: #aaa;
+/* Fixed Footer */
+.site-footer {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
+  background-color: #1a1a1a;
+  border-top: 2px solid #444;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9em;
+  color: #aaa;
   z-index: 1000;
 }
 
-/* Retro styling for the Books page */
+/* Retro Books Page (Optional) */
 .recent-books {
   background-color: #111;
   padding: 20px;
   margin: 20px;
-  font-family: 'dos', cursive;
+  font-family: "dos", cursive;
 }
 
 .recent-books h3 {
@@ -149,48 +153,44 @@ th, td {
   text-decoration: underline;
 }
 
-/* Responsive Adjustments */
+/* Responsive Styles */
 @media (max-width: 768px) {
   .header h1 {
-    font-size: 2em;
+    font-size: 1.8em;
   }
-  .nav a {
-    font-size: 1em;
+
+  .site-nav a {
     margin: 0 10px;
+    font-size: 1em;
   }
-  .content {
-    margin: 10px;
+
+  .site-content {
+    margin: 15px 10px 80px;
     padding: 15px;
-    margin-top: 220px;
-    margin-bottom: 80px;
   }
+
   .marquee {
     margin: 10px;
     padding: 8px;
   }
-  .footer {
+
+  .site-footer {
     font-size: 0.8em;
   }
 }
 
 @media (max-width: 480px) {
-  .header h1 {
-    font-size: 1.8em;
-  }
-  .nav {
-    padding: 8px;
-  }
-  .nav a {
+  .site-nav a {
     display: block;
     margin: 5px 0;
   }
-  .marquee {
-    font-size: 0.9em;
+
+  .header h1 {
+    font-size: 1.6em;
   }
-  .content {
+
+  .site-content {
+    margin: 15px 5px 80px;
     padding: 10px;
-    margin: 5px;
-    margin-top: 220px;
-    margin-bottom: 80px;
   }
 }

@@ -4,21 +4,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ page.title }} - My Personal Website</title>
+  <title>Index - My Personal Website</title>
   <link rel="icon" type="image/gif" href="/assets/img/globe.gif" />
-  <link rel="stylesheet" href="{{ 'assets/css/retro.css' | relative_url }}" />
+  <link rel="stylesheet" href="/assets/css/retro.css" />
 </head>
 
 <body>
   <!-- Fixed Header: Contains site title and navigation -->
   <header class="site-header">
     <div class="header">
-      <h1>{{ page.title }}</h1>
+      <h1>Index</h1>
     </div>
     <nav class="site-nav">
-      {% for item in site.data.navigation-retro %}
-      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-      {% endfor %}
+      
+      <a href="/retro/index/">Home</a>
+      
+      <a href="/retro/books/">Books</a>
+      
     </nav>
   </header>
 
@@ -28,17 +30,20 @@
   <!-- Marquee (scrolls normally) -->
   <div class="marquee">
     <marquee behavior="scroll" direction="left">
-      {{ page.description }}
+      Here you find cool stuff
     </marquee>
   </div>
 
   <!-- Main Content -->
-  <main class="site-content">{{ content }}</main>
+  <main class="site-content"><p>Welcome to my retro page!</p>
+
+<p><a href="/temple">To the Temple</a></p>
+</main>
 
   <!-- Fixed Footer -->
   <footer class="site-footer">
     <p>
-      &copy; {{ "now" | date: "%Y" }} My Personal Website. All rights
+      &copy; 2025 My Personal Website. All rights
       reserved.
     </p>
   </footer>

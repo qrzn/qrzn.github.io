@@ -1,37 +1,41 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Links - My Personal Website</title>
-  <link rel="icon" type="image/gif" href="/assets/img/globe.gif">
-  <link rel="stylesheet" type="text/css" href="/assets/css/retro.css">
+  <link rel="icon" type="image/gif" href="/assets/img/globe.gif" />
+  <link rel="stylesheet" href="/assets/css/retro.css" />
 </head>
+
 <body>
-  <div class="sticky-header">
-    <!-- Header -->
+  <!-- Fixed Header: Contains site title and navigation -->
+  <header class="site-header">
     <div class="header">
       <h1>Links</h1>
     </div>
-    <!-- Marquee (Moved above navigation) -->
-    <div class="marquee">
-      <marquee behavior="scroll" direction="left">
-        
-      </marquee>
-    </div>
-    <!-- Navigation -->
-    <div class="nav">
+    <nav class="site-nav">
       
-        <a href="/">Home</a>
+      <a href="/retro/index/">Home</a>
       
-        <a href="/retro-books/">Books</a>
+      <a href="/retro/books/">Books</a>
       
-    </div>
+    </nav>
+  </header>
+
+  <!-- Placeholder to offset the fixed header height -->
+  <div class="header-placeholder"></div>
+
+  <!-- Marquee (scrolls normally) -->
+  <div class="marquee">
+    <marquee behavior="scroll" direction="left">
+      
+    </marquee>
   </div>
 
   <!-- Main Content -->
-  <div class="content">
-    <p>Here are more links to other presences of myself on the web and elsewhere.</p>
+  <main class="site-content"><p>Here are more links to other presences of myself on the web and elsewhere.</p>
 
 <h3 id="cool-stuff-you-find-on-this-page">cool stuff you find on this page</h3>
 
@@ -49,12 +53,15 @@
   <li><a href="https://weirdshitz.neocities.org">weirdshitz.neocities.org</a> — neocities, early 2000s style website</li>
   <li><a href="https://portal.mozz.us/gemini/gemlog.blue/users/waldstreicher/">gemlog.blue</a> — gemini blog</li>
 </ul>
+</main>
 
-  </div>
-
-  <!-- Footer -->
-  <div class="footer">
-    <p>&copy; 2025 My Personal Website. All rights reserved.</p>
-  </div>
+  <!-- Fixed Footer -->
+  <footer class="site-footer">
+    <p>
+      &copy; 2025 My Personal Website. All rights
+      reserved.
+    </p>
+  </footer>
 </body>
+
 </html>
