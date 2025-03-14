@@ -5,6 +5,10 @@
       url: "https://www.moddb.com/mods/emperor-full-hd-support"
       backup_url: "https://mega.nz/file/0DVHBDpT#OI3zI1Femj3FfLg3t3yqiQ2_1OIJKZZOZbuCT5RALjQ"
       description: "Enhances graphics for modern displays"
+  reviews:
+    - title: "In-depth Emperor Review"
+      url: "/reviews/emperor-review" # e.g., internal page
+      summary: "A long-form deep-dive into Emperor’s city-building mechanics."
 
 - name: "Zeus & Poseidon"
   release_date: 2000
@@ -13,6 +17,10 @@
       url: "https://www.moddb.com/mods/zeus-and-poseidon-full-hd-enfr/downloads/zeus-and-poseidon-full-hd-many-resolution"
       backup_url: "https://mega.nz/file/RSFyjTyD#MCiSvtBVwi76KNtH3HYlkP-H3qEbAtq-OWzr4c06DRM"
       description: "Fix for many widescreen resolutions"
+  reviews:
+    - title: "Zeus & Poseidon Strategy Tips"
+      url: "/reviews/zeus-poseidon-review"
+      summary: "An overview of the game plus commentary on the HD patch."
 
 - name: "Pharaoh & Cleopatra"
   release_date: 1998
@@ -21,6 +29,10 @@
       url: "https://community.pcgamingwiki.com/files/file/1762-cleopatra-widescreen-fix/"
       backup_url: "https://mega.nz/file/5ClXlZRK#rqf8IF3BBuLl-UVWvtRK2kSSOKDci9dg-gFlpfT2NgI"
       description: "Fix for many widescreen reslutions"
+  reviews:
+    - title: "Pharaoh & Cleopatra: A Retrospective"
+      url: "pharaoh-cleopatra-review"
+      summary: "Looking back on its cultural and historical accuracy, plus modern fixes."
 
 - name: "Arcanum"
   release_date: 2000
@@ -32,4 +44,72 @@
     - title: "Arcanum Factory"
       url: "https://www.moddb.com/mods/emperor-full-hd-support"
       backup_url: "https://mega.nz/file/0DVHBDpT#OI3zI1Femj3FfLg3t3yqiQ2_1OIJKZZOZbuCT5RALjQ"
-      description: "Let's you modify the game files, like putting more stuff into vendors etc."
+      description: "Lets you modify the game files, like putting more stuff into vendors etc."
+  reviews:
+    - title: "Arcanum Review"
+      url: "/reviews/arcanum-review"
+      summary: "Where to find patches, how to install them, and a brief overview."
+
+- name: "Master of Orion"
+  release_date: 1993
+  patches:
+    - title: "MoO High Resolution Patch"
+      url: "https://example.com/master-of-orion-high-res"
+      backup_url: "https://mega.nz/file/XXX#YYY"
+      description: "Unofficial mod that provides higher resolutions and some bug fixes"
+  reviews:
+    - title: "Master of Orion Retrospective"
+      url: "/reviews/master-of-orion-review"
+      summary: "A deep dive into the 4X classic that started it all"
+  media:
+    - type: "image"
+      url: "https://example.com/img/moo-screenshot.jpg"
+      caption: "High-res galaxy map thanks to the patch"
+
+- name: "Daggerfall"
+  release_date: 1996
+  patches:
+    - title: "Daggerfall Unity"
+      url: "https://www.dfworkshop.net/"
+      backup_url: "https://mega.nz/file/XXX#ZZZ"
+      description: "Fan recreation of Daggerfall with modern graphics, bug fixes, and mod support"
+  reviews:
+    - title: "Daggerfall Unity Showcase"
+      url: "/reviews/daggerfall-review"
+      summary: "Exploring how the Unity project modernizes this massive Elder Scrolls title"
+  media:
+    - type: "video"
+      url: "https://youtube.com/watch?v=DaggerfallUnityPreview"
+      caption: "Video preview of Daggerfall Unity’s updated engine and visuals"
+
+- name: "The Settlers 2"
+  release_date: 1996
+  patches:
+    - title: "Widescreen & HD Mod"
+      url: "https://example.com/settlers2-hd"
+      backup_url: "https://mega.nz/file/XXX#WWW"
+      description: "Resolves resolution issues and offers scaling improvements"
+  reviews:
+    - title: "The Settlers 2 Nostalgia Trip"
+      url: "/reviews/settlers2-review"
+      summary: "How the second installment perfected resource management in a charming, 2D world"
+  media:
+    - type: "image"
+      url: "https://example.com/img/settlers2.png"
+      caption: "Vibrant villages and resource chains in HD"
+
+- name: "Albion"
+  release_date: 1995
+  patches:
+    - title: "Albion DOS Compatibility Patch"
+      url: "https://example.com/albion-dosfix"
+      backup_url: "https://mega.nz/file/XXX#VVV"
+      description: "Fixes crash bugs and enhances performance on modern systems"
+  reviews:
+    - title: "Albion: Hidden Gem Analysis"
+      url: "/reviews/albion-review"
+      summary: "A look into Blue Byte’s sci-fi/fantasy hybrid RPG and its enduring cult status"
+  media:
+    - type: "video"
+      url: "https://youtube.com/watch?v=albionGameplay"
+      caption: "Full gameplay walkthrough highlighting patches and tips"

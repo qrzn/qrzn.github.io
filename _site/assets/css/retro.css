@@ -69,7 +69,7 @@ body {
 
 /* Placeholder for fixed header height */
 .header-placeholder {
-  height: 120px;
+  height: 5.5em;
   /* Adjust if header/nav heights change */
 }
 
@@ -257,4 +257,110 @@ body {
 /* Patch description text */
 .patch-description {
   margin-top: 5px;
+}
+
+/* Container for avatar + text side by side */
+.avatar-and-text {
+  display: flex;
+  align-items: center;
+  margin: 2rem auto;
+  max-width: 900px;
+  /* Adjust as needed for your layout */
+}
+
+/* Avatar styling */
+.avatar {
+  border-radius: 50%;
+  max-width: 150px;
+  height: auto;
+  border: 2px solid #fff;
+  margin-right: 2rem;
+  /* Spacing between avatar and text */
+}
+
+/* Text styling */
+.about-content {
+  line-height: 1.6;
+}
+
+.about-content h1 {
+  margin-top: 0;
+}
+
+/* Responsive design: stack avatar & text vertically on narrow screens */
+@media (max-width: 600px) {
+  .avatar-and-text {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .avatar {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+.reviews-section {
+  margin-top: 20px;
+}
+
+.reviews-section h3 {
+  color: #0f0;
+  margin-bottom: 10px;
+}
+
+.reviews-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.review-entry {
+  margin-bottom: 10px;
+  border-bottom: 1px dashed #0f0;
+  padding-bottom: 10px;
+}
+
+.review-link {
+  color: #0f0;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.review-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.review-summary {
+  display: block;
+  margin-top: 5px;
+  color: #aaa;
+  font-size: 0.9em;
+}
+
+/* Container around the code snippet */
+.contact-box {
+  background-color: #111;
+  /* Matches the retro black background, but slightly distinct */
+  border: 2px dashed #0f0;
+  /* Retro green dashed border */
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Style the code snippet to blend with your retro aesthetic */
+.contact-box pre,
+.contact-box code {
+  background-color: transparent;
+  /* So it blends into the container */
+  color: #0f0;
+  font-family: "dos", monospace;
+  font-size: 1em;
+}
+
+/* Ensure the snippet doesn't overflow smaller screens */
+.contact-box code {
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
