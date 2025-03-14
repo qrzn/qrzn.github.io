@@ -1,0 +1,35 @@
+- name: "Emperor &mdash; Rise of the Middle Kingdom"
+  release_date: 2002
+  patches:
+    - title: "HD Resolution & Widescreen Fix"
+      url: "https://www.moddb.com/mods/emperor-full-hd-support"
+      backup_url: "https://mega.nz/file/0DVHBDpT#OI3zI1Femj3FfLg3t3yqiQ2_1OIJKZZOZbuCT5RALjQ"
+      description: "Enhances graphics for modern displays"
+
+- name: "Zeus & Poseidon"
+  release_date: 2000
+  patches:
+    - title: "HD Resolution & Widescreen Fix"
+      url: "https://www.moddb.com/mods/zeus-and-poseidon-full-hd-enfr/downloads/zeus-and-poseidon-full-hd-many-resolution"
+      backup_url: "https://mega.nz/file/RSFyjTyD#MCiSvtBVwi76KNtH3HYlkP-H3qEbAtq-OWzr4c06DRM"
+      description: "Fix for many widescreen resolutions"
+
+- name: "Pharaoh & Cleopatra"
+  release_date: 1998
+  patches:
+    - title: "HD Resolution & Widescreen Fix"
+      url: "https://community.pcgamingwiki.com/files/file/1762-cleopatra-widescreen-fix/"
+      backup_url: "https://mega.nz/file/5ClXlZRK#rqf8IF3BBuLl-UVWvtRK2kSSOKDci9dg-gFlpfT2NgI"
+      description: "Fix for many widescreen reslutions"
+
+- name: "Arcanum"
+  release_date: 2000
+  patches:
+    - title: "Unofficial Arcanum Patch"
+      url: "https://www.moddb.com/mods/emperor-full-hd-support"
+      backup_url: "https://mega.nz/file/0DVHBDpT#OI3zI1Femj3FfLg3t3yqiQ2_1OIJKZZOZbuCT5RALjQ"
+      description: "Bugfixes, new features, new races, enhances graphics for modern displays, high resolution and font size fixes"
+    - title: "Arcanum Factory"
+      url: "https://www.moddb.com/mods/emperor-full-hd-support"
+      backup_url: "https://mega.nz/file/0DVHBDpT#OI3zI1Femj3FfLg3t3yqiQ2_1OIJKZZOZbuCT5RALjQ"
+      description: "Let's you modify the game files, like putting more stuff into vendors etc."

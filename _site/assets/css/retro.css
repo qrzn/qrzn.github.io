@@ -194,3 +194,67 @@ body {
     padding: 10px;
   }
 }
+
+/* Games Page Styles */
+.games-section {
+  margin: 20px 0;
+}
+
+.games-section h1 {
+  color: #0f0;
+  font-family: "Press Start 2P", cursive;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 0 #000;
+}
+
+/* Main list container */
+.games-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Each game entry */
+.games-list .game-entry {
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #0f0;
+}
+
+.games-list .game-entry h2 {
+  margin: 0 0 5px;
+  color: #fff;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 0 #000;
+}
+
+/* Patches sub-list */
+.patches-list {
+  list-style: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+.patches-list li {
+  margin-bottom: 10px;
+}
+
+/* Patch titles and links */
+.patch-title {
+  color: #fff;
+  font-weight: bold;
+}
+
+.patch-url {
+  color: #0f0;
+  text-decoration: none;
+}
+
+.patch-url:hover {
+  color: #fff;
+}
+
+/* Patch description text */
+.patch-description {
+  margin-top: 5px;
+}

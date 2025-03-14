@@ -1,4 +1,6 @@
 - title: Home
-  url: /retro/index/
+  url: /retro/
 - title: Books
   url: /retro/books/
+- title: Games
+  url: /retro/games/
