@@ -7,7 +7,7 @@
     {% if page.title %}{{ page.title }} | {% endif %}Temple of Nachash Kadosh
   </title>
   <link rel="stylesheet" href="{{ '/assets/css/books.css' | relative_url }}" />
-  <link rel="icon" type="image/png" href="{{ '/assets/img/unicursal_hexagram_favicon.png' | relative_url }}" />
+  <link rel="icon" type="image/png" href="{{ '/assets/img/logo.svg' | relative_url }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
     content="{{ page.description | default: 'Enter the neon-soaked world of cyberspace and explore the cyberpunk universe.' }}" />
@@ -17,44 +17,50 @@
 </head>
 
 <body>
-  <header>
-    <nav aria-label="Main Navigation">
-      <div class="nav-container">
-        <!-- Hamburger Button -->
-        <button id="hamburger" class="hamburger" aria-label="Toggle Navigation">
-          <span class="hamburger-line"></span>
-          <span class="hamburger-line"></span>
-          <span class="hamburger-line"></span>
-        </button>
-        <!-- New Header Image (replacing text) -->
-        <div class="header-alt">
-          <a href="{{ '/' | relative_url }}">
-            <img src="{{ '/assets/img/serpentr.svg' | relative_url }}" alt="Sacred Portal Alternative" />
-          </a>
+  <!-- Header Wrapper -->
+  <div class="header-wrapper">
+    <header>
+      <nav aria-label="Main Navigation">
+        <div class="nav-container">
+          <!-- Hamburger Button -->
+          <button id="hamburger" class="hamburger" aria-label="Toggle Navigation">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+          <!-- Header Search Bar -->
+          <div class="header-search">
+            <form action="/search/" method="get">
+              <input type="search" name="q" placeholder="Search website..." id="headerSearch" />
+              <button type="submit" aria-label="Search">
+                <img src="{{ '/assets/img/magnifying-glass-solid.svg' | relative_url }}" alt="Search" />
+              </button>
+            </form>
+          </div>
+          <!-- Theme Toggle Icon -->
+          <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+            <img src="{{ '/assets/img/sun-solid.svg' | relative_url }}" alt="Switch to Light Mode" />
+          </button>
+          <!-- Header Logo/Image -->
+          <div class="header-image">
+            <a href="{{ '/' | relative_url }}">
+              <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="Sacred Portal to Esoteric Wisdom" />
+            </a>
+          </div>
         </div>
-        <!-- Header Logo/Image -->
-        <div class="header-image">
-          <a href="{{ '/' | relative_url }}">
-            <img src="{{ '/assets/img/unicursal_hexagram_favicon.png' | relative_url }}"
-              alt="Sacred Portal to Esoteric Wisdom" />
-          </a>
+        <!-- Mega Menu (initially hidden) -->
+        <div id="mega-menu" class="mega-menu">
+          <ul class="mega-menu-list">
+            {% for item in site.data.navigation %}
+            <li>
+              <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
         </div>
-      </div>
-      <!-- Mega Menu (initially hidden) -->
-      <div id="mega-menu" class="mega-menu">
-        <button id="close-menu" class="close-menu" aria-label="Close Navigation">
-          &times;
-        </button>
-        <ul class="mega-menu-list">
-          {% for item in site.data.navigation %}
-          <li>
-            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
+  </div>
 
   <main id="main-content">
     <!-- Preloader overlay (assumed to be styled in your books.css) -->
@@ -64,19 +70,21 @@
     <!-- Actual page content -->
     <div class="page-content">
       {% if page.title %}
-      <h1 class="post-title">{{ page.title }}</h1>
-      {% endif %} {{ content }}
+        <h1 class="post-title">{{ page.title }}</h1>
+      {% endif %}
+      {{ content }}
     </div>
-    <!-- Blog Navigation Section -->
-    <div class="blog-nav">
-      <a href="{{ '/recipes/' | relative_url }}" class="blog-nav-link" aria-label="Back to Recipes">
-        <img src="{{ '/assets/img/arrow-left-solid.svg' | relative_url }}" alt="Back to Blog" />
-      </a>
-      <a href="{{ '/' | relative_url }}" class="blog-nav-link" aria-label="Back to Home">
-        <img src="{{ '/assets/img/house-solid.svg' | relative_url }}" alt="Back to Home" />
-      </a>
-    </div>
+<!-- Blog Navigation Section -->
+<div class="blog-nav">
+  <a href="{{ '/recipes/' | relative_url }}" class="blog-nav-link" aria-label="Back to Recipes">
+    <img src="{{ '/assets/img/arrow-left-solid.svg' | relative_url }}" alt="Back to Recipes">
+  </a>
+  <a href="{{ '/' | relative_url }}" class="blog-nav-link" aria-label="Back to Home">
+    <img src="{{ '/assets/img/house-solid.svg' | relative_url }}" alt="Back to Home">
+  </a>
+</div>
   </main>
+
 
   <footer>
     <div class="social-links">

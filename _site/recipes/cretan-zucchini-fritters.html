@@ -7,7 +7,7 @@
     Cretan Zucchini Fritters Ἁρμονία | Temple of Nachash Kadosh
   </title>
   <link rel="stylesheet" href="/assets/css/books.css" />
-  <link rel="icon" type="image/png" href="/assets/img/unicursal_hexagram_favicon.png" />
+  <link rel="icon" type="image/png" href="/assets/img/logo.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
     content="Enter the neon-soaked world of cyberspace and explore the cyberpunk universe." />
@@ -17,64 +17,70 @@
 </head>
 
 <body>
-  <header>
-    <nav aria-label="Main Navigation">
-      <div class="nav-container">
-        <!-- Hamburger Button -->
-        <button id="hamburger" class="hamburger" aria-label="Toggle Navigation">
-          <span class="hamburger-line"></span>
-          <span class="hamburger-line"></span>
-          <span class="hamburger-line"></span>
-        </button>
-        <!-- New Header Image (replacing text) -->
-        <div class="header-alt">
-          <a href="/">
-            <img src="/assets/img/serpentr.svg" alt="Sacred Portal Alternative" />
-          </a>
+  <!-- Header Wrapper -->
+  <div class="header-wrapper">
+    <header>
+      <nav aria-label="Main Navigation">
+        <div class="nav-container">
+          <!-- Hamburger Button -->
+          <button id="hamburger" class="hamburger" aria-label="Toggle Navigation">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+          <!-- Header Search Bar -->
+          <div class="header-search">
+            <form action="/search/" method="get">
+              <input type="search" name="q" placeholder="Search website..." id="headerSearch" />
+              <button type="submit" aria-label="Search">
+                <img src="/assets/img/magnifying-glass-solid.svg" alt="Search" />
+              </button>
+            </form>
+          </div>
+          <!-- Theme Toggle Icon -->
+          <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+            <img src="/assets/img/sun-solid.svg" alt="Switch to Light Mode" />
+          </button>
+          <!-- Header Logo/Image -->
+          <div class="header-image">
+            <a href="/">
+              <img src="/assets/img/logo.svg" alt="Sacred Portal to Esoteric Wisdom" />
+            </a>
+          </div>
         </div>
-        <!-- Header Logo/Image -->
-        <div class="header-image">
-          <a href="/">
-            <img src="/assets/img/unicursal_hexagram_favicon.png"
-              alt="Sacred Portal to Esoteric Wisdom" />
-          </a>
+        <!-- Mega Menu (initially hidden) -->
+        <div id="mega-menu" class="mega-menu">
+          <ul class="mega-menu-list">
+            
+            <li>
+              <a href="/blog/">Blog</a>
+            </li>
+            
+            <li>
+              <a href="/books/">Books</a>
+            </li>
+            
+            <li>
+              <a href="/essays/">Essays</a>
+            </li>
+            
+            <li>
+              <a href="/poetry/">Poetry</a>
+            </li>
+            
+            <li>
+              <a href="/reading-list">Reading List</a>
+            </li>
+            
+            <li>
+              <a href="/recipes/">Recipes</a>
+            </li>
+            
+          </ul>
         </div>
-      </div>
-      <!-- Mega Menu (initially hidden) -->
-      <div id="mega-menu" class="mega-menu">
-        <button id="close-menu" class="close-menu" aria-label="Close Navigation">
-          &times;
-        </button>
-        <ul class="mega-menu-list">
-          
-          <li>
-            <a href="/blog/">Blog</a>
-          </li>
-          
-          <li>
-            <a href="/books/">Books</a>
-          </li>
-          
-          <li>
-            <a href="/essays/">Essays</a>
-          </li>
-          
-          <li>
-            <a href="/poetry/">Poetry</a>
-          </li>
-          
-          <li>
-            <a href="/reading-list">Reading List</a>
-          </li>
-          
-          <li>
-            <a href="/recipes/">Recipes</a>
-          </li>
-          
-        </ul>
-      </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
+  </div>
 
   <main id="main-content">
     <!-- Preloader overlay (assumed to be styled in your books.css) -->
@@ -84,8 +90,9 @@
     <!-- Actual page content -->
     <div class="page-content">
       
-      <h1 class="post-title">Cretan Zucchini Fritters Ἁρμονία</h1>
-       <p>These Cretan Zucchini-Potato Fritters, known as “Armonia,” are a hearty and flavorful dish that can easily serve as a full meal. Inspired by traditional Cretan cuisine, they combine zucchini, potatoes, carrots, and cheeses into a crispy, savory fritter that is both satisfying and delicious. The fritters are not only perfect on their own but also pair wonderfully with a side of apple sauce, adding a sweet contrast to the savory flavors. Simple to prepare yet bursting with Mediterranean goodness, these fritters are sure to become a favorite in your kitchen.</p>
+        <h1 class="post-title">Cretan Zucchini Fritters Ἁρμονία</h1>
+      
+      <p>These Cretan Zucchini-Potato Fritters, known as “Armonia,” are a hearty and flavorful dish that can easily serve as a full meal. Inspired by traditional Cretan cuisine, they combine zucchini, potatoes, carrots, and cheeses into a crispy, savory fritter that is both satisfying and delicious. The fritters are not only perfect on their own but also pair wonderfully with a side of apple sauce, adding a sweet contrast to the savory flavors. Simple to prepare yet bursting with Mediterranean goodness, these fritters are sure to become a favorite in your kitchen.</p>
 
 <p><strong>Preparation time:</strong> 30 minutes</p>
 
@@ -160,16 +167,17 @@
 <p><em>Recipe source: Mr. Olympios, Armonia Hotel, Crete</em></p>
 
     </div>
-    <!-- Blog Navigation Section -->
-    <div class="blog-nav">
-      <a href="/recipes/" class="blog-nav-link" aria-label="Back to Recipes">
-        <img src="/assets/img/arrow-left-solid.svg" alt="Back to Blog" />
-      </a>
-      <a href="/" class="blog-nav-link" aria-label="Back to Home">
-        <img src="/assets/img/house-solid.svg" alt="Back to Home" />
-      </a>
-    </div>
+<!-- Blog Navigation Section -->
+<div class="blog-nav">
+  <a href="/recipes/" class="blog-nav-link" aria-label="Back to Recipes">
+    <img src="/assets/img/arrow-left-solid.svg" alt="Back to Recipes">
+  </a>
+  <a href="/" class="blog-nav-link" aria-label="Back to Home">
+    <img src="/assets/img/house-solid.svg" alt="Back to Home">
+  </a>
+</div>
   </main>
+
 
   <footer>
     <div class="social-links">
