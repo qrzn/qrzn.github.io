@@ -33,5 +33,7 @@ description: "Where retro meets the digital fun zone"
 
 <div class="contact-box">
   <p>If you’d like to get in touch, drop me a line at:</p>
-  ```plaintext
-  qrzn23(at)gmail.com
+
+  <!-- Use HTML <pre><code> tags inside the container -->
+  <pre><code>qrzn23(at)gmail.com</code></pre>
+</div>

@@ -15,8 +15,8 @@
 # Site settings
 title: "Temple of Nachash Kadosh"
 description: "My Personal Blog"
-baseurl: ""       # the subpath of your site, e.g. /blog
-url: ""           # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://qrzn.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: qrzn
 
 # Build settings
@@ -27,7 +27,7 @@ plugins:
 # Defaults: Set the default layout for all pages to "default"
 defaults:
   - scope:
-      path: ""       # Applies to all files in your site
+      path: "" # Applies to all files in your site
       type: "pages"
     values:
       layout: default
