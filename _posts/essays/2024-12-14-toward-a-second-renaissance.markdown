@@ -1,10 +1,11 @@
 ---
-layout: essay
+layout: sage
 title: "Toward a Second Renaissance: Moving Beyond the Techno-Barbarism of Modernity"
 permalink: /essays/toward-a-second-renaissance/
 category: "essays"
 description: "Toward a Second Renaissance: Moving Beyond the Techno-Barbarism of Modernity"
 ---
+
 The 20th and early 21st centuries, while marked by staggering technological progress, have also plunged humanity into a form of techno-barbarism—an era characterized by dehumanization, a loss of ethical grounding, and a blind faith in scientific and technological advancement at the expense of the soul. As humanity struggles with existential crises ranging from environmental collapse to cultural disintegration, the call for a Second Renaissance becomes not merely an intellectual exercise but a cultural and spiritual necessity.
 
 This new Renaissance must transcend the narrow materialism and utilitarianism of our current age, turning instead to the wisdom of classical authors and the intellectual flourishing of the first Renaissance to rebuild a world where humanism, beauty, and virtue take precedence.
@@ -14,7 +15,6 @@ This new Renaissance must transcend the narrow materialism and utilitarianism of
 The 20th and 21st centuries have seen unprecedented scientific and technological advancements. From splitting the atom to exploring the cosmos, humanity has achieved feats that would have seemed godlike to our ancestors. Yet, this progress has come at a steep price. These centuries have also borne witness to industrialized warfare, environmental degradation, mass surveillance, and a pervasive sense of alienation.
 
 This paradox—the coexistence of scientific enlightenment with moral and cultural darkness—reveals the limits of technology as a guiding principle for human civilization. Without a strong ethical and philosophical foundation, technology becomes a tool of domination rather than liberation, reducing human beings to data points, commodities, or disposable resources.
-
 
 ## The Need for a Second Renaissance
 
@@ -28,7 +28,6 @@ The original Renaissance of the 14th to 17th centuries arose from a rediscovery 
 
 3. Integrating Science with Ethics and Beauty
    The Second Renaissance would not reject science but seek to integrate it with ethics, philosophy, and aesthetics. Figures like Leonardo da Vinci exemplified this integration, blending scientific inquiry with artistic brilliance and moral contemplation. By balancing technical knowledge with humanistic values, we can ensure that technological advancements serve humanity rather than enslave it.
-
 
 ## Learning from the First Renaissance
 

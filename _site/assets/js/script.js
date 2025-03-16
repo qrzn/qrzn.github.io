@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
    * INTERSECTION OBSERVERS
    * ==================== */
   const animateItems = document.querySelectorAll(
-    ".book-item, .post-item, .book-download-wrapper, p, li, input, h1, h2, h3",
+    ".book-item, .post-item, .book-download-wrapper, main",
   );
   const input = document.getElementById("bookSearch");
 
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
   function applyTheme(theme) {
     if (theme === "light") {
       root.classList.add("light-mode");
-      themeToggleImg.src = "/assets/img/moon-solid.svg";
+      themeToggleImg.src = "/assets/img/sage/moon-solid.svg";
       themeToggleImg.alt = "Switch to Dark Mode";
 
       // If the preloader is still in the DOM, apply light mode
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     } else {
       root.classList.remove("light-mode");
-      themeToggleImg.src = "/assets/img/sun-solid.svg";
+      themeToggleImg.src = "/assets/img/sage/sun-solid.svg";
       themeToggleImg.alt = "Switch to Light Mode";
 
       // If the preloader is still in the DOM, remove light mode

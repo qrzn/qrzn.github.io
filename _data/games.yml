@@ -1,5 +1,7 @@
 - name: "Emperor &mdash; Rise of the Middle Kingdom"
   release_date: 2002
+  genre: "City-Building / Strategy"
+  platform: "PC"
   patches:
     - title: "HD Resolution & Widescreen Fix"
       url: "https://www.moddb.com/mods/emperor-full-hd-support"
@@ -7,11 +9,13 @@
       description: "Enhances graphics for modern displays"
   reviews:
     - title: "In-depth Emperor Review"
-      url: "/reviews/emperor-review" # e.g., internal page
+      url: "/reviews/emperor-review"
       summary: "A long-form deep-dive into Emperor’s city-building mechanics."
 
 - name: "Zeus & Poseidon"
   release_date: 2000
+  genre: "City-Building / Strategy"
+  platform: "PC"
   patches:
     - title: "HD Resolution & Widescreen Fix"
       url: "https://www.moddb.com/mods/zeus-and-poseidon-full-hd-enfr/downloads/zeus-and-poseidon-full-hd-many-resolution"
@@ -24,23 +28,28 @@
 
 - name: "Pharaoh & Cleopatra"
   release_date: 1998
+  genre: "City-Building / Strategy"
+  platform: "PC"
   patches:
     - title: "HD Resolution & Widescreen Fix"
       url: "https://community.pcgamingwiki.com/files/file/1762-cleopatra-widescreen-fix/"
       backup_url: "https://mega.nz/file/5ClXlZRK#rqf8IF3BBuLl-UVWvtRK2kSSOKDci9dg-gFlpfT2NgI"
-      description: "Fix for many widescreen reslutions"
+      description: "Fix for many widescreen resolutions"
   reviews:
     - title: "Pharaoh & Cleopatra: A Retrospective"
-      url: "pharaoh-cleopatra-review"
+      url: "/reviews/pharaoh-cleopatra-review"
       summary: "Looking back on its cultural and historical accuracy, plus modern fixes."
 
 - name: "Arcanum"
   release_date: 2000
+  genre: "RPG / Strategy"
+  platform: "PC"
   patches:
     - title: "Unofficial Arcanum Patch"
       url: "https://www.moddb.com/mods/emperor-full-hd-support"
       backup_url: "https://mega.nz/file/0DVHBDpT#OI3zI1Femj3FfLg3t3yqiQ2_1OIJKZZOZbuCT5RALjQ"
       description: "Bugfixes, new features, new races, enhances graphics for modern displays, high resolution and font size fixes"
+  tools:
     - title: "Arcanum Factory"
       url: "https://www.moddb.com/mods/emperor-full-hd-support"
       backup_url: "https://mega.nz/file/0DVHBDpT#OI3zI1Femj3FfLg3t3yqiQ2_1OIJKZZOZbuCT5RALjQ"
@@ -48,10 +57,20 @@
   reviews:
     - title: "Arcanum Review"
       url: "/reviews/arcanum-review"
-      summary: "Where to find patches, how to install them, and a brief overview."
+      description: "Where to find patches, how to install them, and a brief overview."
+  walkthroughs:
+    - title: "Arcanum Walkthrough"
+      url: "/guides/arcanum-walkthrough"
+      description: "A complete walkthrough."
+  cheats:
+    - title: "Arcanum Cheats"
+      url: "/guides/arcanum-cheats"
+      description: "Cheat codes"
 
 - name: "Master of Orion"
   release_date: 1993
+  genre: "4X Strategy"
+  platform: "PC"
   patches:
     - title: "MoO High Resolution Patch"
       url: "https://example.com/master-of-orion-high-res"
@@ -68,6 +87,8 @@
 
 - name: "Daggerfall"
   release_date: 1996
+  genre: "RPG / Open World"
+  platform: "PC"
   patches:
     - title: "Daggerfall Unity"
       url: "https://www.dfworkshop.net/"
@@ -84,6 +105,8 @@
 
 - name: "The Settlers 2"
   release_date: 1996
+  genre: "RTS / City-Building"
+  platform: "PC"
   patches:
     - title: "Widescreen & HD Mod"
       url: "https://example.com/settlers2-hd"
@@ -100,6 +123,8 @@
 
 - name: "Albion"
   release_date: 1995
+  genre: "RPG / Fantasy"
+  platform: "PC"
   patches:
     - title: "Albion DOS Compatibility Patch"
       url: "https://example.com/albion-dosfix"
@@ -113,3 +138,165 @@
     - type: "video"
       url: "https://youtube.com/watch?v=albionGameplay"
       caption: "Full gameplay walkthrough highlighting patches and tips"
+
+- name: "Morrowind"
+  release_date: 2002
+  genre: "RPG / Open World"
+  platform: "PC"
+  patches:
+    - title: "Morrowind Unofficial Patch"
+      url: "https://www.nexusmods.com/morrowind/mods/19"
+      backup_url: "https://mega.nz/file/EXAMPLE"
+      description: "Fixes bugs and improves stability for modern systems."
+  reviews:
+    - title: "Morrowind Review"
+      url: "/reviews/morrowind-review"
+      summary: "A detailed look at the classic RPG that redefined open-world exploration."
+  media:
+    - type: "image"
+      url: "https://example.com/img/morrowind.jpg"
+      caption: "A glimpse into Morrowind's vast world."
+
+- name: "Dungeon Keeper 2"
+  release_date: 1999
+  genre: "RTS / Simulation"
+  platform: "PC"
+  patches:
+    - title: "Dungeon Keeper 2 Fix Pack"
+      url: "https://www.moddb.com/mods/dungeon-keeper-2-fix-pack"
+      backup_url: "https://mega.nz/file/EXAMPLE"
+      description: "An unofficial patch addressing performance and compatibility issues."
+  reviews:
+    - title: "Dungeon Keeper 2 Retrospective"
+      url: "/reviews/dungeon-keeper-2-review"
+      summary: "A look back at the innovative management and strategy of Dungeon Keeper 2."
+  media:
+    - type: "video"
+      url: "https://youtube.com/watch?v=EXAMPLE"
+      caption: "Gameplay footage showcasing improved mechanics."
+
+- name: "Age of Mythology"
+  release_date: 2002
+  genre: "RTS / City-Building"
+  platform: "PC"
+  patches:
+    - title: "Age of Mythology HD Mod"
+      url: "https://example.com/age-of-mythology-hd-mod"
+      backup_url: "https://mega.nz/file/EXAMPLE"
+      description: "Enhances graphics and interface for modern resolutions."
+  reviews:
+    - title: "Age of Mythology Review"
+      url: "/reviews/age-of-mythology-review"
+      summary: "Exploring the blend of myth and strategy that makes this title timeless."
+  media:
+    - type: "image"
+      url: "https://example.com/img/age-of-mythology.jpg"
+      caption: "The divine clash in Age of Mythology."
+
+- name: "Tzar"
+  release_date: 2000
+  genre: "RTS / Strategy"
+  platform: "PC"
+  patches:
+    - title: "Tzar HD Patch"
+      url: "https://www.moddb.com/mods/tzar-hd-patch"
+      backup_url: "https://mega.nz/file/EXAMPLE"
+      description: "Modernizes visuals and fixes bugs for Tzar."
+  reviews:
+    - title: "Tzar Review"
+      url: "/reviews/tzar-review"
+      summary: "An exploration of Tzar's unique blend of medieval warfare and fantasy."
+  media:
+    - type: "video"
+      url: "https://youtube.com/watch?v=EXAMPLE"
+      caption: "Tzar in action with improved graphics."
+
+- name: "Master of Magic"
+  release_date: 1994
+  genre: "Turn-Based Strategy / Fantasy"
+  platform: "PC"
+  patches:
+    - title: "Master of Magic Unofficial Patch"
+      url: "https://www.moddb.com/mods/master-of-magic-unofficial-patch"
+      backup_url: "https://mega.nz/file/EXAMPLE"
+      description: "Updates graphics and fixes gameplay bugs."
+  reviews:
+    - title: "Master of Magic Retrospective"
+      url: "/reviews/master-of-magic-review"
+      summary: "A look at the strategy and magic that defined a genre."
+  media:
+    - type: "image"
+      url: "https://example.com/img/master-of-magic.jpg"
+      caption: "The mystical realm of Master of Magic."
+
+- name: "Knights and Merchants"
+  release_date: 1998
+  genre: "RTS / Economic Simulation"
+  platform: "PC"
+  patches:
+    - title: "Knights and Merchants HD Patch"
+      url: "https://www.moddb.com/mods/knights-and-merchants-hd-patch"
+      backup_url: "https://mega.nz/file/EXAMPLE"
+      description: "Enhances graphics and interface for modern systems."
+  reviews:
+    - title: "Knights and Merchants Review"
+      url: "/reviews/knights-and-merchants-review"
+      summary: "An in-depth look at medieval economy and warfare."
+  media:
+    - type: "image"
+      url: "https://example.com/img/knights-and-merchants.jpg"
+      caption: "Building and managing a medieval empire."
+
+- name: "Stronghold"
+  release_date: 2001
+  genre: "RTS / Castle Simulation"
+  platform: "PC"
+  patches:
+    - title: "Stronghold Widescreen Patch"
+      url: "https://www.moddb.com/mods/stronghold-widescreen-patch"
+      backup_url: "https://mega.nz/file/EXAMPLE"
+      description: "Fixes resolution issues and improves performance."
+  reviews:
+    - title: "Stronghold Review"
+      url: "/reviews/stronghold-review"
+      summary: "A classic take on castle management and siege warfare."
+  media:
+    - type: "video"
+      url: "https://youtube.com/watch?v=EXAMPLE"
+      caption: "The siege battles of Stronghold reimagined."
+
+- name: "Stronghold Crusader"
+  release_date: 2002
+  genre: "RTS / Castle Simulation"
+  platform: "PC"
+  patches:
+    - title: "Stronghold Crusader HD Patch"
+      url: "https://www.moddb.com/mods/stronghold-crusader-hd-patch"
+      backup_url: "https://mega.nz/file/EXAMPLE"
+      description: "Updates visuals and fixes bugs for modern displays."
+  reviews:
+    - title: "Stronghold Crusader Review"
+      url: "/reviews/stronghold-crusader-review"
+      summary: "Examining the enduring appeal of medieval siege warfare and strategy."
+  media:
+    - type: "image"
+      url: "https://example.com/img/stronghold-crusader.jpg"
+      caption: "The battlefields of Stronghold Crusader."
+
+- name: "Sid Meier's Alpha Centauri"
+  release_date: 1999
+  genre: "4X Strategy / Sci-Fi"
+  platform: "PC"
+  patches:
+    - title: "Alpha Centauri HD Patch"
+      url: "https://www.moddb.com/mods/alpha-centauri-hd-patch"
+      backup_url: "https://mega.nz/file/EXAMPLE"
+      description: "Updates the classic game for high resolutions and fixes legacy bugs."
+  reviews:
+    - title: "Alpha Centauri Retrospective"
+      url: "/reviews/alpha-centauri-review"
+      summary: "Exploring the visionary 4X gameplay that set the standard for future space strategies."
+  media:
+    - type: "video"
+      url: "https://youtube.com/watch?v=EXAMPLE"
+      caption: "A journey through the cosmos in Alpha Centauri."

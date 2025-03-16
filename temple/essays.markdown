@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: sage
 title: Essays
 permalink: /essays/
 ---
@@ -11,7 +11,6 @@ These essays invite you to challenge conventional wisdom, explore the mysteries 
 Journey onward, for the path to wisdom is as infinite and enigmatic as the cosmos itself.
 
 <section class="category-posts">
-  <h3 class="category-heading">Essays</h3>
 
 {% if site.categories.essays %}
 {% assign essays = site.categories.essays %}

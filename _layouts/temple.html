@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>
+    {% if page.title %}{{ page.title }} | {% endif %}Temple of Nachash Kadosh
+  </title>
+  <link rel="stylesheet" href="{{ '/assets/css/books.css' | relative_url }}" />
+  <link rel="icon" type="image/png" href="{{ '/assets/img/logo.svg' | relative_url }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="{{ page.description | default: 'Enter the neon-soaked world of cyberspace and explore the cyberpunk universe.' }}" />
+  <meta name="keywords"
+    content="{{ page.keywords | default: 'Thelema, Occultism, I Ching, Tarot, Recipes, Poetry, ebooks' }}" />
+  <meta name="author" content="qrzn" />
+</head>
+
+<body>
+  <!-- Header Wrapper -->
+  <div class="header-wrapper">
+    <header>
+      <nav aria-label="Main Navigation">
+        <div class="nav-container">
+          <!-- Hamburger Button -->
+          <button id="hamburger" class="hamburger" aria-label="Toggle Navigation">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+          <!-- Header Search Bar -->
+          <div class="header-search">
+            <form action="/search/" method="get">
+              <input type="search" name="q" placeholder="Search website..." id="headerSearch" />
+              <button type="submit" aria-label="Search">
+                <img src="{{ '/assets/img/magnifying-glass-solid.svg' | relative_url }}" alt="Search" />
+              </button>
+            </form>
+          </div>
+          <!-- Theme Toggle Icon -->
+          <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+            <img src="{{ '/assets/img/sun-solid.svg' | relative_url }}" alt="Switch to Light Mode" />
+          </button>
+          <!-- Header Logo/Image -->
+          <div class="header-image">
+            <a href="{{ '/' | relative_url }}">
+              <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="Sacred Portal to Esoteric Wisdom" />
+            </a>
+          </div>
+        </div>
+        <!-- Mega Menu (initially hidden) -->
+        <div id="mega-menu" class="mega-menu">
+          <ul class="mega-menu-list">
+            {% for item in site.data.navigation %}
+            <li>
+              <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </div>
+
+  <main id="main-content">
+    <!-- Preloader overlay (styled in books.css) -->
+    <div id="preloader" class="preloader">
+      <div class="spinner"></div>
+    </div>
+    <!-- Actual page content -->
+    <div class="page-content">
+      {% if page.title %}
+      <h1 class="post-title">{{ page.title }}</h1>
+      {% endif %} {{ content }}
+    </div>
+  </main>
+
+  <footer>
+    <div class="social-links">
+      <a href="https://x.com/qrzn23" aria-label="X" class="social-link">
+        <img src="{{ '/assets/img/x-twitter-brands.svg' | relative_url }}" alt="X" />
+      </a>
+      <a href="https://instagram.com/nachash_kadosh" aria-label="Instagram" class="social-link">
+        <img src="{{ '/assets/img/instagram-brands.svg' | relative_url }}" alt="Instagram" />
+      </a>
+      <a href="https://youtube.com/@nachash_kadosh" aria-label="YouTube" class="social-link">
+        <img src="{{ '/assets/img/youtube-brands.svg' | relative_url }}" alt="YouTube" />
+      </a>
+      <a href="https://github.com/qrzn" aria-label="GitHub" class="social-link">
+        <img src="{{ '/assets/img/github-brands.svg' | relative_url }}" alt="GitHub" />
+      </a>
+      <a href="https://t.me/nachash_kadosh" aria-label="Telegram" class="social-link">
+        <img src="{{ '/assets/img/telegram-brands.svg' | relative_url }}" alt="Telegram" />
+      </a>
+    </div>
+    <script src="https://eralegis.info/eralegis-3.0.js"></script>
+    <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+  </footer>
+</body>
+
+</html>

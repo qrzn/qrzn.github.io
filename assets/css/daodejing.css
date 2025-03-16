@@ -1,0 +1,127 @@
+/* -----------------------------------
+ Daodejing Section Styling
+----------------------------------- */
+.daodejing-section {
+  text-align: center;
+  margin: 2em auto;
+  max-width: 600px;
+  min-width: 230px;
+  padding: 1.5em;
+  border-radius: 8px;
+}
+
+.daodejing-title {
+  margin-bottom: 1em;
+  font-size: 2em;
+  color: var(--link-color);
+}
+
+.daodejing-content {
+  text-align: left;
+  margin: 1em auto;
+  padding: 20px;
+  font-size: 0.9em;
+  background-color: var(--bg-color);
+  min-height: 100px;
+  color: var(--text-color);
+  border-radius: 6px;
+}
+
+.daodejing-button {
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: var(--link-color);
+  color: var(--bg-color);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1em;
+  width: 150px;
+  text-align: center;
+}
+
+.daodejing-button:hover {
+  background-color: var(--link-hover);
+}
+
+.daodejing-buttons {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin: 0 auto 1em;
+}
+
+.daodejing-btn {
+  padding: 0.5em 1em;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: var(--link-color);
+  color: var(--bg-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 52px;
+  width: 150px;
+  text-align: center;
+}
+
+.daodejing-btn:hover {
+  background-color: var(--link-hover);
+}
+
+#search {
+  color: var(--text-color);
+  background-color: transparent;
+  padding: 0.6em;
+  font-size: 1em;
+  width: 80%;
+  max-width: 400px;
+  margin-top: 1em;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid var(--accent-border);
+  transition: border-color 0.3s ease;
+}
+
+#search:focus {
+  border-color: var(--link-color);
+  outline: none;
+}
+
+@media (max-width: 480px) {
+  .daodejing-section {
+    margin: 1em auto;
+    padding: 1em;
+    max-width: 90%;
+    min-width: auto;
+  }
+
+  .daodejing-title {
+    font-size: 1.5em;
+  }
+
+  .daodejing-content {
+    font-size: 1em;
+    padding: 15px;
+  }
+
+  .daodejing-button,
+  .daodejing-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    width: 150px;
+  }
+
+  .daodejing-buttons {
+    flex-direction: column;
+    gap: 0.5em;
+  }
+
+  #search {
+    width: 100%;
+    font-size: 0.9em;
+  }
+}

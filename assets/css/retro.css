@@ -304,7 +304,8 @@ body {
   margin-top: 20px;
 }
 
-.reviews-section h3 {
+.reviews-section h3,
+.game-content h3 {
   color: #0f0;
   margin-bottom: 10px;
 }
@@ -363,4 +364,21 @@ body {
 .contact-box code {
   white-space: pre-wrap;
   word-wrap: break-word;
+}
+
+.walkthrough {
+  max-width: 800px;
+  /* Limits the width of the block */
+  margin: 0 auto;
+  /* Centers the block on the page */
+  overflow-x: auto;
+  /* Enables horizontal scrolling if needed */
+  background-color: #111;
+  /* Matches a retro dark background */
+  color: #0f0;
+  /* Retro green text, for example */
+  padding: 20px;
+  border: 1px solid #0f0;
+  font-family: "dos", monospace;
+  /* Use your retro font if available */
 }
