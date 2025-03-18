@@ -60,6 +60,7 @@ body {
 }
 
 body {
+  scroll-padding-top: 60px;
   font-family: "Funnel", serif;
   display: flex;
   flex-direction: column;
@@ -99,6 +100,7 @@ a:hover {
 }
 
 .nav-container {
+  height: 60px;
   max-width: 600px;
   /* Default max-width */
   margin: 0 auto;
@@ -372,6 +374,7 @@ a:hover {
 
 /* Main Content */
 main {
+  scroll-padding-top: 80px;
   text-align: justify;
   max-width: 600px;
   /* Default max-width for smaller screens */
