@@ -1,9 +1,10 @@
 ---
-layout: recipe
+layout: sage
 title: The Best Cheesecake in the World
 permalink: /recipes/worlds-best-cheesecake
-category: recipesbaking
-hidden: true
+categories:
+  - recipes
+  - baking
 ---
 
 Looking for a cheesecake that’s irresistibly creamy, perfectly balanced, and guaranteed to impress? This recipe for the best cheesecake in the world combines a buttery crust with a rich and velvety filling made from quark, sour cream, and heavy cream. With its simple ingredients and easy steps, it’s a foolproof way to bake a classic dessert that everyone will love. Whether for a special occasion or just because, this cheesecake is sure to become a favorite!
@@ -11,6 +12,7 @@ Looking for a cheesecake that’s irresistibly creamy, perfectly balanced, and g
 ## Ingredients
 
 ### For the Dough:
+
 - 200g (7 oz) flour
 - 75g (2.6 oz) sugar
 - 75g (2.6 oz) margarine
@@ -19,6 +21,7 @@ Looking for a cheesecake that’s irresistibly creamy, perfectly balanced, and g
 - Butter or margarine to grease the pan
 
 ### For the Filling:
+
 - 125g (4.4 oz) margarine
 - 225g (8 oz) sugar
 - 1 packet vanilla sugar
@@ -30,27 +33,30 @@ Looking for a cheesecake that’s irresistibly creamy, perfectly balanced, and g
 
 ## Instructions
 
-1. **Prepare the Dough**  
+1. **Prepare the Dough**
+
    - Combine flour, sugar, margarine, egg, and baking powder to form a smooth dough.
    - Grease a springform pan and evenly press the dough into the bottom and slightly up the sides to form a crust.
 
-2. **Prepare the Filling**  
+2. **Prepare the Filling**
+
    - In a mixing bowl, cream the margarine, sugar, and vanilla sugar together until smooth.
    - Mix in the pudding powder and eggs one at a time.
    - Gradually fold in the quark, sour cream, and heavy cream until the mixture is smooth and well combined.
 
-3. **Assemble the Cheesecake**  
+3. **Assemble the Cheesecake**
+
    - Pour the filling onto the prepared crust in the springform pan.
    - Smooth the top with a spatula.
 
-4. **Bake**  
+4. **Bake**
+
    - Preheat the oven to 175°C (350°F).
    - Bake the cheesecake on the middle rack for approximately 60 minutes.
    - Turn off the oven and leave the cheesecake inside for an additional 10 minutes.
 
-5. **Cool and Serve**  
+5. **Cool and Serve**
    - Let the cheesecake cool completely in the pan.
    - Carefully remove it from the pan, slice, and serve.
 
 Enjoy your homemade cheesecake! 🎂
-

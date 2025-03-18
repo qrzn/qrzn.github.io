@@ -1,12 +1,13 @@
 ---
-layout: poetry
+layout: sage
 title: Ankh
 permalink: /poetry/ankh
-category: poetrygerman
+category: poetry
 ---
+
 Ruhe und Stille  
 findet sich  
-&mdash; an der Wasserstelle  
+&mdash; an der Wasserstelle
 
 fließendes Wasser ist klar  
 stilles Gewässer ist trüb  

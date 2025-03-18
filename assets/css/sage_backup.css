@@ -1,5 +1,5 @@
 /* -----------------------------------
-   Sage Style CSS
+    Sage Style CSS - Optimized & Fixed
 ----------------------------------- */
 
 /* Embed EB Garamond font */
@@ -7,17 +7,20 @@
   font-family: "EB Garamond";
   src: url("/assets/fonts/EBGaramond-Regular.ttf") format("truetype");
   font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "EB Garamond";
   src: url("/assets/fonts/EBGaramond-Bold.ttf") format("truetype");
   font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "EB Garamond";
   src: url("/assets/fonts/EBGaramond-Italic.ttf") format("truetype");
+  font-weight: normal;
   font-style: italic;
 }
 
@@ -25,9 +28,10 @@
   font-family: "silvus";
   src: url("/assets/fonts/silvus.ttf") format("truetype");
   font-weight: normal;
+  font-style: normal;
 }
 
-/* Regular style */
+/* Embed Funnel font */
 @font-face {
   font-family: "Funnel";
   src: url("../fonts/FunnelSans-Regular.ttf") format("truetype");
@@ -35,33 +39,33 @@
   font-style: normal;
 }
 
-/* Bold style */
 @font-face {
-  font-family: "Roboto";
+  font-family: "Funnel";
+  /* Corrected to "Funnel" */
   src: url("../fonts/FunnelSans-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
-/* Italic style */
 @font-face {
-  font-family: "Roboto";
+  font-family: "Funnel";
+  /* Corrected to "Funnel" */
   src: url("../fonts/FunnelSans-Italic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
 }
 
+/* Root variables for color theming */
 :root {
   --bg-color: #4d5d53;
   --mega-menu-bg-color: rgba(77, 93, 83, 0.8);
   --header-bg: #4d5d53;
-  --link-color: #8f9779;
+  --link-color: #78866b;
   --link-hover: #738678;
   --text-color: #8f9779;
   --accent-border: #a1ab94;
   --secondary-text-color: #c4cbb7;
   --item-bg-color: #3e453b;
-  /* Corrected name */
 }
 
 :root.light-mode {
@@ -74,13 +78,84 @@
   --accent-border: #a1ab94;
   --secondary-text-color: #737d4d;
   --item-bg-color: #d3d9c9;
-  /* Corrected name */
+}
+
+/* Base element styles */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Funnel", serif;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0 auto;
+  font-size: 16px;
+  /* Example base font size */
+  line-height: 1.6;
+  /* Example base line height */
 }
 
 svg {
-  color: #8f9779;
+  color: var(--link-color);
   /* Sage green */
   fill: currentColor;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+/* Header styles */
+.header-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 1001;
+  background-color: var(--header-bg);
+  width: 100%;
+}
+
+.nav-container {
+  max-width: 600px;
+  /* Default max-width */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.header-image {
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+.header-image img {
+  max-height: 60px;
+  width: auto;
+}
+
+.header-alt {
+  flex: 1;
+  text-align: center;
+}
+
+.header-alt img {
+  max-height: 50px;
+  width: auto;
+  display: inline-block;
 }
 
 /* Header Search Bar */
@@ -111,7 +186,7 @@ svg {
 }
 
 .header-search button {
-  background: var(--bg-color);
+  background-color: var(--bg-color);
   border: none;
   padding: 0.5em;
   border-radius: 0 4px 4px 0;
@@ -158,78 +233,7 @@ svg {
   object-fit: contain;
 }
 
-/* -----------------------------------
- Reset & Base Styles
------------------------------------ */
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Funnel", serif;
-  display: flex;
-  flex-direction: column;
-  background: var(--bg-color);
-  color: var(--text-color);
-  margin: 0 auto;
-}
-
-/* Drop Caps at the beginning of Chapters */
-/*
-h1 + p:not(.centered-small-caps)::first-letter,
-.centered-small-caps + p:not(.centered-small-caps)::first-letter {
-  font-size: 4em;
-  font-family: "silvus";
-  font-weight: normal;
-  float: left;
-  margin-right: 0.1em;
-  line-height: 1;
-}
-*/
-
-/* -----------------------------------
- Fade-in Animations (Unified)
------------------------------------ */
-main,
-.reading-item,
-.book-item,
-.post-item {
-  opacity: 0;
-  transform: translateY(100px);
-  transition:
-    opacity 0.6s ease-out,
-    transform 0.6s ease-out;
-}
-
-main.visible,
-.reading-item.visible,
-.book-item.visible,
-.post-item.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* -----------------------------------
- Shared Item Block Styles
- (unify reading-item, book-item, post-item backgrounds, etc.)
------------------------------------ */
-.reading-item,
-.book-item,
-.post-item {
-  background-color: var(--item-color);
-  padding: 1em;
-  border-radius: 5px;
-  margin-bottom: 1em;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-}
-
-/* -----------------------------------
-Mega Menu & Navigation 
------------------------------------ */
-/* Hamburger Button */
+/* Mega Menu & Navigation */
 .hamburger {
   background: none;
   border: none;
@@ -249,7 +253,6 @@ Mega Menu & Navigation
   transition: all 0.3s ease;
 }
 
-/* Transform hamburger lines into an "X" when active */
 .hamburger.is-active .hamburger-line:nth-child(1) {
   transform: translateY(7px) rotate(45deg);
 }
@@ -262,7 +265,6 @@ Mega Menu & Navigation
   transform: translateY(-7px) rotate(-45deg);
 }
 
-/* Mega Menu Styles */
 .mega-menu {
   display: flex;
   justify-content: center;
@@ -285,12 +287,13 @@ Mega Menu & Navigation
 .mega-menu-list {
   align-content: center;
   font-size: 2em;
-  text-align: center;
   list-style: none;
+  font-family: "EB Garamond";
   font-variant: small-caps;
+  font-weight: bold;
   padding: 20px;
-  margin: 0;
-  margin-top: 50px;
+  margin: 50px 0 0;
+  /* Adjusted margin-top */
 }
 
 .mega-menu-list ul {
@@ -301,19 +304,6 @@ Mega Menu & Navigation
   margin-bottom: 1em;
 }
 
-/*
-.mega-menu ul li::before {
-  content: "∴ ";
-  color: var(--secondary-text);
-  font-weight: bold;
-}
-
-.mega-menu ul li::after {
-  content: " ∴";
-  color: var(--secondary-text);
-  font-weight: bold;
-}
-*/
 .mega-menu-list li a {
   color: var(--link-color);
   text-decoration: none;
@@ -325,7 +315,38 @@ Mega Menu & Navigation
   color: var(--link-hover);
 }
 
-/* Close Button for Mega Menu */
+/* Mega Menu Social Links */
+.mega-menu-social {
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding: 20px;
+  position: absolute;
+  /* Position at the bottom of the mega menu */
+  bottom: 0;
+  /* Match mega menu background */
+}
+
+.mega-menu-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  transition: opacity 0.3s ease;
+}
+
+.mega-menu-social a img {
+  max-width: 80%;
+  height: auto;
+  object-fit: contain;
+}
+
+.mega-menu-social a:hover {
+  opacity: 0.8;
+}
+
 .close-menu {
   background: none;
   border: none;
@@ -342,7 +363,6 @@ Mega Menu & Navigation
   color: var(--link-hover);
 }
 
-/* Keyframes for sliding in mega menu list items */
 @keyframes slideInMegaMenu {
   from {
     opacity: 0;
@@ -361,104 +381,16 @@ Mega Menu & Navigation
   animation: slideInMegaMenu 0.5s forwards;
 }
 
-.mega-menu.open .mega-menu-list li:nth-child(1) {
-  animation-delay: 0.1s;
+/* Animation delay for each mega menu item */
+.mega-menu.open .mega-menu-list li:nth-child(n) {
+  animation-delay: calc(0.1s * (n - 1));
 }
 
-.mega-menu.open .mega-menu-list li:nth-child(2) {
-  animation-delay: 0.2s;
-}
-
-.mega-menu.open .mega-menu-list li:nth-child(3) {
-  animation-delay: 0.3s;
-}
-
-.mega-menu.open .mega-menu-list li:nth-child(4) {
-  animation-delay: 0.4s;
-}
-
-.mega-menu.open .mega-menu-list li:nth-child(5) {
-  animation-delay: 0.5s;
-}
-
-.mega-menu.open .mega-menu-list li:nth-child(6) {
-  animation-delay: 0.6s;
-}
-
-.mega-menu.open .mega-menu-list li:nth-child(7) {
-  animation-delay: 0.7s;
-}
-
-/* Nav Container */
-.nav-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 15px;
-}
-
-/* Header Wrapper with Sticky Positioning */
-.header-wrapper {
-  position: sticky;
-  top: 0;
-  z-index: 1001;
-  background-color: var(--header-bg);
-  width: 100%;
-}
-
-/* Ensure your nav-container stays centered within the max-width constraints */
-.nav-container {
-  max-width: 600px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 15px;
-}
-
-/* Header Alternative Image styling */
-.header-alt {
-  flex: 1;
-  text-align: center;
-}
-
-.header-alt img {
-  max-height: 50px;
-  width: auto;
-  display: inline-block;
-}
-
-/* Header Image Styling */
-.header-image {
-  flex: 0 0 auto;
-  text-align: center;
-}
-
-.header-image img {
-  max-height: 60px;
-  width: auto;
-}
-
-/* -----------------------------------
- Link Styles
------------------------------------ */
-a {
-  color: var(--link-color);
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-a:hover {
-  color: var(--link-hover);
-  text-decoration: underline;
-}
-
-/* -----------------------------------
- Main Content
------------------------------------ */
+/* Main Content */
 main {
   text-align: justify;
   max-width: 600px;
+  /* Default max-width for smaller screens */
   margin: 20px auto;
   padding: 20px;
   padding-bottom: 60px;
@@ -467,71 +399,64 @@ main {
   border-radius: 10px;
   flex: 1;
   overflow-y: auto;
-  /* Keep scrolling enabled */
-
-  /* Hide scrollbars for Firefox */
   scrollbar-width: none;
+  /* Hide scrollbars for Firefox */
   -ms-overflow-style: none;
   /* Hide scrollbar in IE 10+ */
 }
 
-/* Hide scrollbars for Chrome, Safari, and Opera */
 main::-webkit-scrollbar {
   display: none;
+  /* Hide scrollbars for Chrome, Safari, and Opera */
 }
 
-main h1 {
-  font-variant: small-caps;
-}
-
-/* Main container should be position: relative so the overlay can center inside it */
+/* Preloader Overlay */
 #main-content {
   position: relative;
 }
 
-/* Preloader Overlay */
 #preloader {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--bg-color);
+  background-color: var(--bg-color);
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 9999;
 }
 
-/* Hide the page content initially */
 .page-content {
   visibility: hidden;
 }
 
-/* Simple spinner animation */
 .spinner {
   width: 50px;
   height: 50px;
   border: 6px solid #ccc;
-  border-top-color: #8f9779;
+  border-top-color: var(--link-color);
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
 
-/* Spinner Keyframes */
 @keyframes spin {
   to {
     transform: rotate(360deg);
   }
 }
 
-/* -----------------------------------
- Post & Article Styling
------------------------------------ */
-.post-title {
-  text-align: center;
-  color: var(--link-color);
+/* Shared Item Block Styles */
+.reading-item,
+.book-item,
+.post-item {
+  /* Corrected variable name */
+  border-radius: 5px;
+  margin-bottom: 1em;
 }
+
+/* Post & Article Styling */
 
 .post-content {
   margin-top: 20px;
@@ -546,9 +471,7 @@ article h3 {
   color: var(--secondary-text);
 }
 
-/* -----------------------------------
- Reading List Styling
------------------------------------ */
+/* Reading List Styling */
 .reading-list {
   margin: 2em auto;
   max-width: 800px;
@@ -568,24 +491,13 @@ article h3 {
   border-bottom: 1px solid var(--accent-border);
 }
 
-.category-heading {
-  font-size: 1.5em;
-  text-align: center;
-  color: var(--link-color);
-  margin-bottom: 0.5em;
-}
-
 .reading-items {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* reading-item now inherits fade/appearance from the unified block above */
-
-/* -----------------------------------
- List Styling (UL & LI)
------------------------------------ */
+/* List Styling (UL & LI) */
 main ul {
   list-style: none;
   /* Remove default markers */
@@ -595,24 +507,27 @@ main ul {
 
 main ul li {
   position: relative;
-  padding-left: 1.5em;
   /* Space for a custom bullet */
   margin-bottom: 0.5em;
-  line-height: 1.5;
 }
 
-/* -----------------------------------
- Footer
------------------------------------ */
+main ol {
+  list-style-type: upper-roman;
+  padding: 0.7em;
+}
+
+/* Footer */
 footer {
   position: fixed;
   left: 0;
+  bottom: 0;
   width: 100%;
+  z-index: 1000;
   color: var(--text-color);
   background-color: var(--header-bg);
   text-align: center;
-  bottom: 0;
-  z-index: 1000;
+  padding: 0.5em 0;
+  /* Added padding for better visual */
 }
 
 /* Social Media Links in Footer */
@@ -620,7 +535,6 @@ footer {
   display: flex;
   justify-content: center;
   gap: 1em;
-  margin-bottom: 0.5em;
   margin-top: 0.5em;
 }
 
@@ -643,9 +557,7 @@ footer {
   opacity: 0.8;
 }
 
-/* -----------------------------------
- Centered Images
------------------------------------ */
+/* Centered Images */
 .centered,
 .centered-image {
   text-align: center;
@@ -660,19 +572,20 @@ footer {
   margin: 0 auto;
 }
 
-/* -----------------------------------
- Blog Post Container Styling
------------------------------------ */
-/* post-item now inherits fade/appearance from the unified block above */
+/* Blog Post Container Styling */
 .post-title-wrapper {
   margin-bottom: 0.5em;
 }
 
-.post-title {
+h1,
+h2,
+h3,
+h4 {
   margin: 0;
   font-size: 1.2em;
   color: var(--secondary-text);
   font-family: "EB Garamond", serif;
+  font-variant: small-caps;
 }
 
 .post-author,
@@ -688,9 +601,7 @@ footer {
   margin-top: 0.5em;
 }
 
-/* -----------------------------------
- Updates Container Styling
------------------------------------ */
+/* Updates Container Styling */
 .updates-container {
   display: flex;
   justify-content: space-between;
@@ -705,8 +616,6 @@ footer {
 }
 
 .updates-container h3 {
-  text-align: center;
-  font-size: 1.4em;
   margin-bottom: 0.5em;
   color: var(--link-color);
 }
@@ -732,25 +641,7 @@ footer {
   color: var(--link-color);
 }
 
-/* Responsive: stack columns on small screens */
-@media (max-width: 768px) {
-  .updates-container {
-    flex-direction: column;
-    align-items: stretch;
-  }
-}
-
-/* -----------------------------------
- Books Section Styling
------------------------------------ */
-.category-heading {
-  font-size: 1.5em;
-  margin: 0 0 0.5em 0;
-  color: var(--link-color);
-  text-align: center;
-}
-
-/* Override the bullet styling for .books-list so it doesn't get custom bullets */
+/* Books Section Styling */
 .books-list {
   list-style: none;
   margin: 0;
@@ -768,7 +659,6 @@ footer {
   content: none;
 }
 
-/* book-item now inherits fade/appearance from the unified block above */
 .book-title-wrapper {
   flex: 1 1 100%;
 }
@@ -829,10 +719,7 @@ figure.book-cover {
   padding: 0;
 }
 
-/* -----------------------------------
- Blog Navigation
------------------------------------ */
-
+/* Blog Navigation */
 .blog-nav {
   display: flex;
   justify-content: center;
@@ -859,11 +746,10 @@ figure.book-cover {
   opacity: 0.8;
 }
 
-/* Base styles for #bookSearch2 (applies to all screen sizes) */
+/* Book Search */
 #bookSearch2 {
   display: block;
   width: 90%;
-  /* ensures nice padding on mobile */
   max-width: 600px;
   margin: 0.5em auto 1em;
   padding: 0.75em 1em;
@@ -883,17 +769,7 @@ figure.book-cover {
   box-shadow: 0 0 5px var(--link-color);
 }
 
-/* Optional: Adjust input on screens larger than 600px */
-@media (min-width: 600px) {
-  #bookSearch2 {
-    width: 100%;
-    /* full width within container on larger screens */
-  }
-}
-
-/* -----------------------------------
- Responsive Adjustments
------------------------------------ */
+/* Responsive Adjustments */
 @media (max-width: 768px) {
   .nav-menu {
     flex-direction: row;
@@ -905,12 +781,120 @@ figure.book-cover {
   .flex-container {
     flex-direction: column;
   }
+
+  .updates-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
 }
 
 @media (min-width: 600px) {
   main {
-    min-width: auto;
     width: 100%;
     box-sizing: border-box;
+  }
+}
+
+/* Adjust max-width and font size for screens wider than 768px */
+@media (min-width: 769px) {
+  main {
+    max-width: 800px;
+    /* Adjust this value */
+  }
+
+  .nav-container {
+    max-width: 800px;
+    /* Adjust this value to match main */
+  }
+
+  body {
+    font-size: 18px;
+    /* Adjust this value */
+    line-height: 1.7;
+    /* Adjust line height if necessary */
+  }
+}
+
+/* Further increase max-width and font size for larger desktop screens */
+@media (min-width: 992px) {
+  main {
+    max-width: 960px;
+    /* Adjust this value */
+  }
+
+  .nav-container {
+    max-width: 960px;
+    /* Adjust this value to match main */
+  }
+
+  body {
+    font-size: 20px;
+    /* Adjust this value */
+    line-height: 1.8;
+    /* Adjust line height if necessary */
+  }
+}
+
+/* Even wider and larger font size for very large desktop screens */
+@media (min-width: 1200px) {
+  main {
+    max-width: 1140px;
+    /* Adjust this value */
+  }
+
+  .nav-container {
+    max-width: 1140px;
+    /* Adjust this value to match main */
+  }
+
+  body {
+    font-size: 22px;
+    /* Adjust this value */
+    line-height: 1.9;
+    /* Adjust line height if necessary */
+  }
+}
+
+/* Adjust for landscape orientation on tablets and larger (optional) */
+@media (min-width: 769px) and (orientation: landscape) {
+  main {
+    /* You might want a slightly different max-width in landscape */
+    /* max-width: 900px; */
+  }
+
+  .nav-container {
+    /* You might want a slightly different max-width in landscape */
+    /* max-width: 900px; */
+  }
+
+  body {
+    font-size: 19px;
+    /* Adjust if you want a specific font size for landscape */
+    line-height: 1.75;
+    /* Adjust line height if necessary */
+  }
+}
+
+/* Minimum width for Full HD screens (1920px width and above) */
+@media (min-width: 1920px) {
+  main {
+    min-width: 1200px;
+    /* Adjust this minimum width as needed */
+    max-width: 1400px;
+    /* Optional: You might still want a max-width */
+  }
+
+  .nav-container {
+    min-width: 1200px;
+    /* Adjust this minimum width to match main */
+    max-width: 1400px;
+    /* Optional: You might still want a max-width */
+  }
+
+  body {
+    font-size: 24px;
+    /* Adjust font size for very large screens */
+    line-height: 2;
+    /* Adjust line height if necessary */
   }
 }

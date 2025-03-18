@@ -1,35 +1,6 @@
 /* -----------------------------------
-   Sage Style CSS - Optimized & Fixed
+    Sage Style CSS - Optimized & Fixed
 ----------------------------------- */
-
-/* Embed EB Garamond font */
-@font-face {
-  font-family: "EB Garamond";
-  src: url("/assets/fonts/EBGaramond-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "EB Garamond";
-  src: url("/assets/fonts/EBGaramond-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "EB Garamond";
-  src: url("/assets/fonts/EBGaramond-Italic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "silvus";
-  src: url("/assets/fonts/silvus.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 
 /* Embed Funnel font */
 @font-face {
@@ -60,7 +31,7 @@
   --bg-color: #4d5d53;
   --mega-menu-bg-color: rgba(77, 93, 83, 0.8);
   --header-bg: #4d5d53;
-  --link-color: #8f9779;
+  --link-color: #78866b;
   --link-hover: #738678;
   --text-color: #8f9779;
   --accent-border: #a1ab94;
@@ -95,6 +66,10 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   margin: 0 auto;
+  font-size: 16px;
+  /* Example base font size */
+  line-height: 1.6;
+  /* Example base line height */
 }
 
 svg {
@@ -125,6 +100,7 @@ a:hover {
 
 .nav-container {
   max-width: 600px;
+  /* Default max-width */
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -281,33 +257,78 @@ a:hover {
 
 .mega-menu-list {
   align-content: center;
+  gap: 1em;
   font-size: 2em;
   list-style: none;
-  font-family: "EB Garamond";
-  font-variant: small-caps;
   font-weight: bold;
   padding: 20px;
   margin: 50px 0 0;
-  /* Adjusted margin-top */
+  display: flex;
+  /* Enable flex layout for columns */
+  flex-wrap: wrap;
+  /* Allow items to wrap to the next column */
+  justify-content: center;
+  /* Center the columns */
+  max-width: 80%;
+  /* Adjust as needed to control the width of the columns */
 }
 
 .mega-menu-list ul {
   width: 200px;
+  /* Adjust the width of each column */
+  padding: 0;
+  /* Remove default ul padding */
+  margin: 0 20px 1em;
+  /* Add margin between columns and below items */
 }
 
 .mega-menu-list li {
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
+  /* Reduce margin between list items within a column */
 }
 
 .mega-menu-list li a {
   color: var(--link-color);
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1em;
+  /* Adjust font size within the columns if needed */
   transition: color 0.3s ease;
 }
 
 .mega-menu-list li a:hover {
   color: var(--link-hover);
+}
+
+/* Mega Menu Social Links */
+.mega-menu-social {
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding: 20px;
+  position: absolute;
+  /* Position at the bottom of the mega menu */
+  bottom: 0;
+  /* Match mega menu background */
+}
+
+.mega-menu-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  transition: opacity 0.3s ease;
+}
+
+.mega-menu-social a img {
+  max-width: 80%;
+  height: auto;
+  object-fit: contain;
+}
+
+.mega-menu-social a:hover {
+  opacity: 0.8;
 }
 
 .close-menu {
@@ -353,6 +374,7 @@ a:hover {
 main {
   text-align: justify;
   max-width: 600px;
+  /* Default max-width for smaller screens */
   margin: 20px auto;
   padding: 20px;
   padding-bottom: 60px;
@@ -429,7 +451,6 @@ article {
 }
 
 article h3 {
-  font-family: "EB Garamond", serif;
   color: var(--secondary-text);
 }
 
@@ -546,8 +567,6 @@ h4 {
   margin: 0;
   font-size: 1.2em;
   color: var(--secondary-text);
-  font-family: "EB Garamond", serif;
-  font-variant: small-caps;
 }
 
 .post-author,
@@ -708,6 +727,133 @@ figure.book-cover {
   opacity: 0.8;
 }
 
+/* Table Styling for Book List */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2em;
+  /* Use item background color for table */
+  border-radius: 5px;
+  overflow: hidden;
+  /* To contain the border-radius */
+}
+
+thead th {
+  background-color: var(--header-bg);
+  /* Use header background for table header */
+  color: var(--secondary-text-color);
+  font-weight: bold;
+  padding: 0.75em;
+  text-align: left;
+}
+
+tbody td {
+  padding: 0.75em;
+  border-bottom: 1px solid var(--accent-border);
+  color: var(--text-color);
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+tbody tr:hover td {
+  background-color: rgba(var(--link-color-rgb), 0.1);
+  /* Subtle hover effect */
+}
+
+/* Style for the book title within the table */
+tbody td:first-child {
+  font-weight: bold;
+  color: var(--secondary-text-color);
+}
+
+/* Style for the download column */
+tbody td:last-child {
+  text-align: center;
+}
+
+/* Adjust the download link within the table */
+tbody td .book-download-wrapper {
+  display: inline-block;
+  /* Adjust to inline-block if needed */
+  margin-top: 0;
+  /* Reset margin */
+}
+
+/* Style for the search input above the table */
+#bookSearchTable {
+  display: block;
+  width: 90%;
+  max-width: 600px;
+  margin: 0.5em auto 1em;
+  padding: 0.75em 1em;
+  background-color: var(--bg-color);
+  border: 1px solid var(--accent-border);
+  border-radius: 4px;
+  color: var(--text-color);
+  font-size: 1em;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+#bookSearchTable:focus {
+  outline: none;
+  border-color: var(--link-color);
+  box-shadow: 0 0 5px var(--link-color);
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    /* Enable horizontal scrolling for smaller screens */
+  }
+
+  thead {
+    display: none;
+    /* Hide header on small screens */
+  }
+
+  tbody tr {
+    display: block;
+    margin-bottom: 1em;
+    border: 1px solid var(--accent-border);
+    border-radius: 5px;
+  }
+
+  tbody td {
+    display: flex;
+    padding: 0.5em;
+    border-bottom: none;
+    position: relative;
+    padding-left: 50%;
+    /* Make space for the data labels */
+  }
+
+  tbody td:before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 45%;
+    padding-left: 0.75em;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  tbody td:first-child {
+    font-weight: bold;
+    color: var(--secondary-text-color);
+  }
+
+  tbody td:last-child {
+    text-align: left;
+    /* Adjust download alignment on small screens */
+  }
+}
+
 /* Book Search */
 #bookSearch2 {
   display: block;
@@ -754,5 +900,109 @@ figure.book-cover {
   main {
     width: 100%;
     box-sizing: border-box;
+  }
+}
+
+/* Adjust max-width and font size for screens wider than 768px */
+@media (min-width: 769px) {
+  main {
+    max-width: 800px;
+    /* Adjust this value */
+  }
+
+  .nav-container {
+    max-width: 800px;
+    /* Adjust this value to match main */
+  }
+
+  body {
+    font-size: 18px;
+    /* Adjust this value */
+    line-height: 1.7;
+    /* Adjust line height if necessary */
+  }
+}
+
+/* Further increase max-width and font size for larger desktop screens */
+@media (min-width: 992px) {
+  main {
+    max-width: 960px;
+    /* Adjust this value */
+  }
+
+  .nav-container {
+    max-width: 960px;
+    /* Adjust this value to match main */
+  }
+
+  body {
+    font-size: 20px;
+    /* Adjust this value */
+    line-height: 1.8;
+    /* Adjust line height if necessary */
+  }
+}
+
+/* Even wider and larger font size for very large desktop screens */
+@media (min-width: 1200px) {
+  main {
+    max-width: 1140px;
+    /* Adjust this value */
+  }
+
+  .nav-container {
+    max-width: 1140px;
+    /* Adjust this value to match main */
+  }
+
+  body {
+    font-size: 22px;
+    /* Adjust this value */
+    line-height: 1.9;
+    /* Adjust line height if necessary */
+  }
+}
+
+/* Adjust for landscape orientation on tablets and larger (optional) */
+@media (min-width: 769px) and (orientation: landscape) {
+  main {
+    /* You might want a slightly different max-width in landscape */
+    /* max-width: 900px; */
+  }
+
+  .nav-container {
+    /* You might want a slightly different max-width in landscape */
+    /* max-width: 900px; */
+  }
+
+  body {
+    font-size: 19px;
+    /* Adjust if you want a specific font size for landscape */
+    line-height: 1.75;
+    /* Adjust line height if necessary */
+  }
+}
+
+/* Minimum width for Full HD screens (1920px width and above) */
+@media (min-width: 1920px) {
+  main {
+    min-width: 1200px;
+    /* Adjust this minimum width as needed */
+    max-width: 1400px;
+    /* Optional: You might still want a max-width */
+  }
+
+  .nav-container {
+    min-width: 1200px;
+    /* Adjust this minimum width to match main */
+    max-width: 1400px;
+    /* Optional: You might still want a max-width */
+  }
+
+  body {
+    font-size: 24px;
+    /* Adjust font size for very large screens */
+    line-height: 2;
+    /* Adjust line height if necessary */
   }
 }

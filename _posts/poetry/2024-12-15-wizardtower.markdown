@@ -1,10 +1,10 @@
 ---
-layout: poetry
+layout: sage
 title: The Wizard's Tower
 permalink: /poetry/wizardtower
-category: poetryenglish
-hidden: true
+category: poetry
 ---
+
 shrouded in mystery in his antient wizards' tower  
 sits the mighty sage, meditating upon his power  
 how did he came to be?  
@@ -24,4 +24,4 @@ this is the curse of dagoth ur
 heinous creature dwelling in a shabby yurt  
 unlike our greatest wizard in his tower  
 we appraise thy power glourious mage!  
-mix us a potion with thy love and sage.  
+mix us a potion with thy love and sage.

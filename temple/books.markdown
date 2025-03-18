@@ -4,56 +4,71 @@ title: Books
 permalink: /books
 ---
 
-Knowledge is power, guard it well.
+Understanding arises, let it flow naturally.
 
-Welcome, seeker. Within these pages, you will find a carefully curated collection of occult texts and esoteric tomes. Steeped in mystery and ancient wisdom, these works serve as both a guide and a challenge to those who dare to pursue the hidden truths of existence.
+Welcome, traveler. Within these gathered scrolls, lie whispers of ancient understanding and the subtle currents of the unseen. Woven with the threads of mystery and the breath of ages, these writings offer glimpses and gentle nudges to those who listen for the deeper rhythms of existence.
 
 <section class="category-posts">
-  <!-- Search Input -->
-  <input type="text" id="bookSearch2" placeholder="Search books..." />
+  <input type="text" id="bookSearchTable" placeholder="Search books..." />
 
-{% assign booksByCategory = site.data.books | group_by:"category" | sort:"name" %}
-{% for group in booksByCategory %}
-
-<section class="category-section">
-<ul class="books-list">
-{% assign sorted_books = group.items | sort:"title" %}
-{% for book in sorted_books %}
-<li class="book-item" id="{{ book.title | slugify }}">
-<article class="book">
-<div class="book-title-wrapper">
-<h3 class="book-title">{{ book.title }}</h3>
-</div>
-<p class="book-author">&mdash; {{ book.author }}</p>
-<p class="book-category">{{ book.category }}</p>
-<p class="book-description">{{ book.description }}</p>
-{% if book.file %}
-<div class="book-download-wrapper">
-<a href="{{ book.file | relative_url }}" download class="book-download">
-<img src="{{ '/assets/img/sage/download-solid.svg' | relative_url }}" alt="Download">
-</a>
-</div>
-{% endif %}
-</article>
-</li>
-{% endfor %}
-</ul>
-</section>
-{% endfor %}
-
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Category</th>
+        <th>Description</th>
+        <th>Download</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% assign booksByCategory = site.data.books | group_by:"category" | sort:"name" %}
+      {% for group in booksByCategory %}
+        {% assign sorted_books = group.items | sort:"title" %}
+        {% for book in sorted_books %}
+          <tr class="book-item-table" id="{{ book.title | slugify }}">
+            <td data-label="Title">{{ book.title }}</td>
+            <td data-label="Author">{{ book.author }}</td>
+            <td data-label="Category">{{ book.category }}</td>
+            <td data-label="Description">{{ book.description }}</td>
+            <td data-label="Download">
+              {% if book.file %}
+                <div class="book-download-wrapper">
+                  <a href="{{ book.file | relative_url }}" download class="book-download">
+                    <img src="{{ '/assets/img/sage/download-solid.svg' | relative_url }}" alt="Download">
+                  </a>
+                </div>
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      {% endfor %}
+    </tbody>
+  </table>
 </section>
 
 <script>
-document.getElementById("bookSearch2").addEventListener("keyup", function() {
+// Basic JavaScript for table search (This is a simplified version)
+document.getElementById("bookSearchTable").addEventListener("keyup", function() {
   var filter = this.value.toLowerCase();
-  var bookItems = document.querySelectorAll(".book-item");
-  bookItems.forEach(function(item) {
-    if(item.textContent.toLowerCase().indexOf(filter) > -1) {
-      item.style.display = "";
-    } else {
-      item.style.display = "none";
+  var table = document.querySelector("table");
+  var rows = table.getElementsByTagName("tr");
+
+  for (var i = 1; i < rows.length; i++) { // Start from index 1 to skip the header row
+    var cells = rows[i].getElementsByTagName("td");
+    var found = false;
+    for (var j = 0; j < cells.length; j++) {
+      if (cells[j].textContent.toLowerCase().indexOf(filter) > -1) {
+        found = true;
+        break;
+      }
     }
-  });
+    if (found) {
+      rows[i].style.display = "";
+    } else {
+      rows[i].style.display = "none";
+    }
+  }
 });
 </script>
 

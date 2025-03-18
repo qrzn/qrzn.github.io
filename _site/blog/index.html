@@ -6,8 +6,8 @@
   <title>
     Blog | Temple of Nachash Kadosh
   </title>
-  <link rel="stylesheet" href="/assets/css/books.css" />
-  <link rel="icon" type="image/png" href="/assets/img/logo.svg" />
+  <link rel="stylesheet" href="/assets/css/sage.css" />
+  <link rel="icon" type="image/png" href="/assets/img/logo-sage.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
     content="Enter the neon-soaked world of cyberspace and explore the cyberpunk universe." />
@@ -17,77 +17,67 @@
 </head>
 
 <body>
-  <!-- Header Wrapper -->
   <div class="header-wrapper">
     <header>
       <nav aria-label="Main Navigation">
         <div class="nav-container">
-          <!-- Hamburger Button -->
           <button id="hamburger" class="hamburger" aria-label="Toggle Navigation">
             <span class="hamburger-line"></span>
             <span class="hamburger-line"></span>
             <span class="hamburger-line"></span>
           </button>
-          <!-- Header Search Bar -->
-          <div class="header-search">
-            <form action="/search/" method="get">
-              <input type="search" name="q" placeholder="Search website..." id="headerSearch" />
-              <button type="submit" aria-label="Search">
-                <img src="/assets/img/magnifying-glass-solid.svg" alt="Search" />
-              </button>
-            </form>
-          </div>
-          <!-- Theme Toggle Icon -->
-          <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
-            <img src="/assets/img/sun-solid.svg" alt="Switch to Light Mode" />
-          </button>
-          <!-- Header Logo/Image -->
           <div class="header-image">
             <a href="/">
-              <img src="/assets/img/logo.svg" alt="Sacred Portal to Esoteric Wisdom" />
+              <img src="/assets/img/logo-sage.svg" alt="Sacred Portal to Esoteric Wisdom" />
             </a>
           </div>
         </div>
-        <!-- Mega Menu (initially hidden) -->
         <div id="mega-menu" class="mega-menu">
           <ul class="mega-menu-list">
             
             <li>
-              <a href="/blog/">Blog</a>
+              <a href="/books">Books</a>
             </li>
             
             <li>
-              <a href="/books/">Books</a>
+              <a href="/essays">Essays</a>
             </li>
             
             <li>
-              <a href="/essays/">Essays</a>
+              <a href="/poetry">Poetry</a>
             </li>
             
             <li>
-              <a href="/poetry/">Poetry</a>
-            </li>
-            
-            <li>
-              <a href="/reading-list">Reading List</a>
-            </li>
-            
-            <li>
-              <a href="/recipes/">Recipes</a>
+              <a href="/recipes">Recipes</a>
             </li>
             
           </ul>
+          <div class="mega-menu-social">
+            <a href="https://x.com/qrzn23" aria-label="X" class="social-link">
+              <img src="/assets/img/sage/x-twitter-brands.svg" alt="X" />
+            </a>
+            <a href="https://instagram.com/nachash_kadosh" aria-label="Instagram" class="social-link">
+              <img src="/assets/img/sage/instagram-brands.svg" alt="Instagram" />
+            </a>
+            <a href="https://youtube.com/@nachash_kadosh" aria-label="YouTube" class="social-link">
+              <img src="/assets/img/sage/youtube-brands.svg" alt="YouTube" />
+            </a>
+            <a href="https://github.com/qrzn" aria-label="GitHub" class="social-link">
+              <img src="/assets/img/sage/github-brands.svg" alt="GitHub" />
+            </a>
+            <a href="https://t.me/nachash_kadosh" aria-label="Telegram" class="social-link">
+              <img src="/assets/img/sage/telegram-brands.svg" alt="Telegram" />
+            </a>
+          </div>
         </div>
       </nav>
     </header>
   </div>
 
   <main id="main-content">
-    <!-- Preloader overlay (styled in books.css) -->
     <div id="preloader" class="preloader">
       <div class="spinner"></div>
     </div>
-    <!-- Actual page content -->
     <div class="page-content">
       
       <h1 class="post-title">Blog</h1>
@@ -97,6 +87,43 @@
   <h3 class="category-heading">Latest Posts</h3>
   
   <ul class="posts-list">
+    
+      <li class="post-item" id="the-dao-of-simplicity-in-frontend-design">
+        <article class="post">
+          <div class="post-title-wrapper">
+            <h3 class="post-title">
+              <a href="/essays/dao-of-simplicity-frontend-design">The Dao of Simplicity in Frontend Design</a>
+            </h3>
+          </div>
+          
+          <p class="post-date">Mar 17, 2025 e.v.</p>
+          
+            <div class="post-excerpt">
+              In modern frontend design, simplicity isn’t just an aesthetic choice – it’s a guiding principle for usability and user satisfaction. Clean layouts, intuitive navigation, and minimal clutter help users accomplish...
+            </div>
+          
+        </article>
+      </li>
+    
+      <li class="post-item" id="the-enduring-wisdom-of-the-way-daoist-philosophy-and-its-relevance-in-modern-life">
+        <article class="post">
+          <div class="post-title-wrapper">
+            <h3 class="post-title">
+              <a href="/essays/daoism-modern-life">The Enduring Wisdom of the Way: Daoist Philosophy and Its Relevance in Modern Life</a>
+            </h3>
+          </div>
+          
+          <p class="post-date">Mar 17, 2025 e.v.</p>
+          
+            <div class="post-excerpt">
+              
+  Introduction: Embracing the Flow – An Exploration of Daoism
+
+
+            </div>
+          
+        </article>
+      </li>
     
       <li class="post-item" id="pagan-gods-and-planetary-powers-history-symbolism-and-magick">
         <article class="post">
@@ -116,44 +143,8 @@
         </article>
       </li>
     
-      <li class="post-item" id="retro-y2k-is-upon-us">
-        <article class="post">
-          <div class="post-title-wrapper">
-            <h3 class="post-title">
-              <a href="/posting/2025/03/09/retro-section.html">Retro! y2k is upon us</a>
-            </h3>
-          </div>
-          
-          <p class="post-date">Mar 9, 2025 e.v.</p>
-          
-            <div class="post-excerpt">
-              Today, brimming with whimsy, I indulged in a creative sojourn and conjured a nostalgic 2000s-style website, complete with a charming little nook for books—simply because the muse beckoned. Should your...
-            </div>
-          
-        </article>
-      </li>
-    
-      <li class="post-item" id="confronting-the-hysteria-why-fearmongering-about-ai-and-emerging-tech-is-overblown">
-        <article class="post">
-          <div class="post-title-wrapper">
-            <h3 class="post-title">
-              <a href="/essays/confronting-hysteria-ai">Confronting the Hysteria: Why Fearmongering About AI and Emerging Tech Is Overblown</a>
-            </h3>
-          </div>
-          
-          <p class="post-date">Mar 9, 2025 e.v.</p>
-          
-            <div class="post-excerpt">
-              Throughout history, technological breakthroughs have often provoked waves of doom-laden predictions—from the printing press allegedly destroying human memory to the arrival of the automobile seemingly signaling the end of civilized...
-            </div>
-          
-        </article>
-      </li>
-    
   </ul>
 </section>
-
-<h1 id="topics">Topics</h1>
 
 <section class="category-posts">
   
@@ -166,6 +157,43 @@
       
       <h3 class="category-heading">Essays</h3>
       <ul class="posts-list">
+        
+          <li class="post-item" id="the-dao-of-simplicity-in-frontend-design">
+            <article class="post">
+              <div class="post-title-wrapper">
+                <h3 class="post-title">
+                  <a href="/essays/dao-of-simplicity-frontend-design">The Dao of Simplicity in Frontend Design</a>
+                </h3>
+              </div>
+              
+              <p class="post-date">Mar 17, 2025 e.v.</p>
+              
+                <div class="post-excerpt">
+                  In modern frontend design, simplicity isn’t just an aesthetic choice – it’s a guiding principle for usability and user satisfaction. Clean layouts, intuitive navigation, and minimal clutter help users accomplish...
+                </div>
+              
+            </article>
+          </li>
+        
+          <li class="post-item" id="the-enduring-wisdom-of-the-way-daoist-philosophy-and-its-relevance-in-modern-life">
+            <article class="post">
+              <div class="post-title-wrapper">
+                <h3 class="post-title">
+                  <a href="/essays/daoism-modern-life">The Enduring Wisdom of the Way: Daoist Philosophy and Its Relevance in Modern Life</a>
+                </h3>
+              </div>
+              
+              <p class="post-date">Mar 17, 2025 e.v.</p>
+              
+                <div class="post-excerpt">
+                  
+  Introduction: Embracing the Flow – An Exploration of Daoism
+
+
+                </div>
+              
+            </article>
+          </li>
         
           <li class="post-item" id="pagan-gods-and-planetary-powers-history-symbolism-and-magick">
             <article class="post">
@@ -223,282 +251,13 @@
     
   
     
-      
-      
-      
-      <h3 class="category-heading">English Poetry</h3>
-      <ul class="posts-list">
-        
-          <li class="post-item" id="the-path-of-stars">
-            <article class="post">
-              <div class="post-title-wrapper">
-                <h3 class="post-title">
-                  <a href="/poetry/pathofstars">The Path of Stars</a>
-                </h3>
-              </div>
-              
-              <p class="post-date">Feb 20, 2025 e.v.</p>
-              
-                <div class="post-excerpt">
-                  I walk the path of stars, where shadows yield, The sacred will unsealed, the gates revealed, No chains to bind, no soul in tarnished shame, I rise as flame, the...
-                </div>
-              
-            </article>
-          </li>
-        
-          <li class="post-item" id="the-wizard-s-tower">
-            <article class="post">
-              <div class="post-title-wrapper">
-                <h3 class="post-title">
-                  <a href="/poetry/wizardtower">The Wizard's Tower</a>
-                </h3>
-              </div>
-              
-              <p class="post-date">Dec 15, 2024 e.v.</p>
-              
-                <div class="post-excerpt">
-                  shrouded in mystery in his antient wizards’ tower sits the mighty sage, meditating upon his power how did he came to be? what exactly did he see? which forgotten books...
-                </div>
-              
-            </article>
-          </li>
-        
-      </ul>
+  
     
   
     
-      
-      
-      
-      <h3 class="category-heading">Latin Poetry</h3>
-      <ul class="posts-list">
-        
-          <li class="post-item" id="thelema-invicta">
-            <article class="post">
-              <div class="post-title-wrapper">
-                <h3 class="post-title">
-                  <a href="/poetry/thelema-invicta">Thelema Invicta</a>
-                </h3>
-              </div>
-              
-              <p class="post-date">Feb 27, 2025 e.v.</p>
-              
-                <div class="post-excerpt">
-                  Magus nocturnus errat, arcāna Thelema sequitur, Vox aeterna exclamat: “Fac quod vis, mortales!” In obscurīs tenebrīs lumen ignis effulget, Animās excitat fōrte, divinitāte ardente. Voluntās liberā regnat, super orbe terrā,...
-                </div>
-              
-            </article>
-          </li>
-        
-      </ul>
-    
   
     
-      
-      
-      
-      <h3 class="category-heading">German Poetry</h3>
-      <ul class="posts-list">
-        
-          <li class="post-item" id="ankh">
-            <article class="post">
-              <div class="post-title-wrapper">
-                <h3 class="post-title">
-                  <a href="/poetry/ankh">Ankh</a>
-                </h3>
-              </div>
-              
-              <p class="post-date">Dec 15, 2024 e.v.</p>
-              
-                <div class="post-excerpt">
-                  Ruhe und Stille
-findet sich
-— an der Wasserstelle
-
-                </div>
-              
-            </article>
-          </li>
-        
-          <li class="post-item" id="der-gewundene-pfad">
-            <article class="post">
-              <div class="post-title-wrapper">
-                <h3 class="post-title">
-                  <a href="/poetry/dergewundenepfad">Der Gewundene Pfad</a>
-                </h3>
-              </div>
-              
-              <p class="post-date">Dec 15, 2024 e.v.</p>
-              
-                <div class="post-excerpt">
-                  Der gewundene Pfad, den ich heut sah mal wirkte er fern, mal wirkte er nah Symbolisierte er für mich das Dao für Elstern und Pandas nur den Tau denn sie...
-                </div>
-              
-            </article>
-          </li>
-        
-          <li class="post-item" id="morgens">
-            <article class="post">
-              <div class="post-title-wrapper">
-                <h3 class="post-title">
-                  <a href="/poetry/morgens">Morgens</a>
-                </h3>
-              </div>
-              
-              <p class="post-date">Dec 15, 2024 e.v.</p>
-              
-                <div class="post-excerpt">
-                  Des Morgens steh ich auf
-trinke einen Matcha,
-rauche einen Joint,
-und frage sinnend:
-what’s the bloody point?
-
-                </div>
-              
-            </article>
-          </li>
-        
-          <li class="post-item" id="natur-und-stadt">
-            <article class="post">
-              <div class="post-title-wrapper">
-                <h3 class="post-title">
-                  <a href="/poetry/naturundstadt">Natur und Stadt</a>
-                </h3>
-              </div>
-              
-              <p class="post-date">Dec 15, 2024 e.v.</p>
-              
-                <div class="post-excerpt">
-                  Der Sog der großen Stadt Macht auf Dauer die Seele matt zu wenig Nähe und Natur Von Verbundenheit Menschlichkeit Keine Spur Dennoch ist’s angenehmer Als auf dem Lande Nicht wer...
-                </div>
-              
-            </article>
-          </li>
-        
-          <li class="post-item" id="ode-an-silenus-coniferus">
-            <article class="post">
-              <div class="post-title-wrapper">
-                <h3 class="post-title">
-                  <a href="/poetry/odeansilenus">Ode an Silenus-Coniferus</a>
-                </h3>
-              </div>
-              
-              <p class="post-date">Dec 15, 2024 e.v.</p>
-              
-                <div class="post-excerpt">
-                  Oh Silenus du Coifer! Nach dir rief bereits der Schiefer und dessen höchster Gott drum rietest du uns zum Schaffott Wäre es nicht besser wir lieferten uns ans Messer? Viel...
-                </div>
-              
-            </article>
-          </li>
-        
-          <li class="post-item" id="die-spechtschmiede">
-            <article class="post">
-              <div class="post-title-wrapper">
-                <h3 class="post-title">
-                  <a href="/poetry/spechtschmiede">Die Spechtschmiede</a>
-                </h3>
-              </div>
-              
-              <p class="post-date">Dec 15, 2024 e.v.</p>
-              
-                <div class="post-excerpt">
-                  Spitzbuben und Spechtschmieden Sind Wörter heute meist vermieden Wieso ist dies passiert so hiernieden? Liegt’s daran, dass du kannst vermieten Lassen wir uns die hohen Mieten bieten? Denn - kein...
-                </div>
-              
-            </article>
-          </li>
-        
-      </ul>
-    
   
-    
-      
-      
-      
-      <h3 class="category-heading">Baking Recipes</h3>
-      <ul class="posts-list">
-        
-          <li class="post-item" id="mocha-cake-with-cooked-cream">
-            <article class="post">
-              <div class="post-title-wrapper">
-                <h3 class="post-title">
-                  <a href="/recipes/mocha-cake">Mocha Cake with Cooked Cream</a>
-                </h3>
-              </div>
-              
-              <p class="post-date">Jan 22, 2025 e.v.</p>
-              
-                <div class="post-excerpt">
-                  Indulge in the rich, aromatic flavors of mocha with this delightful Mocha Cake with Cooked Cream. This cake is perfect for coffee lovers, combining the bittersweet essence of mocha with...
-                </div>
-              
-            </article>
-          </li>
-        
-          <li class="post-item" id="the-best-cheesecake-in-the-world">
-            <article class="post">
-              <div class="post-title-wrapper">
-                <h3 class="post-title">
-                  <a href="/recipes/worlds-best-cheesecake">The Best Cheesecake in the World</a>
-                </h3>
-              </div>
-              
-              <p class="post-date">Jan 19, 2025 e.v.</p>
-              
-                <div class="post-excerpt">
-                  Looking for a cheesecake that’s irresistibly creamy, perfectly balanced, and guaranteed to impress? This recipe for the best cheesecake in the world combines a buttery crust with a rich and...
-                </div>
-              
-            </article>
-          </li>
-        
-          <li class="post-item" id="olive-oil-cake">
-            <article class="post">
-              <div class="post-title-wrapper">
-                <h3 class="post-title">
-                  <a href="/recipes/olive-oil-cake">Olive Oil Cake</a>
-                </h3>
-              </div>
-              
-              <p class="post-date">Dec 15, 2024 e.v.</p>
-              
-                <div class="post-excerpt">
-                  Ingredients (Makes 4 servings) 1 ½ cups all-purpose flour 1/2 cup sugar 2 Tbsp almond flour 1 Tbsp baking powder 1/2 tsp baking soda 1 cup almond milk (sugar-free) 5...
-                </div>
-              
-            </article>
-          </li>
-        
-      </ul>
-    
-  
-    
-      
-      
-      
-      <h3 class="category-heading">Cooking Recipes</h3>
-      <ul class="posts-list">
-        
-          <li class="post-item" id="cretan-zucchini-fritters-ἁρμονία">
-            <article class="post">
-              <div class="post-title-wrapper">
-                <h3 class="post-title">
-                  <a href="/recipes/cretan-zucchini-fritters">Cretan Zucchini Fritters Ἁρμονία</a>
-                </h3>
-              </div>
-              
-              <p class="post-date">Jan 19, 2025 e.v.</p>
-              
-                <div class="post-excerpt">
-                  These Cretan Zucchini-Potato Fritters, known as “Armonia,” are a hearty and flavorful dish that can easily serve as a full meal. Inspired by traditional Cretan cuisine, they combine zucchini, potatoes,...
-                </div>
-              
-            </article>
-          </li>
-        
-      </ul>
     
   
     
@@ -538,28 +297,9 @@ what’s the bloody point?
     </div>
   </main>
 
-  <footer>
-    <div class="social-links">
-      <a href="https://x.com/qrzn23" aria-label="X" class="social-link">
-        <img src="/assets/img/x-twitter-brands.svg" alt="X" />
-      </a>
-      <a href="https://instagram.com/nachash_kadosh" aria-label="Instagram" class="social-link">
-        <img src="/assets/img/instagram-brands.svg" alt="Instagram" />
-      </a>
-      <a href="https://youtube.com/@nachash_kadosh" aria-label="YouTube" class="social-link">
-        <img src="/assets/img/youtube-brands.svg" alt="YouTube" />
-      </a>
-      <a href="https://github.com/qrzn" aria-label="GitHub" class="social-link">
-        <img src="/assets/img/github-brands.svg" alt="GitHub" />
-      </a>
-      <a href="https://t.me/nachash_kadosh" aria-label="Telegram" class="social-link">
-        <img src="/assets/img/telegram-brands.svg" alt="Telegram" />
-      </a>
-    </div>
-    <script src="https://eralegis.info/eralegis-3.0.js"></script>
-    <script src="/assets/js/nav.js"></script>
-    <script src="/assets/js/script.js"></script>
-  </footer>
+  <script src="https://eralegis.info/eralegis-3.0.js"></script>
+  <script src="/assets/js/nav.js"></script>
+  <script src="/assets/js/sage.js"></script>
 </body>
 
 </html>

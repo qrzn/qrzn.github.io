@@ -1,35 +1,46 @@
 /* -----------------------------------
- Daodejing Section Styling
+    Daodejing Section Styling - New Approach
 ----------------------------------- */
 .daodejing-section {
   text-align: center;
-  margin: 2em auto;
-  max-width: 600px;
-  min-width: 230px;
-  padding: 1.5em;
+  margin: 2rem auto;
+  /* Using rem for margin */
+  padding: 1.5rem;
+  /* Using rem for padding */
   border-radius: 8px;
+  min-width: 230px;
+  max-width: 600px;
+  /* Reverted max-width for base */
 }
 
 .daodejing-title {
-  margin-bottom: 1em;
-  font-size: 2em;
+  margin-bottom: 1rem;
+  /* Using rem for margin */
+  font-size: 2rem;
+  /* Base font size for title */
   color: var(--link-color);
 }
 
 .daodejing-content {
   text-align: left;
-  margin: 1em auto;
-  padding: 20px;
-  font-size: 0.9em;
+  margin: 1rem auto;
+  /* Using rem for margin */
+  padding: 1.25rem;
+  /* Using rem for padding (20px / 16px) */
+  font-size: 1rem;
+  /* Base font size for content */
   background-color: var(--bg-color);
   min-height: 100px;
   color: var(--text-color);
   border-radius: 6px;
 }
 
-.daodejing-button {
-  padding: 12px 25px;
-  font-size: 16px;
+.daodejing-button,
+.daodejing-btn {
+  padding: 0.75rem 1.5625rem;
+  /* Using rem for padding (12px & 25px / 16px) */
+  font-size: 1rem;
+  /* Base font size for buttons */
   font-weight: bold;
   background-color: var(--link-color);
   color: var(--bg-color);
@@ -37,7 +48,8 @@
   border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-top: 1em;
+  margin-top: 1rem;
+  /* Using rem for margin */
   width: 150px;
   text-align: center;
 }
@@ -47,81 +59,37 @@
 }
 
 .daodejing-buttons {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1em;
-  margin: 0 auto 1em;
+  gap: 1rem;
+  /* Using rem for gap */
+  margin: 0 auto 1rem;
+  /* Using rem for margin */
 }
 
 .daodejing-btn {
-  padding: 0.5em 1em;
-  font-size: 16px;
-  font-weight: bold;
-  background-color: var(--link-color);
-  color: var(--bg-color);
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  padding: 0.3125rem 0.625rem;
+  /* Using rem for padding (5px & 10px / 16px - adjusted for smaller size) */
   height: 52px;
+  /* Keeping fixed height for consistency with previous style */
   width: 150px;
-  text-align: center;
-}
-
-.daodejing-btn:hover {
-  background-color: var(--link-hover);
 }
 
 #search {
   color: var(--text-color);
   background-color: transparent;
-  padding: 0.6em;
-  font-size: 1em;
+  padding: 0.4rem;
+  /* Using rem for padding */
+  font-size: 1rem;
+  /* Base font size for search input */
   width: 80%;
   max-width: 400px;
-  margin-top: 1em;
+  margin-top: 1rem;
+  /* Using rem for margin */
   border-radius: 4px 0 0 4px;
   border: 1px solid var(--accent-border);
   transition: border-color 0.3s ease;
 }
 
-#search:focus {
-  border-color: var(--link-color);
-  outline: none;
-}
-
-@media (max-width: 480px) {
-  .daodejing-section {
-    margin: 1em auto;
-    padding: 1em;
-    max-width: 90%;
-    min-width: auto;
-  }
-
-  .daodejing-title {
-    font-size: 1.5em;
-  }
-
-  .daodejing-content {
-    font-size: 1em;
-    padding: 15px;
-  }
-
-  .daodejing-button,
-  .daodejing-btn {
-    padding: 10px 20px;
-    font-size: 14px;
-    width: 150px;
-  }
-
-  .daodejing-buttons {
-    flex-direction: column;
-    gap: 0.5em;
-  }
-
-  #search {
-    width: 100%;
-    font-size: 0.9em;
-  }
-}
+#search: focus;

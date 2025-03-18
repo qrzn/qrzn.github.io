@@ -4,6 +4,10 @@ layout: sage
 permalink: /daodejing
 ---
 
+The Way beyond naming...
+
+Welcome to this space to encounter the Daodejing. Here, you may wander through its ancient verses at your own pace, or allow the gentle breath of chance to reveal a chapter's wisdom. May your exploration and quiet reflection bring you closer to the source.
+
 <link rel="stylesheet" href="{{ '/assets/css/daodejing.css' | relative_url }}" />
 
 <section class="daodejing-section">

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: sage
 permalink: /reading-list
 title: "Reading List"
 ---

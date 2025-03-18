@@ -1,10 +1,11 @@
 /* -----------------------------------
- I Ching Section Styling
+  I Ching Section Styling - Updated
 ----------------------------------- */
 .iching-section {
   text-align: center;
   margin: 2em auto;
   max-width: 600px;
+  /* Or adjust to your website's main content width */
   min-width: 230px;
   padding: 1.5em;
   border-radius: 8px;
@@ -19,10 +20,15 @@
 .iching-output {
   margin: 1em auto;
   padding: 20px;
-  font-size: 0.9em;
+  font-size: 1em;
+  /* Adjusted font size for better readability within website context */
   background-color: var(--bg-color);
   min-height: 100px;
   color: var(--text-color);
+  border-radius: 6px;
+  /* Added border-radius to match other elements */
+  border: 1px solid var(--accent-border);
+  /* Added a subtle border */
 }
 
 .iching-button {
@@ -36,8 +42,15 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-top: 1em;
-  width: 150px;
+  width: auto;
+  /* Adjusted to auto for more flexible width */
+  min-width: 150px;
+  /* Set a minimum width */
   text-align: center;
+  display: block;
+  /* Make the button take full width on smaller screens if needed */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .iching-button:hover {
@@ -45,16 +58,22 @@
 }
 
 .toggle-buttons {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
+  /* Center the buttons horizontally */
   align-items: center;
-  gap: 1em;
-  margin: 0 auto 1em;
+  gap: 0.5em;
+  /* Reduced gap for tighter spacing */
+  margin: 1em auto;
+  /* Center and add some margin top and bottom */
+  flex-wrap: wrap;
+  /* Allow buttons to wrap to the next line on smaller screens */
 }
 
 .toggle-btn {
   padding: 0.5em 1em;
-  font-size: 16px;
+  font-size: 1em;
+  /* Adjusted font size */
   font-weight: bold;
   background-color: var(--link-color);
   color: var(--bg-color);
@@ -62,24 +81,72 @@
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  width: 150px;
+  width: auto;
+  /* Make buttons size to content */
+  min-width: 80px;
+  /* Set a minimum width for small buttons */
   text-align: center;
+  white-space: nowrap;
+  /* Prevent text from wrapping within the button */
 }
 
 .toggle-btn:hover {
   background-color: var(--link-hover);
 }
 
-@media (max-width: 480px) {
+/* Style for the content sections */
+#primary-hexagram-content,
+#judgment-content,
+#image-content,
+#description-content,
+#changed-hexagram-content {
+  margin-top: 1em;
+  /* Add some spacing above each section */
+  text-align: left;
+  /* Align content to the left for better readability */
+}
+
+#primary-hexagram-content h2,
+#changed-hexagram-content h2 {
+  text-align: center;
+  /* Center the hexagram titles */
+  margin-bottom: 0.5em;
+}
+
+#primary-hexagram-content pre,
+#changed-hexagram-content pre {
+  font-size: 1.2em;
+  /* Make the hexagram lines a bit larger */
+  white-space: pre-wrap;
+  /* Ensure lines wrap if they get too long */
+  font-family: monospace;
+  /* Use a monospace font for the lines */
+  text-align: center;
+  /* Center the lines */
+  margin: 0.5em auto;
+}
+
+.interpretation h3 {
+  color: var(--link-color);
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+}
+
+.interpretation p {
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
   .iching-section {
     margin: 1em auto;
     padding: 1em;
-    max-width: 90%;
+    max-width: 95%;
+    /* Adjust max-width for smaller screens */
     min-width: auto;
   }
 
   .iching-title {
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
 
   .iching-output {
@@ -88,18 +155,54 @@
   }
 
   .iching-button {
+    font-size: 1em;
     padding: 10px 20px;
-    font-size: 14px;
-    width: 150px;
+    min-width: 120px;
   }
 
   .toggle-buttons {
-    flex-direction: column;
-    gap: 0.5em;
+    justify-content: space-around;
+    /* Distribute buttons more evenly on smaller screens */
+    gap: 0.3em;
   }
 
   .toggle-btn {
-    font-size: 14px;
-    padding: 0.5em;
-    width: 150px;
+    font-size: 0.9em;
+    padding: 0.4em 0.8em;
+    min-width: 60px;
   }
+}
+
+@media (max-width: 480px) {
+  .iching-section {
+    padding: 0.8em;
+  }
+
+  .iching-title {
+    font-size: 1.6em;
+  }
+
+  .iching-output {
+    font-size: 1em;
+    padding: 10px;
+  }
+
+  .iching-button {
+    font-size: 0.9em;
+    padding: 8px 15px;
+    min-width: 100px;
+  }
+
+  .toggle-buttons {
+    flex-direction: row;
+    /* Keep buttons horizontal even on very small screens, allow wrapping */
+    justify-content: center;
+    gap: 0.2em;
+  }
+
+  .toggle-btn {
+    font-size: 0.8em;
+    padding: 0.3em 0.6em;
+    min-width: 50px;
+  }
+}

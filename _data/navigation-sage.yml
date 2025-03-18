@@ -6,9 +6,9 @@
   url: /books
 - title: Essays
   url: /essays
-- title: I Ching
-  url: /yi
-- title: Dao De Jing
-  url: /daodejing
+- title: Poetry
+  url: /poetry
+- title: Recipes
+  url: /recipes
   # - title: Tarot
   #   url: /tarot/

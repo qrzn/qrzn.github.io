@@ -1,10 +1,10 @@
 ---
-layout: poetry
+layout: sage
 title: Der Gewundene Pfad
 permalink: /poetry/dergewundenepfad
-category: poetrygerman
-hidden: true
+category: poetry
 ---
+
 > Der gewundene Pfad, den ich heut sah  
 > mal wirkte er fern, mal wirkte er nah  
 > Symbolisierte er für mich das Dao  
@@ -16,8 +16,8 @@ hidden: true
 > oder können sie auch projizieren?  
 > greifen wir der Sache unter die Nieren  
 > denn das Dao und De  
-> ist wie die Bundeslade in Spe  
-> 
+> ist wie die Bundeslade in Spe
+>
 > Woher ich das weiß?  
 > Eben durch Dao  
 > denn Dao  

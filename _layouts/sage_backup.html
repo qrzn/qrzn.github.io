@@ -17,21 +17,34 @@
 </head>
 
 <body>
+  <!-- Header Wrapper -->
   <div class="header-wrapper">
     <header>
       <nav aria-label="Main Navigation">
         <div class="nav-container">
+          <!-- Hamburger Button -->
           <button id="hamburger" class="hamburger" aria-label="Toggle Navigation">
             <span class="hamburger-line"></span>
             <span class="hamburger-line"></span>
             <span class="hamburger-line"></span>
           </button>
+          <!-- Header Search Bar -->
+          <div class="header-search">
+            <form action="/search/" method="get">
+              <input type="search" name="q" placeholder="Search website..." id="headerSearch" />
+              <button type="submit" aria-label="Search">
+                <img src="{{ '/assets/img/sage/magnifying-glass-solid.svg' | relative_url }}" alt="Search" />
+              </button>
+            </form>
+          </div>
+          <!-- Header Logo/Image -->
           <div class="header-image">
             <a href="{{ '/' | relative_url }}">
               <img src="{{ '/assets/img/logo-sage.svg' | relative_url }}" alt="Sacred Portal to Esoteric Wisdom" />
             </a>
           </div>
         </div>
+        <!-- Mega Menu (initially hidden) -->
         <div id="mega-menu" class="mega-menu">
           <ul class="mega-menu-list">
             {% for item in site.data.navigation-sage %}
@@ -40,32 +53,17 @@
             </li>
             {% endfor %}
           </ul>
-          <div class="mega-menu-social">
-            <a href="https://x.com/qrzn23" aria-label="X" class="social-link">
-              <img src="{{ '/assets/img/sage/x-twitter-brands.svg' | relative_url }}" alt="X" />
-            </a>
-            <a href="https://instagram.com/nachash_kadosh" aria-label="Instagram" class="social-link">
-              <img src="{{ '/assets/img/sage/instagram-brands.svg' | relative_url }}" alt="Instagram" />
-            </a>
-            <a href="https://youtube.com/@nachash_kadosh" aria-label="YouTube" class="social-link">
-              <img src="{{ '/assets/img/sage/youtube-brands.svg' | relative_url }}" alt="YouTube" />
-            </a>
-            <a href="https://github.com/qrzn" aria-label="GitHub" class="social-link">
-              <img src="{{ '/assets/img/sage/github-brands.svg' | relative_url }}" alt="GitHub" />
-            </a>
-            <a href="https://t.me/nachash_kadosh" aria-label="Telegram" class="social-link">
-              <img src="{{ '/assets/img/sage/telegram-brands.svg' | relative_url }}" alt="Telegram" />
-            </a>
-          </div>
         </div>
       </nav>
     </header>
   </div>
 
   <main id="main-content">
+    <!-- Preloader overlay (styled in books.css) -->
     <div id="preloader" class="preloader">
       <div class="spinner"></div>
     </div>
+    <!-- Actual page content -->
     <div class="page-content">
       {% if page.title %}
       <h1 class="post-title">{{ page.title }}</h1>
@@ -73,9 +71,28 @@
     </div>
   </main>
 
-  <script src="https://eralegis.info/eralegis-3.0.js"></script>
-  <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/sage.js' | relative_url }}"></script>
+  <footer>
+    <div class="social-links">
+      <a href="https://x.com/qrzn23" aria-label="X" class="social-link">
+        <img src="{{ '/assets/img/sage/x-twitter-brands.svg' | relative_url }}" alt="X" />
+      </a>
+      <a href="https://instagram.com/nachash_kadosh" aria-label="Instagram" class="social-link">
+        <img src="{{ '/assets/img/sage/instagram-brands.svg' | relative_url }}" alt="Instagram" />
+      </a>
+      <a href="https://youtube.com/@nachash_kadosh" aria-label="YouTube" class="social-link">
+        <img src="{{ '/assets/img/sage/youtube-brands.svg' | relative_url }}" alt="YouTube" />
+      </a>
+      <a href="https://github.com/qrzn" aria-label="GitHub" class="social-link">
+        <img src="{{ '/assets/img/sage/github-brands.svg' | relative_url }}" alt="GitHub" />
+      </a>
+      <a href="https://t.me/nachash_kadosh" aria-label="Telegram" class="social-link">
+        <img src="{{ '/assets/img/sage/telegram-brands.svg' | relative_url }}" alt="Telegram" />
+      </a>
+    </div>
+    <script src="https://eralegis.info/eralegis-3.0.js"></script>
+    <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/sage.js' | relative_url }}"></script>
+  </footer>
 </body>
 
 </html>
