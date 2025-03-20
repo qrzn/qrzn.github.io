@@ -1,6 +1,6 @@
-# Temple of Nachash Kadosh
+# qrzn.xyz
 
-**Temple of Nachash Kadosh** is a Jekyll-based website dedicated to exploring occultism, Thelema, and esoteric wisdom. The site features curated collections of occult texts, a blog with articles, recipes, poetry, and more—all presented with modern animations, responsive design, and interactive features.
+**qrzn.xyz** is a Jekyll-based website dedicated to exploring occultism, Thelema, and esoteric wisdom. The site features curated collections of occult texts, a blog with articles, recipes, poetry, and more—all presented with modern animations, responsive design, and interactive features.
 
 ## Features
 
