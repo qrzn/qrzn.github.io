@@ -2,6 +2,31 @@
     Sage Style CSS - Optimized & Fixed
 ----------------------------------- */
 
+/* Embed EB Garamond font */
+@font-face {
+  font-family: "EB Garamond";
+  src: url("/assets/fonts/EBGaramond-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("/assets/fonts/EBGaramond-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("/assets/fonts/EBGaramond-Italic.ttf") format("truetype");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "silvus";
+  src: url("/assets/fonts/silvus.ttf") format("truetype");
+  font-weight: normal;
+}
+
 /* Embed Funnel font */
 @font-face {
   font-family: "Funnel";
@@ -26,18 +51,25 @@
   font-style: italic;
 }
 
-/* Root variables for color theming */
+/* Sage green palette 
+*/
 :root {
-  --bg-color: #4d5d53;
-  --mega-menu-bg-color: rgba(77, 93, 83, 0.8);
-  --header-bg: #4d5d53;
-  --link-color: #78866b;
-  --link-hover: #738678;
-  --text-color: #8f9779;
+  --bg-color: #be9b7b;
+  --mega-menu-bg-color: rgba(190, 155, 123, 0.8);
+  --header-bg: #854442;
+  --header-text: black;
+  --header-link: #be9b7b;
+  --header-link-hover: white;
+  --link-color: #4b3832;
+  --link-hover: #fff4e6;
+  --text-color: #3c2f2f;
   --accent-border: #a1ab94;
-  --secondary-text-color: #c4cbb7;
-  --item-bg-color: #3e453b;
+  --secondary-text-color: #4b3832;
+  --item-bg-color: #be9b7b;
 }
+
+/* Sage green palette 
+*/
 
 :root.light-mode {
   --bg-color: #fafcf9;
@@ -61,7 +93,7 @@ body {
 
 body {
   scroll-padding-top: 60px;
-  font-family: "Funnel", serif;
+  font-family: "EB Garamond", serif;
   display: flex;
   flex-direction: column;
   background-color: var(--bg-color);
@@ -71,6 +103,11 @@ body {
   /* Example base font size */
   line-height: 1.6;
   /* Example base line height */
+}
+
+hr {
+  width: 80%;
+  color: var(--accent-border);
 }
 
 svg {
@@ -88,6 +125,104 @@ a {
 a:hover {
   color: var(--link-hover);
   text-decoration: underline;
+}
+
+/* Contact Form Styles */
+form {
+  max-width: 500px;
+  /* Adjust as needed */
+  margin: 2em auto;
+  padding: 20px;
+  background-color: var(--item-bg-color);
+  /* Use a background color from your theme */
+  border-radius: 8px;
+}
+
+form div {
+  margin-bottom: 1.5em;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  color: var(--secondary-text-color);
+  /* Use a secondary text color */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: calc(100% - 20px);
+  /* Adjust for padding */
+  padding: 10px;
+  border: 1px solid var(--accent-border);
+  /* Use your accent border color */
+  border-radius: 4px;
+  font-family: "EB Garamond", serif;
+  /* Use your main font */
+  font-size: 1em;
+  color: var(--text-color);
+  /* Use your main text color */
+  background-color: var(--link-hover);
+  /* Inherit or set a light background */
+  box-sizing: border-box;
+  /* Ensure padding doesn't affect width */
+}
+
+textarea {
+  min-height: 150px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--link-color);
+  /* Use your link color for focus */
+  box-shadow: 0 0 5px var(--link-color);
+}
+
+button[type="submit"] {
+  background-color: var(--header-bg);
+  /* Use your header background color for the button */
+  color: var(--header-text);
+  /* Use your header text color for the button text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-family: "EB Garamond", serif;
+  /* Use your main font */
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--header-link-hover);
+  /* Use a hover color for the button */
+  color: var(--header-text);
+  /* Ensure text color remains readable */
+}
+
+/* Optional: Style for success/error messages */
+.form-success,
+.form-error {
+  margin-top: 1em;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.form-success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.form-error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
 }
 
 /* Header styles */
@@ -207,6 +342,7 @@ a:hover {
 }
 
 /* Mega Menu & Navigation */
+/* Mega Menu & Navigation */
 .hamburger {
   background: none;
   border: none;
@@ -258,6 +394,7 @@ a:hover {
 }
 
 .mega-menu-list {
+  font-variant: small-caps;
   align-content: center;
   gap: 1em;
   font-size: 2em;
@@ -265,39 +402,85 @@ a:hover {
   font-weight: bold;
   padding: 20px;
   margin: 50px 0 0;
-  display: flex;
-  /* Enable flex layout for columns */
-  flex-wrap: wrap;
-  /* Allow items to wrap to the next column */
-  justify-content: center;
-  /* Center the columns */
-  max-width: 80%;
-  /* Adjust as needed to control the width of the columns */
+  text-align: center;
+  /* Center the top-level items */
 }
 
-.mega-menu-list ul {
-  width: 200px;
-  /* Adjust the width of each column */
-  padding: 0;
-  /* Remove default ul padding */
-  margin: 0 20px 1em;
-  /* Add margin between columns and below items */
-}
-
-.mega-menu-list li {
+.mega-menu-list>li {
   margin-bottom: 0.5em;
-  /* Reduce margin between list items within a column */
 }
 
-.mega-menu-list li a {
+.mega-menu-list>li>a {
   color: var(--link-color);
   text-decoration: none;
   font-size: 1em;
-  /* Adjust font size within the columns if needed */
   transition: color 0.3s ease;
 }
 
-.mega-menu-list li a:hover {
+.mega-menu-list>li>a:hover {
+  color: var(--link-hover);
+}
+
+/* Mega Menu Dropdowns */
+.mega-menu-list li.has-dropdown {
+  position: relative;
+  /* Needed for absolute positioning of the dropdown */
+}
+
+/* Optional: Add an arrow indicator for dropdowns */
+.mega-menu-list li.has-dropdown>a::after {
+  content: "\25BE";
+  /* Down arrow character */
+  margin-left: 5px;
+  font-size: 0.8em;
+}
+
+.dropdown-menu {
+  display: none;
+  /* Initially hide the dropdown */
+  position: absolute;
+  top: 100%;
+  /* Position the dropdown below the parent link */
+  left: 0;
+  background-color: var(--mega-menu-bg-color);
+  /* Match mega menu background */
+  padding: 10px 0;
+  border: 1px solid var(--border-color);
+  border-top: none;
+  /* Remove top border to visually connect to the parent */
+  min-width: 200px;
+  /* Adjust the width of the dropdown as needed */
+  z-index: 1000;
+  /* Ensure the dropdown appears above other content */
+}
+
+/* Show the dropdown when the 'open' class is present */
+.dropdown-menu.open {
+  display: block;
+}
+
+.dropdown-menu li {
+  padding: 8px 20px;
+  /* Adjust padding for dropdown items */
+  margin-bottom: 0;
+  /* Remove any default bottom margin */
+  white-space: nowrap;
+  /* Prevent text from wrapping to the next line */
+  text-align: left;
+  /* Align dropdown items to the left */
+}
+
+.dropdown-menu li a {
+  color: var(--link-color);
+  text-decoration: none;
+  font-size: 1em;
+  /* Adjust font size for dropdown links if needed */
+  display: block;
+  /* Make the entire list item clickable */
+  transition: color 0.3s ease;
+}
+
+.dropdown-menu li a:hover {
   color: var(--link-hover);
 }
 
@@ -567,9 +750,24 @@ h1,
 h2,
 h3,
 h4 {
+  font-variant: small-caps;
   margin: 0;
   font-size: 1.2em;
   color: var(--secondary-text);
+}
+
+/* Style for the About Me avatar */
+.about-me-avatar {
+  border-radius: 50%;
+  border-color: var(--accent-border);
+  border: 3px solid;
+  /* This makes the image circular */
+  width: 150px;
+  /* Adjust the size as needed */
+  height: 150px;
+  /* Should be the same as the width for a perfect circle */
+  object-fit: cover;
+  /* Ensures the image fills the circle without distortion */
 }
 
 .post-author,

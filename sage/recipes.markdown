@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const recipeTitles = document.querySelectorAll('.recipe-title');
   const recipeItems = document.querySelectorAll('.recipe-item');
   const closeButtons = document.querySelectorAll('.close-recipe');
-  let currentlyOpenRecipe = null;
+  const headerWrapper = document.querySelector('.header-wrapper'); // Get the header wrapper
 
   recipeTitles.forEach(title => {
     title.addEventListener('click', function() {
@@ -89,10 +89,23 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Show the content of the clicked recipe
       contentDiv.classList.remove('hidden');
-      currentlyOpenRecipe = contentDiv;
 
-      // Optionally scroll to the opened recipe's title
-      this.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      // Scroll to the opened recipe's title with an offset for the header
+      const headerHeight = headerWrapper ? headerWrapper.offsetHeight : 0;
+      const titleRect = this.getBoundingClientRect();
+      const titleAbsoluteTop = titleRect.top + window.scrollY;
+      const scrollPosition = titleAbsoluteTop - headerHeight;
+
+      console.log('headerHeight:', headerHeight);
+      console.log('titleRect.top:', titleRect.top);
+      console.log('window.scrollY:', window.scrollY);
+      console.log('titleAbsoluteTop:', titleAbsoluteTop);
+      console.log('scrollPosition:', scrollPosition);
+
+      window.scrollTo({
+        top: scrollPosition,
+        behavior: 'smooth'
+      });
     });
   });
 
@@ -102,7 +115,6 @@ document.addEventListener('DOMContentLoaded', function() {
       const contentDiv = this.closest('.recipe-content');
       if (contentDiv) {
         contentDiv.classList.add('hidden');
-        currentlyOpenRecipe = null;
 
         // Show all recipe items again
         recipeItems.forEach(item => {

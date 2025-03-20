@@ -1,14 +1,20 @@
-#- title: Symbols
-#  url: /symbols/
-#- title: Tools
-#  url: /tools/
-- title: Books
-  url: /books
+- title: Coding
+  url: /coding
 - title: Essays
   url: /essays
-- title: Poetry
-  url: /poetry
+- title: ePubs
+  url: /books
 - title: Recipes
   url: /recipes
+- title: About Me
+  url: /about
+- title: Contact
+  url: /contact
+  #- title: Symbols
+  #  url: /symbols/
+  #- title: Tools
+  #  url: /tools/
+  # - title: I Ching
+  #   url: /yi/
   # - title: Tarot
   #   url: /tarot/

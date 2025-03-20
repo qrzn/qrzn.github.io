@@ -3,9 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>
-    {% if page.title %}{{ page.title }} | {% endif %}Temple of Nachash Kadosh
-  </title>
+  <title>{% if page.title %}{{ page.title }} | {% endif %}qrzn.xyz</title>
   <link rel="stylesheet" href="{{ '/assets/css/sage.css' | relative_url }}" />
   <link rel="icon" type="image/png" href="{{ '/assets/img/logo-sage.svg' | relative_url }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,40 +24,18 @@
             <span class="hamburger-line"></span>
             <span class="hamburger-line"></span>
           </button>
-          <div class="header-image">
-            <a href="{{ '/' | relative_url }}">
+          <a href="{{ '/' | relative_url }}">
+            <div clas="header-alt">
+              <h1>{% if page.title %}{{ page.title }} {% endif %}</h1>
+            </div>
+            <div class="header-image">
               <img src="{{ '/assets/img/logo-sage.svg' | relative_url }}" alt="Sacred Portal to Esoteric Wisdom" />
-            </a>
-          </div>
+          </a>
         </div>
-        <div id="mega-menu" class="mega-menu">
-          <ul class="mega-menu-list">
-            {% for item in site.data.navigation-sage %}
-            <li>
-              <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-          <div class="mega-menu-social">
-            <a href="https://x.com/qrzn23" aria-label="X" class="social-link">
-              <img src="{{ '/assets/img/sage/x-twitter-brands.svg' | relative_url }}" alt="X" />
-            </a>
-            <a href="https://instagram.com/nachash_kadosh" aria-label="Instagram" class="social-link">
-              <img src="{{ '/assets/img/sage/instagram-brands.svg' | relative_url }}" alt="Instagram" />
-            </a>
-            <a href="https://youtube.com/@nachash_kadosh" aria-label="YouTube" class="social-link">
-              <img src="{{ '/assets/img/sage/youtube-brands.svg' | relative_url }}" alt="YouTube" />
-            </a>
-            <a href="https://github.com/qrzn" aria-label="GitHub" class="social-link">
-              <img src="{{ '/assets/img/sage/github-brands.svg' | relative_url }}" alt="GitHub" />
-            </a>
-            <a href="https://t.me/nachash_kadosh" aria-label="Telegram" class="social-link">
-              <img src="{{ '/assets/img/sage/telegram-brands.svg' | relative_url }}" alt="Telegram" />
-            </a>
-          </div>
-        </div>
-      </nav>
-    </header>
+  </div>
+  {% include mega_menu.html %}
+  </nav>
+  </header>
   </div>
 
   <main id="main-content">
@@ -67,13 +43,10 @@
       <div class="spinner"></div>
     </div>
     <div class="page-content">
-      {% if page.title %}
-      <h1 class="post-title">{{ page.title }}</h1>
-      {% endif %} {{ content }}
+      {{ content }}
     </div>
   </main>
 
-  <script src="https://eralegis.info/eralegis-3.0.js"></script>
   <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/sage.js' | relative_url }}"></script>
 </body>

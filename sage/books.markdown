@@ -4,9 +4,13 @@ title: Books
 permalink: /books
 ---
 
-Understanding arises, let it flow naturally.
+Welcome to the Epubs section of my website, a digital library containing a curated selection of electronic publications that I have prepared and made available.
 
-Welcome, traveler. Within these gathered scrolls, lie whispers of ancient understanding and the subtle currents of the unseen. Woven with the threads of mystery and the breath of ages, these writings offer glimpses and gentle nudges to those who listen for the deeper rhythms of existence.
+Within this section, you will find EPUB versions of significant literary and philosophical works. Currently featured are Richard Wilhelm's esteemed German translations of the Daodejing and the Zhuangzi, two foundational texts of Daoist philosophy. These digital editions aim to provide accessible and well-formatted versions of these important works for scholarly and personal engagement.
+
+Furthermore, this section also includes a collection of works by Aleister Crowley that have been meticulously prepared in the EPUB format. Some of these texts were previously unavailable in this digital format, and their inclusion here seeks to broaden their accessibility to interested readers.
+
+It is my hope that this collection of epubs will serve as a valuable resource for those interested in exploring these diverse and influential writings. Please feel free to browse the available titles and download them for your personal use.
 
 <section class="category-posts">
   <input type="text" id="bookSearchTable" placeholder="Search books..." />

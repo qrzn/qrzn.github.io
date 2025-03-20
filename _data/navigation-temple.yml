@@ -1,11 +1,28 @@
-- title: Blog
-  url: /blog/
+- title: Writings
+  url: /writings
+  dropdown:
+    - title: Blog
+      url: /blog
+    - title: Essays
+      url: /essays
+    - title: Poetry
+      url: /poetry
+- title: Tools
+  url: /Tools
+  dropdown:
+    - title: Dao De Jing
+      url: /daodejing
+    - title: I Ching
+      url: /yi
+- title: misc
+  url: /misc
+  dropdown:
+    - title: Retro
+      url: /retro
+    - title: Temple
+      url: /temple
 - title: Books
   url: /books/
-- title: Essays
-  url: /essays/
-- title: Poetry
-  url: /poetry/
 - title: Reading List
   url: /reading-list
 - title: Recipes

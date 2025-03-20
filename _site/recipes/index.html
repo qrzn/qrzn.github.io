@@ -3,9 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>
-    Recipes | Temple of Nachash Kadosh
-  </title>
+  <title>Recipes | qrzn.xyz</title>
   <link rel="stylesheet" href="/assets/css/sage.css" />
   <link rel="icon" type="image/png" href="/assets/img/logo-sage.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,52 +24,79 @@
             <span class="hamburger-line"></span>
             <span class="hamburger-line"></span>
           </button>
-          <div class="header-image">
-            <a href="/">
+          <a href="/">
+            <div clas="header-alt">
+              <h1>Recipes </h1>
+            </div>
+            <div class="header-image">
               <img src="/assets/img/logo-sage.svg" alt="Sacred Portal to Esoteric Wisdom" />
-            </a>
-          </div>
+          </a>
         </div>
-        <div id="mega-menu" class="mega-menu">
-          <ul class="mega-menu-list">
-            
-            <li>
-              <a href="/books">Books</a>
-            </li>
-            
-            <li>
-              <a href="/essays">Essays</a>
-            </li>
-            
-            <li>
-              <a href="/poetry">Poetry</a>
-            </li>
-            
-            <li>
-              <a href="/recipes">Recipes</a>
-            </li>
-            
-          </ul>
-          <div class="mega-menu-social">
-            <a href="https://x.com/qrzn23" aria-label="X" class="social-link">
-              <img src="/assets/img/sage/x-twitter-brands.svg" alt="X" />
-            </a>
-            <a href="https://instagram.com/nachash_kadosh" aria-label="Instagram" class="social-link">
-              <img src="/assets/img/sage/instagram-brands.svg" alt="Instagram" />
-            </a>
-            <a href="https://youtube.com/@nachash_kadosh" aria-label="YouTube" class="social-link">
-              <img src="/assets/img/sage/youtube-brands.svg" alt="YouTube" />
-            </a>
-            <a href="https://github.com/qrzn" aria-label="GitHub" class="social-link">
-              <img src="/assets/img/sage/github-brands.svg" alt="GitHub" />
-            </a>
-            <a href="https://t.me/nachash_kadosh" aria-label="Telegram" class="social-link">
-              <img src="/assets/img/sage/telegram-brands.svg" alt="Telegram" />
-            </a>
-          </div>
-        </div>
-      </nav>
-    </header>
+  </div>
+  <div id="mega-menu" class="mega-menu">
+  <ul class="mega-menu-list">
+    
+    <li >
+      
+      <a href="/coding">Coding</a>
+       
+    </li>
+    
+    <li >
+      
+      <a href="/essays">Essays</a>
+       
+    </li>
+    
+    <li >
+      
+      <a href="/books">ePubs</a>
+       
+    </li>
+    
+    <li >
+      
+      <a href="/recipes">Recipes</a>
+       
+    </li>
+    
+    <li >
+      
+      <a href="/about">About Me</a>
+       
+    </li>
+    
+    <li >
+      
+      <a href="/contact">Contact</a>
+       
+    </li>
+    
+  </ul>
+
+  <!--
+  <div class="mega-menu-social">
+    <a href="https://x.com/qrzn23" aria-label="X" class="social-link">
+      <img src="/assets/img/sage/x-twitter-brands.svg" alt="X" />
+    </a>
+    <a href="https://instagram.com/nachash_kadosh" aria-label="Instagram" class="social-link">
+      <img src="/assets/img/sage/instagram-brands.svg" alt="Instagram" />
+    </a>
+    <a href="https://youtube.com/@nachash_kadosh" aria-label="YouTube" class="social-link">
+      <img src="/assets/img/sage/youtube-brands.svg" alt="YouTube" />
+    </a>
+    <a href="https://github.com/qrzn" aria-label="GitHub" class="social-link">
+      <img src="/assets/img/sage/github-brands.svg" alt="GitHub" />
+    </a>
+    <a href="https://t.me/nachash_kadosh" aria-label="Telegram" class="social-link">
+      <img src="/assets/img/sage/telegram-brands.svg" alt="Telegram" />
+    </a>
+  </div>
+-->
+</div>
+
+  </nav>
+  </header>
   </div>
 
   <main id="main-content">
@@ -79,9 +104,7 @@
       <div class="spinner"></div>
     </div>
     <div class="page-content">
-      
-      <h1 class="post-title">Recipes</h1>
-       <p>Welcome to my recipe collection! Here, you’ll find a delightful array of dishes, from comforting classics to creative twists on traditional flavors. Whether you’re an experienced cook or just starting out in the kitchen, you’ll discover recipes designed to inspire, nourish, and satisfy. Explore and enjoy the journey of creating delicious meals with simple, wholesome ingredients!</p>
+      <p>Welcome to my recipe collection! Here, you’ll find a delightful array of dishes, from comforting classics to creative twists on traditional flavors. Whether you’re an experienced cook or just starting out in the kitchen, you’ll discover recipes designed to inspire, nourish, and satisfy. Explore and enjoy the journey of creating delicious meals with simple, wholesome ingredients!</p>
 
 <section class="category-posts">
   <h3 class="category-heading">Recipes</h3>
@@ -471,7 +494,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const recipeTitles = document.querySelectorAll('.recipe-title');
   const recipeItems = document.querySelectorAll('.recipe-item');
   const closeButtons = document.querySelectorAll('.close-recipe');
-  let currentlyOpenRecipe = null;
+  const headerWrapper = document.querySelector('.header-wrapper'); // Get the header wrapper
 
   recipeTitles.forEach(title => {
     title.addEventListener('click', function() {
@@ -488,10 +511,23 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Show the content of the clicked recipe
       contentDiv.classList.remove('hidden');
-      currentlyOpenRecipe = contentDiv;
 
-      // Optionally scroll to the opened recipe's title
-      this.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      // Scroll to the opened recipe's title with an offset for the header
+      const headerHeight = headerWrapper ? headerWrapper.offsetHeight : 0;
+      const titleRect = this.getBoundingClientRect();
+      const titleAbsoluteTop = titleRect.top + window.scrollY;
+      const scrollPosition = titleAbsoluteTop - headerHeight;
+
+      console.log('headerHeight:', headerHeight);
+      console.log('titleRect.top:', titleRect.top);
+      console.log('window.scrollY:', window.scrollY);
+      console.log('titleAbsoluteTop:', titleAbsoluteTop);
+      console.log('scrollPosition:', scrollPosition);
+
+      window.scrollTo({
+        top: scrollPosition,
+        behavior: 'smooth'
+      });
     });
   });
 
@@ -501,7 +537,6 @@ document.addEventListener('DOMContentLoaded', function() {
       const contentDiv = this.closest('.recipe-content');
       if (contentDiv) {
         contentDiv.classList.add('hidden');
-        currentlyOpenRecipe = null;
 
         // Show all recipe items again
         recipeItems.forEach(item => {
@@ -520,7 +555,6 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
   </main>
 
-  <script src="https://eralegis.info/eralegis-3.0.js"></script>
   <script src="/assets/js/nav.js"></script>
   <script src="/assets/js/sage.js"></script>
 </body>

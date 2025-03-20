@@ -1,0 +1,41 @@
+<div id="mega-menu" class="mega-menu">
+  <ul class="mega-menu-list">
+    {% for item in site.data.navigation-sage %}
+    <li {% if item.dropdown %}class="has-dropdown" {% endif %}>
+      {% if item.url %}
+      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {% else %}
+      <span>{{ item.title }}</span>
+      {% endif %} {% if item.dropdown %}
+      <ul class="dropdown-menu">
+        {% for sub_item in item.dropdown %}
+        <li>
+          <a href="{{ sub_item.url | relative_url }}">{{ sub_item.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+
+  <!--
+  <div class="mega-menu-social">
+    <a href="https://x.com/qrzn23" aria-label="X" class="social-link">
+      <img src="{{ '/assets/img/sage/x-twitter-brands.svg' | relative_url }}" alt="X" />
+    </a>
+    <a href="https://instagram.com/nachash_kadosh" aria-label="Instagram" class="social-link">
+      <img src="{{ '/assets/img/sage/instagram-brands.svg' | relative_url }}" alt="Instagram" />
+    </a>
+    <a href="https://youtube.com/@nachash_kadosh" aria-label="YouTube" class="social-link">
+      <img src="{{ '/assets/img/sage/youtube-brands.svg' | relative_url }}" alt="YouTube" />
+    </a>
+    <a href="https://github.com/qrzn" aria-label="GitHub" class="social-link">
+      <img src="{{ '/assets/img/sage/github-brands.svg' | relative_url }}" alt="GitHub" />
+    </a>
+    <a href="https://t.me/nachash_kadosh" aria-label="Telegram" class="social-link">
+      <img src="{{ '/assets/img/sage/telegram-brands.svg' | relative_url }}" alt="Telegram" />
+    </a>
+  </div>
+-->
+</div>
