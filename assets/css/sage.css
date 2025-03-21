@@ -1173,7 +1173,7 @@ tbody td .book-download-wrapper {
 
   .nav-container {
     /* You might want a slightly different max-width in landscape */
-    /* max-width: 900px; */
+   max-width: 900px;
   }
 
   body {

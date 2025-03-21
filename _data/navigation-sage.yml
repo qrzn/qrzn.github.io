@@ -1,8 +1,8 @@
-- title: Coding
-  url: /coding
+# - title: Coding
+#   url: /coding
 - title: Essays
   url: /essays
-- title: ePubs
+- title: Books
   url: /books
 - title: Recipes
   url: /recipes

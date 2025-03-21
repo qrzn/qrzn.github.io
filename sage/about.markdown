@@ -12,6 +12,7 @@ The [**Epubs**](/books) section houses a selection of digital publications I hav
 
 My interest in the culinary arts is expressed in the [**Recipes**](/recipes) section, where I share a collection of recipes that I have found both engaging to prepare and satisfying to enjoy. These recipes reflect a variety of culinary approaches and influences.
 
+<!--
 In the [**Coding Projects**](/coding) section, you will find a showcase of my personal software development endeavors. These projects, developed primarily for learning and personal enrichment, include:
 
 - [**CLI Game Launcher (Python):**](/pygames) A command-line application for managing and launching locally installed games.
@@ -19,6 +20,7 @@ In the [**Coding Projects**](/coding) section, you will find a showcase of my pe
 - [**Tetris Clone (Python):**](/pytris) A digital implementation of the classic Tetris game.
 - [**Metroid Clone (Godot):**](/xenotheria) A 2D platformer inspired by the Metroid series, built using the Godot Engine.
 - [**EPUB Reader (Android):**](/alexandriaepub) A native Android application for reading EPUB format ebooks.
+-->
 
 My broader intellectual interests encompass computer programming, the rich narratives of mythology – particularly those of ancient Egypt, Greece, and China – the philosophical frameworks of Daoism and the I Ching, and the profound insights found within the works of Friedrich Nietzsche. Furthermore, I maintain a dedicated study of occultism, astrology, and the tarot, alongside my appreciation for engaging with the natural world through hiking.
 
