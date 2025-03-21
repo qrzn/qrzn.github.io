@@ -246,15 +246,11 @@ button[type="submit"]:hover {
 }
 
 .header-image {
-  font-size: 0;
   flex: 0 0 auto;
   text-align: center;
 }
 
 .header-image img {
-  border-radius: 50%;
-  border-color: var(--accent-border);
-  border: 3px solid;
   max-height: 60px;
   width: auto;
 }
@@ -410,18 +406,18 @@ button[type="submit"]:hover {
   /* Center the top-level items */
 }
 
-.mega-menu-list > li {
+.mega-menu-list>li {
   margin-bottom: 0.5em;
 }
 
-.mega-menu-list > li > a {
+.mega-menu-list>li>a {
   color: var(--link-color);
   text-decoration: none;
   font-size: 1em;
   transition: color 0.3s ease;
 }
 
-.mega-menu-list > li > a:hover {
+.mega-menu-list>li>a:hover {
   color: var(--link-hover);
 }
 
@@ -432,7 +428,7 @@ button[type="submit"]:hover {
 }
 
 /* Optional: Add an arrow indicator for dropdowns */
-.mega-menu-list li.has-dropdown > a::after {
+.mega-menu-list li.has-dropdown>a::after {
   content: "\25BE";
   /* Down arrow character */
   margin-left: 5px;
@@ -1177,7 +1173,7 @@ tbody td .book-download-wrapper {
 
   .nav-container {
     /* You might want a slightly different max-width in landscape */
-    max-width: 900px;
+   max-width: 900px;
   }
 
   body {
