@@ -3,45 +3,143 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About me | qrzn's retro corner</title>
-  <link rel="icon" type="image/gif" href="/assets/img/globe.gif" />
+  <title>About me | qrzn.xyz</title>
   <link rel="stylesheet" href="/assets/css/retro.css" />
+  <link rel="icon" type="image/png" href="/assets/img/logo.gif" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Where retro meets the digital fun zone" />
+  <meta name="keywords" content="Essays, Philosophy, Ebooks, Recipes" />
+  <meta name="author" content="qrzn" />
 </head>
 
 <body>
-  <!-- Fixed Header: Contains site title and navigation -->
-  <header class="site-header">
-    <div class="header">
-      <h1>About me</h1>
-    </div>
-    <nav class="site-nav">
+  <div class="header-wrapper">
+    <header>
+      <nav aria-label="Main Navigation">
+        <div class="nav-container">
+          <button id="hamburger" class="hamburger" aria-label="Toggle Navigation">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+          
+          <nav class="breadcrumbs-container">
+            <ul class="breadcrumb">
+              <li><a href="/">Home</a></li>
+                    
+              <li>
+                <a href="/retro/">Retro</a>
+              </li>
+                   
+              <li>About</li>
+                
+            </ul>
+          </nav>
+          <div class="header-image">
+            <img src="/assets/img/globe.gif" alt="Sacred Portal to Esoteric Wisdom" />
+          </div>
+        </div>
+        <div id="mega-menu" class="mega-menu">
+  <ul class="mega-menu-list">
+    
+    <li >
       
-      <a href="/retro/">Home</a>
-      
-      <a href="/retro/books/">Books</a>
+      <a href="/retro/coding">Code</a>
+       
+    </li>
+    
+    <li >
       
       <a href="/retro/games/">Games</a>
+       
+    </li>
+    
+    <li >
       
       <a href="/retro/about/">About</a>
+       
+    </li>
+    
+    <li >
       
-    </nav>
-  </header>
+      <a href="/essays">Essays</a>
+       
+    </li>
+    
+    <li >
+      
+      <a href="/books">Books</a>
+       
+    </li>
+    
+    <li >
+      
+      <a href="/reading-list">Reading</a>
+       
+    </li>
+    
+    <li >
+      
+      <a href="/recipes">Recipes</a>
+       
+    </li>
+    
+    <li >
+      
+      <a href="/retro">Retro</a>
+       
+    </li>
+    
+    <li >
+      
+      <a href="/about">About Me</a>
+       
+    </li>
+    
+    <li >
+      
+      <a href="/contact">Contact</a>
+       
+    </li>
+    
+  </ul>
 
-  <!-- Placeholder to offset the fixed header height -->
-  <div class="header-placeholder"></div>
+  <!--
+  <div class="mega-menu-social">
+    <a href="https://x.com/qrzn23" aria-label="X" class="social-link">
+      <img src="/assets/img/sage/x-twitter-brands.svg" alt="X" />
+    </a>
+    <a href="https://instagram.com/nachash_kadosh" aria-label="Instagram" class="social-link">
+      <img src="/assets/img/sage/instagram-brands.svg" alt="Instagram" />
+    </a>
+    <a href="https://youtube.com/@nachash_kadosh" aria-label="YouTube" class="social-link">
+      <img src="/assets/img/sage/youtube-brands.svg" alt="YouTube" />
+    </a>
+    <a href="https://github.com/qrzn" aria-label="GitHub" class="social-link">
+      <img src="/assets/img/sage/github-brands.svg" alt="GitHub" />
+    </a>
+    <a href="https://t.me/nachash_kadosh" aria-label="Telegram" class="social-link">
+      <img src="/assets/img/sage/telegram-brands.svg" alt="Telegram" />
+    </a>
+  </div>
+-->
+</div>
 
-  <!-- Marquee (scrolls normally) -->
-  <div class="marquee">
-    <marquee behavior="scroll" direction="left">
-      Where retro meets the digital fun zone
-    </marquee>
+      </nav>
+    </header>
   </div>
 
-  <!-- Main Content -->
-  <main class="site-content"><div class="avatar-and-text">
+  <main id="main-content">
+    <div id="preloader" class="preloader">
+      <div class="spinner"></div>
+    </div>
+    <div class="page-content">
+      
+      <h1 class="post-title">About me</h1>
+       <div class="avatar-and-text">
   <!-- Replace with your actual avatar image path and alt text -->
-  <img src="/assets/img/qrzn.png" alt="Your Avatar" class="avatar" />
+  <img src="/assets/img/qrzn2.png" alt="Your Avatar" class="avatar" />
   
   <div class="about-content">
     <h1>About Me</h1>
@@ -71,14 +169,12 @@
   <!-- Use HTML <pre><code> tags inside the container -->
   <pre><code>qrzn23(at)gmail.com</code></pre>
 </div>
-</main>
 
-  <!-- Fixed Footer -->
-  <footer class="site-footer">
-    <p>
-      &copy; 2025 | qrzn's retro corner &mdash; About me
-    </p>
-  </footer>
+    </div>
+  </main>
+
+  <script src="/assets/js/nav.js"></script>
+  <script src="/assets/js/sage.js"></script>
 </body>
 
 </html>

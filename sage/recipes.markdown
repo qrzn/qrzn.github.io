@@ -6,8 +6,9 @@ permalink: /recipes/
 
 Welcome to my recipe collection! Here, you’ll find a delightful array of dishes, from comforting classics to creative twists on traditional flavors. Whether you’re an experienced cook or just starting out in the kitchen, you’ll discover recipes designed to inspire, nourish, and satisfy. Explore and enjoy the journey of creating delicious meals with simple, wholesome ingredients!
 
+---
+
 <section class="category-posts">
-  <h3 class="category-heading">Recipes</h3>
   {% assign recipes = site.categories.recipes | sort:"date" | reverse %}
   <style>
     .recipe-content {

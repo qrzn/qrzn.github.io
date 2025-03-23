@@ -45,6 +45,6 @@ window.addEventListener("load", function() {
   }
 
   document.documentElement.style.height = "auto";
-  document.body.style.height = "auto";
-  document.body.style.overflow = "visible";
+  document.body.style.height = "";
+  document.body.style.overflow = "";
 });

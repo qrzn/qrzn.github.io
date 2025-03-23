@@ -1,7 +1,7 @@
 ---
 layout: retro
 title: "Albion Review"
-permalink: /reviews/albion-review/
+permalink: /retro/games/albion-review/
 description: "Exploring Blue Byte's sci-fi/fantasy hybrid RPG, Albion"
 ---
 

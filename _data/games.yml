@@ -9,7 +9,7 @@
       description: "Enhances graphics for modern displays"
   reviews:
     - title: "In-depth Emperor Review"
-      url: "/reviews/emperor-review"
+      url: "/games/emperor-review"
       summary: "A long-form deep-dive into Emperor’s city-building mechanics."
 
 - name: "Zeus & Poseidon"
@@ -23,7 +23,7 @@
       description: "Fix for many widescreen resolutions"
   reviews:
     - title: "Zeus & Poseidon Strategy Tips"
-      url: "/reviews/zeus-poseidon-review"
+      url: "/games/zeus-poseidon-review"
       summary: "An overview of the game plus commentary on the HD patch."
 
 - name: "Pharaoh & Cleopatra"
@@ -37,7 +37,7 @@
       description: "Fix for many widescreen resolutions"
   reviews:
     - title: "Pharaoh & Cleopatra: A Retrospective"
-      url: "/reviews/pharaoh-cleopatra-review"
+      url: "/games/pharaoh-cleopatra-review"
       summary: "Looking back on its cultural and historical accuracy, plus modern fixes."
 
 - name: "Arcanum"
@@ -56,7 +56,7 @@
       description: "Lets you modify the game files, like putting more stuff into vendors etc."
   reviews:
     - title: "Arcanum Review"
-      url: "/reviews/arcanum-review"
+      url: "/games/arcanum-review"
       description: "Where to find patches, how to install them, and a brief overview."
   walkthroughs:
     - title: "Arcanum Walkthrough"
@@ -78,7 +78,7 @@
       description: "Unofficial mod that provides higher resolutions and some bug fixes"
   reviews:
     - title: "Master of Orion Retrospective"
-      url: "/reviews/master-of-orion-review"
+      url: "/games/master-of-orion-review"
       summary: "A deep dive into the 4X classic that started it all"
   media:
     - type: "image"
@@ -96,7 +96,7 @@
       description: "Fan recreation of Daggerfall with modern graphics, bug fixes, and mod support"
   reviews:
     - title: "Daggerfall Unity Showcase"
-      url: "/reviews/daggerfall-review"
+      url: "/games/daggerfall-review"
       summary: "Exploring how the Unity project modernizes this massive Elder Scrolls title"
   media:
     - type: "video"
@@ -114,7 +114,7 @@
       description: "Resolves resolution issues and offers scaling improvements"
   reviews:
     - title: "The Settlers 2 Nostalgia Trip"
-      url: "/reviews/settlers2-review"
+      url: "/games/settlers2-review"
       summary: "How the second installment perfected resource management in a charming, 2D world"
   media:
     - type: "image"
@@ -132,7 +132,7 @@
       description: "Fixes crash bugs and enhances performance on modern systems"
   reviews:
     - title: "Albion: Hidden Gem Analysis"
-      url: "/reviews/albion-review"
+      url: "/games/albion-review"
       summary: "A look into Blue Byte’s sci-fi/fantasy hybrid RPG and its enduring cult status"
   media:
     - type: "video"
@@ -150,7 +150,7 @@
       description: "Fixes bugs and improves stability for modern systems."
   reviews:
     - title: "Morrowind Review"
-      url: "/reviews/morrowind-review"
+      url: "/games/morrowind-review"
       summary: "A detailed look at the classic RPG that redefined open-world exploration."
   media:
     - type: "image"
@@ -168,7 +168,7 @@
       description: "An unofficial patch addressing performance and compatibility issues."
   reviews:
     - title: "Dungeon Keeper 2 Retrospective"
-      url: "/reviews/dungeon-keeper-2-review"
+      url: "/games/dungeon-keeper-2-review"
       summary: "A look back at the innovative management and strategy of Dungeon Keeper 2."
   media:
     - type: "video"
@@ -186,7 +186,7 @@
       description: "Enhances graphics and interface for modern resolutions."
   reviews:
     - title: "Age of Mythology Review"
-      url: "/reviews/age-of-mythology-review"
+      url: "/games/age-of-mythology-review"
       summary: "Exploring the blend of myth and strategy that makes this title timeless."
   media:
     - type: "image"
@@ -204,7 +204,7 @@
       description: "Modernizes visuals and fixes bugs for Tzar."
   reviews:
     - title: "Tzar Review"
-      url: "/reviews/tzar-review"
+      url: "/games/tzar-review"
       summary: "An exploration of Tzar's unique blend of medieval warfare and fantasy."
   media:
     - type: "video"
@@ -222,7 +222,7 @@
       description: "Updates graphics and fixes gameplay bugs."
   reviews:
     - title: "Master of Magic Retrospective"
-      url: "/reviews/master-of-magic-review"
+      url: "/games/master-of-magic-review"
       summary: "A look at the strategy and magic that defined a genre."
   media:
     - type: "image"
@@ -240,7 +240,7 @@
       description: "Enhances graphics and interface for modern systems."
   reviews:
     - title: "Knights and Merchants Review"
-      url: "/reviews/knights-and-merchants-review"
+      url: "/games/knights-and-merchants-review"
       summary: "An in-depth look at medieval economy and warfare."
   media:
     - type: "image"
@@ -258,7 +258,7 @@
       description: "Fixes resolution issues and improves performance."
   reviews:
     - title: "Stronghold Review"
-      url: "/reviews/stronghold-review"
+      url: "/games/stronghold-review"
       summary: "A classic take on castle management and siege warfare."
   media:
     - type: "video"
@@ -276,7 +276,7 @@
       description: "Updates visuals and fixes bugs for modern displays."
   reviews:
     - title: "Stronghold Crusader Review"
-      url: "/reviews/stronghold-crusader-review"
+      url: "/games/stronghold-crusader-review"
       summary: "Examining the enduring appeal of medieval siege warfare and strategy."
   media:
     - type: "image"
@@ -294,7 +294,7 @@
       description: "Updates the classic game for high resolutions and fixes legacy bugs."
   reviews:
     - title: "Alpha Centauri Retrospective"
-      url: "/reviews/alpha-centauri-review"
+      url: "/games/alpha-centauri-review"
       summary: "Exploring the visionary 4X gameplay that set the standard for future space strategies."
   media:
     - type: "video"

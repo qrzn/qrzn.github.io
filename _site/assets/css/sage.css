@@ -51,36 +51,21 @@
   font-style: italic;
 }
 
-/* Sage green palette 
+/* Cappuccino palette 
 */
 :root {
   --bg-color: #be9b7b;
   --mega-menu-bg-color: rgba(190, 155, 123, 0.8);
   --header-bg: #854442;
   --header-text: black;
-  --header-link: #be9b7b;
-  --header-link-hover: white;
+  --header-link: #fff4e6;
+  --header-link-hover: #3c2f2f;
   --link-color: #4b3832;
   --link-hover: #fff4e6;
   --text-color: #3c2f2f;
-  --accent-border: #a1ab94;
+  --accent-border: #854442;
   --secondary-text-color: #4b3832;
   --item-bg-color: #be9b7b;
-}
-
-/* Sage green palette 
-*/
-
-:root.light-mode {
-  --bg-color: #fafcf9;
-  --header-bg: #e8eddf;
-  --mega-menu-bg-color: rgba(250, 252, 249, 0.9);
-  --link-color: #606b56;
-  --link-hover: #515a47;
-  --text-color: #515a47;
-  --accent-border: #a1ab94;
-  --secondary-text-color: #737d4d;
-  --item-bg-color: #d3d9c9;
 }
 
 /* Base element styles */
@@ -106,8 +91,9 @@ body {
 }
 
 hr {
+  border: 1px solid var(--accent-border);
   width: 80%;
-  color: var(--accent-border);
+  margin: 2em auto;
 }
 
 svg {
@@ -125,6 +111,84 @@ a {
 a:hover {
   color: var(--link-hover);
   text-decoration: underline;
+}
+
+/* Container for the breadcrumbs within the header */
+.breadcrumbs-container {
+  flex: 1;
+  /* Allows the breadcrumbs to take available space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Breadcrumb list styling */
+.breadcrumb {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Display breadcrumb items inline */
+.breadcrumb li {
+  display: inline;
+}
+
+/* Breadcrumb links styling */
+.breadcrumb li a {
+  color: var(--header-link);
+  /* Uses your theme's header link color */
+  text-decoration: none;
+  padding: 0 5px;
+}
+
+/* Add a hover effect for breadcrumb links */
+.breadcrumb li a:hover {
+  text-decoration: underline;
+}
+
+/* Insert a separator between breadcrumb items */
+.breadcrumb li+li:before {
+  content: " / ";
+  padding: 0 5px;
+  color: var(--link-color);
+  /* Uses your theme's link color */
+}
+
+/* Contact Table Styles */
+.contact-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.contact-table td {
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.contact-table a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-table img {
+  width: 40px;
+  /* Adjust as needed */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.contact-table tr:nth-child(2) td a {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.contact-table a:hover {
+  opacity: 0.8;
 }
 
 /* Contact Form Styles */
@@ -184,9 +248,10 @@ textarea:focus {
 }
 
 button[type="submit"] {
+  font-variant: small-caps;
   background-color: var(--header-bg);
   /* Use your header background color for the button */
-  color: var(--header-text);
+  color: var(--header-link);
   /* Use your header text color for the button text */
   padding: 10px 20px;
   border: none;
@@ -200,9 +265,8 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background-color: var(--header-link-hover);
+  color: var(--header-link-hover);
   /* Use a hover color for the button */
-  color: var(--header-text);
-  /* Ensure text color remains readable */
 }
 
 /* Optional: Style for success/error messages */
@@ -235,6 +299,7 @@ button[type="submit"]:hover {
 }
 
 .nav-container {
+  color: var(--header-link);
   height: 60px;
   max-width: 600px;
   /* Default max-width */
@@ -243,6 +308,14 @@ button[type="submit"]:hover {
   justify-content: space-between;
   align-items: center;
   padding: 10px 15px;
+}
+
+.nav-container a {
+  color: var(--header-link);
+}
+
+.nav-container a:hover {
+  color: var(--header-link-hover);
 }
 
 .header-image {
@@ -362,7 +435,12 @@ button[type="submit"]:hover {
   width: 25px;
   height: 3px;
   margin: 4px 0;
-  background-color: var(--link-color);
+  background-color: var(--header-link);
+  transition: all 0.3s ease;
+}
+
+.hamburger:hover {
+  background-color: var(--header-link-hover);
   transition: all 0.3s ease;
 }
 
@@ -379,6 +457,7 @@ button[type="submit"]:hover {
 }
 
 .mega-menu {
+  align-items: center;
   display: flex;
   justify-content: center;
   position: fixed;
@@ -398,30 +477,32 @@ button[type="submit"]:hover {
 }
 
 .mega-menu-list {
+  overflow-y: auto;
+  height: fit-content;
+  column-count: 3;
   font-variant: small-caps;
   align-content: center;
   gap: 1em;
-  font-size: 2em;
+  font-size: 1.5em;
   list-style: none;
   font-weight: bold;
   padding: 20px;
   margin: 50px 0 0;
-  text-align: center;
   /* Center the top-level items */
 }
 
-.mega-menu-list > li {
+.mega-menu-list>li {
   margin-bottom: 0.5em;
 }
 
-.mega-menu-list > li > a {
+.mega-menu-list>li>a {
   color: var(--link-color);
   text-decoration: none;
   font-size: 1em;
   transition: color 0.3s ease;
 }
 
-.mega-menu-list > li > a:hover {
+.mega-menu-list>li>a:hover {
   color: var(--link-hover);
 }
 
@@ -432,7 +513,7 @@ button[type="submit"]:hover {
 }
 
 /* Optional: Add an arrow indicator for dropdowns */
-.mega-menu-list li.has-dropdown > a::after {
+.mega-menu-list li.has-dropdown>a::after {
   content: "\25BE";
   /* Down arrow character */
   margin-left: 5px;
@@ -645,23 +726,12 @@ article h3 {
 }
 
 /* Reading List Styling */
-.reading-list {
-  margin: 2em auto;
-  max-width: 800px;
-  padding: 1em;
-}
 
 .section-heading {
   text-align: center;
   font-size: 2em;
   color: var(--link-color);
   margin-bottom: 1em;
-}
-
-.reading-category {
-  margin-bottom: 2em;
-  padding-bottom: 1em;
-  border-bottom: 1px solid var(--accent-border);
 }
 
 .reading-items {
@@ -820,6 +890,10 @@ h4 {
 .book-date {
   margin-left: 0.5em;
   font-size: 0.9em;
+}
+
+.post-description {
+  margin-left: 0.3em;
 }
 
 .post-categories {
@@ -993,7 +1067,7 @@ tbody td .book-download-wrapper {
   max-width: 600px;
   margin: 0.5em auto 1em;
   padding: 0.75em 1em;
-  background-color: var(--bg-color);
+  background-color: var(--header-link);
   border: 1px solid var(--accent-border);
   border-radius: 4px;
   color: var(--text-color);

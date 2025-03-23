@@ -8,11 +8,13 @@ permalink: /
 
 Welcome to the online home of [**J.G. Landje**](/about). This website serves as a personal archive and public-facing collection of my diverse intellectual and creative endeavors. Here, you will find a variety of content reflecting my interests in literature, philosophy, software development, culinary arts, and esoteric studies.
 
+---
+
 **Featured Sections:**
 
 - [**Essays:**](/essays) Delve into my thoughts and reflections on a range of subjects. This section contains my written explorations of various ideas and concepts.
 
-- [**Epubs:**](/books) Discover a collection of digital publications I have prepared, including Richard Wilhelm's German translations of the Daodejing and the Zhuangzi, as well as previously unavailable EPUB versions of works by Aleister Crowley.
+- [**Books:**](/books) Discover a collection of digital publications I have prepared, including Richard Wilhelm's German translations of the Daodejing and the Zhuangzi, as well as previously unavailable EPUB versions of works by Aleister Crowley.
 
 - [**Recipes:**](/recipes) Explore my culinary adventures and find inspiration for your own kitchen with a collection of recipes I enjoy.
 
@@ -26,15 +28,18 @@ Welcome to the online home of [**J.G. Landje**](/about). This website serves as 
 
 Thank you for visiting. I invite you to explore the various sections of this website and engage with the content provided.
 
+---
+
 <div class="updates-container">
 
   <section class="updates">
     <h3>Latest Essays</h3>
     <ul>
-      {% for post in site.posts limit:10 %}
+      {% for post in site.categories.essays limit:5 %}
         <li>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a><br>
-          <small class="post-date">{{ post.date | date: "%b %-d, %Y e.v." }}</small>
+          <small class="post-date">{{ post.date | date: "%b %-d, %Y" }}</small><br>
+          <small class="post-description">{{ post.description | date: "%b %-d, %Y" }}</small>
           {% if post.categories %}
           {% endif %}
         </li>
@@ -42,13 +47,14 @@ Thank you for visiting. I invite you to explore the various sections of this web
     </ul>
   </section>
   <section class="recent-books">
-    <h3>Latest ePubs</h3>
+    <h3>Latest Books</h3>
     <ul>
       {% assign sorted_books = site.data.books | sort:"date" | reverse %}
       {% for book in sorted_books limit:3 %}
         <li>
           <a href="/books/#{{ book.title | slugify }}">{{ book.title }}</a><br>
-          <small class="book-date">{{ book.date | date: "%b %-d, %Y e.v." }}</small>
+          <small class="book-author">by {{ book.author | date: "%b %-d, %Y" }}</small><br>
+          <small class="book-date">{{ book.date | date: "%b %-d, %Y" }}</small>
         </li>
       {% endfor %}
     </ul>

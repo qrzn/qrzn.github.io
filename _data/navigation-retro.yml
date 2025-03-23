@@ -1,8 +1,20 @@
-- title: Home
-  url: /retro/
-- title: Books
-  url: /retro/books/
+- title: Code
+  url: /retro/coding
 - title: Games
   url: /retro/games/
 - title: About
   url: /retro/about/
+- title: Essays
+  url: /essays
+- title: Books
+  url: /books
+- title: Reading
+  url: /reading-list
+- title: Recipes
+  url: /recipes
+- title: Retro
+  url: /retro
+- title: About Me
+  url: /about
+- title: Contact
+  url: /contact

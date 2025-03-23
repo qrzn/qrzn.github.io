@@ -1,0 +1,1374 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Games | qrzn.xyz</title>
+  <link rel="stylesheet" href="/assets/css/retro.css" />
+  <link rel="icon" type="image/png" href="/assets/img/logo.gif" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Useful files for retro games" />
+  <meta name="keywords" content="Essays, Philosophy, Ebooks, Recipes" />
+  <meta name="author" content="qrzn" />
+</head>
+
+<body>
+  <div class="header-wrapper">
+    <header>
+      <nav aria-label="Main Navigation">
+        <div class="nav-container">
+          <button id="hamburger" class="hamburger" aria-label="Toggle Navigation">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+          
+          <nav class="breadcrumbs-container">
+            <ul class="breadcrumb">
+              <li><a href="/">Home</a></li>
+                    
+              <li>
+                <a href="/retro/">Retro</a>
+              </li>
+                   
+              <li>Games</li>
+                
+            </ul>
+          </nav>
+          <div class="header-image">
+            <img src="/assets/img/globe.gif" alt="Sacred Portal to Esoteric Wisdom" />
+          </div>
+        </div>
+        <div id="mega-menu" class="mega-menu">
+  <ul class="mega-menu-list">
+    
+    <li >
+      
+      <a href="/retro/coding">Code</a>
+       
+    </li>
+    
+    <li >
+      
+      <a href="/retro/games/">Games</a>
+       
+    </li>
+    
+    <li >
+      
+      <a href="/retro/about/">About</a>
+       
+    </li>
+    
+    <li >
+      
+      <a href="/essays">Essays</a>
+       
+    </li>
+    
+    <li >
+      
+      <a href="/books">Books</a>
+       
+    </li>
+    
+    <li >
+      
+      <a href="/reading-list">Reading</a>
+       
+    </li>
+    
+    <li >
+      
+      <a href="/recipes">Recipes</a>
+       
+    </li>
+    
+    <li >
+      
+      <a href="/retro">Retro</a>
+       
+    </li>
+    
+    <li >
+      
+      <a href="/about">About Me</a>
+       
+    </li>
+    
+    <li >
+      
+      <a href="/contact">Contact</a>
+       
+    </li>
+    
+  </ul>
+
+  <!--
+  <div class="mega-menu-social">
+    <a href="https://x.com/qrzn23" aria-label="X" class="social-link">
+      <img src="/assets/img/sage/x-twitter-brands.svg" alt="X" />
+    </a>
+    <a href="https://instagram.com/nachash_kadosh" aria-label="Instagram" class="social-link">
+      <img src="/assets/img/sage/instagram-brands.svg" alt="Instagram" />
+    </a>
+    <a href="https://youtube.com/@nachash_kadosh" aria-label="YouTube" class="social-link">
+      <img src="/assets/img/sage/youtube-brands.svg" alt="YouTube" />
+    </a>
+    <a href="https://github.com/qrzn" aria-label="GitHub" class="social-link">
+      <img src="/assets/img/sage/github-brands.svg" alt="GitHub" />
+    </a>
+    <a href="https://t.me/nachash_kadosh" aria-label="Telegram" class="social-link">
+      <img src="/assets/img/sage/telegram-brands.svg" alt="Telegram" />
+    </a>
+  </div>
+-->
+</div>
+
+      </nav>
+    </header>
+  </div>
+
+  <main id="main-content">
+    <div id="preloader" class="preloader">
+      <div class="spinner"></div>
+    </div>
+    <div class="page-content">
+      
+      <h1 class="post-title">Games</h1>
+       <div class="games-section">
+  <h1>Retro Game Patches</h1>
+  <ul class="games-list">
+    
+      <li class="game-entry">
+        <details>
+          <summary>
+            <h2>Emperor &mdash; Rise of the Middle Kingdom (2002)</h2>
+            <p>
+              <strong>Genre:</strong> City-Building / Strategy | <strong>Platform:</strong> PC
+            </p>
+          </summary>
+          <div class="game-content">
+            <!-- Patches Section -->
+            
+              <div class="patches-section">
+                <h3>Patches</h3>
+                <ul class="patches-list">
+                  
+                    <li>
+                      <span class="patch-title">HD Resolution & Widescreen Fix</span><br>
+                      <div class="patch-links">
+                        <a href="https://www.moddb.com/mods/emperor-full-hd-support" class="patch-url" target="_blank">Main Link</a>
+                        
+                          <a href="https://mega.nz/file/0DVHBDpT#OI3zI1Femj3FfLg3t3yqiQ2_1OIJKZZOZbuCT5RALjQ" class="patch-url" target="_blank">Backup Link</a>
+                        
+                      </div>
+                      <div class="patch-description">Enhances graphics for modern displays</div>
+                    </li>
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Tools Section -->
+            
+
+            <!-- Reviews & Guides Section (combining reviews, walkthroughs, and cheats) -->
+            
+              <div class="reviews-section">
+                <h3>Reviews &amp; Guides</h3>
+                <ul class="reviews-list">
+                  
+                    
+                      <li class="review-entry">
+                        <strong>In-depth Emperor Review</strong><br>
+                        <a href="/games/emperor-review" class="review-link" target="_blank">Read More</a><br>
+                        <span class="review-description"></span>
+                      </li>
+                    
+                  
+                  
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Media Section -->
+            
+          </div>
+        </details>
+      </li>
+    
+      <li class="game-entry">
+        <details>
+          <summary>
+            <h2>Zeus & Poseidon (2000)</h2>
+            <p>
+              <strong>Genre:</strong> City-Building / Strategy | <strong>Platform:</strong> PC
+            </p>
+          </summary>
+          <div class="game-content">
+            <!-- Patches Section -->
+            
+              <div class="patches-section">
+                <h3>Patches</h3>
+                <ul class="patches-list">
+                  
+                    <li>
+                      <span class="patch-title">HD Resolution & Widescreen Fix</span><br>
+                      <div class="patch-links">
+                        <a href="https://www.moddb.com/mods/zeus-and-poseidon-full-hd-enfr/downloads/zeus-and-poseidon-full-hd-many-resolution" class="patch-url" target="_blank">Main Link</a>
+                        
+                          <a href="https://mega.nz/file/RSFyjTyD#MCiSvtBVwi76KNtH3HYlkP-H3qEbAtq-OWzr4c06DRM" class="patch-url" target="_blank">Backup Link</a>
+                        
+                      </div>
+                      <div class="patch-description">Fix for many widescreen resolutions</div>
+                    </li>
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Tools Section -->
+            
+
+            <!-- Reviews & Guides Section (combining reviews, walkthroughs, and cheats) -->
+            
+              <div class="reviews-section">
+                <h3>Reviews &amp; Guides</h3>
+                <ul class="reviews-list">
+                  
+                    
+                      <li class="review-entry">
+                        <strong>Zeus & Poseidon Strategy Tips</strong><br>
+                        <a href="/games/zeus-poseidon-review" class="review-link" target="_blank">Read More</a><br>
+                        <span class="review-description"></span>
+                      </li>
+                    
+                  
+                  
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Media Section -->
+            
+          </div>
+        </details>
+      </li>
+    
+      <li class="game-entry">
+        <details>
+          <summary>
+            <h2>Pharaoh & Cleopatra (1998)</h2>
+            <p>
+              <strong>Genre:</strong> City-Building / Strategy | <strong>Platform:</strong> PC
+            </p>
+          </summary>
+          <div class="game-content">
+            <!-- Patches Section -->
+            
+              <div class="patches-section">
+                <h3>Patches</h3>
+                <ul class="patches-list">
+                  
+                    <li>
+                      <span class="patch-title">HD Resolution & Widescreen Fix</span><br>
+                      <div class="patch-links">
+                        <a href="https://community.pcgamingwiki.com/files/file/1762-cleopatra-widescreen-fix/" class="patch-url" target="_blank">Main Link</a>
+                        
+                          <a href="https://mega.nz/file/5ClXlZRK#rqf8IF3BBuLl-UVWvtRK2kSSOKDci9dg-gFlpfT2NgI" class="patch-url" target="_blank">Backup Link</a>
+                        
+                      </div>
+                      <div class="patch-description">Fix for many widescreen resolutions</div>
+                    </li>
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Tools Section -->
+            
+
+            <!-- Reviews & Guides Section (combining reviews, walkthroughs, and cheats) -->
+            
+              <div class="reviews-section">
+                <h3>Reviews &amp; Guides</h3>
+                <ul class="reviews-list">
+                  
+                    
+                      <li class="review-entry">
+                        <strong>Pharaoh & Cleopatra: A Retrospective</strong><br>
+                        <a href="/games/pharaoh-cleopatra-review" class="review-link" target="_blank">Read More</a><br>
+                        <span class="review-description"></span>
+                      </li>
+                    
+                  
+                  
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Media Section -->
+            
+          </div>
+        </details>
+      </li>
+    
+      <li class="game-entry">
+        <details>
+          <summary>
+            <h2>Arcanum (2000)</h2>
+            <p>
+              <strong>Genre:</strong> RPG / Strategy | <strong>Platform:</strong> PC
+            </p>
+          </summary>
+          <div class="game-content">
+            <!-- Patches Section -->
+            
+              <div class="patches-section">
+                <h3>Patches</h3>
+                <ul class="patches-list">
+                  
+                    <li>
+                      <span class="patch-title">Unofficial Arcanum Patch</span><br>
+                      <div class="patch-links">
+                        <a href="https://www.moddb.com/mods/emperor-full-hd-support" class="patch-url" target="_blank">Main Link</a>
+                        
+                          <a href="https://mega.nz/file/0DVHBDpT#OI3zI1Femj3FfLg3t3yqiQ2_1OIJKZZOZbuCT5RALjQ" class="patch-url" target="_blank">Backup Link</a>
+                        
+                      </div>
+                      <div class="patch-description">Bugfixes, new features, new races, enhances graphics for modern displays, high resolution and font size fixes</div>
+                    </li>
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Tools Section -->
+            
+              <div class="tools-section">
+                <h3>Tools</h3>
+                <ul class="tools-list">
+                  
+                    <li>
+                      <span class="tool-title">Arcanum Factory</span><br>
+                      <div class="tool-links">
+                        <a href="https://www.moddb.com/mods/emperor-full-hd-support" class="tool-url" target="_blank">Main Link</a>
+                        
+                          <a href="https://mega.nz/file/0DVHBDpT#OI3zI1Femj3FfLg3t3yqiQ2_1OIJKZZOZbuCT5RALjQ" class="tool-url" target="_blank">Backup Link</a>
+                        
+                      </div>
+                      <div class="tool-description">Lets you modify the game files, like putting more stuff into vendors etc.</div>
+                    </li>
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Reviews & Guides Section (combining reviews, walkthroughs, and cheats) -->
+            
+              <div class="reviews-section">
+                <h3>Reviews &amp; Guides</h3>
+                <ul class="reviews-list">
+                  
+                    
+                      <li class="review-entry">
+                        <strong>Arcanum Review</strong><br>
+                        <a href="/games/arcanum-review" class="review-link" target="_blank">Read More</a><br>
+                        <span class="review-description">Where to find patches, how to install them, and a brief overview.</span>
+                      </li>
+                    
+                  
+                  
+                    
+                      <li class="review-entry">
+                        <strong>Arcanum Walkthrough</strong><br>
+                        <a href="/guides/arcanum-walkthrough" class="review-link" target="_blank">Read More</a><br>
+                        <span class="review-description">A complete walkthrough.</span>
+                      </li>
+                    
+                  
+                  
+                    
+                      <li class="review-entry">
+                        <strong>Arcanum Cheats</strong><br>
+                        <a href="/guides/arcanum-cheats" class="review-link" target="_blank">Read More</a><br>
+                        <span class="review-description">Cheat codes</span>
+                      </li>
+                    
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Media Section -->
+            
+          </div>
+        </details>
+      </li>
+    
+      <li class="game-entry">
+        <details>
+          <summary>
+            <h2>Master of Orion (1993)</h2>
+            <p>
+              <strong>Genre:</strong> 4X Strategy | <strong>Platform:</strong> PC
+            </p>
+          </summary>
+          <div class="game-content">
+            <!-- Patches Section -->
+            
+              <div class="patches-section">
+                <h3>Patches</h3>
+                <ul class="patches-list">
+                  
+                    <li>
+                      <span class="patch-title">MoO High Resolution Patch</span><br>
+                      <div class="patch-links">
+                        <a href="https://example.com/master-of-orion-high-res" class="patch-url" target="_blank">Main Link</a>
+                        
+                          <a href="https://mega.nz/file/XXX#YYY" class="patch-url" target="_blank">Backup Link</a>
+                        
+                      </div>
+                      <div class="patch-description">Unofficial mod that provides higher resolutions and some bug fixes</div>
+                    </li>
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Tools Section -->
+            
+
+            <!-- Reviews & Guides Section (combining reviews, walkthroughs, and cheats) -->
+            
+              <div class="reviews-section">
+                <h3>Reviews &amp; Guides</h3>
+                <ul class="reviews-list">
+                  
+                    
+                      <li class="review-entry">
+                        <strong>Master of Orion Retrospective</strong><br>
+                        <a href="/games/master-of-orion-review" class="review-link" target="_blank">Read More</a><br>
+                        <span class="review-description"></span>
+                      </li>
+                    
+                  
+                  
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Media Section -->
+            
+              <div class="media-section">
+                <h3>Media</h3>
+                <ul class="media-list">
+                  
+                    <li class="media-item">
+                      
+                        <img src="https://example.com/img/moo-screenshot.jpg" alt="High-res galaxy map thanks to the patch" class="media-image"><br>
+                        <span class="media-caption">High-res galaxy map thanks to the patch</span>
+                      
+                    </li>
+                  
+                </ul>
+              </div>
+            
+          </div>
+        </details>
+      </li>
+    
+      <li class="game-entry">
+        <details>
+          <summary>
+            <h2>Daggerfall (1996)</h2>
+            <p>
+              <strong>Genre:</strong> RPG / Open World | <strong>Platform:</strong> PC
+            </p>
+          </summary>
+          <div class="game-content">
+            <!-- Patches Section -->
+            
+              <div class="patches-section">
+                <h3>Patches</h3>
+                <ul class="patches-list">
+                  
+                    <li>
+                      <span class="patch-title">Daggerfall Unity</span><br>
+                      <div class="patch-links">
+                        <a href="https://www.dfworkshop.net/" class="patch-url" target="_blank">Main Link</a>
+                        
+                          <a href="https://mega.nz/file/XXX#ZZZ" class="patch-url" target="_blank">Backup Link</a>
+                        
+                      </div>
+                      <div class="patch-description">Fan recreation of Daggerfall with modern graphics, bug fixes, and mod support</div>
+                    </li>
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Tools Section -->
+            
+
+            <!-- Reviews & Guides Section (combining reviews, walkthroughs, and cheats) -->
+            
+              <div class="reviews-section">
+                <h3>Reviews &amp; Guides</h3>
+                <ul class="reviews-list">
+                  
+                    
+                      <li class="review-entry">
+                        <strong>Daggerfall Unity Showcase</strong><br>
+                        <a href="/games/daggerfall-review" class="review-link" target="_blank">Read More</a><br>
+                        <span class="review-description"></span>
+                      </li>
+                    
+                  
+                  
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Media Section -->
+            
+              <div class="media-section">
+                <h3>Media</h3>
+                <ul class="media-list">
+                  
+                    <li class="media-item">
+                      
+                        <a href="https://youtube.com/watch?v=DaggerfallUnityPreview" class="media-link" target="_blank">Video Link</a><br>
+                        <span class="media-caption">Video preview of Daggerfall Unity’s updated engine and visuals</span>
+                      
+                    </li>
+                  
+                </ul>
+              </div>
+            
+          </div>
+        </details>
+      </li>
+    
+      <li class="game-entry">
+        <details>
+          <summary>
+            <h2>The Settlers 2 (1996)</h2>
+            <p>
+              <strong>Genre:</strong> RTS / City-Building | <strong>Platform:</strong> PC
+            </p>
+          </summary>
+          <div class="game-content">
+            <!-- Patches Section -->
+            
+              <div class="patches-section">
+                <h3>Patches</h3>
+                <ul class="patches-list">
+                  
+                    <li>
+                      <span class="patch-title">Widescreen & HD Mod</span><br>
+                      <div class="patch-links">
+                        <a href="https://example.com/settlers2-hd" class="patch-url" target="_blank">Main Link</a>
+                        
+                          <a href="https://mega.nz/file/XXX#WWW" class="patch-url" target="_blank">Backup Link</a>
+                        
+                      </div>
+                      <div class="patch-description">Resolves resolution issues and offers scaling improvements</div>
+                    </li>
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Tools Section -->
+            
+
+            <!-- Reviews & Guides Section (combining reviews, walkthroughs, and cheats) -->
+            
+              <div class="reviews-section">
+                <h3>Reviews &amp; Guides</h3>
+                <ul class="reviews-list">
+                  
+                    
+                      <li class="review-entry">
+                        <strong>The Settlers 2 Nostalgia Trip</strong><br>
+                        <a href="/games/settlers2-review" class="review-link" target="_blank">Read More</a><br>
+                        <span class="review-description"></span>
+                      </li>
+                    
+                  
+                  
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Media Section -->
+            
+              <div class="media-section">
+                <h3>Media</h3>
+                <ul class="media-list">
+                  
+                    <li class="media-item">
+                      
+                        <img src="https://example.com/img/settlers2.png" alt="Vibrant villages and resource chains in HD" class="media-image"><br>
+                        <span class="media-caption">Vibrant villages and resource chains in HD</span>
+                      
+                    </li>
+                  
+                </ul>
+              </div>
+            
+          </div>
+        </details>
+      </li>
+    
+      <li class="game-entry">
+        <details>
+          <summary>
+            <h2>Albion (1995)</h2>
+            <p>
+              <strong>Genre:</strong> RPG / Fantasy | <strong>Platform:</strong> PC
+            </p>
+          </summary>
+          <div class="game-content">
+            <!-- Patches Section -->
+            
+              <div class="patches-section">
+                <h3>Patches</h3>
+                <ul class="patches-list">
+                  
+                    <li>
+                      <span class="patch-title">Albion DOS Compatibility Patch</span><br>
+                      <div class="patch-links">
+                        <a href="https://example.com/albion-dosfix" class="patch-url" target="_blank">Main Link</a>
+                        
+                          <a href="https://mega.nz/file/XXX#VVV" class="patch-url" target="_blank">Backup Link</a>
+                        
+                      </div>
+                      <div class="patch-description">Fixes crash bugs and enhances performance on modern systems</div>
+                    </li>
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Tools Section -->
+            
+
+            <!-- Reviews & Guides Section (combining reviews, walkthroughs, and cheats) -->
+            
+              <div class="reviews-section">
+                <h3>Reviews &amp; Guides</h3>
+                <ul class="reviews-list">
+                  
+                    
+                      <li class="review-entry">
+                        <strong>Albion: Hidden Gem Analysis</strong><br>
+                        <a href="/games/albion-review" class="review-link" target="_blank">Read More</a><br>
+                        <span class="review-description"></span>
+                      </li>
+                    
+                  
+                  
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Media Section -->
+            
+              <div class="media-section">
+                <h3>Media</h3>
+                <ul class="media-list">
+                  
+                    <li class="media-item">
+                      
+                        <a href="https://youtube.com/watch?v=albionGameplay" class="media-link" target="_blank">Video Link</a><br>
+                        <span class="media-caption">Full gameplay walkthrough highlighting patches and tips</span>
+                      
+                    </li>
+                  
+                </ul>
+              </div>
+            
+          </div>
+        </details>
+      </li>
+    
+      <li class="game-entry">
+        <details>
+          <summary>
+            <h2>Morrowind (2002)</h2>
+            <p>
+              <strong>Genre:</strong> RPG / Open World | <strong>Platform:</strong> PC
+            </p>
+          </summary>
+          <div class="game-content">
+            <!-- Patches Section -->
+            
+              <div class="patches-section">
+                <h3>Patches</h3>
+                <ul class="patches-list">
+                  
+                    <li>
+                      <span class="patch-title">Morrowind Unofficial Patch</span><br>
+                      <div class="patch-links">
+                        <a href="https://www.nexusmods.com/morrowind/mods/19" class="patch-url" target="_blank">Main Link</a>
+                        
+                          <a href="https://mega.nz/file/EXAMPLE" class="patch-url" target="_blank">Backup Link</a>
+                        
+                      </div>
+                      <div class="patch-description">Fixes bugs and improves stability for modern systems.</div>
+                    </li>
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Tools Section -->
+            
+
+            <!-- Reviews & Guides Section (combining reviews, walkthroughs, and cheats) -->
+            
+              <div class="reviews-section">
+                <h3>Reviews &amp; Guides</h3>
+                <ul class="reviews-list">
+                  
+                    
+                      <li class="review-entry">
+                        <strong>Morrowind Review</strong><br>
+                        <a href="/games/morrowind-review" class="review-link" target="_blank">Read More</a><br>
+                        <span class="review-description"></span>
+                      </li>
+                    
+                  
+                  
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Media Section -->
+            
+              <div class="media-section">
+                <h3>Media</h3>
+                <ul class="media-list">
+                  
+                    <li class="media-item">
+                      
+                        <img src="https://example.com/img/morrowind.jpg" alt="A glimpse into Morrowind's vast world." class="media-image"><br>
+                        <span class="media-caption">A glimpse into Morrowind's vast world.</span>
+                      
+                    </li>
+                  
+                </ul>
+              </div>
+            
+          </div>
+        </details>
+      </li>
+    
+      <li class="game-entry">
+        <details>
+          <summary>
+            <h2>Dungeon Keeper 2 (1999)</h2>
+            <p>
+              <strong>Genre:</strong> RTS / Simulation | <strong>Platform:</strong> PC
+            </p>
+          </summary>
+          <div class="game-content">
+            <!-- Patches Section -->
+            
+              <div class="patches-section">
+                <h3>Patches</h3>
+                <ul class="patches-list">
+                  
+                    <li>
+                      <span class="patch-title">Dungeon Keeper 2 Fix Pack</span><br>
+                      <div class="patch-links">
+                        <a href="https://www.moddb.com/mods/dungeon-keeper-2-fix-pack" class="patch-url" target="_blank">Main Link</a>
+                        
+                          <a href="https://mega.nz/file/EXAMPLE" class="patch-url" target="_blank">Backup Link</a>
+                        
+                      </div>
+                      <div class="patch-description">An unofficial patch addressing performance and compatibility issues.</div>
+                    </li>
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Tools Section -->
+            
+
+            <!-- Reviews & Guides Section (combining reviews, walkthroughs, and cheats) -->
+            
+              <div class="reviews-section">
+                <h3>Reviews &amp; Guides</h3>
+                <ul class="reviews-list">
+                  
+                    
+                      <li class="review-entry">
+                        <strong>Dungeon Keeper 2 Retrospective</strong><br>
+                        <a href="/games/dungeon-keeper-2-review" class="review-link" target="_blank">Read More</a><br>
+                        <span class="review-description"></span>
+                      </li>
+                    
+                  
+                  
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Media Section -->
+            
+              <div class="media-section">
+                <h3>Media</h3>
+                <ul class="media-list">
+                  
+                    <li class="media-item">
+                      
+                        <a href="https://youtube.com/watch?v=EXAMPLE" class="media-link" target="_blank">Video Link</a><br>
+                        <span class="media-caption">Gameplay footage showcasing improved mechanics.</span>
+                      
+                    </li>
+                  
+                </ul>
+              </div>
+            
+          </div>
+        </details>
+      </li>
+    
+      <li class="game-entry">
+        <details>
+          <summary>
+            <h2>Age of Mythology (2002)</h2>
+            <p>
+              <strong>Genre:</strong> RTS / City-Building | <strong>Platform:</strong> PC
+            </p>
+          </summary>
+          <div class="game-content">
+            <!-- Patches Section -->
+            
+              <div class="patches-section">
+                <h3>Patches</h3>
+                <ul class="patches-list">
+                  
+                    <li>
+                      <span class="patch-title">Age of Mythology HD Mod</span><br>
+                      <div class="patch-links">
+                        <a href="https://example.com/age-of-mythology-hd-mod" class="patch-url" target="_blank">Main Link</a>
+                        
+                          <a href="https://mega.nz/file/EXAMPLE" class="patch-url" target="_blank">Backup Link</a>
+                        
+                      </div>
+                      <div class="patch-description">Enhances graphics and interface for modern resolutions.</div>
+                    </li>
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Tools Section -->
+            
+
+            <!-- Reviews & Guides Section (combining reviews, walkthroughs, and cheats) -->
+            
+              <div class="reviews-section">
+                <h3>Reviews &amp; Guides</h3>
+                <ul class="reviews-list">
+                  
+                    
+                      <li class="review-entry">
+                        <strong>Age of Mythology Review</strong><br>
+                        <a href="/games/age-of-mythology-review" class="review-link" target="_blank">Read More</a><br>
+                        <span class="review-description"></span>
+                      </li>
+                    
+                  
+                  
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Media Section -->
+            
+              <div class="media-section">
+                <h3>Media</h3>
+                <ul class="media-list">
+                  
+                    <li class="media-item">
+                      
+                        <img src="https://example.com/img/age-of-mythology.jpg" alt="The divine clash in Age of Mythology." class="media-image"><br>
+                        <span class="media-caption">The divine clash in Age of Mythology.</span>
+                      
+                    </li>
+                  
+                </ul>
+              </div>
+            
+          </div>
+        </details>
+      </li>
+    
+      <li class="game-entry">
+        <details>
+          <summary>
+            <h2>Tzar (2000)</h2>
+            <p>
+              <strong>Genre:</strong> RTS / Strategy | <strong>Platform:</strong> PC
+            </p>
+          </summary>
+          <div class="game-content">
+            <!-- Patches Section -->
+            
+              <div class="patches-section">
+                <h3>Patches</h3>
+                <ul class="patches-list">
+                  
+                    <li>
+                      <span class="patch-title">Tzar HD Patch</span><br>
+                      <div class="patch-links">
+                        <a href="https://www.moddb.com/mods/tzar-hd-patch" class="patch-url" target="_blank">Main Link</a>
+                        
+                          <a href="https://mega.nz/file/EXAMPLE" class="patch-url" target="_blank">Backup Link</a>
+                        
+                      </div>
+                      <div class="patch-description">Modernizes visuals and fixes bugs for Tzar.</div>
+                    </li>
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Tools Section -->
+            
+
+            <!-- Reviews & Guides Section (combining reviews, walkthroughs, and cheats) -->
+            
+              <div class="reviews-section">
+                <h3>Reviews &amp; Guides</h3>
+                <ul class="reviews-list">
+                  
+                    
+                      <li class="review-entry">
+                        <strong>Tzar Review</strong><br>
+                        <a href="/games/tzar-review" class="review-link" target="_blank">Read More</a><br>
+                        <span class="review-description"></span>
+                      </li>
+                    
+                  
+                  
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Media Section -->
+            
+              <div class="media-section">
+                <h3>Media</h3>
+                <ul class="media-list">
+                  
+                    <li class="media-item">
+                      
+                        <a href="https://youtube.com/watch?v=EXAMPLE" class="media-link" target="_blank">Video Link</a><br>
+                        <span class="media-caption">Tzar in action with improved graphics.</span>
+                      
+                    </li>
+                  
+                </ul>
+              </div>
+            
+          </div>
+        </details>
+      </li>
+    
+      <li class="game-entry">
+        <details>
+          <summary>
+            <h2>Master of Magic (1994)</h2>
+            <p>
+              <strong>Genre:</strong> Turn-Based Strategy / Fantasy | <strong>Platform:</strong> PC
+            </p>
+          </summary>
+          <div class="game-content">
+            <!-- Patches Section -->
+            
+              <div class="patches-section">
+                <h3>Patches</h3>
+                <ul class="patches-list">
+                  
+                    <li>
+                      <span class="patch-title">Master of Magic Unofficial Patch</span><br>
+                      <div class="patch-links">
+                        <a href="https://www.moddb.com/mods/master-of-magic-unofficial-patch" class="patch-url" target="_blank">Main Link</a>
+                        
+                          <a href="https://mega.nz/file/EXAMPLE" class="patch-url" target="_blank">Backup Link</a>
+                        
+                      </div>
+                      <div class="patch-description">Updates graphics and fixes gameplay bugs.</div>
+                    </li>
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Tools Section -->
+            
+
+            <!-- Reviews & Guides Section (combining reviews, walkthroughs, and cheats) -->
+            
+              <div class="reviews-section">
+                <h3>Reviews &amp; Guides</h3>
+                <ul class="reviews-list">
+                  
+                    
+                      <li class="review-entry">
+                        <strong>Master of Magic Retrospective</strong><br>
+                        <a href="/games/master-of-magic-review" class="review-link" target="_blank">Read More</a><br>
+                        <span class="review-description"></span>
+                      </li>
+                    
+                  
+                  
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Media Section -->
+            
+              <div class="media-section">
+                <h3>Media</h3>
+                <ul class="media-list">
+                  
+                    <li class="media-item">
+                      
+                        <img src="https://example.com/img/master-of-magic.jpg" alt="The mystical realm of Master of Magic." class="media-image"><br>
+                        <span class="media-caption">The mystical realm of Master of Magic.</span>
+                      
+                    </li>
+                  
+                </ul>
+              </div>
+            
+          </div>
+        </details>
+      </li>
+    
+      <li class="game-entry">
+        <details>
+          <summary>
+            <h2>Knights and Merchants (1998)</h2>
+            <p>
+              <strong>Genre:</strong> RTS / Economic Simulation | <strong>Platform:</strong> PC
+            </p>
+          </summary>
+          <div class="game-content">
+            <!-- Patches Section -->
+            
+              <div class="patches-section">
+                <h3>Patches</h3>
+                <ul class="patches-list">
+                  
+                    <li>
+                      <span class="patch-title">Knights and Merchants HD Patch</span><br>
+                      <div class="patch-links">
+                        <a href="https://www.moddb.com/mods/knights-and-merchants-hd-patch" class="patch-url" target="_blank">Main Link</a>
+                        
+                          <a href="https://mega.nz/file/EXAMPLE" class="patch-url" target="_blank">Backup Link</a>
+                        
+                      </div>
+                      <div class="patch-description">Enhances graphics and interface for modern systems.</div>
+                    </li>
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Tools Section -->
+            
+
+            <!-- Reviews & Guides Section (combining reviews, walkthroughs, and cheats) -->
+            
+              <div class="reviews-section">
+                <h3>Reviews &amp; Guides</h3>
+                <ul class="reviews-list">
+                  
+                    
+                      <li class="review-entry">
+                        <strong>Knights and Merchants Review</strong><br>
+                        <a href="/games/knights-and-merchants-review" class="review-link" target="_blank">Read More</a><br>
+                        <span class="review-description"></span>
+                      </li>
+                    
+                  
+                  
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Media Section -->
+            
+              <div class="media-section">
+                <h3>Media</h3>
+                <ul class="media-list">
+                  
+                    <li class="media-item">
+                      
+                        <img src="https://example.com/img/knights-and-merchants.jpg" alt="Building and managing a medieval empire." class="media-image"><br>
+                        <span class="media-caption">Building and managing a medieval empire.</span>
+                      
+                    </li>
+                  
+                </ul>
+              </div>
+            
+          </div>
+        </details>
+      </li>
+    
+      <li class="game-entry">
+        <details>
+          <summary>
+            <h2>Stronghold (2001)</h2>
+            <p>
+              <strong>Genre:</strong> RTS / Castle Simulation | <strong>Platform:</strong> PC
+            </p>
+          </summary>
+          <div class="game-content">
+            <!-- Patches Section -->
+            
+              <div class="patches-section">
+                <h3>Patches</h3>
+                <ul class="patches-list">
+                  
+                    <li>
+                      <span class="patch-title">Stronghold Widescreen Patch</span><br>
+                      <div class="patch-links">
+                        <a href="https://www.moddb.com/mods/stronghold-widescreen-patch" class="patch-url" target="_blank">Main Link</a>
+                        
+                          <a href="https://mega.nz/file/EXAMPLE" class="patch-url" target="_blank">Backup Link</a>
+                        
+                      </div>
+                      <div class="patch-description">Fixes resolution issues and improves performance.</div>
+                    </li>
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Tools Section -->
+            
+
+            <!-- Reviews & Guides Section (combining reviews, walkthroughs, and cheats) -->
+            
+              <div class="reviews-section">
+                <h3>Reviews &amp; Guides</h3>
+                <ul class="reviews-list">
+                  
+                    
+                      <li class="review-entry">
+                        <strong>Stronghold Review</strong><br>
+                        <a href="/games/stronghold-review" class="review-link" target="_blank">Read More</a><br>
+                        <span class="review-description"></span>
+                      </li>
+                    
+                  
+                  
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Media Section -->
+            
+              <div class="media-section">
+                <h3>Media</h3>
+                <ul class="media-list">
+                  
+                    <li class="media-item">
+                      
+                        <a href="https://youtube.com/watch?v=EXAMPLE" class="media-link" target="_blank">Video Link</a><br>
+                        <span class="media-caption">The siege battles of Stronghold reimagined.</span>
+                      
+                    </li>
+                  
+                </ul>
+              </div>
+            
+          </div>
+        </details>
+      </li>
+    
+      <li class="game-entry">
+        <details>
+          <summary>
+            <h2>Stronghold Crusader (2002)</h2>
+            <p>
+              <strong>Genre:</strong> RTS / Castle Simulation | <strong>Platform:</strong> PC
+            </p>
+          </summary>
+          <div class="game-content">
+            <!-- Patches Section -->
+            
+              <div class="patches-section">
+                <h3>Patches</h3>
+                <ul class="patches-list">
+                  
+                    <li>
+                      <span class="patch-title">Stronghold Crusader HD Patch</span><br>
+                      <div class="patch-links">
+                        <a href="https://www.moddb.com/mods/stronghold-crusader-hd-patch" class="patch-url" target="_blank">Main Link</a>
+                        
+                          <a href="https://mega.nz/file/EXAMPLE" class="patch-url" target="_blank">Backup Link</a>
+                        
+                      </div>
+                      <div class="patch-description">Updates visuals and fixes bugs for modern displays.</div>
+                    </li>
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Tools Section -->
+            
+
+            <!-- Reviews & Guides Section (combining reviews, walkthroughs, and cheats) -->
+            
+              <div class="reviews-section">
+                <h3>Reviews &amp; Guides</h3>
+                <ul class="reviews-list">
+                  
+                    
+                      <li class="review-entry">
+                        <strong>Stronghold Crusader Review</strong><br>
+                        <a href="/games/stronghold-crusader-review" class="review-link" target="_blank">Read More</a><br>
+                        <span class="review-description"></span>
+                      </li>
+                    
+                  
+                  
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Media Section -->
+            
+              <div class="media-section">
+                <h3>Media</h3>
+                <ul class="media-list">
+                  
+                    <li class="media-item">
+                      
+                        <img src="https://example.com/img/stronghold-crusader.jpg" alt="The battlefields of Stronghold Crusader." class="media-image"><br>
+                        <span class="media-caption">The battlefields of Stronghold Crusader.</span>
+                      
+                    </li>
+                  
+                </ul>
+              </div>
+            
+          </div>
+        </details>
+      </li>
+    
+      <li class="game-entry">
+        <details>
+          <summary>
+            <h2>Sid Meier's Alpha Centauri (1999)</h2>
+            <p>
+              <strong>Genre:</strong> 4X Strategy / Sci-Fi | <strong>Platform:</strong> PC
+            </p>
+          </summary>
+          <div class="game-content">
+            <!-- Patches Section -->
+            
+              <div class="patches-section">
+                <h3>Patches</h3>
+                <ul class="patches-list">
+                  
+                    <li>
+                      <span class="patch-title">Alpha Centauri HD Patch</span><br>
+                      <div class="patch-links">
+                        <a href="https://www.moddb.com/mods/alpha-centauri-hd-patch" class="patch-url" target="_blank">Main Link</a>
+                        
+                          <a href="https://mega.nz/file/EXAMPLE" class="patch-url" target="_blank">Backup Link</a>
+                        
+                      </div>
+                      <div class="patch-description">Updates the classic game for high resolutions and fixes legacy bugs.</div>
+                    </li>
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Tools Section -->
+            
+
+            <!-- Reviews & Guides Section (combining reviews, walkthroughs, and cheats) -->
+            
+              <div class="reviews-section">
+                <h3>Reviews &amp; Guides</h3>
+                <ul class="reviews-list">
+                  
+                    
+                      <li class="review-entry">
+                        <strong>Alpha Centauri Retrospective</strong><br>
+                        <a href="/games/alpha-centauri-review" class="review-link" target="_blank">Read More</a><br>
+                        <span class="review-description"></span>
+                      </li>
+                    
+                  
+                  
+                  
+                </ul>
+              </div>
+            
+
+            <!-- Media Section -->
+            
+              <div class="media-section">
+                <h3>Media</h3>
+                <ul class="media-list">
+                  
+                    <li class="media-item">
+                      
+                        <a href="https://youtube.com/watch?v=EXAMPLE" class="media-link" target="_blank">Video Link</a><br>
+                        <span class="media-caption">A journey through the cosmos in Alpha Centauri.</span>
+                      
+                    </li>
+                  
+                </ul>
+              </div>
+            
+          </div>
+        </details>
+      </li>
+    
+
+  </ul>
+</div>
+
+    </div>
+  </main>
+
+  <script src="/assets/js/nav.js"></script>
+  <script src="/assets/js/sage.js"></script>
+</body>
+
+</html>

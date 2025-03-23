@@ -9,8 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
     content="{{ page.description | default: 'Enter the neon-soaked world of cyberspace and explore the cyberpunk universe.' }}" />
-  <meta name="keywords"
-    content="{{ page.keywords | default: 'Thelema, Occultism, I Ching, Tarot, Recipes, Poetry, ebooks' }}" />
+  <meta name="keywords" content="{{ page.keywords | default: 'Essays, Philosophy, Ebooks, Recipes' }}" />
   <meta name="author" content="qrzn" />
 </head>
 
@@ -24,9 +23,23 @@
             <span class="hamburger-line"></span>
             <span class="hamburger-line"></span>
           </button>
+          {% assign url_parts = page.url | split:'/' %}
+          <nav class="breadcrumbs-container">
+            <ul class="breadcrumb">
+              <li><a href="{{ site.baseurl }}/">Home</a></li>
+              {% assign path = "" %} {% for part in url_parts %} {% if part !=
+              "" %} {% assign path = path | append: "/" | append: part %} {%
+              if forloop.last %}
+              <li>{{ part | replace:'-',' ' | capitalize }}</li>
+              {% else %}
+              <li>
+                <a href="{{ site.baseurl }}{{ path }}/">{{ part | replace:'-',' ' | capitalize }}</a>
+              </li>
+              {% endif %} {% endif %} {% endfor %}
+            </ul>
+          </nav>
           <a href="{{ '/' | relative_url }}">
             <div clas="header-alt">
-              <h1>{% if page.title %}{{ page.title }} {% endif %}</h1>
             </div>
             <div class="header-image">
               <img src="{{ '/assets/img/jglandje.jpeg' | relative_url }}" alt="Sacred Portal to Esoteric Wisdom" />

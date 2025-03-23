@@ -3,45 +3,63 @@
 
 <head>
   <meta charset="UTF-8" />
+  <title>{% if page.title %}{{ page.title }} | {% endif %}qrzn.xyz</title>
+  <link rel="stylesheet" href="{{ '/assets/css/retro.css' | relative_url }}" />
+  <link rel="icon" type="image/png" href="{{ '/assets/img/logo.gif' | relative_url }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ page.title }} | qrzn's retro corner</title>
-  <link rel="icon" type="image/gif" href="/assets/img/globe.gif" />
-  <link rel="stylesheet" href="{{ 'assets/css/retro.css' | relative_url }}" />
+  <meta name="description"
+    content="{{ page.description | default: 'Enter the neon-soaked world of cyberspace and explore the cyberpunk universe.' }}" />
+  <meta name="keywords" content="{{ page.keywords | default: 'Essays, Philosophy, Ebooks, Recipes' }}" />
+  <meta name="author" content="qrzn" />
 </head>
 
 <body>
-  <!-- Fixed Header: Contains site title and navigation -->
-  <header class="site-header">
-    <div class="header">
-      <h1>{{ page.title }}</h1>
-    </div>
-    <nav class="site-nav">
-      {% for item in site.data.navigation-retro %}
-      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-      {% endfor %}
-    </nav>
-  </header>
-
-  <!-- Placeholder to offset the fixed header height -->
-  <div class="header-placeholder"></div>
-
-  <!-- Marquee (scrolls normally) -->
-  <div class="marquee">
-    <marquee behavior="scroll" direction="left">
-      {{ page.description }}
-    </marquee>
+  <div class="header-wrapper">
+    <header>
+      <nav aria-label="Main Navigation">
+        <div class="nav-container">
+          <button id="hamburger" class="hamburger" aria-label="Toggle Navigation">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+          {% assign url_parts = page.url | split:'/' %}
+          <nav class="breadcrumbs-container">
+            <ul class="breadcrumb">
+              <li><a href="{{ site.baseurl }}/">Home</a></li>
+              {% assign path = "" %} {% for part in url_parts %} {% if part !=
+              "" %} {% assign path = path | append: "/" | append: part %} {%
+              if forloop.last %}
+              <li>{{ part | replace:'-',' ' | capitalize }}</li>
+              {% else %}
+              <li>
+                <a href="{{ site.baseurl }}{{ path }}/">{{ part | replace:'-',' ' | capitalize }}</a>
+              </li>
+              {% endif %} {% endif %} {% endfor %}
+            </ul>
+          </nav>
+          <div class="header-image">
+            <img src="{{ '/assets/img/globe.gif' | relative_url }}" alt="Sacred Portal to Esoteric Wisdom" />
+          </div>
+        </div>
+        {% include mega_menu-retro.html %}
+      </nav>
+    </header>
   </div>
 
-  <!-- Main Content -->
-  <main class="site-content">{{ content }}</main>
+  <main id="main-content">
+    <div id="preloader" class="preloader">
+      <div class="spinner"></div>
+    </div>
+    <div class="page-content">
+      {% if page.title %}
+      <h1 class="post-title">{{ page.title }}</h1>
+      {% endif %} {{ content }}
+    </div>
+  </main>
 
-  <!-- Fixed Footer -->
-  <footer class="site-footer">
-    <p>
-      &copy; {{ "now" | date: "%Y" }} | qrzn's retro corner &mdash; {{
-      page.title }}
-    </p>
-  </footer>
+  <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/sage.js' | relative_url }}"></script>
 </body>
 
 </html>

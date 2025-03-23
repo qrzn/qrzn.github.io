@@ -39,7 +39,10 @@ It is my hope that this collection of epubs will serve as a valuable resource fo
               {% if book.file %}
                 <div class="book-download-wrapper">
                   <a href="{{ book.file | relative_url }}" download class="book-download">
+                            .epub
+                            <!--
                     <img src="{{ '/assets/img/sage/download-solid.svg' | relative_url }}" alt="Download">
+                            -->
                   </a>
                 </div>
               {% endif %}

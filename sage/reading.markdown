@@ -4,8 +4,11 @@ permalink: /reading-list
 title: "Reading List"
 ---
 
+Presented here is a collection of books that I believe to be well worth the attention of discerning readers. This list represents a selection of works that have resonated with me due to their significant insights, compelling narratives, or profound impact. I trust that you will find within this section titles that spark your interest and provide rewarding reading experiences.
+
+---
+
 <section class="reading-list">
-  <h2 class="section-heading">Books I Think Are Worth Reading</h2>
   {% for category in site.data.reading-list.categories %}
     <div class="reading-category">
       <h3 class="category-heading">{{ category.name }}</h3>
@@ -24,6 +27,7 @@ title: "Reading List"
             {% endif %}
           </li>
         {% endfor %}
+            <hr>
       </ul>
     </div>
   {% endfor %}

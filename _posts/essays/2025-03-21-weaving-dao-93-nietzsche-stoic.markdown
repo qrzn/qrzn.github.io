@@ -4,6 +4,7 @@ layout: sage
 permalink: /essays/a-new-philosophy
 category: "essays"
 date: "2025-03-21"
+description: "Weaving together Daoism, Nietzschean Thought, Thelema & Cosmicism"
 ---
 
 # Introduction

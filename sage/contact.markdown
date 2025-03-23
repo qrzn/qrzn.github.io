@@ -4,11 +4,11 @@ layout: sage
 permalink: /contact
 ---
 
+<!--
 Thank you for your interest in reaching out. Please find below the available methods for contacting me.
 
-<!--
-**Contact Form**
-
+---
+-->
 <form action="https://formspree.io/f/mwplvgyl" method="POST">
   <div>
     <label for="name">Name:</label>
@@ -28,9 +28,13 @@ Thank you for your interest in reaching out. Please find below the available met
   </div>
   <button type="submit">Send Message</button>
 </form>
--->
 
-**Email:**
+---
+
+Please allow a reasonable timeframe for a response, as I attend to correspondence periodically.
+
+<!--
+# Email
 
 The most direct way to contact me is via email at:
 
@@ -39,3 +43,4 @@ The most direct way to contact me is via email at:
 Please allow a reasonable timeframe for a response, as I attend to correspondence periodically.
 
 I look forward to hearing from you.
+-->

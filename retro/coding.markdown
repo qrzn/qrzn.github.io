@@ -1,12 +1,9 @@
 ---
 title: Coding
-layout: sage
-permalink: /coding
+layout: retro
+permalink: /retro/coding
 ---
 
-# Under construction.
-
-<!--
 This section showcases some of my personal programming projects, developed for learning, experimentation, and the sheer enjoyment of creation.
 
 ### CLI Game Launcher (Python)
@@ -17,9 +14,9 @@ This section showcases some of my personal programming projects, developed for l
   - Game scanning
   - Customizable launch commands
   - Simple navigation
-- **Source Code:** [Link to your GitHub/GitLab repository]
+- **Source Code:** [https://github.com/qrzn/game-wizard](https://github.com/qrzn/game-wizard)
 - **Screenshots:**
-  - ![CLI Game Launcher Screenshot 1](path/to/your/screenshot1.png)
+  - ![CLI Game Launcher Screenshot 1](/assets/img/screenshots/pygames.png)
   - ![CLI Game Launcher Screenshot 2](path/to/your/screenshot2.png)
 
 ### I Ching Web App (JavaScript)
@@ -58,7 +55,7 @@ This section showcases some of my personal programming projects, developed for l
   - Exploration-based gameplay
   - Basic enemy encounters
   - Item collection
-- **Source Code:** [Link to your GitHub/GitLab repository]
+- **Source Code:** [https://github.com/qrzn/xenotheric](https://github.com/qrzn/xenotheric)
 - **Screenshots/Video:**
   - ![Metroid Clone Screenshot 1](path/to/your/metroid_screenshot1.png)
   - ![Metroid Clone Screenshot 2](path/to/your/metroid_screenshot2.png)
@@ -75,4 +72,3 @@ This section showcases some of my personal programming projects, developed for l
 - **Screenshots:**
   - ![EPUB Reader Screenshot 1](path/to/your/epub_reader_screenshot1.png)
   - ![EPUB Reader Screenshot 2](path/to/your/epub_reader_screenshot2.png)
--->

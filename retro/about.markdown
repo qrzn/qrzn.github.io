@@ -7,7 +7,7 @@ description: "Where retro meets the digital fun zone"
 
 <div class="avatar-and-text">
   <!-- Replace with your actual avatar image path and alt text -->
-  <img src="/assets/img/qrzn.png" alt="Your Avatar" class="avatar" />
+  <img src="/assets/img/qrzn2.png" alt="Your Avatar" class="avatar" />
   
   <div class="about-content">
     <h1>About Me</h1>
