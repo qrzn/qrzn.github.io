@@ -84,6 +84,23 @@
   --item-bg-color: #be9b7b;
 }
 
+/* Override for Light Mode */
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #f1f1f1 /* light mode background color */;
+    --mega-menu-bg-color: #f1f1f1cc /* light mode mega menu background color */;
+    --header-bg: #b0b0b0 /* light mode header background color */;
+    --header-link: #494949 /* light mode header link color */;
+    --header-link-hover: #2e2e2e /* light mode header link hover color */;
+    --link-color: #494949 /* light mode link color */;
+    --link-hover: #b0b0b0 /* light mode link hover color */;
+    --text-color: #1a1a1a /* light mode text color */;
+    --accent-border: #b0b0b0 /* light mode accent border color */;
+    --secondary-text-color: /* light mode secondary text color */;
+    --item-bg-color: /* light mode item background color */;
+  }
+}
+
 /* Base element styles */
 html,
 body {
