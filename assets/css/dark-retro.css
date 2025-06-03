@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'Press Start 2P';
+  src: url('/assets/fonts/PressStart2P-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Funnel Sans';
+  src: url('/assets/fonts/FunnelSans-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+:root {
+  --bg-color: #0a0a0a;
+  --text-color: #e0e0e0;
+  --accent-color: #00ffc6;
+  --link-hover: #ff00aa;
+}
+
+:root.light-mode {
+  --bg-color: #fafafa;
+  --text-color: #111;
+  --accent-color: #00aaff;
+  --link-hover: #ff0066;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Funnel Sans', sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Press Start 2P', monospace;
+  color: var(--accent-color);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+header, footer {
+  background: #000;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Simple nav styles */
+.hamburger {
+  background: none;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.mega-menu {
+  background: rgba(0,0,0,0.9);
+  position: fixed;
+  inset: 0;
+  display: none;
+}
+
+.mega-menu.open {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mega-menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+.mega-menu-list li {
+  margin: 0.5rem 0;
+}
+
+.preloader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  inset: 0;
+  background: var(--bg-color);
+}
+
+.spinner {
+  width: 30px;
+  height: 30px;
+  border: 3px solid var(--accent-color);
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
